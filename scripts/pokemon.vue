@@ -1,4 +1,5 @@
-const pokemon = [
+<script lang="ts">
+export const pokemon = [
 	{
 		"pokdexNumber": "1",
 		"name": "Bulbasaur",
@@ -4407,3 +4408,5 @@ const pokemon = [
 		]
 	}
 ]
+
+</script>
