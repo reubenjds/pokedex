@@ -22,8 +22,10 @@ for (let i = 1; i < splitLines.length - 1; i++) {
 			".png";
 	} else if (pokdexNumber < 100) {
 		spriteBigLink =
-			"https://assets.pokemon.com/assets/cms2/img/pokedex/full/" + "0";
-		String(pokdexNumber) + ".png";
+			"https://assets.pokemon.com/assets/cms2/img/pokedex/full/" +
+			"0" +
+			String(pokdexNumber) +
+			".png";
 	} else {
 		spriteBigLink =
 			"https://assets.pokemon.com/assets/cms2/img/pokedex/full/" +
