@@ -6,10 +6,30 @@ const splitLines = fileData.split("\n");
 
 const jsonArray = [];
 
-for (let i = 1; i < splitLines.length; i++) {
+for (let i = 1; i < splitLines.length - 1; i++) {
 	const splitEntry = splitLines[i].split(",");
 
 	const types = [];
+	const pokdexNumber = parseInt(splitEntry[0]);
+
+	let spriteBigLink = "";
+
+	if (pokdexNumber < 10) {
+		spriteBigLink =
+			"https://assets.pokemon.com/assets/cms2/img/pokedex/full/" +
+			"00" +
+			String(pokdexNumber) +
+			".png";
+	} else if (pokdexNumber < 100) {
+		spriteBigLink =
+			"https://assets.pokemon.com/assets/cms2/img/pokedex/full/" + "0";
+		String(pokdexNumber) + ".png";
+	} else {
+		spriteBigLink =
+			"https://assets.pokemon.com/assets/cms2/img/pokedex/full/" +
+			String(pokdexNumber) +
+			".png";
+	}
 
 	if (parseInt(splitEntry[2]) === 2) {
 		types.push(splitEntry[3]);
@@ -23,26 +43,51 @@ for (let i = 1; i < splitLines.length; i++) {
 		isLegendary = true;
 	}
 
-	const baseStats = [];
-	const typeAgainst = [];
-	//  HP	 Attack	 Defense	 Special	 Speed
+	const baseStats = {};
+	const typeAgainst = {};
+
+	let stats = ["HP", "Attack", "Defense", "Special", "Speed"];
 	for (let index = 13; index < 18; index++) {
-		baseStats.push(splitEntry[index]);
-	}
-	//  Normal_Dmg	 Fire_Dmg	 Water_Dmg	 Eletric_Dmg	 Grass_Dmg	 Ice_Dmg	 Fight_Dmg	 Poison_Dmg	 Ground_Dmg	 Flying_Dmg	 Psychic_Dmg	 Bug_Dmg	 Rock_Dmg	 Ghost_Dmg	 Dragon_Dmg
-	for (let index = 18; index < 33; index++) {
-		typeAgainst.push(splitEntry[index]);
+		baseStats[stats[index - 13]] = splitEntry[index];
 	}
 
+	let ts = [
+		"Normal_Dmg",
+		"Fire_Dmg",
+		"Water_Dmg",
+		"Eletric_Dmg",
+		"Grass_Dmg",
+		"Ice_Dmg",
+		"Fight_Dmg",
+		"Poison_Dmg",
+		"Ground_Dmg",
+		"Flying_Dmg",
+		"Psychic_Dmg",
+		"Bug_Dmg",
+		"Rock_Dmg",
+		"Ghost_Dmg",
+		"Dragon_Dmg",
+	];
+	for (let index = 18; index < 33; index++) {
+		typeAgainst[ts[index - 18]] = splitEntry[index];
+	}
+
+	const spriteSmallLink =
+		"https://img.pokemondb.net/sprites/sword-shield/icon/" +
+		String(splitEntry[1]).toLowerCase() +
+		".png";
+
 	const dexData = {
-		pokdexNumber: splitEntry[0],
+		pokdexNumber,
 		name: splitEntry[1],
+		spriteSmallLink,
+		spriteBigLink,
 		types,
 		isLegendary,
-		height: parseInt(splitEntry[5]),
-		weight: parseInt(splitEntry[6]),
-		malePercent: parseInt(splitEntry[7]),
-		captureRate: parseInt(splitEntry[9]),
+		height: parseFloat(splitEntry[5]),
+		weight: parseFloat(splitEntry[6]),
+		malePercent: parseFloat(splitEntry[7]),
+		captureRate: parseFloat(splitEntry[9]),
 		baseTotal: parseInt(splitEntry[12]),
 		baseStats,
 		typeAgainst,
