@@ -1,10 +1,11 @@
 <template>
-    <div class="container py-10 px-10 mx-0 min-w-full flex flex-col items-center">
-        <p>Home page</p>
-        <NuxtLink to="/pokemon" class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-            Goto pokemon
-        </NuxtLink>
-
+    <div class="hero min-h-screen" style="background-image: url(https://wallpapercave.com/wp/wp3170170.jpg);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-white">
+            <div class="max-width-lg">
+                <h1 class="mb-5 text-5xl font-bold">Welcome to Pokédex</h1>
+                <NuxtLink to="/pokemon"><button class="btn btn-error">Get Started</button></NuxtLink>
+            </div>
+        </div>
     </div>
 </template>
-  
