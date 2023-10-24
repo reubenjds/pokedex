@@ -10,26 +10,26 @@ for (let i = 1; i < splitLines.length - 1; i++) {
 	const splitEntry = splitLines[i].split(",");
 
 	const types = [];
-	const pokdexNumber = parseInt(splitEntry[0]);
+	const pokedexNumber = parseInt(splitEntry[0]);
 
 	let spriteBigLink = "";
 
-	if (pokdexNumber < 10) {
+	if (pokedexNumber < 10) {
 		spriteBigLink =
 			"https://assets.pokemon.com/assets/cms2/img/pokedex/full/" +
 			"00" +
-			String(pokdexNumber) +
+			String(pokedexNumber) +
 			".png";
-	} else if (pokdexNumber < 100) {
+	} else if (pokedexNumber < 100) {
 		spriteBigLink =
 			"https://assets.pokemon.com/assets/cms2/img/pokedex/full/" +
 			"0" +
-			String(pokdexNumber) +
+			String(pokedexNumber) +
 			".png";
 	} else {
 		spriteBigLink =
 			"https://assets.pokemon.com/assets/cms2/img/pokedex/full/" +
-			String(pokdexNumber) +
+			String(pokedexNumber) +
 			".png";
 	}
 
@@ -80,7 +80,7 @@ for (let i = 1; i < splitLines.length - 1; i++) {
 		".png";
 
 	const dexData = {
-		pokdexNumber,
+		pokedexNumber,
 		name: splitEntry[1],
 		spriteSmallLink,
 		spriteBigLink,
