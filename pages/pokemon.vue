@@ -1,82 +1,155 @@
 <template>
-    <div class  = "container py-10 px-10 mx-0 min-w-full flex flex-col items-center">
-        <h1 class ="subheading grey--text text-4xl">Pokemon Name</h1>
-        <div class="flex flex-row">
-  <div class="basis-1 text-3xl">Contents</div>
+  <div class="flex items-center justify-center pt-6 text-3xl">Bulbasaur</div>
+  
+  <div class="flex mb-4">
+    <!-- img -->
+    <div class="w-1/3 h-12">
+      <img class ="ps-20 pt-6 h-auto max-w-md" src="https://img.pokemondb.net/artwork/large/bulbasaur.jpg">
+    </div>
+  
+    <div class="w-1/3 h-12">
+      <div class="overflow-x-auto pt-6 pr-32">
+    <table class="table">
+      <!-- head -->
+      <thead>
+        <tr class="text-right text-xl">
+          <th>Pokedex Data</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- row 1 -->
+        <tr class="hover">
+          <td class = "text-right">National №</td>
+          <td>0001</td>
+        </tr>
+        <!-- row 2 -->
+        <tr class="hover">
+          <td class = "text-right">Type</td>
+          <td>Grass</td>
+        </tr>
+        <!-- row 3 -->
+        <tr class="hover">
+          <td class = "text-right">Species</td>
+          <td>Seed Pokemon</td>
+        </tr>
+        <!-- row 4 -->
+        <tr class="hover">
+          <td class = "text-right">Height</td>
+          <td>0.7 m (2′04″)</td>
+        </tr>
+        <!-- row 5 -->
+        <tr class="hover">
+          <td class = "text-right">Weight</td>
+          <td>6.9 kg (15.2 lbs)</td>
+        </tr>
+        <!-- row 6 -->
+        <tr class="hover">
+          <td class = "text-right">Abilities</td>
+          <td>1. Overgrow<p></p>
+Chlorophyll (hidden ability)</td>
+        </tr>
+        <!-- row 7 -->
+        <tr class="hover">
+          <td class = "text-right">Local №</td>
+          <td>0001 (Red/Blue/Yellow)
+0226 (Gold/Silver/Crystal)<p></p>
+0001 (FireRed/LeafGreen)<p></p>
+0231 (HeartGold/SoulSilver)<p></p>
+0080 (X/Y — Central Kalos)<p></p>
+0001 (Let's Go Pikachu/Let's Go Eevee)<p></p>
+0068 (The Isle of Armor)</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
- 
-</div>  
-<div class="text-xl">Bulbasaur is a Grass/Poison type Pokémon introduced in Generation 1.<p></p>
+    </div>
+  
+    <div class="w-1/3 h-12">
+      <div class="overflow-x-auto pt-6 pr-32">
+    <table class="table">
+      <!-- head -->
+      <thead>
+        <tr class="text-right text-xl">
+          <th>Training</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- row 1 -->
+        <tr class="hover">
+          <td class = "text-right">EV Yield</td>
+          <td>1 Sp. Atk</td>
+        </tr>
+        <!-- row 2 -->
+        <tr class="hover">
+          <td class = "text-right">Catch Rate</td>
+          <td>45 (5.9% with PokéBall, full HP)</td>
+        </tr>
+        <!-- row 3 -->
+        <tr class="hover">
+          <td class = "text-right">Base Friendship</td>
+          <td>50 (normal)</td>
+        </tr>
+        <!-- row 4 -->
+        <tr class="hover">
+          <td class = "text-right">Base Exp.</td>
+          <td>64</td>
+        </tr>
+        <!-- row 5 -->
+        <tr class="hover">
+          <td class = "text-right">Growth Rate</td>
+          <td>Medium Slow</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="overflow-x-auto pt-6">
+    <table class="table">
+      <!-- head -->
+      <thead>
+        <tr class="text-right text-xl">
+          <th>Breeding</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- row 1 -->
+        <tr class="hover">
+          <td class = "text-right">Egg Groups</td>
+          <td>Grass, Monster</td>
+        </tr>
+        <!-- row 2 -->
+        <tr class="hover">
+          <td class = "text-right">Gender</td>
+          <td>87.5% male, 12.5% female</td>
+        </tr>
+        <!-- row 3 -->
+        <tr class="hover">
+          <td class = "text-right">Egg Cycles</td>
+          <td>20 (4,884–5,140 steps)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+    </div>
 
-Bulbasaur is a small, mainly turquoise amphibian Pokémon with red eyes and a green bulb on its back. It is based on a frog/toad, with the bulb resembling a plant bulb that grows into a flower as it evolves.
-
-Bulbasaur is notable for being the very first Pokémon in the National Pokédex. It is one of the three choices for a starter Pokémon in the original Game Boy games, Pokémon Red & Blue (Red & Green in Japan), along with Charmander and Squirtle.</div>
 
 
 
-<div class="container py-10 px-10 mx-0 min-w-full flex flex-col relative h-100 w-100">
-    <div class="flex mb-4">
 
 
 
-<div class="w-1/3 h-12 text-xl flex flex-col gap-y-1.5">
-    <div class="text-xl flex flex-col gap-y-56">
-    <img class="w-1/3 h-auto max-w-xs" src="https://img.pokemondb.net/artwork/large/bulbasaur.jpg" alt="image description">
+
+
+
+
+  
+
+
+
+
     
-    <div class="font-bold text-2xl">Base Stats</div>
-</div>
-
-    <div class="basis-1/4">HP</div>
-    <div class="basis-1/4">Attack</div>
-    <div class="basis-1/2">Defense</div>
-    <div class="basis-1/2">Sp. Atk</div>
-    <div class="basis-1/2">Sp. Def</div>
-    <div class="basis-1/2">Speed</div>
-    <div class="basis-1/2">Total</div>
-    <div class="w-1/3 h-12 text-xl flex flex-col gap-y-36">
-
-    </div>
-</div>
-<!-- Spacing -->
-
-
-<div class="w-1/3 h-12 text-xl flex flex-col gap-y-1">
-    <div class="font-bold text-2xl">Pokedex Stats</div>
-    <div class="basis-1/4">National №</div>
-    <div class="basis-1/4">Type</div>
-    <div class="basis-1/2">Height</div>
-    <div class="basis-1/2">Weight</div>
-    <div class="basis-1/2">Abilities</div>
-    <div class="basis-1/2">Local №</div>
-</div>
-
-<div class="text-xl flex flex-col gap-y-60">
-<div class="w-100 h-12 text-xl flex flex-col gap-y-1">
-    <div class="font-bold text-2xl">Training</div>
-    <div class="basis-1/4">Ev Yield</div>
-    <div class="basis-1/4">Catch Rate</div>
-    <div class="basis-1/4">Base Friendship</div>
-    <div class="basis-1/2">Base Exp.</div>
-    <div class="basis-1/2">Growth Rate</div>        
-</div>
-
-<div class="text-xl flex flex-col gap-y-56">
-<div class="w-100 h-12 text-xl flex flex-col gap-y-1">
-    <div class="font-bold text-2xl">Breeding</div>
-    <div class="basis-1/4">Egg Groups</div>
-    <div class="basis-1/4">Gender</div>
-    <div class="basis-1/4">Egg Cycles</div>      
-</div>
-<div class="w-100 h-12 text-xl flex flex-col gap-y-1">
-    <div class="font-bold text-2xl">Type Defenses</div>    
-    </div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-
-
-</template>
+  </div>
+  
+  </template>
