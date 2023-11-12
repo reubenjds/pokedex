@@ -1,5 +1,10 @@
 <!-- @format -->
-
+<style>
+	div {
+		color: white;
+		font-weight: bold;
+	}
+</style>
 <template>
 	<div class="grid place-items-center grid-cols-3 flex-wrap">
 		<div>
@@ -30,30 +35,16 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="baseStats">
-			<h2 class="PokemonStatTitle">Base Stats</h2>
-			<p class="PokemonStat"><span class="statName">HP:</span> 45</p>
-			<p class="PokemonStat"><span class="statName">Attack:</span> 49</p>
-			<p class="PokemonStat"><span class="statName">Defense:</span> 49</p>
-			<p class="PokemonStat"><span class="statName">Sp. Atk:</span> 65</p>
-			<p class="PokemonStat"><span class="statName">Sp. Def:</span> 65</p>
-			<p class="PokemonStat"><span class="statName">Speed:</span> 45</p>
-			<div class="generalStats">
-				<h2 class="PokemonStatTitle">General Stats</h2>
-				<p class="PokemonStat">
-					<span class="statName">Weight (kg):</span> 6.9
-				</p>
-				<p class="PokemonStat"><span class="statName">Height (m):</span> 0.7</p>
-				<p class="PokemonStat"><span class="statName">Generation:</span> 1</p>
-				<p class="PokemonStat">
-					<span class="statName">Gender Ratio:</span>
-					<span class="Male">88 </span><span class="Female">12</span>
-				</p>
-				<p class="PokemonStat">
-					<span class="statName">Abilities:</span> Overgrow, Chlorophyll
-				</p>
-			</div>
+		<div>
+			<h2>Base Stats</h2>
+			<p>HP: 45</p>
+			<p>Attack: 49</p>
+			<p>Defense: 49</p>
+			<p>Sp. Atk: 65</p>
+			<p>Sp. Def: 65</p>
+			<p>Speed: 45</p>
 		</div>
+		<div></div>
 		<div grid grid-rows-2 flex-wrap>
 			<div class="flex items-center justify-center">Strong Against</div>
 			<div class="grid flex-wrap grid-cols-4 place-items-center">
@@ -70,6 +61,15 @@
 				<div class="grass">GRASS</div>
 				<div class="water">WATER</div>
 			</div>
+		</div>
+
+		<div>
+			<h2>General Stats</h2>
+			<p>Weight (kg): 6.9</p>
+			<p>Height (m): 0.7</p>
+			<p>Generation: 1</p>
+			<p>Gender Ratio: 88 12</p>
+			<p>Abilities: Overgrow, Chlorophyll</p>
 		</div>
 	</div>
 </template>
