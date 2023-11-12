@@ -6,7 +6,7 @@
 	}
 </style>
 <template>
-	<div class="grid place-items-center grid-cols-3 flex-wrap">
+	<div class="flex flex-wrap place-items-center gap-2">
 		<div>
 			<img
 				class="h-390 w-363"
@@ -45,21 +45,21 @@
 			<p>Speed: 45</p>
 		</div>
 		<div></div>
-		<div grid grid-rows-2 flex-wrap>
+		<div class="grid grid-rows-2 flex-wrap">
 			<div class="flex items-center justify-center">Strong Against</div>
-			<div class="grid flex-wrap grid-cols-4 place-items-center">
-				<h3 class="fire">FIRE</h3>
-				<h3 class="flying">FLYING</h3>
-				<h3 class="ice">ICE</h3>
-				<h3 class="psychic">PSYCHIC</h3>
+			<div class="flex flex-wrap">
+				<div class="fire">FIRE</div>
+				<div class="flying">FLYING</div>
+				<div class="ice">ICE</div>
+				<div class="psychic">PSYCHIC</div>
 			</div>
 			<div class="flex items-center justify-center">Weak Against</div>
-			<div class="grid flex-wrap grid-cols-4 place-items-center">
+			<div class="flex flex-wrap">
 				<div class="electric">ELECTRIC</div>
-				<div class="fairy">FAIRY</div>
-				<div class="fighting">FIGHTING</div>
-				<div class="grass">GRASS</div>
-				<div class="water">WATER</div>
+				<div class="fairy flex-none">FAIRY</div>
+				<div class="fighting flex-none">FIGHTING</div>
+				<div class="grass flex-none">GRASS</div>
+				<div class="water flex-none">WATER</div>
 			</div>
 		</div>
 
