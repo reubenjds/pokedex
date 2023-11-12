@@ -8,8 +8,8 @@
 <template>
 	<div
 		class="flex flex-wrap place-items-center gap-4 items-center justify-center">
-		<div>
-			<h1 class="absolute text-3xl text-white top-8">Bulbasaur</h1>
+		<div class="relative">
+			<h1 class="absolute text-3xl text-white top-5 left-5">Bulbasaur</h1>
 			<img
 				class="h-390 w-363"
 				src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" />
