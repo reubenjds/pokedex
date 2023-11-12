@@ -6,8 +6,10 @@
 	}
 </style>
 <template>
-	<div class="flex flex-wrap place-items-center gap-2">
+	<div
+		class="flex flex-wrap place-items-center gap-4 items-center justify-center">
 		<div>
+			<h1 class="absolute text-3xl text-white top-8">Bulbasaur</h1>
 			<img
 				class="h-390 w-363"
 				src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" />
@@ -22,7 +24,10 @@
 					</tr>
 					<tr>
 						<th>Type</th>
-						<td>Grass, Poison</td>
+						<td>
+							<span class="grass px-2">GRASS</span>
+							<span class="poison px-2">POISON</span>
+						</td>
 					</tr>
 					<tr>
 						<th>Height</th>
@@ -37,15 +42,73 @@
 		</div>
 		<div>
 			<h2>Base Stats</h2>
-			<p>HP: 45</p>
-			<p>Attack: 49</p>
-			<p>Defense: 49</p>
-			<p>Sp. Atk: 65</p>
-			<p>Sp. Def: 65</p>
-			<p>Speed: 45</p>
+			<table class="table">
+				<tbody>
+					<tr>
+						<th>HP:</th>
+						<td>
+							45
+							<progress
+								class="progress progress-success w-56"
+								value="100"
+								max="100"></progress>
+						</td>
+					</tr>
+					<tr>
+						<th>Attack:</th>
+						<td>
+							49
+							<progress
+								class="progress progress-error w-56"
+								value="100"
+								max="100"></progress>
+						</td>
+					</tr>
+					<tr>
+						<th>Defense:</th>
+						<td>
+							49
+							<progress
+								class="progress progress-info w-56"
+								value="100"
+								max="100"></progress>
+						</td>
+					</tr>
+					<tr>
+						<th>Sp. Atk:</th>
+						<td>
+							65
+							<progress
+								class="progress progress-secondary w-56"
+								value="100"
+								max="100"></progress>
+						</td>
+					</tr>
+					<tr>
+						<th>Sp. Def:</th>
+						<td>
+							65
+							<progress
+								class="progress progress-primary w-56"
+								value="100"
+								max="100"></progress>
+						</td>
+					</tr>
+					<tr>
+						<th>Speed:</th>
+						<td>
+							45
+							<progress
+								class="progress progress-warning w-56"
+								value="100"
+								max="100"></progress>
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 		<div></div>
-		<div class="grid grid-rows-2 flex-wrap">
+		<div class="grid grid-rows-2 flex-wrap px-2">
 			<div class="flex items-center justify-center">Strong Against</div>
 			<div class="flex flex-wrap">
 				<div class="fire">FIRE</div>
@@ -65,11 +128,29 @@
 
 		<div>
 			<h2>General Stats</h2>
-			<p>Weight (kg): 6.9</p>
-			<p>Height (m): 0.7</p>
-			<p>Generation: 1</p>
-			<p>Gender Ratio: 88 12</p>
-			<p>Abilities: Overgrow, Chlorophyll</p>
+			<table class="table">
+				<tbody>
+					<tr>
+						<th>Weight (kg):</th>
+						<td>6.9</td>
+					</tr>
+					<tr>
+						<th>Height (m):</th>
+						<td>0.7</td>
+					</tr>
+					<tr>
+						<th>Gender Ratio:</th>
+						<td>
+							<span class="text-blue-400">88 </span>
+							<span class="text-pink-400">12</span>
+						</td>
+					</tr>
+					<tr>
+						<th>Abilities:</th>
+						<td>Overgrow, Chlorophyll</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</div>
 </template>
