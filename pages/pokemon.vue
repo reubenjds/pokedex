@@ -128,7 +128,7 @@
 			</div>
 
 			<div>
-				<h2>General Stats</h2>
+				<h2>General Information</h2>
 				<table class="table">
 					<tbody>
 						<tr>
@@ -136,8 +136,8 @@
 							<td>6.9</td>
 						</tr>
 						<tr>
-							<th>Height (m):</th>
-							<td>0.7</td>
+							<th>Capture Rate</th>
+							<td>45%</td>
 						</tr>
 						<tr>
 							<th>Gender Ratio:</th>

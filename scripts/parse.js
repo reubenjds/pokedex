@@ -1,6 +1,7 @@
 /** @format */
 
 import fs from "fs";
+import maxStat from "./maxStats.json" assert { type: "json" };
 
 const fileData = fs.readFileSync("FirstGenPokemon.csv", "utf-8");
 
@@ -94,6 +95,7 @@ for (let i = 1; i < splitLines.length - 1; i++) {
 		captureRate: parseFloat(splitEntry[9]),
 		baseTotal: parseInt(splitEntry[12]),
 		baseStats,
+		maxStats: maxStat[i],
 		typeAgainst,
 	};
 

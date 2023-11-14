@@ -18,6 +18,14 @@
 			"Special": "65",
 			"Speed": "45"
 		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 245,
+			"maxDefense": 247,
+			"maxSpAtk": 284,
+			"maxSpDef": 284,
+			"maxSpeed": 240
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -54,6 +62,14 @@
 			"Defense": "63",
 			"Special": "80",
 			"Speed": "60"
+		},
+		"maxStats": {
+			"maxHealth": 364,
+			"maxAttack": 289,
+			"maxDefense": 291,
+			"maxSpAtk": 328,
+			"maxSpDef": 328,
+			"maxSpeed": 284
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -92,6 +108,14 @@
 			"Special": "100",
 			"Speed": "80"
 		},
+		"maxStats": {
+			"maxHealth": 282,
+			"maxAttack": 223,
+			"maxDefense": 203,
+			"maxSpAtk": 240,
+			"maxSpDef": 218,
+			"maxSpeed": 251
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -128,6 +152,14 @@
 			"Defense": "43",
 			"Special": "50",
 			"Speed": "65"
+		},
+		"maxStats": {
+			"maxHealth": 320,
+			"maxAttack": 249,
+			"maxDefense": 236,
+			"maxSpAtk": 284,
+			"maxSpDef": 251,
+			"maxSpeed": 284
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -166,6 +198,14 @@
 			"Special": "65",
 			"Speed": "80"
 		},
+		"maxStats": {
+			"maxHealth": 360,
+			"maxAttack": 293,
+			"maxDefense": 280,
+			"maxSpAtk": 348,
+			"maxSpDef": 295,
+			"maxSpeed": 328
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -202,6 +242,14 @@
 			"Defense": "78",
 			"Special": "85",
 			"Speed": "100"
+		},
+		"maxStats": {
+			"maxHealth": 292,
+			"maxAttack": 214,
+			"maxDefense": 251,
+			"maxSpAtk": 218,
+			"maxSpDef": 249,
+			"maxSpeed": 203
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -240,6 +288,14 @@
 			"Special": "50",
 			"Speed": "43"
 		},
+		"maxStats": {
+			"maxHealth": 322,
+			"maxAttack": 247,
+			"maxDefense": 284,
+			"maxSpAtk": 251,
+			"maxSpDef": 284,
+			"maxSpeed": 236
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -276,6 +332,14 @@
 			"Defense": "80",
 			"Special": "65",
 			"Speed": "58"
+		},
+		"maxStats": {
+			"maxHealth": 362,
+			"maxAttack": 291,
+			"maxDefense": 328,
+			"maxSpAtk": 295,
+			"maxSpDef": 339,
+			"maxSpeed": 280
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -314,6 +378,14 @@
 			"Special": "85",
 			"Speed": "78"
 		},
+		"maxStats": {
+			"maxHealth": 294,
+			"maxAttack": 174,
+			"maxDefense": 185,
+			"maxSpAtk": 152,
+			"maxSpDef": 152,
+			"maxSpeed": 207
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -350,6 +422,14 @@
 			"Defense": "35",
 			"Special": "20",
 			"Speed": "45"
+		},
+		"maxStats": {
+			"maxHealth": 304,
+			"maxAttack": 152,
+			"maxDefense": 229,
+			"maxSpAtk": 163,
+			"maxSpDef": 163,
+			"maxSpeed": 174
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -388,6 +468,14 @@
 			"Special": "25",
 			"Speed": "30"
 		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 207,
+			"maxDefense": 218,
+			"maxSpAtk": 306,
+			"maxSpDef": 284,
+			"maxSpeed": 262
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -424,6 +512,14 @@
 			"Defense": "50",
 			"Special": "80",
 			"Speed": "70"
+		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 185,
+			"maxDefense": 174,
+			"maxSpAtk": 152,
+			"maxSpDef": 152,
+			"maxSpeed": 218
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -462,6 +558,14 @@
 			"Special": "20",
 			"Speed": "50"
 		},
+		"maxStats": {
+			"maxHealth": 294,
+			"maxAttack": 163,
+			"maxDefense": 218,
+			"maxSpAtk": 163,
+			"maxSpDef": 163,
+			"maxSpeed": 185
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -498,6 +602,14 @@
 			"Defense": "50",
 			"Special": "25",
 			"Speed": "35"
+		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 306,
+			"maxDefense": 196,
+			"maxSpAtk": 207,
+			"maxSpDef": 284,
+			"maxSpeed": 273
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -536,6 +648,14 @@
 			"Special": "45",
 			"Speed": "75"
 		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 207,
+			"maxDefense": 196,
+			"maxSpAtk": 185,
+			"maxSpDef": 185,
+			"maxSpeed": 232
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -572,6 +692,14 @@
 			"Defense": "40",
 			"Special": "35",
 			"Speed": "56"
+		},
+		"maxStats": {
+			"maxHealth": 330,
+			"maxAttack": 240,
+			"maxDefense": 229,
+			"maxSpAtk": 218,
+			"maxSpDef": 218,
+			"maxSpeed": 265
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -610,6 +738,14 @@
 			"Special": "50",
 			"Speed": "71"
 		},
+		"maxStats": {
+			"maxHealth": 370,
+			"maxAttack": 284,
+			"maxDefense": 273,
+			"maxSpAtk": 262,
+			"maxSpDef": 262,
+			"maxSpeed": 331
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -646,6 +782,14 @@
 			"Defense": "75",
 			"Special": "70",
 			"Speed": "91"
+		},
+		"maxStats": {
+			"maxHealth": 264,
+			"maxAttack": 232,
+			"maxDefense": 185,
+			"maxSpAtk": 163,
+			"maxSpDef": 185,
+			"maxSpeed": 267
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -684,6 +828,14 @@
 			"Special": "25",
 			"Speed": "72"
 		},
+		"maxStats": {
+			"maxHealth": 314,
+			"maxAttack": 287,
+			"maxDefense": 240,
+			"maxSpAtk": 218,
+			"maxSpDef": 262,
+			"maxSpeed": 322
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -720,6 +872,14 @@
 			"Defense": "60",
 			"Special": "50",
 			"Speed": "97"
+		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 240,
+			"maxDefense": 174,
+			"maxSpAtk": 177,
+			"maxSpDef": 177,
+			"maxSpeed": 262
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -758,6 +918,14 @@
 			"Special": "31",
 			"Speed": "70"
 		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 306,
+			"maxDefense": 251,
+			"maxSpAtk": 243,
+			"maxSpDef": 243,
+			"maxSpeed": 328
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -794,6 +962,14 @@
 			"Defense": "65",
 			"Special": "61",
 			"Speed": "100"
+		},
+		"maxStats": {
+			"maxHealth": 274,
+			"maxAttack": 240,
+			"maxDefense": 205,
+			"maxSpAtk": 196,
+			"maxSpDef": 227,
+			"maxSpeed": 229
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -832,6 +1008,14 @@
 			"Special": "40",
 			"Speed": "55"
 		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 317,
+			"maxDefense": 260,
+			"maxSpAtk": 251,
+			"maxSpDef": 282,
+			"maxSpeed": 284
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -868,6 +1052,14 @@
 			"Defense": "69",
 			"Special": "65",
 			"Speed": "80"
+		},
+		"maxStats": {
+			"maxHealth": 274,
+			"maxAttack": 229,
+			"maxDefense": 196,
+			"maxSpAtk": 218,
+			"maxSpDef": 218,
+			"maxSpeed": 306
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -906,6 +1098,14 @@
 			"Special": "50",
 			"Speed": "90"
 		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 306,
+			"maxDefense": 229,
+			"maxSpAtk": 306,
+			"maxSpDef": 284,
+			"maxSpeed": 350
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -942,6 +1142,14 @@
 			"Defense": "55",
 			"Special": "90",
 			"Speed": "100"
+		},
+		"maxStats": {
+			"maxHealth": 304,
+			"maxAttack": 273,
+			"maxDefense": 295,
+			"maxSpAtk": 152,
+			"maxSpDef": 174,
+			"maxSpeed": 196
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -980,6 +1188,14 @@
 			"Special": "30",
 			"Speed": "40"
 		},
+		"maxStats": {
+			"maxHealth": 354,
+			"maxAttack": 328,
+			"maxDefense": 350,
+			"maxSpAtk": 207,
+			"maxSpDef": 229,
+			"maxSpeed": 251
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -1016,6 +1232,14 @@
 			"Defense": "110",
 			"Special": "55",
 			"Speed": "65"
+		},
+		"maxStats": {
+			"maxHealth": 314,
+			"maxAttack": 212,
+			"maxDefense": 223,
+			"maxSpAtk": 196,
+			"maxSpDef": 196,
+			"maxSpeed": 199
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1054,6 +1278,14 @@
 			"Special": "40",
 			"Speed": "41"
 		},
+		"maxStats": {
+			"maxHealth": 344,
+			"maxAttack": 245,
+			"maxDefense": 256,
+			"maxSpAtk": 229,
+			"maxSpDef": 229,
+			"maxSpeed": 232
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -1090,6 +1322,14 @@
 			"Defense": "67",
 			"Special": "55",
 			"Speed": "56"
+		},
+		"maxStats": {
+			"maxHealth": 384,
+			"maxAttack": 311,
+			"maxDefense": 300,
+			"maxSpAtk": 273,
+			"maxSpDef": 295,
+			"maxSpeed": 276
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1128,6 +1368,14 @@
 			"Special": "75",
 			"Speed": "76"
 		},
+		"maxStats": {
+			"maxHealth": 296,
+			"maxAttack": 234,
+			"maxDefense": 196,
+			"maxSpAtk": 196,
+			"maxSpDef": 196,
+			"maxSpeed": 218
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -1164,6 +1412,14 @@
 			"Defense": "40",
 			"Special": "40",
 			"Speed": "50"
+		},
+		"maxStats": {
+			"maxHealth": 326,
+			"maxAttack": 267,
+			"maxDefense": 234,
+			"maxSpAtk": 229,
+			"maxSpDef": 229,
+			"maxSpeed": 251
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1202,6 +1458,14 @@
 			"Special": "55",
 			"Speed": "65"
 		},
+		"maxStats": {
+			"maxHealth": 366,
+			"maxAttack": 333,
+			"maxDefense": 278,
+			"maxSpAtk": 295,
+			"maxSpDef": 273,
+			"maxSpeed": 295
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -1238,6 +1502,14 @@
 			"Defense": "77",
 			"Special": "75",
 			"Speed": "85"
+		},
+		"maxStats": {
+			"maxHealth": 344,
+			"maxAttack": 207,
+			"maxDefense": 214,
+			"maxSpAtk": 240,
+			"maxSpDef": 251,
+			"maxSpeed": 185
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1276,6 +1548,14 @@
 			"Special": "60",
 			"Speed": "35"
 		},
+		"maxStats": {
+			"maxHealth": 394,
+			"maxAttack": 262,
+			"maxDefense": 269,
+			"maxSpAtk": 317,
+			"maxSpDef": 306,
+			"maxSpeed": 240
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -1312,6 +1592,14 @@
 			"Defense": "73",
 			"Special": "85",
 			"Speed": "60"
+		},
+		"maxStats": {
+			"maxHealth": 280,
+			"maxAttack": 199,
+			"maxDefense": 196,
+			"maxSpAtk": 218,
+			"maxSpDef": 251,
+			"maxSpeed": 251
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1350,6 +1638,14 @@
 			"Special": "65",
 			"Speed": "65"
 		},
+		"maxStats": {
+			"maxHealth": 350,
+			"maxAttack": 276,
+			"maxDefense": 273,
+			"maxSpAtk": 287,
+			"maxSpDef": 328,
+			"maxSpeed": 328
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -1386,6 +1682,14 @@
 			"Defense": "75",
 			"Special": "100",
 			"Speed": "100"
+		},
+		"maxStats": {
+			"maxHealth": 434,
+			"maxAttack": 207,
+			"maxDefense": 152,
+			"maxSpAtk": 207,
+			"maxSpDef": 163,
+			"maxSpeed": 152
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1424,6 +1728,14 @@
 			"Special": "25",
 			"Speed": "20"
 		},
+		"maxStats": {
+			"maxHealth": 484,
+			"maxAttack": 262,
+			"maxDefense": 207,
+			"maxSpAtk": 295,
+			"maxSpDef": 218,
+			"maxSpeed": 207
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -1460,6 +1772,14 @@
 			"Defense": "45",
 			"Special": "50",
 			"Speed": "45"
+		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 207,
+			"maxDefense": 185,
+			"maxSpAtk": 174,
+			"maxSpDef": 196,
+			"maxSpeed": 229
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1498,6 +1818,14 @@
 			"Special": "40",
 			"Speed": "55"
 		},
+		"maxStats": {
+			"maxHealth": 354,
+			"maxAttack": 284,
+			"maxDefense": 262,
+			"maxSpAtk": 251,
+			"maxSpDef": 273,
+			"maxSpeed": 306
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -1534,6 +1862,14 @@
 			"Defense": "70",
 			"Special": "75",
 			"Speed": "90"
+		},
+		"maxStats": {
+			"maxHealth": 294,
+			"maxAttack": 218,
+			"maxDefense": 229,
+			"maxSpAtk": 273,
+			"maxSpDef": 251,
+			"maxSpeed": 174
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1572,6 +1908,14 @@
 			"Special": "75",
 			"Speed": "30"
 		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 251,
+			"maxDefense": 262,
+			"maxSpAtk": 295,
+			"maxSpDef": 273,
+			"maxSpeed": 196
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -1608,6 +1952,14 @@
 			"Defense": "70",
 			"Special": "85",
 			"Speed": "40"
+		},
+		"maxStats": {
+			"maxHealth": 354,
+			"maxAttack": 284,
+			"maxDefense": 295,
+			"maxSpAtk": 350,
+			"maxSpDef": 306,
+			"maxSpeed": 218
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1646,6 +1998,14 @@
 			"Special": "100",
 			"Speed": "50"
 		},
+		"maxStats": {
+			"maxHealth": 274,
+			"maxAttack": 262,
+			"maxDefense": 229,
+			"maxSpAtk": 207,
+			"maxSpDef": 229,
+			"maxSpeed": 163
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -1682,6 +2042,14 @@
 			"Defense": "55",
 			"Special": "55",
 			"Speed": "25"
+		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 317,
+			"maxDefense": 284,
+			"maxSpAtk": 240,
+			"maxSpDef": 284,
+			"maxSpeed": 174
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1720,6 +2088,14 @@
 			"Special": "80",
 			"Speed": "30"
 		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 229,
+			"maxDefense": 218,
+			"maxSpAtk": 196,
+			"maxSpDef": 229,
+			"maxSpeed": 207
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "4",
@@ -1756,6 +2132,14 @@
 			"Defense": "50",
 			"Special": "40",
 			"Speed": "45"
+		},
+		"maxStats": {
+			"maxHealth": 344,
+			"maxAttack": 251,
+			"maxDefense": 240,
+			"maxSpAtk": 306,
+			"maxSpDef": 273,
+			"maxSpeed": 306
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1794,6 +2178,14 @@
 			"Special": "90",
 			"Speed": "90"
 		},
+		"maxStats": {
+			"maxHealth": 224,
+			"maxAttack": 229,
+			"maxDefense": 163,
+			"maxSpAtk": 185,
+			"maxSpDef": 207,
+			"maxSpeed": 317
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -1830,6 +2222,14 @@
 			"Defense": "25",
 			"Special": "45",
 			"Speed": "95"
+		},
+		"maxStats": {
+			"maxHealth": 274,
+			"maxAttack": 328,
+			"maxDefense": 218,
+			"maxSpAtk": 218,
+			"maxSpDef": 262,
+			"maxSpeed": 372
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1868,6 +2268,14 @@
 			"Special": "70",
 			"Speed": "120"
 		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 207,
+			"maxDefense": 185,
+			"maxSpAtk": 196,
+			"maxSpDef": 196,
+			"maxSpeed": 306
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -1904,6 +2312,14 @@
 			"Defense": "35",
 			"Special": "40",
 			"Speed": "90"
+		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 262,
+			"maxDefense": 240,
+			"maxSpAtk": 251,
+			"maxSpDef": 251,
+			"maxSpeed": 361
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -1942,6 +2358,14 @@
 			"Special": "65",
 			"Speed": "115"
 		},
+		"maxStats": {
+			"maxHealth": 304,
+			"maxAttack": 223,
+			"maxDefense": 214,
+			"maxSpAtk": 251,
+			"maxSpDef": 218,
+			"maxSpeed": 229
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -1978,6 +2402,14 @@
 			"Defense": "48",
 			"Special": "50",
 			"Speed": "55"
+		},
+		"maxStats": {
+			"maxHealth": 364,
+			"maxAttack": 289,
+			"maxDefense": 280,
+			"maxSpAtk": 317,
+			"maxSpDef": 284,
+			"maxSpeed": 295
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2016,6 +2448,14 @@
 			"Special": "80",
 			"Speed": "85"
 		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 284,
+			"maxDefense": 185,
+			"maxSpAtk": 185,
+			"maxSpDef": 207,
+			"maxSpeed": 262
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -2052,6 +2492,14 @@
 			"Defense": "35",
 			"Special": "35",
 			"Speed": "70"
+		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 339,
+			"maxDefense": 240,
+			"maxSpAtk": 240,
+			"maxSpDef": 262,
+			"maxSpeed": 317
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2090,6 +2538,14 @@
 			"Special": "60",
 			"Speed": "95"
 		},
+		"maxStats": {
+			"maxHealth": 314,
+			"maxAttack": 262,
+			"maxDefense": 207,
+			"maxSpAtk": 262,
+			"maxSpDef": 218,
+			"maxSpeed": 240
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -2126,6 +2582,14 @@
 			"Defense": "45",
 			"Special": "50",
 			"Speed": "60"
+		},
+		"maxStats": {
+			"maxHealth": 384,
+			"maxAttack": 350,
+			"maxDefense": 284,
+			"maxSpAtk": 328,
+			"maxSpDef": 284,
+			"maxSpeed": 317
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2164,6 +2628,14 @@
 			"Special": "80",
 			"Speed": "95"
 		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 218,
+			"maxDefense": 196,
+			"maxSpAtk": 196,
+			"maxSpDef": 196,
+			"maxSpeed": 306
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -2200,6 +2672,14 @@
 			"Defense": "40",
 			"Special": "40",
 			"Speed": "90"
+		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 251,
+			"maxDefense": 251,
+			"maxSpAtk": 218,
+			"maxSpDef": 218,
+			"maxSpeed": 306
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2238,6 +2718,14 @@
 			"Special": "50",
 			"Speed": "90"
 		},
+		"maxStats": {
+			"maxHealth": 384,
+			"maxAttack": 317,
+			"maxDefense": 317,
+			"maxSpAtk": 262,
+			"maxSpDef": 306,
+			"maxSpeed": 262
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -2274,6 +2762,14 @@
 			"Defense": "95",
 			"Special": "70",
 			"Speed": "70"
+		},
+		"maxStats": {
+			"maxHealth": 254,
+			"maxAttack": 152,
+			"maxDefense": 141,
+			"maxSpAtk": 339,
+			"maxSpDef": 229,
+			"maxSpeed": 306
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2312,6 +2808,14 @@
 			"Special": "105",
 			"Speed": "90"
 		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 185,
+			"maxDefense": 174,
+			"maxSpAtk": 372,
+			"maxSpDef": 262,
+			"maxSpeed": 339
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -2348,6 +2852,14 @@
 			"Defense": "30",
 			"Special": "120",
 			"Speed": "105"
+		},
+		"maxStats": {
+			"maxHealth": 314,
+			"maxAttack": 218,
+			"maxDefense": 207,
+			"maxSpAtk": 405,
+			"maxSpDef": 317,
+			"maxSpeed": 372
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2386,6 +2898,14 @@
 			"Special": "135",
 			"Speed": "120"
 		},
+		"maxStats": {
+			"maxHealth": 344,
+			"maxAttack": 284,
+			"maxDefense": 218,
+			"maxSpAtk": 185,
+			"maxSpDef": 185,
+			"maxSpeed": 185
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -2422,6 +2942,14 @@
 			"Defense": "50",
 			"Special": "35",
 			"Speed": "35"
+		},
+		"maxStats": {
+			"maxHealth": 364,
+			"maxAttack": 328,
+			"maxDefense": 262,
+			"maxSpAtk": 218,
+			"maxSpDef": 240,
+			"maxSpeed": 207
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2460,6 +2988,14 @@
 			"Special": "50",
 			"Speed": "45"
 		},
+		"maxStats": {
+			"maxHealth": 384,
+			"maxAttack": 394,
+			"maxDefense": 284,
+			"maxSpAtk": 251,
+			"maxSpDef": 295,
+			"maxSpeed": 229
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -2496,6 +3032,14 @@
 			"Defense": "80",
 			"Special": "65",
 			"Speed": "55"
+		},
+		"maxStats": {
+			"maxHealth": 304,
+			"maxAttack": 273,
+			"maxDefense": 185,
+			"maxSpAtk": 262,
+			"maxSpDef": 174,
+			"maxSpeed": 196
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2534,6 +3078,14 @@
 			"Special": "70",
 			"Speed": "40"
 		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 306,
+			"maxDefense": 218,
+			"maxSpAtk": 295,
+			"maxSpDef": 207,
+			"maxSpeed": 229
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -2570,6 +3122,14 @@
 			"Defense": "50",
 			"Special": "85",
 			"Speed": "55"
+		},
+		"maxStats": {
+			"maxHealth": 364,
+			"maxAttack": 339,
+			"maxDefense": 251,
+			"maxSpAtk": 328,
+			"maxSpDef": 262,
+			"maxSpeed": 262
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2608,6 +3168,14 @@
 			"Special": "100",
 			"Speed": "70"
 		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 196,
+			"maxDefense": 185,
+			"maxSpAtk": 218,
+			"maxSpDef": 328,
+			"maxSpeed": 262
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -2644,6 +3212,14 @@
 			"Defense": "35",
 			"Special": "100",
 			"Speed": "70"
+		},
+		"maxStats": {
+			"maxHealth": 364,
+			"maxAttack": 262,
+			"maxDefense": 251,
+			"maxSpAtk": 284,
+			"maxSpDef": 372,
+			"maxSpeed": 328
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2682,6 +3258,14 @@
 			"Special": "120",
 			"Speed": "100"
 		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 284,
+			"maxDefense": 328,
+			"maxSpAtk": 174,
+			"maxSpDef": 174,
+			"maxSpeed": 152
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -2718,6 +3302,14 @@
 			"Defense": "100",
 			"Special": "30",
 			"Speed": "20"
+		},
+		"maxStats": {
+			"maxHealth": 314,
+			"maxAttack": 317,
+			"maxDefense": 361,
+			"maxSpAtk": 207,
+			"maxSpDef": 207,
+			"maxSpeed": 185
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
@@ -2756,6 +3348,14 @@
 			"Special": "45",
 			"Speed": "35"
 		},
+		"maxStats": {
+			"maxHealth": 364,
+			"maxAttack": 372,
+			"maxDefense": 394,
+			"maxSpAtk": 229,
+			"maxSpDef": 251,
+			"maxSpeed": 207
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
 			"Fire_Dmg": "0.5",
@@ -2792,6 +3392,14 @@
 			"Defense": "130",
 			"Special": "55",
 			"Speed": "45"
+		},
+		"maxStats": {
+			"maxHealth": 304,
+			"maxAttack": 295,
+			"maxDefense": 229,
+			"maxSpAtk": 251,
+			"maxSpDef": 251,
+			"maxSpeed": 306
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
@@ -2830,6 +3438,14 @@
 			"Special": "65",
 			"Speed": "90"
 		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 328,
+			"maxDefense": 262,
+			"maxSpAtk": 284,
+			"maxSpDef": 284,
+			"maxSpeed": 339
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -2866,6 +3482,14 @@
 			"Defense": "70",
 			"Special": "80",
 			"Speed": "105"
+		},
+		"maxStats": {
+			"maxHealth": 384,
+			"maxAttack": 251,
+			"maxDefense": 251,
+			"maxSpAtk": 196,
+			"maxSpDef": 196,
+			"maxSpeed": 141
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2904,6 +3528,14 @@
 			"Special": "40",
 			"Speed": "15"
 		},
+		"maxStats": {
+			"maxHealth": 394,
+			"maxAttack": 273,
+			"maxDefense": 350,
+			"maxSpAtk": 328,
+			"maxSpDef": 284,
+			"maxSpeed": 174
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -2940,6 +3572,14 @@
 			"Defense": "110",
 			"Special": "80",
 			"Speed": "30"
+		},
+		"maxStats": {
+			"maxHealth": 254,
+			"maxAttack": 185,
+			"maxDefense": 262,
+			"maxSpAtk": 317,
+			"maxSpDef": 229,
+			"maxSpeed": 207
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -2978,6 +3618,14 @@
 			"Special": "95",
 			"Speed": "45"
 		},
+		"maxStats": {
+			"maxHealth": 304,
+			"maxAttack": 240,
+			"maxDefense": 317,
+			"maxSpAtk": 372,
+			"maxSpDef": 262,
+			"maxSpeed": 262
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -3014,6 +3662,14 @@
 			"Defense": "95",
 			"Special": "120",
 			"Speed": "70"
+		},
+		"maxStats": {
+			"maxHealth": 308,
+			"maxAttack": 306,
+			"maxDefense": 229,
+			"maxSpAtk": 236,
+			"maxSpDef": 245,
+			"maxSpeed": 240
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3052,6 +3708,14 @@
 			"Special": "58",
 			"Speed": "60"
 		},
+		"maxStats": {
+			"maxHealth": 274,
+			"maxAttack": 295,
+			"maxDefense": 207,
+			"maxSpAtk": 185,
+			"maxSpDef": 185,
+			"maxSpeed": 273
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -3088,6 +3752,14 @@
 			"Defense": "45",
 			"Special": "35",
 			"Speed": "75"
+		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 350,
+			"maxDefense": 262,
+			"maxSpAtk": 240,
+			"maxSpDef": 240,
+			"maxSpeed": 350
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3126,6 +3798,14 @@
 			"Special": "60",
 			"Speed": "100"
 		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 207,
+			"maxDefense": 229,
+			"maxSpAtk": 207,
+			"maxSpDef": 262,
+			"maxSpeed": 207
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -3162,6 +3842,14 @@
 			"Defense": "55",
 			"Special": "70",
 			"Speed": "45"
+		},
+		"maxStats": {
+			"maxHealth": 384,
+			"maxAttack": 262,
+			"maxDefense": 284,
+			"maxSpAtk": 262,
+			"maxSpDef": 317,
+			"maxSpeed": 262
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3200,6 +3888,14 @@
 			"Special": "95",
 			"Speed": "70"
 		},
+		"maxStats": {
+			"maxHealth": 364,
+			"maxAttack": 284,
+			"maxDefense": 218,
+			"maxSpAtk": 196,
+			"maxSpDef": 218,
+			"maxSpeed": 163
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -3236,6 +3932,14 @@
 			"Defense": "50",
 			"Special": "40",
 			"Speed": "25"
+		},
+		"maxStats": {
+			"maxHealth": 414,
+			"maxAttack": 339,
+			"maxDefense": 273,
+			"maxSpAtk": 251,
+			"maxSpDef": 328,
+			"maxSpeed": 218
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3274,6 +3978,14 @@
 			"Special": "65",
 			"Speed": "50"
 		},
+		"maxStats": {
+			"maxHealth": 264,
+			"maxAttack": 251,
+			"maxDefense": 328,
+			"maxSpAtk": 207,
+			"maxSpDef": 163,
+			"maxSpeed": 196
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -3310,6 +4022,14 @@
 			"Defense": "100",
 			"Special": "45",
 			"Speed": "40"
+		},
+		"maxStats": {
+			"maxHealth": 304,
+			"maxAttack": 317,
+			"maxDefense": 504,
+			"maxSpAtk": 295,
+			"maxSpDef": 207,
+			"maxSpeed": 262
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3348,6 +4068,14 @@
 			"Special": "85",
 			"Speed": "70"
 		},
+		"maxStats": {
+			"maxHealth": 264,
+			"maxAttack": 185,
+			"maxDefense": 174,
+			"maxSpAtk": 328,
+			"maxSpDef": 185,
+			"maxSpeed": 284
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -3384,6 +4112,14 @@
 			"Defense": "30",
 			"Special": "100",
 			"Speed": "80"
+		},
+		"maxStats": {
+			"maxHealth": 294,
+			"maxAttack": 218,
+			"maxDefense": 207,
+			"maxSpAtk": 361,
+			"maxSpDef": 229,
+			"maxSpeed": 317
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "0",
@@ -3422,6 +4158,14 @@
 			"Special": "115",
 			"Speed": "95"
 		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 251,
+			"maxDefense": 240,
+			"maxSpAtk": 394,
+			"maxSpDef": 273,
+			"maxSpeed": 350
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "0",
 			"Fire_Dmg": "1",
@@ -3458,6 +4202,14 @@
 			"Defense": "60",
 			"Special": "130",
 			"Speed": "110"
+		},
+		"maxStats": {
+			"maxHealth": 274,
+			"maxAttack": 207,
+			"maxDefense": 460,
+			"maxSpAtk": 174,
+			"maxSpDef": 207,
+			"maxSpeed": 262
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "0",
@@ -3496,6 +4248,14 @@
 			"Special": "30",
 			"Speed": "70"
 		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 214,
+			"maxDefense": 207,
+			"maxSpAtk": 203,
+			"maxSpDef": 306,
+			"maxSpeed": 201
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
 			"Fire_Dmg": "0.5",
@@ -3532,6 +4292,14 @@
 			"Defense": "45",
 			"Special": "90",
 			"Speed": "42"
+		},
+		"maxStats": {
+			"maxHealth": 374,
+			"maxAttack": 269,
+			"maxDefense": 262,
+			"maxSpAtk": 269,
+			"maxSpDef": 361,
+			"maxSpeed": 256
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3570,6 +4338,14 @@
 			"Special": "115",
 			"Speed": "67"
 		},
+		"maxStats": {
+			"maxHealth": 264,
+			"maxAttack": 339,
+			"maxDefense": 306,
+			"maxSpAtk": 163,
+			"maxSpDef": 163,
+			"maxSpeed": 218
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -3606,6 +4382,14 @@
 			"Defense": "90",
 			"Special": "25",
 			"Speed": "50"
+		},
+		"maxStats": {
+			"maxHealth": 314,
+			"maxAttack": 394,
+			"maxDefense": 361,
+			"maxSpAtk": 218,
+			"maxSpDef": 218,
+			"maxSpeed": 273
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3644,6 +4428,14 @@
 			"Special": "50",
 			"Speed": "75"
 		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 174,
+			"maxDefense": 218,
+			"maxSpAtk": 229,
+			"maxSpDef": 229,
+			"maxSpeed": 328
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -3680,6 +4472,14 @@
 			"Defense": "50",
 			"Special": "55",
 			"Speed": "100"
+		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 218,
+			"maxDefense": 262,
+			"maxSpAtk": 284,
+			"maxSpDef": 284,
+			"maxSpeed": 438
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3718,6 +4518,14 @@
 			"Special": "80",
 			"Speed": "140"
 		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 196,
+			"maxDefense": 284,
+			"maxSpAtk": 240,
+			"maxSpDef": 207,
+			"maxSpeed": 196
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -3754,6 +4562,14 @@
 			"Defense": "80",
 			"Special": "60",
 			"Speed": "40"
+		},
+		"maxStats": {
+			"maxHealth": 394,
+			"maxAttack": 317,
+			"maxDefense": 295,
+			"maxSpAtk": 383,
+			"maxSpDef": 273,
+			"maxSpeed": 229
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3792,6 +4608,14 @@
 			"Special": "125",
 			"Speed": "55"
 		},
+		"maxStats": {
+			"maxHealth": 304,
+			"maxAttack": 218,
+			"maxDefense": 317,
+			"maxSpAtk": 196,
+			"maxSpDef": 218,
+			"maxSpeed": 185
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -3828,6 +4652,14 @@
 			"Defense": "95",
 			"Special": "40",
 			"Speed": "35"
+		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 284,
+			"maxDefense": 350,
+			"maxSpAtk": 218,
+			"maxSpDef": 284,
+			"maxSpeed": 207
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3866,6 +4698,14 @@
 			"Special": "50",
 			"Speed": "45"
 		},
+		"maxStats": {
+			"maxHealth": 304,
+			"maxAttack": 372,
+			"maxDefense": 225,
+			"maxSpAtk": 185,
+			"maxSpDef": 350,
+			"maxSpeed": 300
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -3902,6 +4742,14 @@
 			"Defense": "53",
 			"Special": "35",
 			"Speed": "87"
+		},
+		"maxStats": {
+			"maxHealth": 304,
+			"maxAttack": 339,
+			"maxDefense": 282,
+			"maxSpAtk": 185,
+			"maxSpDef": 350,
+			"maxSpeed": 276
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -3940,6 +4788,14 @@
 			"Special": "35",
 			"Speed": "76"
 		},
+		"maxStats": {
+			"maxHealth": 384,
+			"maxAttack": 229,
+			"maxDefense": 273,
+			"maxSpAtk": 240,
+			"maxSpDef": 273,
+			"maxSpeed": 174
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -3976,6 +4832,14 @@
 			"Defense": "75",
 			"Special": "60",
 			"Speed": "30"
+		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 251,
+			"maxDefense": 317,
+			"maxSpAtk": 240,
+			"maxSpDef": 207,
+			"maxSpeed": 185
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4014,6 +4878,14 @@
 			"Special": "60",
 			"Speed": "35"
 		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 306,
+			"maxDefense": 372,
+			"maxSpAtk": 295,
+			"maxSpDef": 262,
+			"maxSpeed": 240
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -4050,6 +4922,14 @@
 			"Defense": "120",
 			"Special": "85",
 			"Speed": "60"
+		},
+		"maxStats": {
+			"maxHealth": 364,
+			"maxAttack": 295,
+			"maxDefense": 317,
+			"maxSpAtk": 174,
+			"maxSpDef": 174,
+			"maxSpeed": 163
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4088,6 +4968,14 @@
 			"Special": "30",
 			"Speed": "25"
 		},
+		"maxStats": {
+			"maxHealth": 414,
+			"maxAttack": 394,
+			"maxDefense": 372,
+			"maxSpAtk": 207,
+			"maxSpDef": 207,
+			"maxSpeed": 196
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
 			"Fire_Dmg": "0.5",
@@ -4124,6 +5012,14 @@
 			"Defense": "120",
 			"Special": "45",
 			"Speed": "40"
+		},
+		"maxStats": {
+			"maxHealth": 704,
+			"maxAttack": 119,
+			"maxDefense": 119,
+			"maxSpAtk": 185,
+			"maxSpDef": 339,
+			"maxSpeed": 218
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
@@ -4162,6 +5058,14 @@
 			"Special": "105",
 			"Speed": "50"
 		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 229,
+			"maxDefense": 361,
+			"maxSpAtk": 328,
+			"maxSpDef": 196,
+			"maxSpeed": 240
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -4198,6 +5102,14 @@
 			"Defense": "115",
 			"Special": "100",
 			"Speed": "60"
+		},
+		"maxStats": {
+			"maxHealth": 414,
+			"maxAttack": 317,
+			"maxDefense": 284,
+			"maxSpAtk": 196,
+			"maxSpDef": 284,
+			"maxSpeed": 306
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4236,6 +5148,14 @@
 			"Special": "40",
 			"Speed": "90"
 		},
+		"maxStats": {
+			"maxHealth": 264,
+			"maxAttack": 196,
+			"maxDefense": 262,
+			"maxSpAtk": 262,
+			"maxSpDef": 163,
+			"maxSpeed": 240
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -4272,6 +5192,14 @@
 			"Defense": "70",
 			"Special": "70",
 			"Speed": "60"
+		},
+		"maxStats": {
+			"maxHealth": 314,
+			"maxAttack": 251,
+			"maxDefense": 317,
+			"maxSpAtk": 317,
+			"maxSpDef": 207,
+			"maxSpeed": 295
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4310,6 +5238,14 @@
 			"Special": "95",
 			"Speed": "85"
 		},
+		"maxStats": {
+			"maxHealth": 294,
+			"maxAttack": 256,
+			"maxDefense": 240,
+			"maxSpAtk": 185,
+			"maxSpDef": 218,
+			"maxSpeed": 247
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -4346,6 +5282,14 @@
 			"Defense": "60",
 			"Special": "50",
 			"Speed": "63"
+		},
+		"maxStats": {
+			"maxHealth": 364,
+			"maxAttack": 311,
+			"maxDefense": 251,
+			"maxSpAtk": 251,
+			"maxSpDef": 284,
+			"maxSpeed": 258
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4384,6 +5328,14 @@
 			"Special": "80",
 			"Speed": "68"
 		},
+		"maxStats": {
+			"maxHealth": 264,
+			"maxAttack": 207,
+			"maxDefense": 229,
+			"maxSpAtk": 262,
+			"maxSpDef": 229,
+			"maxSpeed": 295
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -4420,6 +5372,14 @@
 			"Defense": "55",
 			"Special": "70",
 			"Speed": "85"
+		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 273,
+			"maxDefense": 295,
+			"maxSpAtk": 328,
+			"maxSpDef": 295,
+			"maxSpeed": 361
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4458,6 +5418,14 @@
 			"Special": "100",
 			"Speed": "115"
 		},
+		"maxStats": {
+			"maxHealth": 284,
+			"maxAttack": 207,
+			"maxDefense": 251,
+			"maxSpAtk": 328,
+			"maxSpDef": 372,
+			"maxSpeed": 306
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -4494,6 +5462,14 @@
 			"Defense": "65",
 			"Special": "100",
 			"Speed": "90"
+		},
+		"maxStats": {
+			"maxHealth": 344,
+			"maxAttack": 350,
+			"maxDefense": 284,
+			"maxSpAtk": 229,
+			"maxSpDef": 284,
+			"maxSpeed": 339
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4532,6 +5508,14 @@
 			"Special": "55",
 			"Speed": "105"
 		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 218,
+			"maxDefense": 185,
+			"maxSpAtk": 361,
+			"maxSpDef": 317,
+			"maxSpeed": 317
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -4568,6 +5552,14 @@
 			"Defense": "35",
 			"Special": "95",
 			"Speed": "95"
+		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 291,
+			"maxDefense": 234,
+			"maxSpAtk": 317,
+			"maxSpDef": 295,
+			"maxSpeed": 339
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4606,6 +5598,14 @@
 			"Special": "85",
 			"Speed": "105"
 		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 317,
+			"maxDefense": 234,
+			"maxSpAtk": 328,
+			"maxSpDef": 295,
+			"maxSpeed": 313
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -4642,6 +5642,14 @@
 			"Defense": "57",
 			"Special": "85",
 			"Speed": "93"
+		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 383,
+			"maxDefense": 328,
+			"maxSpAtk": 229,
+			"maxSpDef": 262,
+			"maxSpeed": 295
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4680,6 +5688,14 @@
 			"Special": "55",
 			"Speed": "85"
 		},
+		"maxStats": {
+			"maxHealth": 354,
+			"maxAttack": 328,
+			"maxDefense": 317,
+			"maxSpAtk": 196,
+			"maxSpDef": 262,
+			"maxSpeed": 350
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "2",
@@ -4716,6 +5732,14 @@
 			"Defense": "95",
 			"Special": "70",
 			"Speed": "110"
+		},
+		"maxStats": {
+			"maxHealth": 244,
+			"maxAttack": 130,
+			"maxDefense": 229,
+			"maxSpAtk": 141,
+			"maxSpDef": 152,
+			"maxSpeed": 284
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4754,6 +5778,14 @@
 			"Special": "20",
 			"Speed": "80"
 		},
+		"maxStats": {
+			"maxHealth": 394,
+			"maxAttack": 383,
+			"maxDefense": 282,
+			"maxSpAtk": 240,
+			"maxSpDef": 328,
+			"maxSpeed": 287
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -4790,6 +5822,14 @@
 			"Defense": "79",
 			"Special": "100",
 			"Speed": "81"
+		},
+		"maxStats": {
+			"maxHealth": 464,
+			"maxAttack": 295,
+			"maxDefense": 284,
+			"maxSpAtk": 295,
+			"maxSpDef": 317,
+			"maxSpeed": 240
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4828,6 +5868,14 @@
 			"Special": "95",
 			"Speed": "60"
 		},
+		"maxStats": {
+			"maxHealth": 300,
+			"maxAttack": 214,
+			"maxDefense": 214,
+			"maxSpAtk": 214,
+			"maxSpDef": 214,
+			"maxSpeed": 214
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -4864,6 +5912,14 @@
 			"Defense": "48",
 			"Special": "48",
 			"Speed": "48"
+		},
+		"maxStats": {
+			"maxHealth": 314,
+			"maxAttack": 229,
+			"maxDefense": 218,
+			"maxSpAtk": 207,
+			"maxSpDef": 251,
+			"maxSpeed": 229
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4902,6 +5958,14 @@
 			"Special": "65",
 			"Speed": "55"
 		},
+		"maxStats": {
+			"maxHealth": 464,
+			"maxAttack": 251,
+			"maxDefense": 240,
+			"maxSpAtk": 350,
+			"maxSpDef": 317,
+			"maxSpeed": 251
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -4938,6 +6002,14 @@
 			"Defense": "60",
 			"Special": "110",
 			"Speed": "65"
+		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 251,
+			"maxDefense": 240,
+			"maxSpAtk": 350,
+			"maxSpDef": 317,
+			"maxSpeed": 394
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -4976,6 +6048,14 @@
 			"Special": "110",
 			"Speed": "130"
 		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 394,
+			"maxDefense": 240,
+			"maxSpAtk": 317,
+			"maxSpDef": 350,
+			"maxSpeed": 251
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -5012,6 +6092,14 @@
 			"Defense": "60",
 			"Special": "110",
 			"Speed": "65"
+		},
+		"maxStats": {
+			"maxHealth": 334,
+			"maxAttack": 240,
+			"maxDefense": 262,
+			"maxSpAtk": 295,
+			"maxSpDef": 273,
+			"maxSpeed": 196
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -5050,6 +6138,14 @@
 			"Special": "75",
 			"Speed": "40"
 		},
+		"maxStats": {
+			"maxHealth": 274,
+			"maxAttack": 196,
+			"maxDefense": 328,
+			"maxSpAtk": 306,
+			"maxSpDef": 229,
+			"maxSpeed": 185
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -5086,6 +6182,14 @@
 			"Defense": "100",
 			"Special": "90",
 			"Speed": "35"
+		},
+		"maxStats": {
+			"maxHealth": 344,
+			"maxAttack": 240,
+			"maxDefense": 383,
+			"maxSpAtk": 361,
+			"maxSpDef": 262,
+			"maxSpeed": 229
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
@@ -5124,6 +6228,14 @@
 			"Special": "115",
 			"Speed": "55"
 		},
+		"maxStats": {
+			"maxHealth": 264,
+			"maxAttack": 284,
+			"maxDefense": 306,
+			"maxSpAtk": 229,
+			"maxSpDef": 207,
+			"maxSpeed": 229
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
 			"Fire_Dmg": "0.25",
@@ -5160,6 +6272,14 @@
 			"Defense": "90",
 			"Special": "45",
 			"Speed": "55"
+		},
+		"maxStats": {
+			"maxHealth": 324,
+			"maxAttack": 361,
+			"maxDefense": 339,
+			"maxSpAtk": 251,
+			"maxSpDef": 262,
+			"maxSpeed": 284
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
@@ -5198,6 +6318,14 @@
 			"Special": "70",
 			"Speed": "80"
 		},
+		"maxStats": {
+			"maxHealth": 364,
+			"maxAttack": 339,
+			"maxDefense": 251,
+			"maxSpAtk": 240,
+			"maxSpDef": 273,
+			"maxSpeed": 394
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
 			"Fire_Dmg": "0.25",
@@ -5234,6 +6362,14 @@
 			"Defense": "65",
 			"Special": "60",
 			"Speed": "130"
+		},
+		"maxStats": {
+			"maxHealth": 524,
+			"maxAttack": 350,
+			"maxDefense": 251,
+			"maxSpAtk": 251,
+			"maxSpDef": 350,
+			"maxSpeed": 174
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "0.5",
@@ -5272,6 +6408,14 @@
 			"Special": "65",
 			"Speed": "30"
 		},
+		"maxStats": {
+			"maxHealth": 384,
+			"maxAttack": 295,
+			"maxDefense": 328,
+			"maxSpAtk": 317,
+			"maxSpDef": 383,
+			"maxSpeed": 295
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -5308,6 +6452,14 @@
 			"Defense": "100",
 			"Special": "125",
 			"Speed": "85"
+		},
+		"maxStats": {
+			"maxHealth": 384,
+			"maxAttack": 306,
+			"maxDefense": 295,
+			"maxSpAtk": 383,
+			"maxSpDef": 306,
+			"maxSpeed": 328
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -5346,6 +6498,14 @@
 			"Special": "125",
 			"Speed": "100"
 		},
+		"maxStats": {
+			"maxHealth": 384,
+			"maxAttack": 328,
+			"maxDefense": 306,
+			"maxSpAtk": 383,
+			"maxSpDef": 295,
+			"maxSpeed": 306
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "1",
@@ -5382,6 +6542,14 @@
 			"Defense": "90",
 			"Special": "125",
 			"Speed": "90"
+		},
+		"maxStats": {
+			"maxHealth": 286,
+			"maxAttack": 249,
+			"maxDefense": 207,
+			"maxSpAtk": 218,
+			"maxSpDef": 218,
+			"maxSpeed": 218
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -5420,6 +6588,14 @@
 			"Special": "50",
 			"Speed": "50"
 		},
+		"maxStats": {
+			"maxHealth": 326,
+			"maxAttack": 293,
+			"maxDefense": 251,
+			"maxSpAtk": 262,
+			"maxSpDef": 262,
+			"maxSpeed": 262
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -5456,6 +6632,14 @@
 			"Defense": "65",
 			"Special": "70",
 			"Speed": "70"
+		},
+		"maxStats": {
+			"maxHealth": 386,
+			"maxAttack": 403,
+			"maxDefense": 317,
+			"maxSpAtk": 328,
+			"maxSpDef": 328,
+			"maxSpeed": 284
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
@@ -5494,6 +6678,14 @@
 			"Special": "100",
 			"Speed": "80"
 		},
+		"maxStats": {
+			"maxHealth": 416,
+			"maxAttack": 350,
+			"maxDefense": 306,
+			"maxSpAtk": 447,
+			"maxSpDef": 306,
+			"maxSpeed": 394
+		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
 			"Fire_Dmg": "0.5",
@@ -5530,6 +6722,14 @@
 			"Defense": "90",
 			"Special": "154",
 			"Speed": "130"
+		},
+		"maxStats": {
+			"maxHealth": 404,
+			"maxAttack": 328,
+			"maxDefense": 328,
+			"maxSpAtk": 328,
+			"maxSpDef": 328,
+			"maxSpeed": 328
 		},
 		"typeAgainst": {
 			"Normal_Dmg": "1",
