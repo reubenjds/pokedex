@@ -1,1 +1,1210 @@
-[{"maxHealth": 294, "maxAttack": 216, "maxDefense": 216, "maxSpAtk": 251, "maxSpDef": 251, "maxSpeed": 207}, {"maxHealth": 324, "maxAttack": 245, "maxDefense": 247, "maxSpAtk": 284, "maxSpDef": 284, "maxSpeed": 240}, {"maxHealth": 364, "maxAttack": 289, "maxDefense": 291, "maxSpAtk": 328, "maxSpDef": 328, "maxSpeed": 284}, {"maxHealth": 282, "maxAttack": 223, "maxDefense": 203, "maxSpAtk": 240, "maxSpDef": 218, "maxSpeed": 251}, {"maxHealth": 320, "maxAttack": 249, "maxDefense": 236, "maxSpAtk": 284, "maxSpDef": 251, "maxSpeed": 284}, {"maxHealth": 360, "maxAttack": 293, "maxDefense": 280, "maxSpAtk": 348, "maxSpDef": 295, "maxSpeed": 328}, {"maxHealth": 292, "maxAttack": 214, "maxDefense": 251, "maxSpAtk": 218, "maxSpDef": 249, "maxSpeed": 203}, {"maxHealth": 322, "maxAttack": 247, "maxDefense": 284, "maxSpAtk": 251, "maxSpDef": 284, "maxSpeed": 236}, {"maxHealth": 362, "maxAttack": 291, "maxDefense": 328, "maxSpAtk": 295, "maxSpDef": 339, "maxSpeed": 280}, {"maxHealth": 294, "maxAttack": 174, "maxDefense": 185, "maxSpAtk": 152, "maxSpDef": 152, "maxSpeed": 207}, {"maxHealth": 304, "maxAttack": 152, "maxDefense": 229, "maxSpAtk": 163, "maxSpDef": 163, "maxSpeed": 174}, {"maxHealth": 324, "maxAttack": 207, "maxDefense": 218, "maxSpAtk": 306, "maxSpDef": 284, "maxSpeed": 262}, {"maxHealth": 284, "maxAttack": 185, "maxDefense": 174, "maxSpAtk": 152, "maxSpDef": 152, "maxSpeed": 218}, {"maxHealth": 294, "maxAttack": 163, "maxDefense": 218, "maxSpAtk": 163, "maxSpDef": 163, "maxSpeed": 185}, {"maxHealth": 334, "maxAttack": 306, "maxDefense": 196, "maxSpAtk": 207, "maxSpDef": 284, "maxSpeed": 273}, {"maxHealth": 284, "maxAttack": 207, "maxDefense": 196, "maxSpAtk": 185, "maxSpDef": 185, "maxSpeed": 232}, {"maxHealth": 330, "maxAttack": 240, "maxDefense": 229, "maxSpAtk": 218, "maxSpDef": 218, "maxSpeed": 265}, {"maxHealth": 370, "maxAttack": 284, "maxDefense": 273, "maxSpAtk": 262, "maxSpDef": 262, "maxSpeed": 331}, {"maxHealth": 264, "maxAttack": 232, "maxDefense": 185, "maxSpAtk": 163, "maxSpDef": 185, "maxSpeed": 267}, {"maxHealth": 314, "maxAttack": 287, "maxDefense": 240, "maxSpAtk": 218, "maxSpDef": 262, "maxSpeed": 322}, {"maxHealth": 284, "maxAttack": 240, "maxDefense": 174, "maxSpAtk": 177, "maxSpDef": 177, "maxSpeed": 262}, {"maxHealth": 334, "maxAttack": 306, "maxDefense": 251, "maxSpAtk": 243, "maxSpDef": 243, "maxSpeed": 328}, {"maxHealth": 274, "maxAttack": 240, "maxDefense": 205, "maxSpAtk": 196, "maxSpDef": 227, "maxSpeed": 229}, {"maxHealth": 324, "maxAttack": 317, "maxDefense": 260, "maxSpAtk": 251, "maxSpDef": 282, "maxSpeed": 284}, {"maxHealth": 274, "maxAttack": 229, "maxDefense": 196, "maxSpAtk": 218, "maxSpDef": 218, "maxSpeed": 306}, {"maxHealth": 324, "maxAttack": 306, "maxDefense": 229, "maxSpAtk": 306, "maxSpDef": 284, "maxSpeed": 350}, {"maxHealth": 304, "maxAttack": 273, "maxDefense": 295, "maxSpAtk": 152, "maxSpDef": 174, "maxSpeed": 196}, {"maxHealth": 354, "maxAttack": 328, "maxDefense": 350, "maxSpAtk": 207, "maxSpDef": 229, "maxSpeed": 251}, {"maxHealth": 314, "maxAttack": 212, "maxDefense": 223, "maxSpAtk": 196, "maxSpDef": 196, "maxSpeed": 199}, {"maxHealth": 344, "maxAttack": 245, "maxDefense": 256, "maxSpAtk": 229, "maxSpDef": 229, "maxSpeed": 232}, {"maxHealth": 384, "maxAttack": 311, "maxDefense": 300, "maxSpAtk": 273, "maxSpDef": 295, "maxSpeed": 276}, {"maxHealth": 296, "maxAttack": 234, "maxDefense": 196, "maxSpAtk": 196, "maxSpDef": 196, "maxSpeed": 218}, {"maxHealth": 326, "maxAttack": 267, "maxDefense": 234, "maxSpAtk": 229, "maxSpDef": 229, "maxSpeed": 251}, {"maxHealth": 366, "maxAttack": 333, "maxDefense": 278, "maxSpAtk": 295, "maxSpDef": 273, "maxSpeed": 295}, {"maxHealth": 344, "maxAttack": 207, "maxDefense": 214, "maxSpAtk": 240, "maxSpDef": 251, "maxSpeed": 185}, {"maxHealth": 394, "maxAttack": 262, "maxDefense": 269, "maxSpAtk": 317, "maxSpDef": 306, "maxSpeed": 240}, {"maxHealth": 280, "maxAttack": 199, "maxDefense": 196, "maxSpAtk": 218, "maxSpDef": 251, "maxSpeed": 251}, {"maxHealth": 350, "maxAttack": 276, "maxDefense": 273, "maxSpAtk": 287, "maxSpDef": 328, "maxSpeed": 328}, {"maxHealth": 434, "maxAttack": 207, "maxDefense": 152, "maxSpAtk": 207, "maxSpDef": 163, "maxSpeed": 152}, {"maxHealth": 484, "maxAttack": 262, "maxDefense": 207, "maxSpAtk": 295, "maxSpDef": 218, "maxSpeed": 207}, {"maxHealth": 284, "maxAttack": 207, "maxDefense": 185, "maxSpAtk": 174, "maxSpDef": 196, "maxSpeed": 229}, {"maxHealth": 354, "maxAttack": 284, "maxDefense": 262, "maxSpAtk": 251, "maxSpDef": 273, "maxSpeed": 306}, {"maxHealth": 294, "maxAttack": 218, "maxDefense": 229, "maxSpAtk": 273, "maxSpDef": 251, "maxSpeed": 174}, {"maxHealth": 324, "maxAttack": 251, "maxDefense": 262, "maxSpAtk": 295, "maxSpDef": 273, "maxSpeed": 196}, {"maxHealth": 354, "maxAttack": 284, "maxDefense": 295, "maxSpAtk": 350, "maxSpDef": 306, "maxSpeed": 218}, {"maxHealth": 274, "maxAttack": 262, "maxDefense": 229, "maxSpAtk": 207, "maxSpDef": 229, "maxSpeed": 163}, {"maxHealth": 324, "maxAttack": 317, "maxDefense": 284, "maxSpAtk": 240, "maxSpDef": 284, "maxSpeed": 174}, {"maxHealth": 324, "maxAttack": 229, "maxDefense": 218, "maxSpAtk": 196, "maxSpDef": 229, "maxSpeed": 207}, {"maxHealth": 344, "maxAttack": 251, "maxDefense": 240, "maxSpAtk": 306, "maxSpDef": 273, "maxSpeed": 306}, {"maxHealth": 224, "maxAttack": 229, "maxDefense": 163, "maxSpAtk": 185, "maxSpDef": 207, "maxSpeed": 317}, {"maxHealth": 274, "maxAttack": 328, "maxDefense": 218, "maxSpAtk": 218, "maxSpDef": 262, "maxSpeed": 372}, {"maxHealth": 284, "maxAttack": 207, "maxDefense": 185, "maxSpAtk": 196, "maxSpDef": 196, "maxSpeed": 306}, {"maxHealth": 334, "maxAttack": 262, "maxDefense": 240, "maxSpAtk": 251, "maxSpDef": 251, "maxSpeed": 361}, {"maxHealth": 304, "maxAttack": 223, "maxDefense": 214, "maxSpAtk": 251, "maxSpDef": 218, "maxSpeed": 229}, {"maxHealth": 364, "maxAttack": 289, "maxDefense": 280, "maxSpAtk": 317, "maxSpDef": 284, "maxSpeed": 295}, {"maxHealth": 284, "maxAttack": 284, "maxDefense": 185, "maxSpAtk": 185, "maxSpDef": 207, "maxSpeed": 262}, {"maxHealth": 334, "maxAttack": 339, "maxDefense": 240, "maxSpAtk": 240, "maxSpDef": 262, "maxSpeed": 317}, {"maxHealth": 314, "maxAttack": 262, "maxDefense": 207, "maxSpAtk": 262, "maxSpDef": 218, "maxSpeed": 240}, {"maxHealth": 384, "maxAttack": 350, "maxDefense": 284, "maxSpAtk": 328, "maxSpDef": 284, "maxSpeed": 317}, {"maxHealth": 284, "maxAttack": 218, "maxDefense": 196, "maxSpAtk": 196, "maxSpDef": 196, "maxSpeed": 306}, {"maxHealth": 334, "maxAttack": 251, "maxDefense": 251, "maxSpAtk": 218, "maxSpDef": 218, "maxSpeed": 306}, {"maxHealth": 384, "maxAttack": 317, "maxDefense": 317, "maxSpAtk": 262, "maxSpDef": 306, "maxSpeed": 262}, {"maxHealth": 254, "maxAttack": 152, "maxDefense": 141, "maxSpAtk": 339, "maxSpDef": 229, "maxSpeed": 306}, {"maxHealth": 284, "maxAttack": 185, "maxDefense": 174, "maxSpAtk": 372, "maxSpDef": 262, "maxSpeed": 339}, {"maxHealth": 314, "maxAttack": 218, "maxDefense": 207, "maxSpAtk": 405, "maxSpDef": 317, "maxSpeed": 372}, {"maxHealth": 344, "maxAttack": 284, "maxDefense": 218, "maxSpAtk": 185, "maxSpDef": 185, "maxSpeed": 185}, {"maxHealth": 364, "maxAttack": 328, "maxDefense": 262, "maxSpAtk": 218, "maxSpDef": 240, "maxSpeed": 207}, {"maxHealth": 384, "maxAttack": 394, "maxDefense": 284, "maxSpAtk": 251, "maxSpDef": 295, "maxSpeed": 229}, {"maxHealth": 304, "maxAttack": 273, "maxDefense": 185, "maxSpAtk": 262, "maxSpDef": 174, "maxSpeed": 196}, {"maxHealth": 334, "maxAttack": 306, "maxDefense": 218, "maxSpAtk": 295, "maxSpDef": 207, "maxSpeed": 229}, {"maxHealth": 364, "maxAttack": 339, "maxDefense": 251, "maxSpAtk": 328, "maxSpDef": 262, "maxSpeed": 262}, {"maxHealth": 284, "maxAttack": 196, "maxDefense": 185, "maxSpAtk": 218, "maxSpDef": 328, "maxSpeed": 262}, {"maxHealth": 364, "maxAttack": 262, "maxDefense": 251, "maxSpAtk": 284, "maxSpDef": 372, "maxSpeed": 328}, {"maxHealth": 284, "maxAttack": 284, "maxDefense": 328, "maxSpAtk": 174, "maxSpDef": 174, "maxSpeed": 152}, {"maxHealth": 314, "maxAttack": 317, "maxDefense": 361, "maxSpAtk": 207, "maxSpDef": 207, "maxSpeed": 185}, {"maxHealth": 364, "maxAttack": 372, "maxDefense": 394, "maxSpAtk": 229, "maxSpDef": 251, "maxSpeed": 207}, {"maxHealth": 304, "maxAttack": 295, "maxDefense": 229, "maxSpAtk": 251, "maxSpDef": 251, "maxSpeed": 306}, {"maxHealth": 334, "maxAttack": 328, "maxDefense": 262, "maxSpAtk": 284, "maxSpDef": 284, "maxSpeed": 339}, {"maxHealth": 384, "maxAttack": 251, "maxDefense": 251, "maxSpAtk": 196, "maxSpDef": 196, "maxSpeed": 141}, {"maxHealth": 394, "maxAttack": 273, "maxDefense": 350, "maxSpAtk": 328, "maxSpDef": 284, "maxSpeed": 174}, {"maxHealth": 254, "maxAttack": 185, "maxDefense": 262, "maxSpAtk": 317, "maxSpDef": 229, "maxSpeed": 207}, {"maxHealth": 304, "maxAttack": 240, "maxDefense": 317, "maxSpAtk": 372, "maxSpDef": 262, "maxSpeed": 262}, {"maxHealth": 308, "maxAttack": 306, "maxDefense": 229, "maxSpAtk": 236, "maxSpDef": 245, "maxSpeed": 240}, {"maxHealth": 274, "maxAttack": 295, "maxDefense": 207, "maxSpAtk": 185, "maxSpDef": 185, "maxSpeed": 273}, {"maxHealth": 324, "maxAttack": 350, "maxDefense": 262, "maxSpAtk": 240, "maxSpDef": 240, "maxSpeed": 350}, {"maxHealth": 334, "maxAttack": 207, "maxDefense": 229, "maxSpAtk": 207, "maxSpDef": 262, "maxSpeed": 207}, {"maxHealth": 384, "maxAttack": 262, "maxDefense": 284, "maxSpAtk": 262, "maxSpDef": 317, "maxSpeed": 262}, {"maxHealth": 364, "maxAttack": 284, "maxDefense": 218, "maxSpAtk": 196, "maxSpDef": 218, "maxSpeed": 163}, {"maxHealth": 414, "maxAttack": 339, "maxDefense": 273, "maxSpAtk": 251, "maxSpDef": 328, "maxSpeed": 218}, {"maxHealth": 264, "maxAttack": 251, "maxDefense": 328, "maxSpAtk": 207, "maxSpDef": 163, "maxSpeed": 196}, {"maxHealth": 304, "maxAttack": 317, "maxDefense": 504, "maxSpAtk": 295, "maxSpDef": 207, "maxSpeed": 262}, {"maxHealth": 264, "maxAttack": 185, "maxDefense": 174, "maxSpAtk": 328, "maxSpDef": 185, "maxSpeed": 284}, {"maxHealth": 294, "maxAttack": 218, "maxDefense": 207, "maxSpAtk": 361, "maxSpDef": 229, "maxSpeed": 317}, {"maxHealth": 324, "maxAttack": 251, "maxDefense": 240, "maxSpAtk": 394, "maxSpDef": 273, "maxSpeed": 350}, {"maxHealth": 274, "maxAttack": 207, "maxDefense": 460, "maxSpAtk": 174, "maxSpDef": 207, "maxSpeed": 262}, {"maxHealth": 324, "maxAttack": 214, "maxDefense": 207, "maxSpAtk": 203, "maxSpDef": 306, "maxSpeed": 201}, {"maxHealth": 374, "maxAttack": 269, "maxDefense": 262, "maxSpAtk": 269, "maxSpDef": 361, "maxSpeed": 256}, {"maxHealth": 264, "maxAttack": 339, "maxDefense": 306, "maxSpAtk": 163, "maxSpDef": 163, "maxSpeed": 218}, {"maxHealth": 314, "maxAttack": 394, "maxDefense": 361, "maxSpAtk": 218, "maxSpDef": 218, "maxSpeed": 273}, {"maxHealth": 284, "maxAttack": 174, "maxDefense": 218, "maxSpAtk": 229, "maxSpDef": 229, "maxSpeed": 328}, {"maxHealth": 324, "maxAttack": 218, "maxDefense": 262, "maxSpAtk": 284, "maxSpDef": 284, "maxSpeed": 438}, {"maxHealth": 324, "maxAttack": 196, "maxDefense": 284, "maxSpAtk": 240, "maxSpDef": 207, "maxSpeed": 196}, {"maxHealth": 394, "maxAttack": 317, "maxDefense": 295, "maxSpAtk": 383, "maxSpDef": 273, "maxSpeed": 229}, {"maxHealth": 304, "maxAttack": 218, "maxDefense": 317, "maxSpAtk": 196, "maxSpDef": 218, "maxSpeed": 185}, {"maxHealth": 324, "maxAttack": 284, "maxDefense": 350, "maxSpAtk": 218, "maxSpDef": 284, "maxSpeed": 207}, {"maxHealth": 304, "maxAttack": 372, "maxDefense": 225, "maxSpAtk": 185, "maxSpDef": 350, "maxSpeed": 300}, {"maxHealth": 304, "maxAttack": 339, "maxDefense": 282, "maxSpAtk": 185, "maxSpDef": 350, "maxSpeed": 276}, {"maxHealth": 384, "maxAttack": 229, "maxDefense": 273, "maxSpAtk": 240, "maxSpDef": 273, "maxSpeed": 174}, {"maxHealth": 284, "maxAttack": 251, "maxDefense": 317, "maxSpAtk": 240, "maxSpDef": 207, "maxSpeed": 185}, {"maxHealth": 334, "maxAttack": 306, "maxDefense": 372, "maxSpAtk": 295, "maxSpDef": 262, "maxSpeed": 240}, {"maxHealth": 364, "maxAttack": 295, "maxDefense": 317, "maxSpAtk": 174, "maxSpDef": 174, "maxSpeed": 163}, {"maxHealth": 414, "maxAttack": 394, "maxDefense": 372, "maxSpAtk": 207, "maxSpDef": 207, "maxSpeed": 196}, {"maxHealth": 704, "maxAttack": 119, "maxDefense": 119, "maxSpAtk": 185, "maxSpDef": 339, "maxSpeed": 218}, {"maxHealth": 334, "maxAttack": 229, "maxDefense": 361, "maxSpAtk": 328, "maxSpDef": 196, "maxSpeed": 240}, {"maxHealth": 414, "maxAttack": 317, "maxDefense": 284, "maxSpAtk": 196, "maxSpDef": 284, "maxSpeed": 306}, {"maxHealth": 264, "maxAttack": 196, "maxDefense": 262, "maxSpAtk": 262, "maxSpDef": 163, "maxSpeed": 240}, {"maxHealth": 314, "maxAttack": 251, "maxDefense": 317, "maxSpAtk": 317, "maxSpDef": 207, "maxSpeed": 295}, {"maxHealth": 294, "maxAttack": 256, "maxDefense": 240, "maxSpAtk": 185, "maxSpDef": 218, "maxSpeed": 247}, {"maxHealth": 364, "maxAttack": 311, "maxDefense": 251, "maxSpAtk": 251, "maxSpDef": 284, "maxSpeed": 258}, {"maxHealth": 264, "maxAttack": 207, "maxDefense": 229, "maxSpAtk": 262, "maxSpDef": 229, "maxSpeed": 295}, {"maxHealth": 324, "maxAttack": 273, "maxDefense": 295, "maxSpAtk": 328, "maxSpDef": 295, "maxSpeed": 361}, {"maxHealth": 284, "maxAttack": 207, "maxDefense": 251, "maxSpAtk": 328, "maxSpDef": 372, "maxSpeed": 306}, {"maxHealth": 344, "maxAttack": 350, "maxDefense": 284, "maxSpAtk": 229, "maxSpDef": 284, "maxSpeed": 339}, {"maxHealth": 334, "maxAttack": 218, "maxDefense": 185, "maxSpAtk": 361, "maxSpDef": 317, "maxSpeed": 317}, {"maxHealth": 334, "maxAttack": 291, "maxDefense": 234, "maxSpAtk": 317, "maxSpDef": 295, "maxSpeed": 339}, {"maxHealth": 334, "maxAttack": 317, "maxDefense": 234, "maxSpAtk": 328, "maxSpDef": 295, "maxSpeed": 313}, {"maxHealth": 334, "maxAttack": 383, "maxDefense": 328, "maxSpAtk": 229, "maxSpDef": 262, "maxSpeed": 295}, {"maxHealth": 354, "maxAttack": 328, "maxDefense": 317, "maxSpAtk": 196, "maxSpDef": 262, "maxSpeed": 350}, {"maxHealth": 244, "maxAttack": 130, "maxDefense": 229, "maxSpAtk": 141, "maxSpDef": 152, "maxSpeed": 284}, {"maxHealth": 394, "maxAttack": 383, "maxDefense": 282, "maxSpAtk": 240, "maxSpDef": 328, "maxSpeed": 287}, {"maxHealth": 464, "maxAttack": 295, "maxDefense": 284, "maxSpAtk": 295, "maxSpDef": 317, "maxSpeed": 240}, {"maxHealth": 300, "maxAttack": 214, "maxDefense": 214, "maxSpAtk": 214, "maxSpDef": 214, "maxSpeed": 214}, {"maxHealth": 314, "maxAttack": 229, "maxDefense": 218, "maxSpAtk": 207, "maxSpDef": 251, "maxSpeed": 229}, {"maxHealth": 464, "maxAttack": 251, "maxDefense": 240, "maxSpAtk": 350, "maxSpDef": 317, "maxSpeed": 251}, {"maxHealth": 334, "maxAttack": 251, "maxDefense": 240, "maxSpAtk": 350, "maxSpDef": 317, "maxSpeed": 394}, {"maxHealth": 334, "maxAttack": 394, "maxDefense": 240, "maxSpAtk": 317, "maxSpDef": 350, "maxSpeed": 251}, {"maxHealth": 334, "maxAttack": 240, "maxDefense": 262, "maxSpAtk": 295, "maxSpDef": 273, "maxSpeed": 196}, {"maxHealth": 274, "maxAttack": 196, "maxDefense": 328, "maxSpAtk": 306, "maxSpDef": 229, "maxSpeed": 185}, {"maxHealth": 344, "maxAttack": 240, "maxDefense": 383, "maxSpAtk": 361, "maxSpDef": 262, "maxSpeed": 229}, {"maxHealth": 264, "maxAttack": 284, "maxDefense": 306, "maxSpAtk": 229, "maxSpDef": 207, "maxSpeed": 229}, {"maxHealth": 324, "maxAttack": 361, "maxDefense": 339, "maxSpAtk": 251, "maxSpDef": 262, "maxSpeed": 284}, {"maxHealth": 364, "maxAttack": 339, "maxDefense": 251, "maxSpAtk": 240, "maxSpDef": 273, "maxSpeed": 394}, {"maxHealth": 524, "maxAttack": 350, "maxDefense": 251, "maxSpAtk": 251, "maxSpDef": 350, "maxSpeed": 174}, {"maxHealth": 384, "maxAttack": 295, "maxDefense": 328, "maxSpAtk": 317, "maxSpDef": 383, "maxSpeed": 295}, {"maxHealth": 384, "maxAttack": 306, "maxDefense": 295, "maxSpAtk": 383, "maxSpDef": 306, "maxSpeed": 328}, {"maxHealth": 384, "maxAttack": 328, "maxDefense": 306, "maxSpAtk": 383, "maxSpDef": 295, "maxSpeed": 306}, {"maxHealth": 286, "maxAttack": 249, "maxDefense": 207, "maxSpAtk": 218, "maxSpDef": 218, "maxSpeed": 218}, {"maxHealth": 326, "maxAttack": 293, "maxDefense": 251, "maxSpAtk": 262, "maxSpDef": 262, "maxSpeed": 262}, {"maxHealth": 386, "maxAttack": 403, "maxDefense": 317, "maxSpAtk": 328, "maxSpDef": 328, "maxSpeed": 284}, {"maxHealth": 416, "maxAttack": 350, "maxDefense": 306, "maxSpAtk": 447, "maxSpDef": 306, "maxSpeed": 394}, {"maxHealth": 404, "maxAttack": 328, "maxDefense": 328, "maxSpAtk": 328, "maxSpDef": 328, "maxSpeed": 328}]
+[
+	{
+		"maxHealth": 294,
+		"maxAttack": 216,
+		"maxDefense": 216,
+		"maxSpAtk": 251,
+		"maxSpDef": 251,
+		"maxSpeed": 207
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 245,
+		"maxDefense": 247,
+		"maxSpAtk": 284,
+		"maxSpDef": 284,
+		"maxSpeed": 240
+	},
+	{
+		"maxHealth": 364,
+		"maxAttack": 289,
+		"maxDefense": 291,
+		"maxSpAtk": 328,
+		"maxSpDef": 328,
+		"maxSpeed": 284
+	},
+	{
+		"maxHealth": 282,
+		"maxAttack": 223,
+		"maxDefense": 203,
+		"maxSpAtk": 240,
+		"maxSpDef": 218,
+		"maxSpeed": 251
+	},
+	{
+		"maxHealth": 320,
+		"maxAttack": 249,
+		"maxDefense": 236,
+		"maxSpAtk": 284,
+		"maxSpDef": 251,
+		"maxSpeed": 284
+	},
+	{
+		"maxHealth": 360,
+		"maxAttack": 293,
+		"maxDefense": 280,
+		"maxSpAtk": 348,
+		"maxSpDef": 295,
+		"maxSpeed": 328
+	},
+	{
+		"maxHealth": 292,
+		"maxAttack": 214,
+		"maxDefense": 251,
+		"maxSpAtk": 218,
+		"maxSpDef": 249,
+		"maxSpeed": 203
+	},
+	{
+		"maxHealth": 322,
+		"maxAttack": 247,
+		"maxDefense": 284,
+		"maxSpAtk": 251,
+		"maxSpDef": 284,
+		"maxSpeed": 236
+	},
+	{
+		"maxHealth": 362,
+		"maxAttack": 291,
+		"maxDefense": 328,
+		"maxSpAtk": 295,
+		"maxSpDef": 339,
+		"maxSpeed": 280
+	},
+	{
+		"maxHealth": 294,
+		"maxAttack": 174,
+		"maxDefense": 185,
+		"maxSpAtk": 152,
+		"maxSpDef": 152,
+		"maxSpeed": 207
+	},
+	{
+		"maxHealth": 304,
+		"maxAttack": 152,
+		"maxDefense": 229,
+		"maxSpAtk": 163,
+		"maxSpDef": 163,
+		"maxSpeed": 174
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 207,
+		"maxDefense": 218,
+		"maxSpAtk": 306,
+		"maxSpDef": 284,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 185,
+		"maxDefense": 174,
+		"maxSpAtk": 152,
+		"maxSpDef": 152,
+		"maxSpeed": 218
+	},
+	{
+		"maxHealth": 294,
+		"maxAttack": 163,
+		"maxDefense": 218,
+		"maxSpAtk": 163,
+		"maxSpDef": 163,
+		"maxSpeed": 185
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 306,
+		"maxDefense": 196,
+		"maxSpAtk": 207,
+		"maxSpDef": 284,
+		"maxSpeed": 273
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 207,
+		"maxDefense": 196,
+		"maxSpAtk": 185,
+		"maxSpDef": 185,
+		"maxSpeed": 232
+	},
+	{
+		"maxHealth": 330,
+		"maxAttack": 240,
+		"maxDefense": 229,
+		"maxSpAtk": 218,
+		"maxSpDef": 218,
+		"maxSpeed": 265
+	},
+	{
+		"maxHealth": 370,
+		"maxAttack": 284,
+		"maxDefense": 273,
+		"maxSpAtk": 262,
+		"maxSpDef": 262,
+		"maxSpeed": 331
+	},
+	{
+		"maxHealth": 264,
+		"maxAttack": 232,
+		"maxDefense": 185,
+		"maxSpAtk": 163,
+		"maxSpDef": 185,
+		"maxSpeed": 267
+	},
+	{
+		"maxHealth": 314,
+		"maxAttack": 287,
+		"maxDefense": 240,
+		"maxSpAtk": 218,
+		"maxSpDef": 262,
+		"maxSpeed": 322
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 240,
+		"maxDefense": 174,
+		"maxSpAtk": 177,
+		"maxSpDef": 177,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 306,
+		"maxDefense": 251,
+		"maxSpAtk": 243,
+		"maxSpDef": 243,
+		"maxSpeed": 328
+	},
+	{
+		"maxHealth": 274,
+		"maxAttack": 240,
+		"maxDefense": 205,
+		"maxSpAtk": 196,
+		"maxSpDef": 227,
+		"maxSpeed": 229
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 317,
+		"maxDefense": 260,
+		"maxSpAtk": 251,
+		"maxSpDef": 282,
+		"maxSpeed": 284
+	},
+	{
+		"maxHealth": 274,
+		"maxAttack": 229,
+		"maxDefense": 196,
+		"maxSpAtk": 218,
+		"maxSpDef": 218,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 306,
+		"maxDefense": 229,
+		"maxSpAtk": 306,
+		"maxSpDef": 284,
+		"maxSpeed": 350
+	},
+	{
+		"maxHealth": 304,
+		"maxAttack": 273,
+		"maxDefense": 295,
+		"maxSpAtk": 152,
+		"maxSpDef": 174,
+		"maxSpeed": 196
+	},
+	{
+		"maxHealth": 354,
+		"maxAttack": 328,
+		"maxDefense": 350,
+		"maxSpAtk": 207,
+		"maxSpDef": 229,
+		"maxSpeed": 251
+	},
+	{
+		"maxHealth": 314,
+		"maxAttack": 212,
+		"maxDefense": 223,
+		"maxSpAtk": 196,
+		"maxSpDef": 196,
+		"maxSpeed": 199
+	},
+	{
+		"maxHealth": 344,
+		"maxAttack": 245,
+		"maxDefense": 256,
+		"maxSpAtk": 229,
+		"maxSpDef": 229,
+		"maxSpeed": 232
+	},
+	{
+		"maxHealth": 384,
+		"maxAttack": 311,
+		"maxDefense": 300,
+		"maxSpAtk": 273,
+		"maxSpDef": 295,
+		"maxSpeed": 276
+	},
+	{
+		"maxHealth": 296,
+		"maxAttack": 234,
+		"maxDefense": 196,
+		"maxSpAtk": 196,
+		"maxSpDef": 196,
+		"maxSpeed": 218
+	},
+	{
+		"maxHealth": 326,
+		"maxAttack": 267,
+		"maxDefense": 234,
+		"maxSpAtk": 229,
+		"maxSpDef": 229,
+		"maxSpeed": 251
+	},
+	{
+		"maxHealth": 366,
+		"maxAttack": 333,
+		"maxDefense": 278,
+		"maxSpAtk": 295,
+		"maxSpDef": 273,
+		"maxSpeed": 295
+	},
+	{
+		"maxHealth": 344,
+		"maxAttack": 207,
+		"maxDefense": 214,
+		"maxSpAtk": 240,
+		"maxSpDef": 251,
+		"maxSpeed": 185
+	},
+	{
+		"maxHealth": 394,
+		"maxAttack": 262,
+		"maxDefense": 269,
+		"maxSpAtk": 317,
+		"maxSpDef": 306,
+		"maxSpeed": 240
+	},
+	{
+		"maxHealth": 280,
+		"maxAttack": 199,
+		"maxDefense": 196,
+		"maxSpAtk": 218,
+		"maxSpDef": 251,
+		"maxSpeed": 251
+	},
+	{
+		"maxHealth": 350,
+		"maxAttack": 276,
+		"maxDefense": 273,
+		"maxSpAtk": 287,
+		"maxSpDef": 328,
+		"maxSpeed": 328
+	},
+	{
+		"maxHealth": 434,
+		"maxAttack": 207,
+		"maxDefense": 152,
+		"maxSpAtk": 207,
+		"maxSpDef": 163,
+		"maxSpeed": 152
+	},
+	{
+		"maxHealth": 484,
+		"maxAttack": 262,
+		"maxDefense": 207,
+		"maxSpAtk": 295,
+		"maxSpDef": 218,
+		"maxSpeed": 207
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 207,
+		"maxDefense": 185,
+		"maxSpAtk": 174,
+		"maxSpDef": 196,
+		"maxSpeed": 229
+	},
+	{
+		"maxHealth": 354,
+		"maxAttack": 284,
+		"maxDefense": 262,
+		"maxSpAtk": 251,
+		"maxSpDef": 273,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 294,
+		"maxAttack": 218,
+		"maxDefense": 229,
+		"maxSpAtk": 273,
+		"maxSpDef": 251,
+		"maxSpeed": 174
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 251,
+		"maxDefense": 262,
+		"maxSpAtk": 295,
+		"maxSpDef": 273,
+		"maxSpeed": 196
+	},
+	{
+		"maxHealth": 354,
+		"maxAttack": 284,
+		"maxDefense": 295,
+		"maxSpAtk": 350,
+		"maxSpDef": 306,
+		"maxSpeed": 218
+	},
+	{
+		"maxHealth": 274,
+		"maxAttack": 262,
+		"maxDefense": 229,
+		"maxSpAtk": 207,
+		"maxSpDef": 229,
+		"maxSpeed": 163
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 317,
+		"maxDefense": 284,
+		"maxSpAtk": 240,
+		"maxSpDef": 284,
+		"maxSpeed": 174
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 229,
+		"maxDefense": 218,
+		"maxSpAtk": 196,
+		"maxSpDef": 229,
+		"maxSpeed": 207
+	},
+	{
+		"maxHealth": 344,
+		"maxAttack": 251,
+		"maxDefense": 240,
+		"maxSpAtk": 306,
+		"maxSpDef": 273,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 224,
+		"maxAttack": 229,
+		"maxDefense": 163,
+		"maxSpAtk": 185,
+		"maxSpDef": 207,
+		"maxSpeed": 317
+	},
+	{
+		"maxHealth": 274,
+		"maxAttack": 328,
+		"maxDefense": 218,
+		"maxSpAtk": 218,
+		"maxSpDef": 262,
+		"maxSpeed": 372
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 207,
+		"maxDefense": 185,
+		"maxSpAtk": 196,
+		"maxSpDef": 196,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 262,
+		"maxDefense": 240,
+		"maxSpAtk": 251,
+		"maxSpDef": 251,
+		"maxSpeed": 361
+	},
+	{
+		"maxHealth": 304,
+		"maxAttack": 223,
+		"maxDefense": 214,
+		"maxSpAtk": 251,
+		"maxSpDef": 218,
+		"maxSpeed": 229
+	},
+	{
+		"maxHealth": 364,
+		"maxAttack": 289,
+		"maxDefense": 280,
+		"maxSpAtk": 317,
+		"maxSpDef": 284,
+		"maxSpeed": 295
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 284,
+		"maxDefense": 185,
+		"maxSpAtk": 185,
+		"maxSpDef": 207,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 339,
+		"maxDefense": 240,
+		"maxSpAtk": 240,
+		"maxSpDef": 262,
+		"maxSpeed": 317
+	},
+	{
+		"maxHealth": 314,
+		"maxAttack": 262,
+		"maxDefense": 207,
+		"maxSpAtk": 262,
+		"maxSpDef": 218,
+		"maxSpeed": 240
+	},
+	{
+		"maxHealth": 384,
+		"maxAttack": 350,
+		"maxDefense": 284,
+		"maxSpAtk": 328,
+		"maxSpDef": 284,
+		"maxSpeed": 317
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 218,
+		"maxDefense": 196,
+		"maxSpAtk": 196,
+		"maxSpDef": 196,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 251,
+		"maxDefense": 251,
+		"maxSpAtk": 218,
+		"maxSpDef": 218,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 384,
+		"maxAttack": 317,
+		"maxDefense": 317,
+		"maxSpAtk": 262,
+		"maxSpDef": 306,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 254,
+		"maxAttack": 152,
+		"maxDefense": 141,
+		"maxSpAtk": 339,
+		"maxSpDef": 229,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 185,
+		"maxDefense": 174,
+		"maxSpAtk": 372,
+		"maxSpDef": 262,
+		"maxSpeed": 339
+	},
+	{
+		"maxHealth": 314,
+		"maxAttack": 218,
+		"maxDefense": 207,
+		"maxSpAtk": 405,
+		"maxSpDef": 317,
+		"maxSpeed": 372
+	},
+	{
+		"maxHealth": 344,
+		"maxAttack": 284,
+		"maxDefense": 218,
+		"maxSpAtk": 185,
+		"maxSpDef": 185,
+		"maxSpeed": 185
+	},
+	{
+		"maxHealth": 364,
+		"maxAttack": 328,
+		"maxDefense": 262,
+		"maxSpAtk": 218,
+		"maxSpDef": 240,
+		"maxSpeed": 207
+	},
+	{
+		"maxHealth": 384,
+		"maxAttack": 394,
+		"maxDefense": 284,
+		"maxSpAtk": 251,
+		"maxSpDef": 295,
+		"maxSpeed": 229
+	},
+	{
+		"maxHealth": 304,
+		"maxAttack": 273,
+		"maxDefense": 185,
+		"maxSpAtk": 262,
+		"maxSpDef": 174,
+		"maxSpeed": 196
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 306,
+		"maxDefense": 218,
+		"maxSpAtk": 295,
+		"maxSpDef": 207,
+		"maxSpeed": 229
+	},
+	{
+		"maxHealth": 364,
+		"maxAttack": 339,
+		"maxDefense": 251,
+		"maxSpAtk": 328,
+		"maxSpDef": 262,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 196,
+		"maxDefense": 185,
+		"maxSpAtk": 218,
+		"maxSpDef": 328,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 364,
+		"maxAttack": 262,
+		"maxDefense": 251,
+		"maxSpAtk": 284,
+		"maxSpDef": 372,
+		"maxSpeed": 328
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 284,
+		"maxDefense": 328,
+		"maxSpAtk": 174,
+		"maxSpDef": 174,
+		"maxSpeed": 152
+	},
+	{
+		"maxHealth": 314,
+		"maxAttack": 317,
+		"maxDefense": 361,
+		"maxSpAtk": 207,
+		"maxSpDef": 207,
+		"maxSpeed": 185
+	},
+	{
+		"maxHealth": 364,
+		"maxAttack": 372,
+		"maxDefense": 394,
+		"maxSpAtk": 229,
+		"maxSpDef": 251,
+		"maxSpeed": 207
+	},
+	{
+		"maxHealth": 304,
+		"maxAttack": 295,
+		"maxDefense": 229,
+		"maxSpAtk": 251,
+		"maxSpDef": 251,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 328,
+		"maxDefense": 262,
+		"maxSpAtk": 284,
+		"maxSpDef": 284,
+		"maxSpeed": 339
+	},
+	{
+		"maxHealth": 384,
+		"maxAttack": 251,
+		"maxDefense": 251,
+		"maxSpAtk": 196,
+		"maxSpDef": 196,
+		"maxSpeed": 141
+	},
+	{
+		"maxHealth": 394,
+		"maxAttack": 273,
+		"maxDefense": 350,
+		"maxSpAtk": 328,
+		"maxSpDef": 284,
+		"maxSpeed": 174
+	},
+	{
+		"maxHealth": 254,
+		"maxAttack": 185,
+		"maxDefense": 262,
+		"maxSpAtk": 317,
+		"maxSpDef": 229,
+		"maxSpeed": 207
+	},
+	{
+		"maxHealth": 304,
+		"maxAttack": 240,
+		"maxDefense": 317,
+		"maxSpAtk": 372,
+		"maxSpDef": 262,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 308,
+		"maxAttack": 306,
+		"maxDefense": 229,
+		"maxSpAtk": 236,
+		"maxSpDef": 245,
+		"maxSpeed": 240
+	},
+	{
+		"maxHealth": 274,
+		"maxAttack": 295,
+		"maxDefense": 207,
+		"maxSpAtk": 185,
+		"maxSpDef": 185,
+		"maxSpeed": 273
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 350,
+		"maxDefense": 262,
+		"maxSpAtk": 240,
+		"maxSpDef": 240,
+		"maxSpeed": 350
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 207,
+		"maxDefense": 229,
+		"maxSpAtk": 207,
+		"maxSpDef": 262,
+		"maxSpeed": 207
+	},
+	{
+		"maxHealth": 384,
+		"maxAttack": 262,
+		"maxDefense": 284,
+		"maxSpAtk": 262,
+		"maxSpDef": 317,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 364,
+		"maxAttack": 284,
+		"maxDefense": 218,
+		"maxSpAtk": 196,
+		"maxSpDef": 218,
+		"maxSpeed": 163
+	},
+	{
+		"maxHealth": 414,
+		"maxAttack": 339,
+		"maxDefense": 273,
+		"maxSpAtk": 251,
+		"maxSpDef": 328,
+		"maxSpeed": 218
+	},
+	{
+		"maxHealth": 264,
+		"maxAttack": 251,
+		"maxDefense": 328,
+		"maxSpAtk": 207,
+		"maxSpDef": 163,
+		"maxSpeed": 196
+	},
+	{
+		"maxHealth": 304,
+		"maxAttack": 317,
+		"maxDefense": 504,
+		"maxSpAtk": 295,
+		"maxSpDef": 207,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 264,
+		"maxAttack": 185,
+		"maxDefense": 174,
+		"maxSpAtk": 328,
+		"maxSpDef": 185,
+		"maxSpeed": 284
+	},
+	{
+		"maxHealth": 294,
+		"maxAttack": 218,
+		"maxDefense": 207,
+		"maxSpAtk": 361,
+		"maxSpDef": 229,
+		"maxSpeed": 317
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 251,
+		"maxDefense": 240,
+		"maxSpAtk": 394,
+		"maxSpDef": 273,
+		"maxSpeed": 350
+	},
+	{
+		"maxHealth": 274,
+		"maxAttack": 207,
+		"maxDefense": 460,
+		"maxSpAtk": 174,
+		"maxSpDef": 207,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 214,
+		"maxDefense": 207,
+		"maxSpAtk": 203,
+		"maxSpDef": 306,
+		"maxSpeed": 201
+	},
+	{
+		"maxHealth": 374,
+		"maxAttack": 269,
+		"maxDefense": 262,
+		"maxSpAtk": 269,
+		"maxSpDef": 361,
+		"maxSpeed": 256
+	},
+	{
+		"maxHealth": 264,
+		"maxAttack": 339,
+		"maxDefense": 306,
+		"maxSpAtk": 163,
+		"maxSpDef": 163,
+		"maxSpeed": 218
+	},
+	{
+		"maxHealth": 314,
+		"maxAttack": 394,
+		"maxDefense": 361,
+		"maxSpAtk": 218,
+		"maxSpDef": 218,
+		"maxSpeed": 273
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 174,
+		"maxDefense": 218,
+		"maxSpAtk": 229,
+		"maxSpDef": 229,
+		"maxSpeed": 328
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 218,
+		"maxDefense": 262,
+		"maxSpAtk": 284,
+		"maxSpDef": 284,
+		"maxSpeed": 438
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 196,
+		"maxDefense": 284,
+		"maxSpAtk": 240,
+		"maxSpDef": 207,
+		"maxSpeed": 196
+	},
+	{
+		"maxHealth": 394,
+		"maxAttack": 317,
+		"maxDefense": 295,
+		"maxSpAtk": 383,
+		"maxSpDef": 273,
+		"maxSpeed": 229
+	},
+	{
+		"maxHealth": 304,
+		"maxAttack": 218,
+		"maxDefense": 317,
+		"maxSpAtk": 196,
+		"maxSpDef": 218,
+		"maxSpeed": 185
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 284,
+		"maxDefense": 350,
+		"maxSpAtk": 218,
+		"maxSpDef": 284,
+		"maxSpeed": 207
+	},
+	{
+		"maxHealth": 304,
+		"maxAttack": 372,
+		"maxDefense": 225,
+		"maxSpAtk": 185,
+		"maxSpDef": 350,
+		"maxSpeed": 300
+	},
+	{
+		"maxHealth": 304,
+		"maxAttack": 339,
+		"maxDefense": 282,
+		"maxSpAtk": 185,
+		"maxSpDef": 350,
+		"maxSpeed": 276
+	},
+	{
+		"maxHealth": 384,
+		"maxAttack": 229,
+		"maxDefense": 273,
+		"maxSpAtk": 240,
+		"maxSpDef": 273,
+		"maxSpeed": 174
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 251,
+		"maxDefense": 317,
+		"maxSpAtk": 240,
+		"maxSpDef": 207,
+		"maxSpeed": 185
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 306,
+		"maxDefense": 372,
+		"maxSpAtk": 295,
+		"maxSpDef": 262,
+		"maxSpeed": 240
+	},
+	{
+		"maxHealth": 364,
+		"maxAttack": 295,
+		"maxDefense": 317,
+		"maxSpAtk": 174,
+		"maxSpDef": 174,
+		"maxSpeed": 163
+	},
+	{
+		"maxHealth": 414,
+		"maxAttack": 394,
+		"maxDefense": 372,
+		"maxSpAtk": 207,
+		"maxSpDef": 207,
+		"maxSpeed": 196
+	},
+	{
+		"maxHealth": 704,
+		"maxAttack": 119,
+		"maxDefense": 119,
+		"maxSpAtk": 185,
+		"maxSpDef": 339,
+		"maxSpeed": 218
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 229,
+		"maxDefense": 361,
+		"maxSpAtk": 328,
+		"maxSpDef": 196,
+		"maxSpeed": 240
+	},
+	{
+		"maxHealth": 414,
+		"maxAttack": 317,
+		"maxDefense": 284,
+		"maxSpAtk": 196,
+		"maxSpDef": 284,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 264,
+		"maxAttack": 196,
+		"maxDefense": 262,
+		"maxSpAtk": 262,
+		"maxSpDef": 163,
+		"maxSpeed": 240
+	},
+	{
+		"maxHealth": 314,
+		"maxAttack": 251,
+		"maxDefense": 317,
+		"maxSpAtk": 317,
+		"maxSpDef": 207,
+		"maxSpeed": 295
+	},
+	{
+		"maxHealth": 294,
+		"maxAttack": 256,
+		"maxDefense": 240,
+		"maxSpAtk": 185,
+		"maxSpDef": 218,
+		"maxSpeed": 247
+	},
+	{
+		"maxHealth": 364,
+		"maxAttack": 311,
+		"maxDefense": 251,
+		"maxSpAtk": 251,
+		"maxSpDef": 284,
+		"maxSpeed": 258
+	},
+	{
+		"maxHealth": 264,
+		"maxAttack": 207,
+		"maxDefense": 229,
+		"maxSpAtk": 262,
+		"maxSpDef": 229,
+		"maxSpeed": 295
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 273,
+		"maxDefense": 295,
+		"maxSpAtk": 328,
+		"maxSpDef": 295,
+		"maxSpeed": 361
+	},
+	{
+		"maxHealth": 284,
+		"maxAttack": 207,
+		"maxDefense": 251,
+		"maxSpAtk": 328,
+		"maxSpDef": 372,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 344,
+		"maxAttack": 350,
+		"maxDefense": 284,
+		"maxSpAtk": 229,
+		"maxSpDef": 284,
+		"maxSpeed": 339
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 218,
+		"maxDefense": 185,
+		"maxSpAtk": 361,
+		"maxSpDef": 317,
+		"maxSpeed": 317
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 291,
+		"maxDefense": 234,
+		"maxSpAtk": 317,
+		"maxSpDef": 295,
+		"maxSpeed": 339
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 317,
+		"maxDefense": 234,
+		"maxSpAtk": 328,
+		"maxSpDef": 295,
+		"maxSpeed": 313
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 383,
+		"maxDefense": 328,
+		"maxSpAtk": 229,
+		"maxSpDef": 262,
+		"maxSpeed": 295
+	},
+	{
+		"maxHealth": 354,
+		"maxAttack": 328,
+		"maxDefense": 317,
+		"maxSpAtk": 196,
+		"maxSpDef": 262,
+		"maxSpeed": 350
+	},
+	{
+		"maxHealth": 244,
+		"maxAttack": 130,
+		"maxDefense": 229,
+		"maxSpAtk": 141,
+		"maxSpDef": 152,
+		"maxSpeed": 284
+	},
+	{
+		"maxHealth": 394,
+		"maxAttack": 383,
+		"maxDefense": 282,
+		"maxSpAtk": 240,
+		"maxSpDef": 328,
+		"maxSpeed": 287
+	},
+	{
+		"maxHealth": 464,
+		"maxAttack": 295,
+		"maxDefense": 284,
+		"maxSpAtk": 295,
+		"maxSpDef": 317,
+		"maxSpeed": 240
+	},
+	{
+		"maxHealth": 300,
+		"maxAttack": 214,
+		"maxDefense": 214,
+		"maxSpAtk": 214,
+		"maxSpDef": 214,
+		"maxSpeed": 214
+	},
+	{
+		"maxHealth": 314,
+		"maxAttack": 229,
+		"maxDefense": 218,
+		"maxSpAtk": 207,
+		"maxSpDef": 251,
+		"maxSpeed": 229
+	},
+	{
+		"maxHealth": 464,
+		"maxAttack": 251,
+		"maxDefense": 240,
+		"maxSpAtk": 350,
+		"maxSpDef": 317,
+		"maxSpeed": 251
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 251,
+		"maxDefense": 240,
+		"maxSpAtk": 350,
+		"maxSpDef": 317,
+		"maxSpeed": 394
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 394,
+		"maxDefense": 240,
+		"maxSpAtk": 317,
+		"maxSpDef": 350,
+		"maxSpeed": 251
+	},
+	{
+		"maxHealth": 334,
+		"maxAttack": 240,
+		"maxDefense": 262,
+		"maxSpAtk": 295,
+		"maxSpDef": 273,
+		"maxSpeed": 196
+	},
+	{
+		"maxHealth": 274,
+		"maxAttack": 196,
+		"maxDefense": 328,
+		"maxSpAtk": 306,
+		"maxSpDef": 229,
+		"maxSpeed": 185
+	},
+	{
+		"maxHealth": 344,
+		"maxAttack": 240,
+		"maxDefense": 383,
+		"maxSpAtk": 361,
+		"maxSpDef": 262,
+		"maxSpeed": 229
+	},
+	{
+		"maxHealth": 264,
+		"maxAttack": 284,
+		"maxDefense": 306,
+		"maxSpAtk": 229,
+		"maxSpDef": 207,
+		"maxSpeed": 229
+	},
+	{
+		"maxHealth": 324,
+		"maxAttack": 361,
+		"maxDefense": 339,
+		"maxSpAtk": 251,
+		"maxSpDef": 262,
+		"maxSpeed": 284
+	},
+	{
+		"maxHealth": 364,
+		"maxAttack": 339,
+		"maxDefense": 251,
+		"maxSpAtk": 240,
+		"maxSpDef": 273,
+		"maxSpeed": 394
+	},
+	{
+		"maxHealth": 524,
+		"maxAttack": 350,
+		"maxDefense": 251,
+		"maxSpAtk": 251,
+		"maxSpDef": 350,
+		"maxSpeed": 174
+	},
+	{
+		"maxHealth": 384,
+		"maxAttack": 295,
+		"maxDefense": 328,
+		"maxSpAtk": 317,
+		"maxSpDef": 383,
+		"maxSpeed": 295
+	},
+	{
+		"maxHealth": 384,
+		"maxAttack": 306,
+		"maxDefense": 295,
+		"maxSpAtk": 383,
+		"maxSpDef": 306,
+		"maxSpeed": 328
+	},
+	{
+		"maxHealth": 384,
+		"maxAttack": 328,
+		"maxDefense": 306,
+		"maxSpAtk": 383,
+		"maxSpDef": 295,
+		"maxSpeed": 306
+	},
+	{
+		"maxHealth": 286,
+		"maxAttack": 249,
+		"maxDefense": 207,
+		"maxSpAtk": 218,
+		"maxSpDef": 218,
+		"maxSpeed": 218
+	},
+	{
+		"maxHealth": 326,
+		"maxAttack": 293,
+		"maxDefense": 251,
+		"maxSpAtk": 262,
+		"maxSpDef": 262,
+		"maxSpeed": 262
+	},
+	{
+		"maxHealth": 386,
+		"maxAttack": 403,
+		"maxDefense": 317,
+		"maxSpAtk": 328,
+		"maxSpDef": 328,
+		"maxSpeed": 284
+	},
+	{
+		"maxHealth": 416,
+		"maxAttack": 350,
+		"maxDefense": 306,
+		"maxSpAtk": 447,
+		"maxSpDef": 306,
+		"maxSpeed": 394
+	},
+	{
+		"maxHealth": 404,
+		"maxAttack": 328,
+		"maxDefense": 328,
+		"maxSpAtk": 328,
+		"maxSpDef": 328,
+		"maxSpeed": 328
+	}
+]
