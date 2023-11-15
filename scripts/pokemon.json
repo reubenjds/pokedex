@@ -3774,7 +3774,7 @@
 	{
 		"pokedexNumber": 83,
 		"name": "Farfetchd",
-		"evolutions": ["085"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/farfetchd.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png",
 		"types": ["normal", "flying"],
@@ -3820,7 +3820,7 @@
 	{
 		"pokedexNumber": 84,
 		"name": "Doduo",
-		"evolutions": [],
+		"evolutions": ["085"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/doduo.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png",
 		"types": ["normal", "flying"],
@@ -3866,7 +3866,7 @@
 	{
 		"pokedexNumber": 85,
 		"name": "Dodrio",
-		"evolutions": ["087"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dodrio.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png",
 		"types": ["normal", "flying"],
@@ -3912,7 +3912,7 @@
 	{
 		"pokedexNumber": 86,
 		"name": "Seel",
-		"evolutions": [],
+		"evolutions": ["087"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/seel.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png",
 		"types": ["water"],
@@ -3958,7 +3958,7 @@
 	{
 		"pokedexNumber": 87,
 		"name": "Dewgong",
-		"evolutions": ["089"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dewgong.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png",
 		"types": ["water", "ice"],
@@ -4004,7 +4004,7 @@
 	{
 		"pokedexNumber": 88,
 		"name": "Grimer",
-		"evolutions": [],
+		"evolutions": ["089"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/grimer.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png",
 		"types": ["poison"],
@@ -4050,7 +4050,7 @@
 	{
 		"pokedexNumber": 89,
 		"name": "Muk",
-		"evolutions": ["091"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/muk.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
 		"types": ["poison"],
@@ -4096,7 +4096,7 @@
 	{
 		"pokedexNumber": 90,
 		"name": "Shellder",
-		"evolutions": [],
+		"evolutions": ["091"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/shellder.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png",
 		"types": ["water"],
@@ -4142,7 +4142,7 @@
 	{
 		"pokedexNumber": 91,
 		"name": "Cloyster",
-		"evolutions": ["093", "094"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/cloyster.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png",
 		"types": ["water", "ice"],
@@ -4188,7 +4188,7 @@
 	{
 		"pokedexNumber": 92,
 		"name": "Gastly",
-		"evolutions": ["094"],
+		"evolutions": ["093", "094"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/gastly.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png",
 		"types": ["ghost", "poison"],
@@ -4234,7 +4234,7 @@
 	{
 		"pokedexNumber": 93,
 		"name": "Haunter",
-		"evolutions": [],
+		"evolutions": ["094"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/haunter.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png",
 		"types": ["ghost", "poison"],
@@ -4326,7 +4326,7 @@
 	{
 		"pokedexNumber": 95,
 		"name": "Onix",
-		"evolutions": ["097"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/onix.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
 		"types": ["rock", "ground"],
@@ -4372,7 +4372,7 @@
 	{
 		"pokedexNumber": 96,
 		"name": "Drowzee",
-		"evolutions": [],
+		"evolutions": ["097"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/drowzee.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png",
 		"types": ["psychic"],
@@ -4418,7 +4418,7 @@
 	{
 		"pokedexNumber": 97,
 		"name": "Hypno",
-		"evolutions": ["099"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/hypno.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png",
 		"types": ["psychic"],
@@ -4464,7 +4464,7 @@
 	{
 		"pokedexNumber": 98,
 		"name": "Krabby",
-		"evolutions": [],
+		"evolutions": ["099"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/krabby.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png",
 		"types": ["water"],
@@ -4510,7 +4510,7 @@
 	{
 		"pokedexNumber": 99,
 		"name": "Kingler",
-		"evolutions": ["101"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/kingler.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png",
 		"types": ["water"],
@@ -4556,7 +4556,7 @@
 	{
 		"pokedexNumber": 100,
 		"name": "Voltorb",
-		"evolutions": [],
+		"evolutions": ["101"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/voltorb.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png",
 		"types": ["electric"],
@@ -4602,7 +4602,7 @@
 	{
 		"pokedexNumber": 101,
 		"name": "Electrode",
-		"evolutions": ["103", "103"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/electrode.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png",
 		"types": ["electric"],
@@ -4648,7 +4648,7 @@
 	{
 		"pokedexNumber": 102,
 		"name": "Exeggcute",
-		"evolutions": ["103"],
+		"evolutions": ["103", "103"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/exeggcute.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png",
 		"types": ["grass", "psychic"],
@@ -4694,7 +4694,7 @@
 	{
 		"pokedexNumber": 103,
 		"name": "Exeggutor",
-		"evolutions": ["105", "105"],
+		"evolutions": ["103"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png",
 		"types": ["grass", "psychic"],
@@ -4740,7 +4740,7 @@
 	{
 		"pokedexNumber": 104,
 		"name": "Cubone",
-		"evolutions": ["105"],
+		"evolutions": ["105", "105"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/cubone.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png",
 		"types": ["ground"],
@@ -4786,7 +4786,7 @@
 	{
 		"pokedexNumber": 105,
 		"name": "Marowak",
-		"evolutions": ["107"],
+		"evolutions": ["105"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/marowak.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png",
 		"types": ["ground"],
@@ -4832,7 +4832,7 @@
 	{
 		"pokedexNumber": 106,
 		"name": "Hitmonlee",
-		"evolutions": [],
+		"evolutions": ["107"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/hitmonlee.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png",
 		"types": ["fighting"],
@@ -4924,7 +4924,7 @@
 	{
 		"pokedexNumber": 108,
 		"name": "Lickitung",
-		"evolutions": ["110", "110"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/lickitung.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png",
 		"types": ["normal"],
@@ -4970,7 +4970,7 @@
 	{
 		"pokedexNumber": 109,
 		"name": "Koffing",
-		"evolutions": ["110"],
+		"evolutions": ["110", "110"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/koffing.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png",
 		"types": ["poison"],
@@ -5016,7 +5016,7 @@
 	{
 		"pokedexNumber": 110,
 		"name": "Weezing",
-		"evolutions": ["112"],
+		"evolutions": ["110"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/weezing.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png",
 		"types": ["poison"],
@@ -5062,7 +5062,7 @@
 	{
 		"pokedexNumber": 111,
 		"name": "Rhyhorn",
-		"evolutions": [],
+		"evolutions": ["112"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/rhyhorn.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png",
 		"types": ["ground", "rock"],
@@ -5200,7 +5200,7 @@
 	{
 		"pokedexNumber": 114,
 		"name": "Tangela",
-		"evolutions": ["117"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/tangela.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png",
 		"types": ["grass"],
@@ -5292,7 +5292,7 @@
 	{
 		"pokedexNumber": 116,
 		"name": "Horsea",
-		"evolutions": ["119"],
+		"evolutions": ["117"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/horsea.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png",
 		"types": ["water"],
@@ -5384,7 +5384,7 @@
 	{
 		"pokedexNumber": 118,
 		"name": "Goldeen",
-		"evolutions": ["121"],
+		"evolutions": ["119"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/goldeen.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png",
 		"types": ["water"],
@@ -5476,7 +5476,7 @@
 	{
 		"pokedexNumber": 120,
 		"name": "Staryu",
-		"evolutions": [],
+		"evolutions": ["121"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/staryu.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png",
 		"types": ["water"],
@@ -5660,7 +5660,7 @@
 	{
 		"pokedexNumber": 124,
 		"name": "Jynx",
-		"evolutions": ["130"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/jynx.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png",
 		"types": ["ice", "psychic"],
@@ -5752,7 +5752,7 @@
 	{
 		"pokedexNumber": 126,
 		"name": "Magmar",
-		"evolutions": ["134", "135"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/magmar.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png",
 		"types": ["fire"],
@@ -5798,7 +5798,7 @@
 	{
 		"pokedexNumber": 127,
 		"name": "Pinsir",
-		"evolutions": ["135"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/pinsir.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png",
 		"types": ["bug"],
@@ -5890,7 +5890,7 @@
 	{
 		"pokedexNumber": 129,
 		"name": "Magikarp",
-		"evolutions": [],
+		"evolutions": ["130"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/magikarp.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png",
 		"types": ["water"],
@@ -5982,7 +5982,7 @@
 	{
 		"pokedexNumber": 131,
 		"name": "Lapras",
-		"evolutions": ["139"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/lapras.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
 		"types": ["water", "ice"],
@@ -6074,7 +6074,7 @@
 	{
 		"pokedexNumber": 133,
 		"name": "Eevee",
-		"evolutions": ["141"],
+		"evolutions": ["134", "135"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/eevee.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
 		"types": ["normal"],
@@ -6120,7 +6120,7 @@
 	{
 		"pokedexNumber": 134,
 		"name": "Vaporeon",
-		"evolutions": [],
+		"evolutions": ["135"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/vaporeon.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png",
 		"types": ["water"],
@@ -6212,7 +6212,7 @@
 	{
 		"pokedexNumber": 136,
 		"name": "Flareon",
-		"evolutions": ["148", "149"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/flareon.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png",
 		"types": ["fire"],
@@ -6258,7 +6258,7 @@
 	{
 		"pokedexNumber": 137,
 		"name": "Porygon",
-		"evolutions": ["149"],
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/porygon.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png",
 		"types": ["normal"],
@@ -6304,7 +6304,7 @@
 	{
 		"pokedexNumber": 138,
 		"name": "Omanyte",
-		"evolutions": [],
+		"evolutions": ["139"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/omanyte.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png",
 		"types": ["rock", "water"],
@@ -6350,6 +6350,7 @@
 	{
 		"pokedexNumber": 139,
 		"name": "Omastar",
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/omastar.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png",
 		"types": ["rock", "water"],
@@ -6395,6 +6396,7 @@
 	{
 		"pokedexNumber": 140,
 		"name": "Kabuto",
+		"evolutions": ["141"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/kabuto.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png",
 		"types": ["rock", "water"],
@@ -6440,6 +6442,7 @@
 	{
 		"pokedexNumber": 141,
 		"name": "Kabutops",
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/kabutops.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png",
 		"types": ["rock", "water"],
@@ -6485,6 +6488,7 @@
 	{
 		"pokedexNumber": 142,
 		"name": "Aerodactyl",
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/aerodactyl.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png",
 		"types": ["rock", "flying"],
@@ -6530,6 +6534,7 @@
 	{
 		"pokedexNumber": 143,
 		"name": "Snorlax",
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/snorlax.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
 		"types": ["normal"],
@@ -6575,6 +6580,7 @@
 	{
 		"pokedexNumber": 144,
 		"name": "Articuno",
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/articuno.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png",
 		"types": ["ice", "flying"],
@@ -6620,6 +6626,7 @@
 	{
 		"pokedexNumber": 145,
 		"name": "Zapdos",
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/zapdos.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png",
 		"types": ["electric", "flying"],
@@ -6665,6 +6672,7 @@
 	{
 		"pokedexNumber": 146,
 		"name": "Moltres",
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/moltres.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png",
 		"types": ["fire", "flying"],
@@ -6710,6 +6718,7 @@
 	{
 		"pokedexNumber": 147,
 		"name": "Dratini",
+		"evolutions": ["148", "149"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dratini.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png",
 		"types": ["dragon"],
@@ -6755,6 +6764,7 @@
 	{
 		"pokedexNumber": 148,
 		"name": "Dragonair",
+		"evolutions": ["149"],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dragonair.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png",
 		"types": ["dragon"],
@@ -6800,6 +6810,7 @@
 	{
 		"pokedexNumber": 149,
 		"name": "Dragonite",
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dragonite.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
 		"types": ["dragon", "flying"],
@@ -6845,6 +6856,7 @@
 	{
 		"pokedexNumber": 150,
 		"name": "Mewtwo",
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
 		"types": ["psychic"],
@@ -6890,6 +6902,7 @@
 	{
 		"pokedexNumber": 151,
 		"name": "Mew",
+		"evolutions": [],
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/mew.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
 		"types": ["psychic"],
