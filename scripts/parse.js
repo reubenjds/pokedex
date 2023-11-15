@@ -2,6 +2,7 @@
 
 import fs from "fs";
 import maxStat from "./maxStats.json" assert { type: "json" };
+import evolution from "./evolutions.json" assert { type: "json" };
 
 const fileData = fs.readFileSync("FirstGenPokemon.csv", "utf-8");
 
@@ -85,6 +86,7 @@ for (let i = 1; i < splitLines.length - 1; i++) {
 	const dexData = {
 		pokedexNumber,
 		name: splitEntry[1],
+		evolutions: evolution[i - 1],
 		spriteSmallLink,
 		spriteBigLink,
 		types,
