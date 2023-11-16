@@ -1,10 +1,15 @@
 <!-- @format -->
 <template>
 	<div class="flex flex-wrap items-center justify-center h-screen">
-		<div class="flex flex-wrap place-items-center gap-4 items-center justify-center">
+		<div
+			class="flex flex-wrap place-items-center gap-x-20 gap-y-5 items-center justify-center">
 			<div class="relative">
-				<h1 class="absolute text-3xl text-white top-5 left-5">Bulbasaur</h1>
-				<img class="h-390 w-363" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" />
+				<h1 class="absolute text-3xl font-bold text-white top-5 left-5">
+					Bulbasaur
+				</h1>
+				<img
+					class="h-390 w-363"
+					src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" />
 			</div>
 
 			<div>
@@ -33,49 +38,67 @@
 				</table>
 			</div>
 			<div>
-				<h2>Base Stats</h2>
+				<h2 class="font-bold text-white">Base Stats</h2>
 				<table class="table">
 					<tbody>
 						<tr>
 							<th>HP:</th>
 							<td>
 								45
-								<progress class="progress progress-success w-56" value="100" max="100"></progress>
+								<progress
+									class="progress progress-success w-56"
+									value="100"
+									max="100"></progress>
 							</td>
 						</tr>
 						<tr>
 							<th>Attack:</th>
 							<td>
 								49
-								<progress class="progress progress-error w-56" value="100" max="100"></progress>
+								<progress
+									class="progress progress-error w-56"
+									value="100"
+									max="100"></progress>
 							</td>
 						</tr>
 						<tr>
 							<th>Defense:</th>
 							<td>
 								49
-								<progress class="progress progress-info w-56" value="100" max="100"></progress>
+								<progress
+									class="progress progress-info w-56"
+									value="100"
+									max="100"></progress>
 							</td>
 						</tr>
 						<tr>
 							<th>Sp. Atk:</th>
 							<td>
 								65
-								<progress class="progress progress-secondary w-56" value="100" max="100"></progress>
+								<progress
+									class="progress progress-secondary w-56"
+									value="100"
+									max="100"></progress>
 							</td>
 						</tr>
 						<tr>
 							<th>Sp. Def:</th>
 							<td>
 								65
-								<progress class="progress progress-primary w-56" value="100" max="100"></progress>
+								<progress
+									class="progress progress-primary w-56"
+									value="100"
+									max="100"></progress>
 							</td>
 						</tr>
 						<tr>
 							<th>Speed:</th>
 							<td>
 								45
-								<progress class="progress progress-warning w-56" value="100" max="100"></progress>
+								<progress
+									class="progress progress-warning w-56"
+									value="100"
+									max="100"></progress>
 							</td>
 						</tr>
 					</tbody>
@@ -83,15 +106,19 @@
 			</div>
 			<div></div>
 			<div class="grid grid-rows-2 flex-wrap px-2 place-items-center">
-				<div class="flex items-center justify-center">Strong Against</div>
-				<div class="flex flex-wrap">
+				<div class="flex items-center justify-center font-bold text-white">
+					Strong Against
+				</div>
+				<div class="flex flex-wrap justify-center">
 					<div class="fire">FIRE</div>
 					<div class="flying">FLYING</div>
 					<div class="ice">ICE</div>
 					<div class="psychic">PSYCHIC</div>
 				</div>
-				<div class="flex items-center justify-center">Weak Against</div>
-				<div class="flex flex-wrap">
+				<div class="flex items-center justify-center font-bold text-white">
+					Weak Against
+				</div>
+				<div class="flex flex-wrap justify-center">
 					<div class="electric">ELECTRIC</div>
 					<div class="fairy">FAIRY</div>
 					<div class="fighting">FIGHTING</div>
@@ -108,9 +135,11 @@
 							<th>Evolutions:</th>
 							<td>
 								<div class="flex flex-wrap items-center justify-center">
-									<img class="hover:scale-125 transition-all duration-500 ease-in-out"
+									<img
+										class="hover:scale-125 transition-all duration-500 ease-in-out"
 										src="https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png" />
-									<img class="hover:scale-125 transition-all duration-500 ease-in-out"
+									<img
+										class="hover:scale-125 transition-all duration-500 ease-in-out"
 										src="https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png" />
 								</div>
 							</td>
