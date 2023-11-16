@@ -1,15 +1,30 @@
 /** @format */
 
-.bug, .dark, .dragon, .electric, .fairy, .fighting, .fire, .flying, .ghost, .grass, .ground, .ice, .normal, .poison, .psychic, .rock, .steel, .water{
+.bug,
+.dark,
+.dragon,
+.electric,
+.fairy,
+.fighting,
+.fire,
+.flying,
+.ghost,
+.grass,
+.ground,
+.ice,
+.normal,
+.poison,
+.psychic,
+.rock,
+.steel,
+.water {
 	width: 100px;
-	text-align: center;
-	color: white;
-	font-weight: bold;
+
+	@apply badge text-white font-bold text-center;
 }
 
 .bug {
 	background-color: #a8b820;
-	
 }
 .dark {
 	background-color: #705848;

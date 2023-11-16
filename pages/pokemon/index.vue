@@ -2,7 +2,8 @@
 
 <template>
 	<div class="flex flex-wrap items-center justify-center h-screen">
-		<PokeBar pokemon="Bulbasaur"></PokeBar>
-		<div class="flex flex-col items-center justify-center"></div>
+		<div class="flex flex-col items-center justify-center w-1/3">
+			<PokeBar pokemon="Bulbasaur"></PokeBar>
+		</div>
 	</div>
 </template>

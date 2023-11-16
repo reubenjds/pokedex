@@ -1,7 +1,8 @@
 <!-- @format -->
 
 <template>
-	<div class="btn btn-block btn-circle flex">
+	<div
+		class="bg-base-300 p-8 rounded-2xl btn flex flex-nowrap place-items-center justify-center align-middle">
 		<img
 			src="https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png" />
 		<div class="font-bold text-white">{{ pokemon }}</div>
