@@ -4,6 +4,7 @@ import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import { pokemonRouter } from "./routes/pokemon.js";
 
 dotenv.config();
 
@@ -15,4 +16,6 @@ db.once("open", () => console.log("Connected to server"));
 const app = express();
 app.use(cors({ origin: true }));
 app.use(express.json());
+app.use("/pokemon", pokemonRouter);
+
 app.listen(4040, () => console.log("Server running on port 4040"));
