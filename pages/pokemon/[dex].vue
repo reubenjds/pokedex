@@ -1,5 +1,3 @@
-<!-- @format -->
-
 <script setup lang="ts">
 	import axios from "axios";
 
@@ -10,7 +8,6 @@
 	console.log(pokemon);
 </script>
 
-<!-- @format -->
 <template>
 	<div class="flex flex-wrap items-center justify-center h-screen">
 		<div

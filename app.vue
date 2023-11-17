@@ -1,5 +1,3 @@
-<!-- @format -->
-
 <script>
 	import "./app.css";
 </script>

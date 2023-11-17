@@ -1,5 +1,3 @@
-<!-- @format -->
-
 <template>
 	<div
 		class="bg-base-300 p-8 rounded-2xl btn flex flex-nowrap place-items-center justify-center align-middle">
