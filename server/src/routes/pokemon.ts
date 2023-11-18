@@ -1,9 +1,7 @@
 import express from "express";
-import Poke from "../models/poke.js";
+import Poke from "../models/poke";
 
 const router = express.Router();
-
-//module.exports = router;
 
 // Get all pokemon
 router.get("/", async (req, res) => {

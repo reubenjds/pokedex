@@ -1,14 +1,14 @@
-/** @format */
-
 import express from "express";
 import cors from "cors";
-import mongoose from "mongoose";
+import mongoose, { type ConnectOptions } from "mongoose";
 import dotenv from "dotenv";
-import { pokemonRouter } from "./routes/pokemon.js";
+import { pokemonRouter } from "./routes/pokemon";
 
 dotenv.config();
 
-mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true });
+mongoose.connect(process.env.DATABASE_URL!, {
+	useNewUrlParser: true,
+} as ConnectOptions);
 const db = mongoose.connection;
 db.on("error", (e) => console.error(e));
 db.once("open", () => console.log("Connected to server"));

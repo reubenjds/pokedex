@@ -27,8 +27,4 @@ const pokeSchema = new mongoose.Schema({
 	},
 });
 
-export default model.exports = mongoose.model(
-	"Poke",
-	pokeSchema,
-	"generation1"
-);
+export default mongoose.model("Poke", pokeSchema, "generation1");
