@@ -1,30 +1,23 @@
 <template>
-	<div class="bg-base-300 p-8 rounded-2xl btn flex flex-nowrap place-items-center justify-center align-middle">
+	<a :href="'/pokemon/' + pokedexNumber" class="bg-base-300 p-4 rounded-2xl flex flex-row w-full">
 		<img :src="spriteSmall" />
-		<div class="font-bold text-white">{{ name }}
+		<div class="w-full">
+			<div class="font-bold text-white text-center">{{ name }}</div>
+			<div class="flex flex-row gap-2 justify-center">
+
+				<div v-for="type in types" class="" :class="type">{{ type }}</div>
+
+			</div>
 		</div>
-		<div class="flex flex-col gap-2">
-			<div v-for="type in types" class="px-2" v-bind:class="type">{{ type }}</div>
-		</div>
-	</div>
+	</a>
 </template>
 
-<script>
-export default {
+<script setup lang="ts">
 
-	props: {
-		types: {
-			type: Array,
-			required: true,
-		},
-		name: {
-			type: String,
-			required: true,
-		},
-		spriteSmall: {
-			type: String,
-			required: true,
-		},
-	},
-};
+defineProps<{
+	types: string[];
+	name: string;
+	spriteSmall: string;
+	pokedexNumber: number;
+}>()
 </script>
