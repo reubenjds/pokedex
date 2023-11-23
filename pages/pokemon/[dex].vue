@@ -1,24 +1,28 @@
 <script setup lang="ts">
-	import axios from "axios";
+import axios from "axios";
 
-	const { id } = useRoute().params;
+const { dex } = useRoute().params;
 
-	const { data: pokemon } = await useFetch(`http://localhost:4040/pokemon/`);
+async function getPokemon() {
+	try {
+		const response = await axios.get(`http://localhost:4040/pokemon/${dex}`);
+		console.log(response.data);
+	} catch (error) {
+		console.error(error);
+	}
+}
 
-	console.log(pokemon);
+getPokemon(); // get
 </script>
 
 <template>
 	<div class="flex flex-wrap items-center justify-center h-screen">
-		<div
-			class="flex flex-wrap place-items-center gap-x-20 gap-y-5 items-center justify-center">
+		<div class="flex flex-wrap place-items-center gap-x-20 gap-y-5 items-center justify-center">
 			<div class="relative">
 				<h1 class="absolute text-3xl font-bold text-white top-5 left-5">
 					Bulbasaur
 				</h1>
-				<img
-					class="h-390 w-363"
-					src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" />
+				<img class="h-390 w-363" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" />
 			</div>
 
 			<div>
@@ -54,60 +58,42 @@
 							<th>HP:</th>
 							<td>
 								45
-								<progress
-									class="progress progress-success w-56"
-									value="100"
-									max="100"></progress>
+								<progress class="progress progress-success w-56" value="100" max="100"></progress>
 							</td>
 						</tr>
 						<tr>
 							<th>Attack:</th>
 							<td>
 								49
-								<progress
-									class="progress progress-error w-56"
-									value="100"
-									max="100"></progress>
+								<progress class="progress progress-error w-56" value="100" max="100"></progress>
 							</td>
 						</tr>
 						<tr>
 							<th>Defense:</th>
 							<td>
 								49
-								<progress
-									class="progress progress-info w-56"
-									value="100"
-									max="100"></progress>
+								<progress class="progress progress-info w-56" value="100" max="100"></progress>
 							</td>
 						</tr>
 						<tr>
 							<th>Sp. Atk:</th>
 							<td>
 								65
-								<progress
-									class="progress progress-secondary w-56"
-									value="100"
-									max="100"></progress>
+								<progress class="progress progress-secondary w-56" value="100" max="100"></progress>
 							</td>
 						</tr>
 						<tr>
 							<th>Sp. Def:</th>
 							<td>
 								65
-								<progress
-									class="progress progress-primary w-56"
-									value="100"
-									max="100"></progress>
+								<progress class="progress progress-primary w-56" value="100" max="100"></progress>
 							</td>
 						</tr>
 						<tr>
 							<th>Speed:</th>
 							<td>
 								45
-								<progress
-									class="progress progress-warning w-56"
-									value="100"
-									max="100"></progress>
+								<progress class="progress progress-warning w-56" value="100" max="100"></progress>
 							</td>
 						</tr>
 					</tbody>
@@ -144,11 +130,9 @@
 							<th>Evolutions:</th>
 							<td>
 								<div class="flex flex-wrap items-center justify-center">
-									<img
-										class="hover:scale-125 transition-all duration-500 ease-in-out"
+									<img class="hover:scale-125 transition-all duration-500 ease-in-out"
 										src="https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png" />
-									<img
-										class="hover:scale-125 transition-all duration-500 ease-in-out"
+									<img class="hover:scale-125 transition-all duration-500 ease-in-out"
 										src="https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png" />
 								</div>
 							</td>
