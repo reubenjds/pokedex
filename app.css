@@ -19,8 +19,9 @@
 .steel,
 .water {
 	width: 100px;
+	
 
-	@apply badge text-white font-bold text-center;
+	@apply badge text-white font-bold text-center uppercase;
 }
 
 .bug {

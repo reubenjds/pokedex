@@ -1,4 +1,4 @@
-export { Pokemon };
+export type { Pokemon };
 
 declare global {
 	type Pokemon = {

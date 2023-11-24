@@ -1,18 +1,23 @@
 <template>
-	<div
-		class="bg-base-300 p-8 rounded-2xl btn flex flex-nowrap place-items-center justify-center align-middle">
-		<img
-			src="https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png" />
-		<div class="font-bold text-white">{{ pokemon }}</div>
-		<div class="flex flex-col gap-2">
-			<div class="grass px-2">GRASS</div>
-			<div class="poison px-2">POISON</div>
+	<a :href="'/pokemon/' + pokedexNumber" class="bg-base-300 p-4 rounded-2xl flex flex-row w-full">
+		<img :src="spriteSmall" />
+		<div class="w-full">
+			<div class="font-bold text-white text-center">{{ name }}</div>
+			<div class="flex flex-row gap-2 justify-center">
+
+				<div v-for="type in types" class="" :class="type">{{ type }}</div>
+
+			</div>
 		</div>
-	</div>
+	</a>
 </template>
 
-<script>
-	export default {
-		props: ["pokemon"],
-	};
+<script setup lang="ts">
+
+defineProps<{
+	types: string[];
+	name: string;
+	spriteSmall: string;
+	pokedexNumber: number;
+}>()
 </script>
