@@ -27,8 +27,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
-		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
+		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 2,
@@ -58,8 +58,8 @@
 			"maxSpDef": 328,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
-		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
+		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 3,
@@ -89,8 +89,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 251
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
-		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
+		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 4,
@@ -120,8 +120,8 @@
 			"maxSpDef": 251,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["Fire", "Grass", "Bug"],
-		"weakAgainst": ["Water", "Ground", "Rock"]
+		"strongAgainst": ["fire", "grass", "bug"],
+		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
 		"pokedexNumber": 5,
@@ -151,8 +151,8 @@
 			"maxSpDef": 295,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["Fire", "Grass", "Bug"],
-		"weakAgainst": ["Water", "Ground", "Rock"]
+		"strongAgainst": ["fire", "grass", "bug"],
+		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
 		"pokedexNumber": 6,
@@ -182,8 +182,8 @@
 			"maxSpDef": 249,
 			"maxSpeed": 203
 		},
-		"strongAgainst": ["Fire", "Grass", "Fight", "Ground", "Bug"],
-		"weakAgainst": ["Water", "Eletric", "Ice", "Rock"]
+		"strongAgainst": ["fire", "grass", "fighting", "ground", "bug"],
+		"weakAgainst": ["water", "electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 7,
@@ -213,8 +213,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 236
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 8,
@@ -244,8 +244,8 @@
 			"maxSpDef": 339,
 			"maxSpeed": 280
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 9,
@@ -275,8 +275,8 @@
 			"maxSpDef": 152,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 10,
@@ -306,8 +306,8 @@
 			"maxSpDef": 163,
 			"maxSpeed": 174
 		},
-		"strongAgainst": ["Grass", "Fight", "Ground"],
-		"weakAgainst": ["Fire", "Poison", "Flying", "Rock"]
+		"strongAgainst": ["grass", "fighting", "ground"],
+		"weakAgainst": ["fire", "poison", "flying", "rock"]
 	},
 	{
 		"pokedexNumber": 11,
@@ -337,8 +337,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Grass", "Fight", "Ground"],
-		"weakAgainst": ["Fire", "Poison", "Flying", "Rock"]
+		"strongAgainst": ["grass", "fighting", "ground"],
+		"weakAgainst": ["fire", "poison", "flying", "rock"]
 	},
 	{
 		"pokedexNumber": 12,
@@ -368,8 +368,8 @@
 			"maxSpDef": 152,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["Grass", "Fight", "Ground", "Bug"],
-		"weakAgainst": ["Fire", "Eletric", "Ice", "Poison", "Flying", "Rock"]
+		"strongAgainst": ["grass", "fighting", "ground", "bug"],
+		"weakAgainst": ["fire", "electric", "ice", "poison", "flying", "rock"]
 	},
 	{
 		"pokedexNumber": 13,
@@ -399,8 +399,8 @@
 			"maxSpDef": 163,
 			"maxSpeed": 185
 		},
-		"strongAgainst": ["Grass", "Fight"],
-		"weakAgainst": ["Fire", "Flying", "Psychic", "Bug", "Rock"]
+		"strongAgainst": ["grass", "fighting"],
+		"weakAgainst": ["fire", "flying", "psychic", "bug", "rock"]
 	},
 	{
 		"pokedexNumber": 14,
@@ -430,8 +430,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 273
 		},
-		"strongAgainst": ["Grass", "Fight"],
-		"weakAgainst": ["Fire", "Flying", "Psychic", "Bug", "Rock"]
+		"strongAgainst": ["grass", "fighting"],
+		"weakAgainst": ["fire", "flying", "psychic", "bug", "rock"]
 	},
 	{
 		"pokedexNumber": 15,
@@ -461,8 +461,8 @@
 			"maxSpDef": 185,
 			"maxSpeed": 232
 		},
-		"strongAgainst": ["Grass", "Fight"],
-		"weakAgainst": ["Fire", "Flying", "Psychic", "Bug", "Rock"]
+		"strongAgainst": ["grass", "fighting"],
+		"weakAgainst": ["fire", "flying", "psychic", "bug", "rock"]
 	},
 	{
 		"pokedexNumber": 16,
@@ -492,8 +492,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 265
 		},
-		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
-		"weakAgainst": ["Eletric", "Ice", "Rock"]
+		"strongAgainst": ["grass", "ground", "bug", "ghost"],
+		"weakAgainst": ["electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 17,
@@ -523,8 +523,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 331
 		},
-		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
-		"weakAgainst": ["Eletric", "Ice", "Rock"]
+		"strongAgainst": ["grass", "ground", "bug", "ghost"],
+		"weakAgainst": ["electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 18,
@@ -554,8 +554,8 @@
 			"maxSpDef": 185,
 			"maxSpeed": 267
 		},
-		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
-		"weakAgainst": ["Eletric", "Ice", "Rock"]
+		"strongAgainst": ["grass", "ground", "bug", "ghost"],
+		"weakAgainst": ["electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 19,
@@ -585,8 +585,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 322
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 20,
@@ -616,8 +616,8 @@
 			"maxSpDef": 177,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 21,
@@ -647,8 +647,8 @@
 			"maxSpDef": 243,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
-		"weakAgainst": ["Eletric", "Ice", "Rock"]
+		"strongAgainst": ["grass", "ground", "bug", "ghost"],
+		"weakAgainst": ["electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 22,
@@ -678,8 +678,8 @@
 			"maxSpDef": 227,
 			"maxSpeed": 229
 		},
-		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
-		"weakAgainst": ["Eletric", "Ice", "Rock"]
+		"strongAgainst": ["grass", "ground", "bug", "ghost"],
+		"weakAgainst": ["electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 23,
@@ -709,8 +709,8 @@
 			"maxSpDef": 282,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Bug"]
+		"strongAgainst": ["grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 24,
@@ -740,8 +740,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Bug"]
+		"strongAgainst": ["grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 25,
@@ -771,8 +771,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 350
 		},
-		"strongAgainst": ["Eletric", "Flying"],
-		"weakAgainst": ["Ground"]
+		"strongAgainst": ["electric", "flying"],
+		"weakAgainst": ["ground"]
 	},
 	{
 		"pokedexNumber": 26,
@@ -802,8 +802,8 @@
 			"maxSpDef": 174,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["Eletric", "Flying"],
-		"weakAgainst": ["Ground"]
+		"strongAgainst": ["electric", "flying"],
+		"weakAgainst": ["ground"]
 	},
 	{
 		"pokedexNumber": 27,
@@ -833,8 +833,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 251
 		},
-		"strongAgainst": ["Eletric", "Poison", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice"]
+		"strongAgainst": ["electric", "poison", "rock"],
+		"weakAgainst": ["water", "grass", "ice"]
 	},
 	{
 		"pokedexNumber": 28,
@@ -864,8 +864,8 @@
 			"maxSpDef": 196,
 			"maxSpeed": 199
 		},
-		"strongAgainst": ["Eletric", "Poison", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice"]
+		"strongAgainst": ["electric", "poison", "rock"],
+		"weakAgainst": ["water", "grass", "ice"]
 	},
 	{
 		"pokedexNumber": 29,
@@ -895,8 +895,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 232
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Bug"]
+		"strongAgainst": ["grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 30,
@@ -926,8 +926,8 @@
 			"maxSpDef": 295,
 			"maxSpeed": 276
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Bug"]
+		"strongAgainst": ["grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 31,
@@ -957,8 +957,8 @@
 			"maxSpDef": 196,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["Eletric", "Fight", "Poison", "Rock"],
-		"weakAgainst": ["Water", "Ice", "Ground", "Psychic", "Bug"]
+		"strongAgainst": ["electric", "fighting", "poison", "rock"],
+		"weakAgainst": ["water", "ice", "ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 32,
@@ -988,8 +988,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 251
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Bug"]
+		"strongAgainst": ["grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 33,
@@ -1019,8 +1019,8 @@
 			"maxSpDef": 273,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Bug"]
+		"strongAgainst": ["grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 34,
@@ -1050,8 +1050,8 @@
 			"maxSpDef": 251,
 			"maxSpeed": 185
 		},
-		"strongAgainst": ["Eletric", "Fight", "Poison", "Rock"],
-		"weakAgainst": ["Water", "Ice", "Ground", "Psychic", "Bug"]
+		"strongAgainst": ["electric", "fighting", "poison", "rock"],
+		"weakAgainst": ["water", "ice", "ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 35,
@@ -1081,8 +1081,8 @@
 			"maxSpDef": 306,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 36,
@@ -1112,8 +1112,8 @@
 			"maxSpDef": 251,
 			"maxSpeed": 251
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 37,
@@ -1143,8 +1143,8 @@
 			"maxSpDef": 328,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["Fire", "Grass", "Bug"],
-		"weakAgainst": ["Water", "Ground", "Rock"]
+		"strongAgainst": ["fire", "grass", "bug"],
+		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
 		"pokedexNumber": 38,
@@ -1174,8 +1174,8 @@
 			"maxSpDef": 163,
 			"maxSpeed": 152
 		},
-		"strongAgainst": ["Fire", "Grass", "Bug"],
-		"weakAgainst": ["Water", "Ground", "Rock"]
+		"strongAgainst": ["fire", "grass", "bug"],
+		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
 		"pokedexNumber": 39,
@@ -1205,8 +1205,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 40,
@@ -1236,8 +1236,8 @@
 			"maxSpDef": 196,
 			"maxSpeed": 229
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 41,
@@ -1267,8 +1267,8 @@
 			"maxSpDef": 273,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison", "Ground"],
-		"weakAgainst": ["Eletric", "Ice", "Psychic", "Rock"]
+		"strongAgainst": ["grass", "fighting", "poison", "ground"],
+		"weakAgainst": ["electric", "ice", "psychic", "rock"]
 	},
 	{
 		"pokedexNumber": 42,
@@ -1298,8 +1298,8 @@
 			"maxSpDef": 251,
 			"maxSpeed": 174
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison", "Ground"],
-		"weakAgainst": ["Eletric", "Ice", "Psychic", "Rock"]
+		"strongAgainst": ["grass", "fighting", "poison", "ground"],
+		"weakAgainst": ["electric", "ice", "psychic", "rock"]
 	},
 	{
 		"pokedexNumber": 43,
@@ -1329,8 +1329,8 @@
 			"maxSpDef": 273,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
-		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
+		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 44,
@@ -1360,8 +1360,8 @@
 			"maxSpDef": 306,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
-		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
+		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 45,
@@ -1391,8 +1391,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 163
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
-		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
+		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 46,
@@ -1422,8 +1422,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 174
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight", "Ground"],
-		"weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug", "Rock"]
+		"strongAgainst": ["water", "electric", "grass", "fighting", "ground"],
+		"weakAgainst": ["fire", "ice", "poison", "flying", "bug", "rock"]
 	},
 	{
 		"pokedexNumber": 47,
@@ -1453,8 +1453,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight", "Ground"],
-		"weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug", "Rock"]
+		"strongAgainst": ["water", "electric", "grass", "fighting", "ground"],
+		"weakAgainst": ["fire", "ice", "poison", "flying", "bug", "rock"]
 	},
 	{
 		"pokedexNumber": 48,
@@ -1484,8 +1484,8 @@
 			"maxSpDef": 273,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Grass", "Fight"],
-		"weakAgainst": ["Fire", "Flying", "Psychic", "Bug", "Rock"]
+		"strongAgainst": ["grass", "fighting"],
+		"weakAgainst": ["fire", "flying", "psychic", "bug", "rock"]
 	},
 	{
 		"pokedexNumber": 49,
@@ -1515,8 +1515,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 317
 		},
-		"strongAgainst": ["Grass", "Fight"],
-		"weakAgainst": ["Fire", "Flying", "Psychic", "Bug", "Rock"]
+		"strongAgainst": ["grass", "fighting"],
+		"weakAgainst": ["fire", "flying", "psychic", "bug", "rock"]
 	},
 	{
 		"pokedexNumber": 50,
@@ -1546,8 +1546,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 372
 		},
-		"strongAgainst": ["Eletric", "Poison", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice"]
+		"strongAgainst": ["electric", "poison", "rock"],
+		"weakAgainst": ["water", "grass", "ice"]
 	},
 	{
 		"pokedexNumber": 51,
@@ -1577,8 +1577,8 @@
 			"maxSpDef": 196,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Eletric", "Poison", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice"]
+		"strongAgainst": ["electric", "poison", "rock"],
+		"weakAgainst": ["water", "grass", "ice"]
 	},
 	{
 		"pokedexNumber": 52,
@@ -1608,8 +1608,8 @@
 			"maxSpDef": 251,
 			"maxSpeed": 361
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 53,
@@ -1639,8 +1639,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 229
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 54,
@@ -1670,8 +1670,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 55,
@@ -1701,8 +1701,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 56,
@@ -1732,8 +1732,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 317
 		},
-		"strongAgainst": ["Bug", "Rock"],
-		"weakAgainst": ["Flying", "Psychic"]
+		"strongAgainst": ["bug", "rock"],
+		"weakAgainst": ["flying", "psychic"]
 	},
 	{
 		"pokedexNumber": 57,
@@ -1763,8 +1763,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["Bug", "Rock"],
-		"weakAgainst": ["Flying", "Psychic"]
+		"strongAgainst": ["bug", "rock"],
+		"weakAgainst": ["flying", "psychic"]
 	},
 	{
 		"pokedexNumber": 58,
@@ -1794,8 +1794,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 317
 		},
-		"strongAgainst": ["Fire", "Grass", "Bug"],
-		"weakAgainst": ["Water", "Ground", "Rock"]
+		"strongAgainst": ["fire", "grass", "bug"],
+		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
 		"pokedexNumber": 59,
@@ -1825,8 +1825,8 @@
 			"maxSpDef": 196,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Fire", "Grass", "Bug"],
-		"weakAgainst": ["Water", "Ground", "Rock"]
+		"strongAgainst": ["fire", "grass", "bug"],
+		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
 		"pokedexNumber": 60,
@@ -1856,8 +1856,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 61,
@@ -1887,8 +1887,8 @@
 			"maxSpDef": 306,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 62,
@@ -1918,8 +1918,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Fire", "Water", "Ice", "Bug", "Rock"],
-		"weakAgainst": ["Eletric", "Grass", "Flying", "Psychic"]
+		"strongAgainst": ["fire", "water", "ice", "bug", "rock"],
+		"weakAgainst": ["electric", "grass", "flying", "psychic"]
 	},
 	{
 		"pokedexNumber": 63,
@@ -1949,8 +1949,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 339
 		},
-		"strongAgainst": ["Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Bug"]
+		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"weakAgainst": ["bug"]
 	},
 	{
 		"pokedexNumber": 64,
@@ -1980,8 +1980,8 @@
 			"maxSpDef": 317,
 			"maxSpeed": 372
 		},
-		"strongAgainst": ["Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Bug"]
+		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"weakAgainst": ["bug"]
 	},
 	{
 		"pokedexNumber": 65,
@@ -2011,8 +2011,8 @@
 			"maxSpDef": 185,
 			"maxSpeed": 185
 		},
-		"strongAgainst": ["Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Bug"]
+		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"weakAgainst": ["bug"]
 	},
 	{
 		"pokedexNumber": 66,
@@ -2042,8 +2042,8 @@
 			"maxSpDef": 240,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["Bug", "Rock"],
-		"weakAgainst": ["Flying", "Psychic"]
+		"strongAgainst": ["bug", "rock"],
+		"weakAgainst": ["flying", "psychic"]
 	},
 	{
 		"pokedexNumber": 67,
@@ -2073,8 +2073,8 @@
 			"maxSpDef": 295,
 			"maxSpeed": 229
 		},
-		"strongAgainst": ["Bug", "Rock"],
-		"weakAgainst": ["Flying", "Psychic"]
+		"strongAgainst": ["bug", "rock"],
+		"weakAgainst": ["flying", "psychic"]
 	},
 	{
 		"pokedexNumber": 68,
@@ -2104,8 +2104,8 @@
 			"maxSpDef": 174,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["Bug", "Rock"],
-		"weakAgainst": ["Flying", "Psychic"]
+		"strongAgainst": ["bug", "rock"],
+		"weakAgainst": ["flying", "psychic"]
 	},
 	{
 		"pokedexNumber": 69,
@@ -2135,8 +2135,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 229
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
-		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
+		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 70,
@@ -2166,8 +2166,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
-		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
+		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 71,
@@ -2197,8 +2197,8 @@
 			"maxSpDef": 328,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
-		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
+		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 72,
@@ -2228,8 +2228,8 @@
 			"maxSpDef": 372,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["Fire", "Water", "Ice", "Fight", "Poison"],
-		"weakAgainst": ["Eletric", "Ground", "Psychic", "Bug"]
+		"strongAgainst": ["fire", "water", "ice", "fighting", "poison"],
+		"weakAgainst": ["electric", "ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 73,
@@ -2259,8 +2259,8 @@
 			"maxSpDef": 174,
 			"maxSpeed": 152
 		},
-		"strongAgainst": ["Fire", "Water", "Ice", "Fight", "Poison"],
-		"weakAgainst": ["Eletric", "Ground", "Psychic", "Bug"]
+		"strongAgainst": ["fire", "water", "ice", "fighting", "poison"],
+		"weakAgainst": ["electric", "ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 74,
@@ -2290,8 +2290,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 185
 		},
-		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
 		"pokedexNumber": 75,
@@ -2321,8 +2321,8 @@
 			"maxSpDef": 251,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
 		"pokedexNumber": 76,
@@ -2352,8 +2352,8 @@
 			"maxSpDef": 251,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
 		"pokedexNumber": 77,
@@ -2383,8 +2383,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 339
 		},
-		"strongAgainst": ["Fire", "Grass", "Bug"],
-		"weakAgainst": ["Water", "Ground", "Rock"]
+		"strongAgainst": ["fire", "grass", "bug"],
+		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
 		"pokedexNumber": 78,
@@ -2414,8 +2414,8 @@
 			"maxSpDef": 196,
 			"maxSpeed": 141
 		},
-		"strongAgainst": ["Fire", "Grass", "Bug"],
-		"weakAgainst": ["Water", "Ground", "Rock"]
+		"strongAgainst": ["fire", "grass", "bug"],
+		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
 		"pokedexNumber": 79,
@@ -2445,8 +2445,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 174
 		},
-		"strongAgainst": ["Fire", "Water", "Ice", "Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Eletric", "Grass", "Bug"]
+		"strongAgainst": ["fire", "water", "ice", "fighting", "psychic", "ghost"],
+		"weakAgainst": ["electric", "grass", "bug"]
 	},
 	{
 		"pokedexNumber": 80,
@@ -2476,8 +2476,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["Fire", "Water", "Ice", "Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Eletric", "Grass", "Bug"]
+		"strongAgainst": ["fire", "water", "ice", "fighting", "psychic", "ghost"],
+		"weakAgainst": ["electric", "grass", "bug"]
 	},
 	{
 		"pokedexNumber": 81,
@@ -2507,8 +2507,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Eletric", "Flying"],
-		"weakAgainst": ["Ground"]
+		"strongAgainst": ["electric", "flying"],
+		"weakAgainst": ["ground"]
 	},
 	{
 		"pokedexNumber": 82,
@@ -2538,8 +2538,8 @@
 			"maxSpDef": 245,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["Eletric", "Flying"],
-		"weakAgainst": ["Ground"]
+		"strongAgainst": ["electric", "flying"],
+		"weakAgainst": ["ground"]
 	},
 	{
 		"pokedexNumber": 83,
@@ -2569,8 +2569,8 @@
 			"maxSpDef": 185,
 			"maxSpeed": 273
 		},
-		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
-		"weakAgainst": ["Eletric", "Ice", "Rock"]
+		"strongAgainst": ["grass", "ground", "bug", "ghost"],
+		"weakAgainst": ["electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 84,
@@ -2600,8 +2600,8 @@
 			"maxSpDef": 240,
 			"maxSpeed": 350
 		},
-		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
-		"weakAgainst": ["Eletric", "Ice", "Rock"]
+		"strongAgainst": ["grass", "ground", "bug", "ghost"],
+		"weakAgainst": ["electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 85,
@@ -2631,8 +2631,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
-		"weakAgainst": ["Eletric", "Ice", "Rock"]
+		"strongAgainst": ["grass", "ground", "bug", "ghost"],
+		"weakAgainst": ["electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 86,
@@ -2662,8 +2662,8 @@
 			"maxSpDef": 317,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 87,
@@ -2693,8 +2693,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 163
 		},
-		"strongAgainst": ["Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass", "Fight", "Rock"]
+		"strongAgainst": ["water", "ice"],
+		"weakAgainst": ["electric", "grass", "fighting", "rock"]
 	},
 	{
 		"pokedexNumber": 88,
@@ -2724,8 +2724,8 @@
 			"maxSpDef": 328,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Bug"]
+		"strongAgainst": ["grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 89,
@@ -2755,8 +2755,8 @@
 			"maxSpDef": 163,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Bug"]
+		"strongAgainst": ["grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 90,
@@ -2786,8 +2786,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 91,
@@ -2817,8 +2817,8 @@
 			"maxSpDef": 185,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass", "Fight", "Rock"]
+		"strongAgainst": ["water", "ice"],
+		"weakAgainst": ["electric", "grass", "fighting", "rock"]
 	},
 	{
 		"pokedexNumber": 92,
@@ -2848,8 +2848,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 317
 		},
-		"strongAgainst": ["Normal", "Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Ghost"]
+		"strongAgainst": ["normal", "grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "ghost"]
 	},
 	{
 		"pokedexNumber": 93,
@@ -2879,8 +2879,8 @@
 			"maxSpDef": 273,
 			"maxSpeed": 350
 		},
-		"strongAgainst": ["Normal", "Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Ghost"]
+		"strongAgainst": ["normal", "grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "ghost"]
 	},
 	{
 		"pokedexNumber": 94,
@@ -2910,8 +2910,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Normal", "Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Ghost"]
+		"strongAgainst": ["normal", "grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "ghost"]
 	},
 	{
 		"pokedexNumber": 95,
@@ -2941,8 +2941,8 @@
 			"maxSpDef": 306,
 			"maxSpeed": 201
 		},
-		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
 		"pokedexNumber": 96,
@@ -2972,8 +2972,8 @@
 			"maxSpDef": 361,
 			"maxSpeed": 256
 		},
-		"strongAgainst": ["Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Bug"]
+		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"weakAgainst": ["bug"]
 	},
 	{
 		"pokedexNumber": 97,
@@ -3003,8 +3003,8 @@
 			"maxSpDef": 163,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Bug"]
+		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"weakAgainst": ["bug"]
 	},
 	{
 		"pokedexNumber": 98,
@@ -3034,8 +3034,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 273
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 99,
@@ -3065,8 +3065,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 100,
@@ -3096,8 +3096,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 438
 		},
-		"strongAgainst": ["Eletric", "Flying"],
-		"weakAgainst": ["Ground"]
+		"strongAgainst": ["electric", "flying"],
+		"weakAgainst": ["ground"]
 	},
 	{
 		"pokedexNumber": 101,
@@ -3127,8 +3127,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["Eletric", "Flying"],
-		"weakAgainst": ["Ground"]
+		"strongAgainst": ["electric", "flying"],
+		"weakAgainst": ["ground"]
 	},
 	{
 		"pokedexNumber": 102,
@@ -3159,15 +3159,15 @@
 			"maxSpeed": 229
 		},
 		"strongAgainst": [
-			"Water",
-			"Eletric",
-			"Grass",
-			"Fight",
-			"Ground",
-			"Psychic",
-			"Ghost"
+			"water",
+			"electric",
+			"grass",
+			"fighting",
+			"ground",
+			"psychic",
+			"ghost"
 		],
-		"weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug"]
+		"weakAgainst": ["fire", "ice", "poison", "flying", "bug"]
 	},
 	{
 		"pokedexNumber": 103,
@@ -3198,15 +3198,15 @@
 			"maxSpeed": 185
 		},
 		"strongAgainst": [
-			"Water",
-			"Eletric",
-			"Grass",
-			"Fight",
-			"Ground",
-			"Psychic",
-			"Ghost"
+			"water",
+			"electric",
+			"grass",
+			"fighting",
+			"ground",
+			"psychic",
+			"ghost"
 		],
-		"weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug"]
+		"weakAgainst": ["fire", "ice", "poison", "flying", "bug"]
 	},
 	{
 		"pokedexNumber": 104,
@@ -3236,8 +3236,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["Eletric", "Poison", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice"]
+		"strongAgainst": ["electric", "poison", "rock"],
+		"weakAgainst": ["water", "grass", "ice"]
 	},
 	{
 		"pokedexNumber": 105,
@@ -3267,8 +3267,8 @@
 			"maxSpDef": 350,
 			"maxSpeed": 300
 		},
-		"strongAgainst": ["Eletric", "Poison", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice"]
+		"strongAgainst": ["electric", "poison", "rock"],
+		"weakAgainst": ["water", "grass", "ice"]
 	},
 	{
 		"pokedexNumber": 106,
@@ -3298,8 +3298,8 @@
 			"maxSpDef": 350,
 			"maxSpeed": 276
 		},
-		"strongAgainst": ["Bug", "Rock"],
-		"weakAgainst": ["Flying", "Psychic"]
+		"strongAgainst": ["bug", "rock"],
+		"weakAgainst": ["flying", "psychic"]
 	},
 	{
 		"pokedexNumber": 107,
@@ -3329,8 +3329,8 @@
 			"maxSpDef": 273,
 			"maxSpeed": 174
 		},
-		"strongAgainst": ["Bug", "Rock"],
-		"weakAgainst": ["Flying", "Psychic"]
+		"strongAgainst": ["bug", "rock"],
+		"weakAgainst": ["flying", "psychic"]
 	},
 	{
 		"pokedexNumber": 108,
@@ -3360,8 +3360,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 185
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 109,
@@ -3391,8 +3391,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Bug"]
+		"strongAgainst": ["grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 110,
@@ -3422,8 +3422,8 @@
 			"maxSpDef": 174,
 			"maxSpeed": 163
 		},
-		"strongAgainst": ["Grass", "Fight", "Poison"],
-		"weakAgainst": ["Ground", "Psychic", "Bug"]
+		"strongAgainst": ["grass", "fighting", "poison"],
+		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
 		"pokedexNumber": 111,
@@ -3453,8 +3453,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
 		"pokedexNumber": 112,
@@ -3484,8 +3484,8 @@
 			"maxSpDef": 339,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
-		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
 		"pokedexNumber": 113,
@@ -3515,8 +3515,8 @@
 			"maxSpDef": 196,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 114,
@@ -3546,8 +3546,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Water", "Eletric", "Grass", "Ground"],
-		"weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug"]
+		"strongAgainst": ["water", "electric", "grass", "ground"],
+		"weakAgainst": ["fire", "ice", "poison", "flying", "bug"]
 	},
 	{
 		"pokedexNumber": 115,
@@ -3577,8 +3577,8 @@
 			"maxSpDef": 163,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 116,
@@ -3608,8 +3608,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 117,
@@ -3639,8 +3639,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 247
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 118,
@@ -3670,8 +3670,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 258
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 119,
@@ -3701,8 +3701,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 120,
@@ -3732,8 +3732,8 @@
 			"maxSpDef": 295,
 			"maxSpeed": 361
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 121,
@@ -3763,8 +3763,8 @@
 			"maxSpDef": 372,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Fire", "Water", "Ice", "Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Eletric", "Grass", "Bug"]
+		"strongAgainst": ["fire", "water", "ice", "fighting", "psychic", "ghost"],
+		"weakAgainst": ["electric", "grass", "bug"]
 	},
 	{
 		"pokedexNumber": 122,
@@ -3794,8 +3794,8 @@
 			"maxSpDef": 284,
 			"maxSpeed": 339
 		},
-		"strongAgainst": ["Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Bug"]
+		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"weakAgainst": ["bug"]
 	},
 	{
 		"pokedexNumber": 123,
@@ -3825,8 +3825,8 @@
 			"maxSpDef": 317,
 			"maxSpeed": 317
 		},
-		"strongAgainst": ["Grass", "Fight", "Ground", "Bug"],
-		"weakAgainst": ["Fire", "Eletric", "Ice", "Poison", "Flying", "Rock"]
+		"strongAgainst": ["grass", "fighting", "ground", "bug"],
+		"weakAgainst": ["fire", "electric", "ice", "poison", "flying", "rock"]
 	},
 	{
 		"pokedexNumber": 124,
@@ -3856,8 +3856,8 @@
 			"maxSpDef": 295,
 			"maxSpeed": 339
 		},
-		"strongAgainst": ["Ice", "Psychic", "Ghost"],
-		"weakAgainst": ["Fire", "Bug", "Rock"]
+		"strongAgainst": ["ice", "psychic", "ghost"],
+		"weakAgainst": ["fire", "bug", "rock"]
 	},
 	{
 		"pokedexNumber": 125,
@@ -3887,8 +3887,8 @@
 			"maxSpDef": 295,
 			"maxSpeed": 313
 		},
-		"strongAgainst": ["Eletric", "Flying"],
-		"weakAgainst": ["Ground"]
+		"strongAgainst": ["electric", "flying"],
+		"weakAgainst": ["ground"]
 	},
 	{
 		"pokedexNumber": 126,
@@ -3918,8 +3918,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["Fire", "Grass", "Bug"],
-		"weakAgainst": ["Water", "Ground", "Rock"]
+		"strongAgainst": ["fire", "grass", "bug"],
+		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
 		"pokedexNumber": 127,
@@ -3949,8 +3949,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 350
 		},
-		"strongAgainst": ["Grass", "Fight", "Ground"],
-		"weakAgainst": ["Fire", "Poison", "Flying", "Rock"]
+		"strongAgainst": ["grass", "fighting", "ground"],
+		"weakAgainst": ["fire", "poison", "flying", "rock"]
 	},
 	{
 		"pokedexNumber": 128,
@@ -3980,8 +3980,8 @@
 			"maxSpDef": 152,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 129,
@@ -4011,8 +4011,8 @@
 			"maxSpDef": 328,
 			"maxSpeed": 287
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 130,
@@ -4042,8 +4042,8 @@
 			"maxSpDef": 317,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["Fire", "Water", "Fight", "Ground", "Bug"],
-		"weakAgainst": ["Eletric", "Rock"]
+		"strongAgainst": ["fire", "water", "fighting", "ground", "bug"],
+		"weakAgainst": ["electric", "rock"]
 	},
 	{
 		"pokedexNumber": 131,
@@ -4073,8 +4073,8 @@
 			"maxSpDef": 214,
 			"maxSpeed": 214
 		},
-		"strongAgainst": ["Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass", "Fight", "Rock"]
+		"strongAgainst": ["water", "ice"],
+		"weakAgainst": ["electric", "grass", "fighting", "rock"]
 	},
 	{
 		"pokedexNumber": 132,
@@ -4104,8 +4104,8 @@
 			"maxSpDef": 251,
 			"maxSpeed": 229
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 133,
@@ -4135,8 +4135,8 @@
 			"maxSpDef": 317,
 			"maxSpeed": 251
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 134,
@@ -4166,8 +4166,8 @@
 			"maxSpDef": 317,
 			"maxSpeed": 394
 		},
-		"strongAgainst": ["Fire", "Water", "Ice"],
-		"weakAgainst": ["Eletric", "Grass"]
+		"strongAgainst": ["fire", "water", "ice"],
+		"weakAgainst": ["electric", "grass"]
 	},
 	{
 		"pokedexNumber": 135,
@@ -4197,8 +4197,8 @@
 			"maxSpDef": 350,
 			"maxSpeed": 251
 		},
-		"strongAgainst": ["Eletric", "Flying"],
-		"weakAgainst": ["Ground"]
+		"strongAgainst": ["electric", "flying"],
+		"weakAgainst": ["ground"]
 	},
 	{
 		"pokedexNumber": 136,
@@ -4228,8 +4228,8 @@
 			"maxSpDef": 273,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["Fire", "Grass", "Bug"],
-		"weakAgainst": ["Water", "Ground", "Rock"]
+		"strongAgainst": ["fire", "grass", "bug"],
+		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
 		"pokedexNumber": 137,
@@ -4259,8 +4259,8 @@
 			"maxSpDef": 229,
 			"maxSpeed": 185
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 138,
@@ -4290,8 +4290,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 229
 		},
-		"strongAgainst": ["Normal", "Fire", "Ice", "Poison", "Flying"],
-		"weakAgainst": ["Eletric", "Grass", "Fight", "Ground"]
+		"strongAgainst": ["normal", "fire", "ice", "poison", "flying"],
+		"weakAgainst": ["electric", "grass", "fighting", "ground"]
 	},
 	{
 		"pokedexNumber": 139,
@@ -4321,8 +4321,8 @@
 			"maxSpDef": 207,
 			"maxSpeed": 229
 		},
-		"strongAgainst": ["Normal", "Fire", "Ice", "Poison", "Flying"],
-		"weakAgainst": ["Eletric", "Grass", "Fight", "Ground"]
+		"strongAgainst": ["normal", "fire", "ice", "poison", "flying"],
+		"weakAgainst": ["electric", "grass", "fighting", "ground"]
 	},
 	{
 		"pokedexNumber": 140,
@@ -4352,8 +4352,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["Normal", "Fire", "Ice", "Poison", "Flying"],
-		"weakAgainst": ["Eletric", "Grass", "Fight", "Ground"]
+		"strongAgainst": ["normal", "fire", "ice", "poison", "flying"],
+		"weakAgainst": ["electric", "grass", "fighting", "ground"]
 	},
 	{
 		"pokedexNumber": 141,
@@ -4383,8 +4383,8 @@
 			"maxSpDef": 273,
 			"maxSpeed": 394
 		},
-		"strongAgainst": ["Normal", "Fire", "Ice", "Poison", "Flying"],
-		"weakAgainst": ["Eletric", "Grass", "Fight", "Ground"]
+		"strongAgainst": ["normal", "fire", "ice", "poison", "flying"],
+		"weakAgainst": ["electric", "grass", "fighting", "ground"]
 	},
 	{
 		"pokedexNumber": 142,
@@ -4414,8 +4414,8 @@
 			"maxSpDef": 350,
 			"maxSpeed": 174
 		},
-		"strongAgainst": ["Normal", "Fire", "Poison", "Ground", "Flying", "Bug"],
-		"weakAgainst": ["Water", "Eletric", "Ice", "Rock"]
+		"strongAgainst": ["normal", "fire", "poison", "ground", "flying", "bug"],
+		"weakAgainst": ["water", "electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 143,
@@ -4445,8 +4445,8 @@
 			"maxSpDef": 383,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["Ghost"],
-		"weakAgainst": ["Fight"]
+		"strongAgainst": ["ghost"],
+		"weakAgainst": ["fighting"]
 	},
 	{
 		"pokedexNumber": 144,
@@ -4476,8 +4476,8 @@
 			"maxSpDef": 306,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["Grass", "Ground", "Bug"],
-		"weakAgainst": ["Fire", "Eletric", "Rock"]
+		"strongAgainst": ["grass", "ground", "bug"],
+		"weakAgainst": ["fire", "electric", "rock"]
 	},
 	{
 		"pokedexNumber": 145,
@@ -4507,8 +4507,8 @@
 			"maxSpDef": 295,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["Grass", "Fight", "Ground", "Flying", "Bug"],
-		"weakAgainst": ["Ice", "Rock"]
+		"strongAgainst": ["grass", "fighting", "ground", "flying", "bug"],
+		"weakAgainst": ["ice", "rock"]
 	},
 	{
 		"pokedexNumber": 146,
@@ -4538,8 +4538,8 @@
 			"maxSpDef": 218,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["Fire", "Grass", "Fight", "Ground", "Bug"],
-		"weakAgainst": ["Water", "Eletric", "Ice", "Rock"]
+		"strongAgainst": ["fire", "grass", "fighting", "ground", "bug"],
+		"weakAgainst": ["water", "electric", "ice", "rock"]
 	},
 	{
 		"pokedexNumber": 147,
@@ -4569,8 +4569,8 @@
 			"maxSpDef": 262,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["Fire", "Water", "Eletric", "Grass"],
-		"weakAgainst": ["Ice", "Dragon"]
+		"strongAgainst": ["fire", "water", "electric", "grass"],
+		"weakAgainst": ["ice", "dragon"]
 	},
 	{
 		"pokedexNumber": 148,
@@ -4600,8 +4600,8 @@
 			"maxSpDef": 328,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["Fire", "Water", "Eletric", "Grass"],
-		"weakAgainst": ["Ice", "Dragon"]
+		"strongAgainst": ["fire", "water", "electric", "grass"],
+		"weakAgainst": ["ice", "dragon"]
 	},
 	{
 		"pokedexNumber": 149,
@@ -4631,8 +4631,8 @@
 			"maxSpDef": 306,
 			"maxSpeed": 394
 		},
-		"strongAgainst": ["Fire", "Water", "Grass", "Fight", "Ground", "Bug"],
-		"weakAgainst": ["Ice", "Rock", "Dragon"]
+		"strongAgainst": ["fire", "water", "grass", "fighting", "ground", "bug"],
+		"weakAgainst": ["ice", "rock", "dragon"]
 	},
 	{
 		"pokedexNumber": 150,
@@ -4662,8 +4662,8 @@
 			"maxSpDef": 328,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Bug"]
+		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"weakAgainst": ["bug"]
 	},
 	{
 		"pokedexNumber": 151,
@@ -4685,7 +4685,7 @@
 			"Special": "100",
 			"Speed": "100"
 		},
-		"strongAgainst": ["Fight", "Psychic", "Ghost"],
-		"weakAgainst": ["Bug"]
+		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"weakAgainst": ["bug"]
 	}
 ]
