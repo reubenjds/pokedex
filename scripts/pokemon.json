@@ -10,6 +10,7 @@
 		"height": 0.7,
 		"weight": 6.9,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 253,
 		"baseStats": {
@@ -41,6 +42,7 @@
 		"height": 1,
 		"weight": 13,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 325,
 		"baseStats": {
@@ -72,6 +74,7 @@
 		"height": 2,
 		"weight": 100,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 425,
 		"baseStats": {
@@ -103,6 +106,7 @@
 		"height": 0.6,
 		"weight": 8.5,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 249,
 		"baseStats": {
@@ -134,6 +138,7 @@
 		"height": 1.1,
 		"weight": 19,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 325,
 		"baseStats": {
@@ -165,6 +170,7 @@
 		"height": 1.7,
 		"weight": 90.5,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 425,
 		"baseStats": {
@@ -196,6 +202,7 @@
 		"height": 0.5,
 		"weight": 9,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 250,
 		"baseStats": {
@@ -227,6 +234,7 @@
 		"height": 1,
 		"weight": 22.5,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 325,
 		"baseStats": {
@@ -258,6 +266,7 @@
 		"height": 1.6,
 		"weight": 85.5,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 425,
 		"baseStats": {
@@ -289,6 +298,7 @@
 		"height": 0.3,
 		"weight": 2.9,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 175,
 		"baseStats": {
@@ -320,6 +330,7 @@
 		"height": 0.7,
 		"weight": 9.9,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 120,
 		"baseTotal": 180,
 		"baseStats": {
@@ -351,6 +362,7 @@
 		"height": 1.1,
 		"weight": 32,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 305,
 		"baseStats": {
@@ -382,6 +394,7 @@
 		"height": 0.3,
 		"weight": 3.2,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 175,
 		"baseStats": {
@@ -413,6 +426,7 @@
 		"height": 0.6,
 		"weight": 10,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 120,
 		"baseTotal": 180,
 		"baseStats": {
@@ -444,6 +458,7 @@
 		"height": 1,
 		"weight": 29.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 305,
 		"baseStats": {
@@ -475,6 +490,7 @@
 		"height": 0.3,
 		"weight": 1.8,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 216,
 		"baseStats": {
@@ -506,6 +522,7 @@
 		"height": 1.1,
 		"weight": 30,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 120,
 		"baseTotal": 299,
 		"baseStats": {
@@ -537,6 +554,7 @@
 		"height": 1.5,
 		"weight": 39.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 399,
 		"baseStats": {
@@ -568,6 +586,7 @@
 		"height": 0.3,
 		"weight": 3.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 218,
 		"baseStats": {
@@ -599,6 +618,7 @@
 		"height": 0.7,
 		"weight": 18.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 127,
 		"baseTotal": 343,
 		"baseStats": {
@@ -630,6 +650,7 @@
 		"height": 0.3,
 		"weight": 2,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 231,
 		"baseStats": {
@@ -661,6 +682,7 @@
 		"height": 1.2,
 		"weight": 38,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 90,
 		"baseTotal": 381,
 		"baseStats": {
@@ -692,6 +714,7 @@
 		"height": 2,
 		"weight": 6.9,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 234,
 		"baseStats": {
@@ -723,6 +746,7 @@
 		"height": 3.5,
 		"weight": 65,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 90,
 		"baseTotal": 359,
 		"baseStats": {
@@ -754,6 +778,7 @@
 		"height": 0.4,
 		"weight": 6,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 260,
 		"baseStats": {
@@ -785,6 +810,7 @@
 		"height": 0.8,
 		"weight": 30,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 395,
 		"baseStats": {
@@ -816,6 +842,7 @@
 		"height": 0.6,
 		"weight": 12,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 280,
 		"baseStats": {
@@ -847,6 +874,7 @@
 		"height": 1,
 		"weight": 29.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 90,
 		"baseTotal": 405,
 		"baseStats": {
@@ -878,6 +906,7 @@
 		"height": 0.4,
 		"weight": 7,
 		"malePercent": 0,
+		"femalePercent": 100,
 		"captureRate": 235,
 		"baseTotal": 235,
 		"baseStats": {
@@ -909,6 +938,7 @@
 		"height": 0.8,
 		"weight": 20,
 		"malePercent": 0,
+		"femalePercent": 100,
 		"captureRate": 120,
 		"baseTotal": 310,
 		"baseStats": {
@@ -940,6 +970,7 @@
 		"height": 1.3,
 		"weight": 60,
 		"malePercent": 0,
+		"femalePercent": 100,
 		"captureRate": 45,
 		"baseTotal": 410,
 		"baseStats": {
@@ -971,6 +1002,7 @@
 		"height": 0.5,
 		"weight": 9,
 		"malePercent": 100,
+		"femalePercent": 0,
 		"captureRate": 235,
 		"baseTotal": 233,
 		"baseStats": {
@@ -1002,6 +1034,7 @@
 		"height": 0.9,
 		"weight": 19.5,
 		"malePercent": 100,
+		"femalePercent": 0,
 		"captureRate": 120,
 		"baseTotal": 310,
 		"baseStats": {
@@ -1033,6 +1066,7 @@
 		"height": 1.4,
 		"weight": 62,
 		"malePercent": 100,
+		"femalePercent": 0,
 		"captureRate": 45,
 		"baseTotal": 410,
 		"baseStats": {
@@ -1064,6 +1098,7 @@
 		"height": 0.6,
 		"weight": 7.5,
 		"malePercent": 25,
+		"femalePercent": 75,
 		"captureRate": 150,
 		"baseTotal": 258,
 		"baseStats": {
@@ -1095,6 +1130,7 @@
 		"height": 1.3,
 		"weight": 40,
 		"malePercent": 25,
+		"femalePercent": 75,
 		"captureRate": 25,
 		"baseTotal": 383,
 		"baseStats": {
@@ -1126,6 +1162,7 @@
 		"height": 0.6,
 		"weight": 9.9,
 		"malePercent": 25,
+		"femalePercent": 75,
 		"captureRate": 190,
 		"baseTotal": 249,
 		"baseStats": {
@@ -1157,6 +1194,7 @@
 		"height": 1.1,
 		"weight": 19.9,
 		"malePercent": 25,
+		"femalePercent": 75,
 		"captureRate": 75,
 		"baseTotal": 424,
 		"baseStats": {
@@ -1188,6 +1226,7 @@
 		"height": 0.5,
 		"weight": 5.5,
 		"malePercent": 25,
+		"femalePercent": 75,
 		"captureRate": 170,
 		"baseTotal": 225,
 		"baseStats": {
@@ -1219,6 +1258,7 @@
 		"height": 1,
 		"weight": 12,
 		"malePercent": 25,
+		"femalePercent": 75,
 		"captureRate": 50,
 		"baseTotal": 350,
 		"baseStats": {
@@ -1250,6 +1290,7 @@
 		"height": 0.8,
 		"weight": 7.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 215,
 		"baseStats": {
@@ -1281,6 +1322,7 @@
 		"height": 1.6,
 		"weight": 55,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 90,
 		"baseTotal": 390,
 		"baseStats": {
@@ -1312,6 +1354,7 @@
 		"height": 0.5,
 		"weight": 5.4,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 255,
 		"baseStats": {
@@ -1343,6 +1386,7 @@
 		"height": 0.8,
 		"weight": 8.6,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 120,
 		"baseTotal": 320,
 		"baseStats": {
@@ -1374,6 +1418,7 @@
 		"height": 1.2,
 		"weight": 18.6,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 390,
 		"baseStats": {
@@ -1405,6 +1450,7 @@
 		"height": 0.3,
 		"weight": 5.4,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 240,
 		"baseStats": {
@@ -1436,6 +1482,7 @@
 		"height": 1,
 		"weight": 29.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 345,
 		"baseStats": {
@@ -1467,6 +1514,7 @@
 		"height": 1,
 		"weight": 30,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 250,
 		"baseStats": {
@@ -1498,6 +1546,7 @@
 		"height": 1.5,
 		"weight": 12.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 375,
 		"baseStats": {
@@ -1529,6 +1578,7 @@
 		"height": 0.2,
 		"weight": 0.8,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 230,
 		"baseStats": {
@@ -1560,6 +1610,7 @@
 		"height": 0.7,
 		"weight": 33.3,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 50,
 		"baseTotal": 355,
 		"baseStats": {
@@ -1591,6 +1642,7 @@
 		"height": 0.4,
 		"weight": 4.2,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 250,
 		"baseStats": {
@@ -1622,6 +1674,7 @@
 		"height": 1,
 		"weight": 32,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 90,
 		"baseTotal": 375,
 		"baseStats": {
@@ -1653,6 +1706,7 @@
 		"height": 0.8,
 		"weight": 19.6,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 255,
 		"baseStats": {
@@ -1684,6 +1738,7 @@
 		"height": 1.7,
 		"weight": 76.6,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 405,
 		"baseStats": {
@@ -1715,6 +1770,7 @@
 		"height": 0.5,
 		"weight": 28,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 260,
 		"baseStats": {
@@ -1746,6 +1802,7 @@
 		"height": 1,
 		"weight": 32,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 385,
 		"baseStats": {
@@ -1777,6 +1834,7 @@
 		"height": 0.7,
 		"weight": 19,
 		"malePercent": 75,
+		"femalePercent": 25,
 		"captureRate": 190,
 		"baseTotal": 280,
 		"baseStats": {
@@ -1808,6 +1866,7 @@
 		"height": 1.9,
 		"weight": 155,
 		"malePercent": 75,
+		"femalePercent": 25,
 		"captureRate": 75,
 		"baseTotal": 455,
 		"baseStats": {
@@ -1839,6 +1898,7 @@
 		"height": 0.6,
 		"weight": 12.4,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 260,
 		"baseStats": {
@@ -1870,6 +1930,7 @@
 		"height": 1,
 		"weight": 20,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 120,
 		"baseTotal": 335,
 		"baseStats": {
@@ -1901,6 +1962,7 @@
 		"height": 1.3,
 		"weight": 54,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 410,
 		"baseStats": {
@@ -1932,6 +1994,7 @@
 		"height": 0.9,
 		"weight": 19.5,
 		"malePercent": 75,
+		"femalePercent": 25,
 		"captureRate": 200,
 		"baseTotal": 255,
 		"baseStats": {
@@ -1963,6 +2026,7 @@
 		"height": 1.3,
 		"weight": 56.5,
 		"malePercent": 75,
+		"femalePercent": 25,
 		"captureRate": 100,
 		"baseTotal": 330,
 		"baseStats": {
@@ -1994,6 +2058,7 @@
 		"height": 1.5,
 		"weight": 48,
 		"malePercent": 75,
+		"femalePercent": 25,
 		"captureRate": 50,
 		"baseTotal": 405,
 		"baseStats": {
@@ -2025,6 +2090,7 @@
 		"height": 0.8,
 		"weight": 19.5,
 		"malePercent": 75,
+		"femalePercent": 25,
 		"captureRate": 180,
 		"baseTotal": 270,
 		"baseStats": {
@@ -2056,6 +2122,7 @@
 		"height": 1.5,
 		"weight": 70.5,
 		"malePercent": 75,
+		"femalePercent": 25,
 		"captureRate": 90,
 		"baseTotal": 345,
 		"baseStats": {
@@ -2087,6 +2154,7 @@
 		"height": 1.6,
 		"weight": 130,
 		"malePercent": 75,
+		"femalePercent": 25,
 		"captureRate": 45,
 		"baseTotal": 420,
 		"baseStats": {
@@ -2118,6 +2186,7 @@
 		"height": 0.7,
 		"weight": 4,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 270,
 		"baseStats": {
@@ -2149,6 +2218,7 @@
 		"height": 1,
 		"weight": 6.4,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 120,
 		"baseTotal": 345,
 		"baseStats": {
@@ -2180,6 +2250,7 @@
 		"height": 1.7,
 		"weight": 15.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 420,
 		"baseStats": {
@@ -2211,6 +2282,7 @@
 		"height": 0.9,
 		"weight": 45.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 285,
 		"baseStats": {
@@ -2242,6 +2314,7 @@
 		"height": 1.6,
 		"weight": 55,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 60,
 		"baseTotal": 435,
 		"baseStats": {
@@ -2273,6 +2346,7 @@
 		"height": 0.4,
 		"weight": 20,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 270,
 		"baseStats": {
@@ -2304,6 +2378,7 @@
 		"height": 1,
 		"weight": 105,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 120,
 		"baseTotal": 345,
 		"baseStats": {
@@ -2335,6 +2410,7 @@
 		"height": 1.4,
 		"weight": 300,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 420,
 		"baseStats": {
@@ -2366,6 +2442,7 @@
 		"height": 1,
 		"weight": 30,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 345,
 		"baseStats": {
@@ -2397,6 +2474,7 @@
 		"height": 1.7,
 		"weight": 95,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 60,
 		"baseTotal": 420,
 		"baseStats": {
@@ -2428,6 +2506,7 @@
 		"height": 1.2,
 		"weight": 36,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 275,
 		"baseStats": {
@@ -2459,6 +2538,7 @@
 		"height": 1.6,
 		"weight": 78.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 390,
 		"baseStats": {
@@ -2490,6 +2570,7 @@
 		"height": 0.3,
 		"weight": 6,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 190,
 		"baseTotal": 270,
 		"baseStats": {
@@ -2521,6 +2602,7 @@
 		"height": 1,
 		"weight": 60,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 60,
 		"baseTotal": 395,
 		"baseStats": {
@@ -2552,6 +2634,7 @@
 		"height": 0.8,
 		"weight": 15,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 290,
 		"baseStats": {
@@ -2583,6 +2666,7 @@
 		"height": 1.4,
 		"weight": 39.2,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 275,
 		"baseStats": {
@@ -2614,6 +2698,7 @@
 		"height": 1.8,
 		"weight": 85.2,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 400,
 		"baseStats": {
@@ -2645,6 +2730,7 @@
 		"height": 1.1,
 		"weight": 90,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 280,
 		"baseStats": {
@@ -2676,6 +2762,7 @@
 		"height": 1.7,
 		"weight": 120,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 405,
 		"baseStats": {
@@ -2707,6 +2794,7 @@
 		"height": 0.9,
 		"weight": 30,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 275,
 		"baseStats": {
@@ -2738,6 +2826,7 @@
 		"height": 1.2,
 		"weight": 30,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 400,
 		"baseStats": {
@@ -2769,6 +2858,7 @@
 		"height": 0.3,
 		"weight": 4,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 280,
 		"baseStats": {
@@ -2800,6 +2890,7 @@
 		"height": 1.5,
 		"weight": 132.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 60,
 		"baseTotal": 480,
 		"baseStats": {
@@ -2831,6 +2922,7 @@
 		"height": 1.3,
 		"weight": 0.1,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 275,
 		"baseStats": {
@@ -2862,6 +2954,7 @@
 		"height": 1.6,
 		"weight": 0.1,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 90,
 		"baseTotal": 350,
 		"baseStats": {
@@ -2893,6 +2986,7 @@
 		"height": 1.5,
 		"weight": 40.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 425,
 		"baseStats": {
@@ -2924,6 +3018,7 @@
 		"height": 8.8,
 		"weight": 210,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 340,
 		"baseStats": {
@@ -2955,6 +3050,7 @@
 		"height": 1,
 		"weight": 32.4,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 285,
 		"baseStats": {
@@ -2986,6 +3082,7 @@
 		"height": 1.6,
 		"weight": 75.6,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 410,
 		"baseStats": {
@@ -3017,6 +3114,7 @@
 		"height": 0.4,
 		"weight": 6.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 225,
 		"baseTotal": 300,
 		"baseStats": {
@@ -3048,6 +3146,7 @@
 		"height": 1.3,
 		"weight": 60,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 60,
 		"baseTotal": 425,
 		"baseStats": {
@@ -3079,6 +3178,7 @@
 		"height": 0.5,
 		"weight": 10.4,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 190,
 		"baseTotal": 275,
 		"baseStats": {
@@ -3110,6 +3210,7 @@
 		"height": 1.2,
 		"weight": 66.6,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 60,
 		"baseTotal": 400,
 		"baseStats": {
@@ -3141,6 +3242,7 @@
 		"height": 0.4,
 		"weight": 2.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 90,
 		"baseTotal": 280,
 		"baseStats": {
@@ -3172,6 +3274,7 @@
 		"height": 2,
 		"weight": 120,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 455,
 		"baseStats": {
@@ -3203,6 +3306,7 @@
 		"height": 0.4,
 		"weight": 6.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 270,
 		"baseStats": {
@@ -3234,6 +3338,7 @@
 		"height": 1,
 		"weight": 45,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 345,
 		"baseStats": {
@@ -3265,6 +3370,7 @@
 		"height": 1.5,
 		"weight": 49.8,
 		"malePercent": 100,
+		"femalePercent": 0,
 		"captureRate": 45,
 		"baseTotal": 345,
 		"baseStats": {
@@ -3296,6 +3402,7 @@
 		"height": 1.4,
 		"weight": 50.2,
 		"malePercent": 100,
+		"femalePercent": 0,
 		"captureRate": 45,
 		"baseTotal": 345,
 		"baseStats": {
@@ -3327,6 +3434,7 @@
 		"height": 1.2,
 		"weight": 65.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 310,
 		"baseStats": {
@@ -3358,6 +3466,7 @@
 		"height": 0.6,
 		"weight": 1,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 190,
 		"baseTotal": 295,
 		"baseStats": {
@@ -3389,6 +3498,7 @@
 		"height": 1.2,
 		"weight": 9.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 60,
 		"baseTotal": 420,
 		"baseStats": {
@@ -3420,6 +3530,7 @@
 		"height": 1,
 		"weight": 115,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 120,
 		"baseTotal": 315,
 		"baseStats": {
@@ -3451,6 +3562,7 @@
 		"height": 1.9,
 		"weight": 120,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 60,
 		"baseTotal": 440,
 		"baseStats": {
@@ -3482,6 +3594,7 @@
 		"height": 1.1,
 		"weight": 34.6,
 		"malePercent": 0,
+		"femalePercent": 100,
 		"captureRate": 30,
 		"baseTotal": 415,
 		"baseStats": {
@@ -3513,6 +3626,7 @@
 		"height": 1,
 		"weight": 35,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 395,
 		"baseStats": {
@@ -3544,6 +3658,7 @@
 		"height": 2.2,
 		"weight": 80,
 		"malePercent": 0,
+		"femalePercent": 100,
 		"captureRate": 45,
 		"baseTotal": 410,
 		"baseStats": {
@@ -3575,6 +3690,7 @@
 		"height": 0.4,
 		"weight": 8,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 225,
 		"baseTotal": 270,
 		"baseStats": {
@@ -3606,6 +3722,7 @@
 		"height": 1.2,
 		"weight": 25,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 75,
 		"baseTotal": 395,
 		"baseStats": {
@@ -3637,6 +3754,7 @@
 		"height": 0.6,
 		"weight": 15,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 225,
 		"baseTotal": 285,
 		"baseStats": {
@@ -3668,6 +3786,7 @@
 		"height": 1.3,
 		"weight": 39,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 60,
 		"baseTotal": 385,
 		"baseStats": {
@@ -3699,6 +3818,7 @@
 		"height": 0.8,
 		"weight": 34.5,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 225,
 		"baseTotal": 285,
 		"baseStats": {
@@ -3730,6 +3850,7 @@
 		"height": 1.1,
 		"weight": 80,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 60,
 		"baseTotal": 435,
 		"baseStats": {
@@ -3761,6 +3882,7 @@
 		"height": 1.3,
 		"weight": 54.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 340,
 		"baseStats": {
@@ -3792,6 +3914,7 @@
 		"height": 1.5,
 		"weight": 56,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 420,
 		"baseStats": {
@@ -3823,6 +3946,7 @@
 		"height": 1.4,
 		"weight": 40.6,
 		"malePercent": 0,
+		"femalePercent": 100,
 		"captureRate": 45,
 		"baseTotal": 340,
 		"baseStats": {
@@ -3854,6 +3978,7 @@
 		"height": 1.1,
 		"weight": 30,
 		"malePercent": 75,
+		"femalePercent": 25,
 		"captureRate": 45,
 		"baseTotal": 395,
 		"baseStats": {
@@ -3885,6 +4010,7 @@
 		"height": 1.3,
 		"weight": 44.5,
 		"malePercent": 75,
+		"femalePercent": 25,
 		"captureRate": 45,
 		"baseTotal": 395,
 		"baseStats": {
@@ -3916,6 +4042,7 @@
 		"height": 1.5,
 		"weight": 55,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 430,
 		"baseStats": {
@@ -3947,6 +4074,7 @@
 		"height": 1.4,
 		"weight": 88.4,
 		"malePercent": 100,
+		"femalePercent": 0,
 		"captureRate": 45,
 		"baseTotal": 450,
 		"baseStats": {
@@ -3978,6 +4106,7 @@
 		"height": 0.9,
 		"weight": 10,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 255,
 		"baseTotal": 185,
 		"baseStats": {
@@ -4009,6 +4138,7 @@
 		"height": 6.5,
 		"weight": 235,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 480,
 		"baseStats": {
@@ -4040,6 +4170,7 @@
 		"height": 2.5,
 		"weight": 220,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 450,
 		"baseStats": {
@@ -4071,6 +4202,7 @@
 		"height": 0.3,
 		"weight": 4,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 35,
 		"baseTotal": 240,
 		"baseStats": {
@@ -4102,6 +4234,7 @@
 		"height": 0.3,
 		"weight": 6.5,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 280,
 		"baseStats": {
@@ -4133,6 +4266,7 @@
 		"height": 1,
 		"weight": 29,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 430,
 		"baseStats": {
@@ -4164,6 +4298,7 @@
 		"height": 0.8,
 		"weight": 24.5,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 430,
 		"baseStats": {
@@ -4195,6 +4330,7 @@
 		"height": 0.9,
 		"weight": 25,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 430,
 		"baseStats": {
@@ -4226,6 +4362,7 @@
 		"height": 0.8,
 		"weight": 36.5,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 45,
 		"baseTotal": 310,
 		"baseStats": {
@@ -4257,6 +4394,7 @@
 		"height": 0.4,
 		"weight": 7.5,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 300,
 		"baseStats": {
@@ -4288,6 +4426,7 @@
 		"height": 1,
 		"weight": 35,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 425,
 		"baseStats": {
@@ -4319,6 +4458,7 @@
 		"height": 0.5,
 		"weight": 11.5,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 300,
 		"baseStats": {
@@ -4350,6 +4490,7 @@
 		"height": 1.3,
 		"weight": 40.5,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 430,
 		"baseStats": {
@@ -4381,6 +4522,7 @@
 		"height": 1.8,
 		"weight": 59,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 45,
 		"baseTotal": 440,
 		"baseStats": {
@@ -4412,6 +4554,7 @@
 		"height": 2.1,
 		"weight": 460,
 		"malePercent": 87.5,
+		"femalePercent": 12.5,
 		"captureRate": 25,
 		"baseTotal": 430,
 		"baseStats": {
@@ -4443,6 +4586,7 @@
 		"height": 1.7,
 		"weight": 55.4,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 3,
 		"baseTotal": 485,
 		"baseStats": {
@@ -4474,6 +4618,7 @@
 		"height": 1.6,
 		"weight": 52.6,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 3,
 		"baseTotal": 490,
 		"baseStats": {
@@ -4505,6 +4650,7 @@
 		"height": 2,
 		"weight": 60,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 3,
 		"baseTotal": 495,
 		"baseStats": {
@@ -4536,6 +4682,7 @@
 		"height": 1.8,
 		"weight": 3.3,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 250,
 		"baseStats": {
@@ -4567,6 +4714,7 @@
 		"height": 4,
 		"weight": 16.5,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 350,
 		"baseStats": {
@@ -4598,6 +4746,7 @@
 		"height": 2.2,
 		"weight": 210,
 		"malePercent": 50,
+		"femalePercent": 50,
 		"captureRate": 45,
 		"baseTotal": 500,
 		"baseStats": {
@@ -4629,6 +4778,7 @@
 		"height": 2,
 		"weight": 122,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 3,
 		"baseTotal": 590,
 		"baseStats": {
@@ -4660,6 +4810,7 @@
 		"height": 0.4,
 		"weight": 4,
 		"malePercent": 0,
+		"femalePercent": 0,
 		"captureRate": 45,
 		"baseTotal": 500,
 		"baseStats": {
