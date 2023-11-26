@@ -27,7 +27,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
@@ -58,7 +58,7 @@
 			"maxSpDef": 328,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
@@ -89,7 +89,7 @@
 			"maxSpDef": 218,
 			"maxSpeed": 251
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
@@ -120,7 +120,7 @@
 			"maxSpDef": 251,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["fire", "grass", "bug"],
+		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
@@ -151,7 +151,7 @@
 			"maxSpDef": 295,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["fire", "grass", "bug"],
+		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
@@ -182,7 +182,7 @@
 			"maxSpDef": 249,
 			"maxSpeed": 203
 		},
-		"strongAgainst": ["fire", "grass", "fighting", "ground", "bug"],
+		"strongAgainst": ["grass", "fighting", "ground", "bug"],
 		"weakAgainst": ["water", "electric", "ice", "rock"]
 	},
 	{
@@ -213,7 +213,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 236
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -244,7 +244,7 @@
 			"maxSpDef": 339,
 			"maxSpeed": 280
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -275,7 +275,7 @@
 			"maxSpDef": 152,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -368,7 +368,7 @@
 			"maxSpDef": 152,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["grass", "fighting", "ground", "bug"],
+		"strongAgainst": ["grass", "fighting", "ground"],
 		"weakAgainst": ["fire", "electric", "ice", "poison", "flying", "rock"]
 	},
 	{
@@ -709,7 +709,7 @@
 			"maxSpDef": 282,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["grass", "fighting", "poison"],
+		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
@@ -740,7 +740,7 @@
 			"maxSpDef": 218,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["grass", "fighting", "poison"],
+		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
@@ -771,7 +771,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 350
 		},
-		"strongAgainst": ["electric", "flying"],
+		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"]
 	},
 	{
@@ -802,7 +802,7 @@
 			"maxSpDef": 174,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["electric", "flying"],
+		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"]
 	},
 	{
@@ -895,7 +895,7 @@
 			"maxSpDef": 229,
 			"maxSpeed": 232
 		},
-		"strongAgainst": ["grass", "fighting", "poison"],
+		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
@@ -926,7 +926,7 @@
 			"maxSpDef": 295,
 			"maxSpeed": 276
 		},
-		"strongAgainst": ["grass", "fighting", "poison"],
+		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
@@ -957,7 +957,7 @@
 			"maxSpDef": 196,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["electric", "fighting", "poison", "rock"],
+		"strongAgainst": ["electric", "fighting", "rock"],
 		"weakAgainst": ["water", "ice", "ground", "psychic", "bug"]
 	},
 	{
@@ -988,7 +988,7 @@
 			"maxSpDef": 229,
 			"maxSpeed": 251
 		},
-		"strongAgainst": ["grass", "fighting", "poison"],
+		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
@@ -1019,7 +1019,7 @@
 			"maxSpDef": 273,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["grass", "fighting", "poison"],
+		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
@@ -1050,7 +1050,7 @@
 			"maxSpDef": 251,
 			"maxSpeed": 185
 		},
-		"strongAgainst": ["electric", "fighting", "poison", "rock"],
+		"strongAgainst": ["electric", "fighting", "rock"],
 		"weakAgainst": ["water", "ice", "ground", "psychic", "bug"]
 	},
 	{
@@ -1143,7 +1143,7 @@
 			"maxSpDef": 328,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["fire", "grass", "bug"],
+		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
@@ -1174,7 +1174,7 @@
 			"maxSpDef": 163,
 			"maxSpeed": 152
 		},
-		"strongAgainst": ["fire", "grass", "bug"],
+		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
@@ -1267,7 +1267,7 @@
 			"maxSpDef": 273,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["grass", "fighting", "poison", "ground"],
+		"strongAgainst": ["grass", "fighting", "ground"],
 		"weakAgainst": ["electric", "ice", "psychic", "rock"]
 	},
 	{
@@ -1298,7 +1298,7 @@
 			"maxSpDef": 251,
 			"maxSpeed": 174
 		},
-		"strongAgainst": ["grass", "fighting", "poison", "ground"],
+		"strongAgainst": ["grass", "fighting", "ground"],
 		"weakAgainst": ["electric", "ice", "psychic", "rock"]
 	},
 	{
@@ -1329,7 +1329,7 @@
 			"maxSpDef": 273,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
@@ -1360,7 +1360,7 @@
 			"maxSpDef": 306,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
@@ -1391,7 +1391,7 @@
 			"maxSpDef": 229,
 			"maxSpeed": 163
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
@@ -1422,7 +1422,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 174
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting", "ground"],
+		"strongAgainst": ["water", "electric", "fighting", "ground"],
 		"weakAgainst": ["fire", "ice", "poison", "flying", "bug", "rock"]
 	},
 	{
@@ -1453,7 +1453,7 @@
 			"maxSpDef": 229,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting", "ground"],
+		"strongAgainst": ["water", "electric", "fighting", "ground"],
 		"weakAgainst": ["fire", "ice", "poison", "flying", "bug", "rock"]
 	},
 	{
@@ -1670,7 +1670,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -1701,7 +1701,7 @@
 			"maxSpDef": 207,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -1794,7 +1794,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 317
 		},
-		"strongAgainst": ["fire", "grass", "bug"],
+		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
@@ -1825,7 +1825,7 @@
 			"maxSpDef": 196,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["fire", "grass", "bug"],
+		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
@@ -1856,7 +1856,7 @@
 			"maxSpDef": 218,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -1887,7 +1887,7 @@
 			"maxSpDef": 306,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -1918,7 +1918,7 @@
 			"maxSpDef": 229,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["fire", "water", "ice", "bug", "rock"],
+		"strongAgainst": ["fire", "ice", "bug", "rock"],
 		"weakAgainst": ["electric", "grass", "flying", "psychic"]
 	},
 	{
@@ -1949,7 +1949,7 @@
 			"maxSpDef": 262,
 			"maxSpeed": 339
 		},
-		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"]
 	},
 	{
@@ -1980,7 +1980,7 @@
 			"maxSpDef": 317,
 			"maxSpeed": 372
 		},
-		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"]
 	},
 	{
@@ -2011,7 +2011,7 @@
 			"maxSpDef": 185,
 			"maxSpeed": 185
 		},
-		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"]
 	},
 	{
@@ -2135,7 +2135,7 @@
 			"maxSpDef": 207,
 			"maxSpeed": 229
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
@@ -2166,7 +2166,7 @@
 			"maxSpDef": 262,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
@@ -2197,7 +2197,7 @@
 			"maxSpDef": 328,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["water", "electric", "grass", "fighting"],
+		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"]
 	},
 	{
@@ -2228,7 +2228,7 @@
 			"maxSpDef": 372,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["fire", "water", "ice", "fighting", "poison"],
+		"strongAgainst": ["fire", "ice", "fighting"],
 		"weakAgainst": ["electric", "ground", "psychic", "bug"]
 	},
 	{
@@ -2259,7 +2259,7 @@
 			"maxSpDef": 174,
 			"maxSpeed": 152
 		},
-		"strongAgainst": ["fire", "water", "ice", "fighting", "poison"],
+		"strongAgainst": ["fire", "ice", "fighting"],
 		"weakAgainst": ["electric", "ground", "psychic", "bug"]
 	},
 	{
@@ -2290,7 +2290,7 @@
 			"maxSpDef": 207,
 			"maxSpeed": 185
 		},
-		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying"],
 		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
@@ -2321,7 +2321,7 @@
 			"maxSpDef": 251,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying"],
 		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
@@ -2352,7 +2352,7 @@
 			"maxSpDef": 251,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying"],
 		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
@@ -2383,7 +2383,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 339
 		},
-		"strongAgainst": ["fire", "grass", "bug"],
+		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
@@ -2414,7 +2414,7 @@
 			"maxSpDef": 196,
 			"maxSpeed": 141
 		},
-		"strongAgainst": ["fire", "grass", "bug"],
+		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
@@ -2445,7 +2445,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 174
 		},
-		"strongAgainst": ["fire", "water", "ice", "fighting", "psychic", "ghost"],
+		"strongAgainst": ["fire", "ice", "fighting", "ghost"],
 		"weakAgainst": ["electric", "grass", "bug"]
 	},
 	{
@@ -2476,7 +2476,7 @@
 			"maxSpDef": 229,
 			"maxSpeed": 207
 		},
-		"strongAgainst": ["fire", "water", "ice", "fighting", "psychic", "ghost"],
+		"strongAgainst": ["fire", "ice", "fighting", "ghost"],
 		"weakAgainst": ["electric", "grass", "bug"]
 	},
 	{
@@ -2507,7 +2507,7 @@
 			"maxSpDef": 262,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["electric", "flying"],
+		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"]
 	},
 	{
@@ -2538,7 +2538,7 @@
 			"maxSpDef": 245,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["electric", "flying"],
+		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"]
 	},
 	{
@@ -2662,7 +2662,7 @@
 			"maxSpDef": 317,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -2693,7 +2693,7 @@
 			"maxSpDef": 218,
 			"maxSpeed": 163
 		},
-		"strongAgainst": ["water", "ice"],
+		"strongAgainst": [],
 		"weakAgainst": ["electric", "grass", "fighting", "rock"]
 	},
 	{
@@ -2724,7 +2724,7 @@
 			"maxSpDef": 328,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["grass", "fighting", "poison"],
+		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
@@ -2755,7 +2755,7 @@
 			"maxSpDef": 163,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["grass", "fighting", "poison"],
+		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
@@ -2786,7 +2786,7 @@
 			"maxSpDef": 207,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -2817,7 +2817,7 @@
 			"maxSpDef": 185,
 			"maxSpeed": 284
 		},
-		"strongAgainst": ["water", "ice"],
+		"strongAgainst": [],
 		"weakAgainst": ["electric", "grass", "fighting", "rock"]
 	},
 	{
@@ -2848,7 +2848,7 @@
 			"maxSpDef": 229,
 			"maxSpeed": 317
 		},
-		"strongAgainst": ["normal", "grass", "fighting", "poison"],
+		"strongAgainst": ["normal", "grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "ghost"]
 	},
 	{
@@ -2879,7 +2879,7 @@
 			"maxSpDef": 273,
 			"maxSpeed": 350
 		},
-		"strongAgainst": ["normal", "grass", "fighting", "poison"],
+		"strongAgainst": ["normal", "grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "ghost"]
 	},
 	{
@@ -2910,7 +2910,7 @@
 			"maxSpDef": 207,
 			"maxSpeed": 262
 		},
-		"strongAgainst": ["normal", "grass", "fighting", "poison"],
+		"strongAgainst": ["normal", "grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "ghost"]
 	},
 	{
@@ -2941,7 +2941,7 @@
 			"maxSpDef": 306,
 			"maxSpeed": 201
 		},
-		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying"],
 		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
@@ -2972,7 +2972,7 @@
 			"maxSpDef": 361,
 			"maxSpeed": 256
 		},
-		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"]
 	},
 	{
@@ -3003,7 +3003,7 @@
 			"maxSpDef": 163,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"]
 	},
 	{
@@ -3034,7 +3034,7 @@
 			"maxSpDef": 218,
 			"maxSpeed": 273
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -3065,7 +3065,7 @@
 			"maxSpDef": 229,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -3096,7 +3096,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 438
 		},
-		"strongAgainst": ["electric", "flying"],
+		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"]
 	},
 	{
@@ -3127,7 +3127,7 @@
 			"maxSpDef": 207,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["electric", "flying"],
+		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"]
 	},
 	{
@@ -3158,15 +3158,7 @@
 			"maxSpDef": 273,
 			"maxSpeed": 229
 		},
-		"strongAgainst": [
-			"water",
-			"electric",
-			"grass",
-			"fighting",
-			"ground",
-			"psychic",
-			"ghost"
-		],
+		"strongAgainst": ["water", "electric", "fighting", "ground", "ghost"],
 		"weakAgainst": ["fire", "ice", "poison", "flying", "bug"]
 	},
 	{
@@ -3197,15 +3189,7 @@
 			"maxSpDef": 218,
 			"maxSpeed": 185
 		},
-		"strongAgainst": [
-			"water",
-			"electric",
-			"grass",
-			"fighting",
-			"ground",
-			"psychic",
-			"ghost"
-		],
+		"strongAgainst": ["water", "electric", "fighting", "ground", "ghost"],
 		"weakAgainst": ["fire", "ice", "poison", "flying", "bug"]
 	},
 	{
@@ -3391,7 +3375,7 @@
 			"maxSpDef": 262,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["grass", "fighting", "poison"],
+		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
@@ -3422,7 +3406,7 @@
 			"maxSpDef": 174,
 			"maxSpeed": 163
 		},
-		"strongAgainst": ["grass", "fighting", "poison"],
+		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"]
 	},
 	{
@@ -3453,7 +3437,7 @@
 			"maxSpDef": 207,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying"],
 		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
@@ -3484,7 +3468,7 @@
 			"maxSpDef": 339,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["normal", "fire", "electric", "poison", "flying", "rock"],
+		"strongAgainst": ["normal", "fire", "electric", "poison", "flying"],
 		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"]
 	},
 	{
@@ -3546,7 +3530,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["water", "electric", "grass", "ground"],
+		"strongAgainst": ["water", "electric", "ground"],
 		"weakAgainst": ["fire", "ice", "poison", "flying", "bug"]
 	},
 	{
@@ -3608,7 +3592,7 @@
 			"maxSpDef": 207,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -3639,7 +3623,7 @@
 			"maxSpDef": 218,
 			"maxSpeed": 247
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -3670,7 +3654,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 258
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -3701,7 +3685,7 @@
 			"maxSpDef": 229,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -3732,7 +3716,7 @@
 			"maxSpDef": 295,
 			"maxSpeed": 361
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -3763,7 +3747,7 @@
 			"maxSpDef": 372,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["fire", "water", "ice", "fighting", "psychic", "ghost"],
+		"strongAgainst": ["fire", "ice", "fighting", "ghost"],
 		"weakAgainst": ["electric", "grass", "bug"]
 	},
 	{
@@ -3794,7 +3778,7 @@
 			"maxSpDef": 284,
 			"maxSpeed": 339
 		},
-		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"]
 	},
 	{
@@ -3825,7 +3809,7 @@
 			"maxSpDef": 317,
 			"maxSpeed": 317
 		},
-		"strongAgainst": ["grass", "fighting", "ground", "bug"],
+		"strongAgainst": ["grass", "fighting", "ground"],
 		"weakAgainst": ["fire", "electric", "ice", "poison", "flying", "rock"]
 	},
 	{
@@ -3856,7 +3840,7 @@
 			"maxSpDef": 295,
 			"maxSpeed": 339
 		},
-		"strongAgainst": ["ice", "psychic", "ghost"],
+		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fire", "bug", "rock"]
 	},
 	{
@@ -3887,7 +3871,7 @@
 			"maxSpDef": 295,
 			"maxSpeed": 313
 		},
-		"strongAgainst": ["electric", "flying"],
+		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"]
 	},
 	{
@@ -3918,7 +3902,7 @@
 			"maxSpDef": 262,
 			"maxSpeed": 295
 		},
-		"strongAgainst": ["fire", "grass", "bug"],
+		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
@@ -4011,7 +3995,7 @@
 			"maxSpDef": 328,
 			"maxSpeed": 287
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -4042,7 +4026,7 @@
 			"maxSpDef": 317,
 			"maxSpeed": 240
 		},
-		"strongAgainst": ["fire", "water", "fighting", "ground", "bug"],
+		"strongAgainst": ["fire", "fighting", "ground", "bug"],
 		"weakAgainst": ["electric", "rock"]
 	},
 	{
@@ -4073,7 +4057,7 @@
 			"maxSpDef": 214,
 			"maxSpeed": 214
 		},
-		"strongAgainst": ["water", "ice"],
+		"strongAgainst": [],
 		"weakAgainst": ["electric", "grass", "fighting", "rock"]
 	},
 	{
@@ -4166,7 +4150,7 @@
 			"maxSpDef": 317,
 			"maxSpeed": 394
 		},
-		"strongAgainst": ["fire", "water", "ice"],
+		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"]
 	},
 	{
@@ -4197,7 +4181,7 @@
 			"maxSpDef": 350,
 			"maxSpeed": 251
 		},
-		"strongAgainst": ["electric", "flying"],
+		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"]
 	},
 	{
@@ -4228,7 +4212,7 @@
 			"maxSpDef": 273,
 			"maxSpeed": 196
 		},
-		"strongAgainst": ["fire", "grass", "bug"],
+		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"]
 	},
 	{
@@ -4414,7 +4398,7 @@
 			"maxSpDef": 350,
 			"maxSpeed": 174
 		},
-		"strongAgainst": ["normal", "fire", "poison", "ground", "flying", "bug"],
+		"strongAgainst": ["normal", "fire", "poison", "ground", "bug"],
 		"weakAgainst": ["water", "electric", "ice", "rock"]
 	},
 	{
@@ -4507,7 +4491,7 @@
 			"maxSpDef": 295,
 			"maxSpeed": 306
 		},
-		"strongAgainst": ["grass", "fighting", "ground", "flying", "bug"],
+		"strongAgainst": ["grass", "fighting", "ground", "bug"],
 		"weakAgainst": ["ice", "rock"]
 	},
 	{
@@ -4538,7 +4522,7 @@
 			"maxSpDef": 218,
 			"maxSpeed": 218
 		},
-		"strongAgainst": ["fire", "grass", "fighting", "ground", "bug"],
+		"strongAgainst": ["grass", "fighting", "ground", "bug"],
 		"weakAgainst": ["water", "electric", "ice", "rock"]
 	},
 	{
@@ -4662,7 +4646,7 @@
 			"maxSpDef": 328,
 			"maxSpeed": 328
 		},
-		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"]
 	},
 	{
@@ -4685,7 +4669,7 @@
 			"Special": "100",
 			"Speed": "100"
 		},
-		"strongAgainst": ["fighting", "psychic", "ghost"],
+		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"]
 	}
 ]
