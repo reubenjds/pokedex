@@ -2,10 +2,7 @@
 	{
 		"pokedexNumber": 1,
 		"name": "Bulbasaur",
-		"evolutions": {
-			"002": "https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png",
-			"003": "https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png"
-		},
+		"evos": { "002": "Ivysaur", "003": "Venusaur" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/bulbasaur.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
 		"types": ["grass", "poison"],
@@ -30,30 +27,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 240
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
+		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 2,
 		"name": "Ivysaur",
-		"evolutions": {
-			"003": "https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png"
-		},
+		"evos": { "003": "Venusaur" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
 		"types": ["grass", "poison"],
@@ -78,28 +58,13 @@
 			"maxSpDef": 328,
 			"maxSpeed": 284
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
+		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 3,
 		"name": "Venusaur",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
 		"types": ["grass", "poison"],
@@ -124,31 +89,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 251
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
+		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 4,
 		"name": "Charmander",
-		"evolutions": {
-			"005": "https://img.pokemondb.net/sprites/sword-shield/icon/charmeleon.png",
-			"006": "https://img.pokemondb.net/sprites/sword-shield/icon/charizard.png"
-		},
+		"evos": { "005": "Charmeleon", "006": "Charizard" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/charmander.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
 		"types": ["fire"],
@@ -173,30 +120,13 @@
 			"maxSpDef": 251,
 			"maxSpeed": 284
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Bug"],
+		"weakAgainst": ["Water", "Ground", "Rock"]
 	},
 	{
 		"pokedexNumber": 5,
 		"name": "Charmeleon",
-		"evolutions": {
-			"006": "https://img.pokemondb.net/sprites/sword-shield/icon/charizard.png"
-		},
+		"evos": { "006": "Charizard" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/charmeleon.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
 		"types": ["fire"],
@@ -221,28 +151,13 @@
 			"maxSpDef": 295,
 			"maxSpeed": 328
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Bug"],
+		"weakAgainst": ["Water", "Ground", "Rock"]
 	},
 	{
 		"pokedexNumber": 6,
 		"name": "Charizard",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/charizard.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
 		"types": ["fire", "flying"],
@@ -267,31 +182,13 @@
 			"maxSpDef": 249,
 			"maxSpeed": 203
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.25",
-			"Rock_Dmg": "4",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Fight", "Ground", "Bug"],
+		"weakAgainst": ["Water", "Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 7,
 		"name": "Squirtle",
-		"evolutions": {
-			"008": "https://img.pokemondb.net/sprites/sword-shield/icon/wartortle.png",
-			"009": "https://img.pokemondb.net/sprites/sword-shield/icon/blastoise.png"
-		},
+		"evos": { "008": "Wartortle", "009": "Blastoise" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/squirtle.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
 		"types": ["water"],
@@ -316,30 +213,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 236
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 8,
 		"name": "Wartortle",
-		"evolutions": {
-			"009": "https://img.pokemondb.net/sprites/sword-shield/icon/blastoise.png"
-		},
+		"evos": { "009": "Blastoise" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/wartortle.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
 		"types": ["water"],
@@ -364,28 +244,13 @@
 			"maxSpDef": 339,
 			"maxSpeed": 280
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 9,
 		"name": "Blastoise",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/blastoise.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
 		"types": ["water"],
@@ -410,31 +275,13 @@
 			"maxSpDef": 152,
 			"maxSpeed": 207
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 10,
 		"name": "Caterpie",
-		"evolutions": {
-			"011": "https://img.pokemondb.net/sprites/sword-shield/icon/metapod.png",
-			"012": "https://img.pokemondb.net/sprites/sword-shield/icon/butterfree.png"
-		},
+		"evos": { "011": "Metapod", "012": "Butterfree" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/caterpie.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
 		"types": ["bug"],
@@ -459,30 +306,13 @@
 			"maxSpDef": 163,
 			"maxSpeed": 174
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "2",
-			"Ground_Dmg": "0.5",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Ground"],
+		"weakAgainst": ["Fire", "Poison", "Flying", "Rock"]
 	},
 	{
 		"pokedexNumber": 11,
 		"name": "Metapod",
-		"evolutions": {
-			"012": "https://img.pokemondb.net/sprites/sword-shield/icon/butterfree.png"
-		},
+		"evos": { "012": "Butterfree" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/metapod.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png",
 		"types": ["bug"],
@@ -507,28 +337,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "2",
-			"Ground_Dmg": "0.5",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Ground"],
+		"weakAgainst": ["Fire", "Poison", "Flying", "Rock"]
 	},
 	{
 		"pokedexNumber": 12,
 		"name": "Butterfree",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/butterfree.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
 		"types": ["bug", "flying"],
@@ -553,31 +368,13 @@
 			"maxSpDef": 152,
 			"maxSpeed": 218
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.25",
-			"Poison_Dmg": "2",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "4",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Ground", "Bug"],
+		"weakAgainst": ["Fire", "Eletric", "Ice", "Poison", "Flying", "Rock"]
 	},
 	{
 		"pokedexNumber": 13,
 		"name": "Weedle",
-		"evolutions": {
-			"014": "https://img.pokemondb.net/sprites/sword-shield/icon/kakuna.png",
-			"015": "https://img.pokemondb.net/sprites/sword-shield/icon/beedrill.png"
-		},
+		"evos": { "014": "Kakuna", "015": "Beedrill" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/weedle.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
 		"types": ["bug", "poison"],
@@ -602,30 +399,13 @@
 			"maxSpDef": 163,
 			"maxSpeed": 185
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.25",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight"],
+		"weakAgainst": ["Fire", "Flying", "Psychic", "Bug", "Rock"]
 	},
 	{
 		"pokedexNumber": 14,
 		"name": "Kakuna",
-		"evolutions": {
-			"015": "https://img.pokemondb.net/sprites/sword-shield/icon/beedrill.png"
-		},
+		"evos": { "015": "Beedrill" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/kakuna.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png",
 		"types": ["bug", "poison"],
@@ -650,28 +430,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 273
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.25",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight"],
+		"weakAgainst": ["Fire", "Flying", "Psychic", "Bug", "Rock"]
 	},
 	{
 		"pokedexNumber": 15,
 		"name": "Beedrill",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/beedrill.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png",
 		"types": ["bug", "poison"],
@@ -696,31 +461,13 @@
 			"maxSpDef": 185,
 			"maxSpeed": 232
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.25",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight"],
+		"weakAgainst": ["Fire", "Flying", "Psychic", "Bug", "Rock"]
 	},
 	{
 		"pokedexNumber": 16,
 		"name": "Pidgey",
-		"evolutions": {
-			"017": "https://img.pokemondb.net/sprites/sword-shield/icon/pidgeotto.png",
-			"018": "https://img.pokemondb.net/sprites/sword-shield/icon/pidgeot.png"
-		},
+		"evos": { "017": "Pidgeotto", "018": "Pidgeot" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/pidgey.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
 		"types": ["normal", "flying"],
@@ -745,30 +492,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 265
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
+		"weakAgainst": ["Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 17,
 		"name": "Pidgeotto",
-		"evolutions": {
-			"018": "https://img.pokemondb.net/sprites/sword-shield/icon/pidgeot.png"
-		},
+		"evos": { "018": "Pidgeot" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/pidgeotto.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
 		"types": ["normal", "flying"],
@@ -793,28 +523,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 331
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
+		"weakAgainst": ["Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 18,
 		"name": "Pidgeot",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/pidgeot.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png",
 		"types": ["normal", "flying"],
@@ -839,30 +554,13 @@
 			"maxSpDef": 185,
 			"maxSpeed": 267
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
+		"weakAgainst": ["Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 19,
 		"name": "Rattata",
-		"evolutions": {
-			"020": "https://img.pokemondb.net/sprites/sword-shield/icon/raticate.png"
-		},
+		"evos": { "020": "Raticate" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/rattata.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
 		"types": ["normal"],
@@ -887,28 +585,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 322
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 20,
 		"name": "Raticate",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/raticate.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
 		"types": ["normal"],
@@ -933,30 +616,13 @@
 			"maxSpDef": 177,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 21,
 		"name": "Spearow",
-		"evolutions": {
-			"022": "https://img.pokemondb.net/sprites/sword-shield/icon/fearow.png"
-		},
+		"evos": { "022": "Fearow" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/spearow.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png",
 		"types": ["normal", "flying"],
@@ -981,28 +647,13 @@
 			"maxSpDef": 243,
 			"maxSpeed": 328
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
+		"weakAgainst": ["Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 22,
 		"name": "Fearow",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/fearow.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png",
 		"types": ["normal", "flying"],
@@ -1027,30 +678,13 @@
 			"maxSpDef": 227,
 			"maxSpeed": 229
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
+		"weakAgainst": ["Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 23,
 		"name": "Ekans",
-		"evolutions": {
-			"024": "https://img.pokemondb.net/sprites/sword-shield/icon/arbok.png"
-		},
+		"evos": { "024": "Arbok" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/ekans.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png",
 		"types": ["poison"],
@@ -1075,28 +709,13 @@
 			"maxSpDef": 282,
 			"maxSpeed": 284
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 24,
 		"name": "Arbok",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/arbok.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
 		"types": ["poison"],
@@ -1121,30 +740,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 25,
 		"name": "Pikachu",
-		"evolutions": {
-			"026": "https://img.pokemondb.net/sprites/sword-shield/icon/raichu.png"
-		},
+		"evos": { "026": "Raichu" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/pikachu.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
 		"types": ["electric"],
@@ -1169,28 +771,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 350
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Flying"],
+		"weakAgainst": ["Ground"]
 	},
 	{
 		"pokedexNumber": 26,
 		"name": "Raichu",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/raichu.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png",
 		"types": ["electric"],
@@ -1215,30 +802,13 @@
 			"maxSpDef": 174,
 			"maxSpeed": 196
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Flying"],
+		"weakAgainst": ["Ground"]
 	},
 	{
 		"pokedexNumber": 27,
 		"name": "Sandshrew",
-		"evolutions": {
-			"028": "https://img.pokemondb.net/sprites/sword-shield/icon/sandslash.png"
-		},
+		"evos": { "028": "Sandslash" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/sandshrew.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
 		"types": ["ground"],
@@ -1263,28 +833,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 251
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Poison", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice"]
 	},
 	{
 		"pokedexNumber": 28,
 		"name": "Sandslash",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/sandslash.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png",
 		"types": ["ground"],
@@ -1309,29 +864,14 @@
 			"maxSpDef": 196,
 			"maxSpeed": 199
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Poison", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice"]
 	},
 	{
 		"pokedexNumber": 29,
 		"name": "Nidoran",
-		"evolutions": {},
-		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoran-f.png",
+		"evos": {},
+		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoran.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
 		"types": ["poison"],
 		"isLegendary": false,
@@ -1355,30 +895,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 232
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 30,
 		"name": "Nidorina",
-		"evolutions": {
-			"031": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoqueen.png"
-		},
+		"evos": { "031": "Nidoqueen" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/nidorina.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png",
 		"types": ["poison"],
@@ -1403,28 +926,13 @@
 			"maxSpDef": 295,
 			"maxSpeed": 276
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 31,
 		"name": "Nidoqueen",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoqueen.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png",
 		"types": ["poison", "ground"],
@@ -1449,29 +957,14 @@
 			"maxSpDef": 196,
 			"maxSpeed": 218
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Fight", "Poison", "Rock"],
+		"weakAgainst": ["Water", "Ice", "Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 32,
 		"name": "Nidoran",
-		"evolutions": {},
-		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoran-m.png",
+		"evos": {},
+		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoran.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png",
 		"types": ["poison"],
 		"isLegendary": false,
@@ -1495,30 +988,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 251
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 33,
 		"name": "Nidorino",
-		"evolutions": {
-			"034": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoking.png"
-		},
+		"evos": { "034": "Nidoking" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/nidorino.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png",
 		"types": ["poison"],
@@ -1543,28 +1019,13 @@
 			"maxSpDef": 273,
 			"maxSpeed": 295
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 34,
 		"name": "Nidoking",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/nidoking.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png",
 		"types": ["poison", "ground"],
@@ -1589,30 +1050,13 @@
 			"maxSpDef": 251,
 			"maxSpeed": 185
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Fight", "Poison", "Rock"],
+		"weakAgainst": ["Water", "Ice", "Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 35,
 		"name": "Clefairy",
-		"evolutions": {
-			"036": "https://img.pokemondb.net/sprites/sword-shield/icon/clefable.png"
-		},
+		"evos": { "036": "Clefable" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/clefairy.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
 		"types": ["normal"],
@@ -1637,28 +1081,13 @@
 			"maxSpDef": 306,
 			"maxSpeed": 240
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 36,
 		"name": "Clefable",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/clefable.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png",
 		"types": ["normal"],
@@ -1683,30 +1112,13 @@
 			"maxSpDef": 251,
 			"maxSpeed": 251
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 37,
 		"name": "Vulpix",
-		"evolutions": {
-			"038": "https://img.pokemondb.net/sprites/sword-shield/icon/ninetales.png"
-		},
+		"evos": { "038": "Ninetales" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/vulpix.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
 		"types": ["fire"],
@@ -1731,28 +1143,13 @@
 			"maxSpDef": 328,
 			"maxSpeed": 328
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Bug"],
+		"weakAgainst": ["Water", "Ground", "Rock"]
 	},
 	{
 		"pokedexNumber": 38,
 		"name": "Ninetales",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/ninetales.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png",
 		"types": ["fire"],
@@ -1777,30 +1174,13 @@
 			"maxSpDef": 163,
 			"maxSpeed": 152
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Bug"],
+		"weakAgainst": ["Water", "Ground", "Rock"]
 	},
 	{
 		"pokedexNumber": 39,
 		"name": "Jigglypuff",
-		"evolutions": {
-			"040": "https://img.pokemondb.net/sprites/sword-shield/icon/wigglytuff.png"
-		},
+		"evos": { "040": "Wigglytuff" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/jigglypuff.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
 		"types": ["normal"],
@@ -1825,28 +1205,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 207
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 40,
 		"name": "Wigglytuff",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/wigglytuff.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png",
 		"types": ["normal"],
@@ -1871,30 +1236,13 @@
 			"maxSpDef": 196,
 			"maxSpeed": 229
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 41,
 		"name": "Zubat",
-		"evolutions": {
-			"042": "https://img.pokemondb.net/sprites/sword-shield/icon/golbat.png"
-		},
+		"evos": { "042": "Golbat" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/zubat.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
 		"types": ["poison", "flying"],
@@ -1919,28 +1267,13 @@
 			"maxSpDef": 273,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.25",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison", "Ground"],
+		"weakAgainst": ["Eletric", "Ice", "Psychic", "Rock"]
 	},
 	{
 		"pokedexNumber": 42,
 		"name": "Golbat",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/golbat.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png",
 		"types": ["poison", "flying"],
@@ -1965,31 +1298,13 @@
 			"maxSpDef": 251,
 			"maxSpeed": 174
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.25",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison", "Ground"],
+		"weakAgainst": ["Eletric", "Ice", "Psychic", "Rock"]
 	},
 	{
 		"pokedexNumber": 43,
 		"name": "Oddish",
-		"evolutions": {
-			"044": "https://img.pokemondb.net/sprites/sword-shield/icon/gloom.png",
-			"045": "https://img.pokemondb.net/sprites/sword-shield/icon/vileplume.png"
-		},
+		"evos": { "044": "Gloom", "045": "Vileplume" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/oddish.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
 		"types": ["grass", "poison"],
@@ -2014,30 +1329,13 @@
 			"maxSpDef": 273,
 			"maxSpeed": 196
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
+		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 44,
 		"name": "Gloom",
-		"evolutions": {
-			"045": "https://img.pokemondb.net/sprites/sword-shield/icon/vileplume.png"
-		},
+		"evos": { "045": "Vileplume" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/gloom.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png",
 		"types": ["grass", "poison"],
@@ -2062,28 +1360,13 @@
 			"maxSpDef": 306,
 			"maxSpeed": 218
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
+		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 45,
 		"name": "Vileplume",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/vileplume.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png",
 		"types": ["grass", "poison"],
@@ -2108,30 +1391,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 163
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
+		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 46,
 		"name": "Paras",
-		"evolutions": {
-			"047": "https://img.pokemondb.net/sprites/sword-shield/icon/parasect.png"
-		},
+		"evos": { "047": "Parasect" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/paras.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png",
 		"types": ["bug", "grass"],
@@ -2156,28 +1422,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 174
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "4",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "4",
-			"Ground_Dmg": "0.25",
-			"Flying_Dmg": "4",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight", "Ground"],
+		"weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug", "Rock"]
 	},
 	{
 		"pokedexNumber": 47,
 		"name": "Parasect",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/parasect.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png",
 		"types": ["bug", "grass"],
@@ -2202,30 +1453,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 207
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "4",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "4",
-			"Ground_Dmg": "0.25",
-			"Flying_Dmg": "4",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight", "Ground"],
+		"weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug", "Rock"]
 	},
 	{
 		"pokedexNumber": 48,
 		"name": "Venonat",
-		"evolutions": {
-			"049": "https://img.pokemondb.net/sprites/sword-shield/icon/venomoth.png"
-		},
+		"evos": { "049": "Venomoth" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/venonat.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png",
 		"types": ["bug", "poison"],
@@ -2250,28 +1484,13 @@
 			"maxSpDef": 273,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.25",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight"],
+		"weakAgainst": ["Fire", "Flying", "Psychic", "Bug", "Rock"]
 	},
 	{
 		"pokedexNumber": 49,
 		"name": "Venomoth",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/venomoth.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png",
 		"types": ["bug", "poison"],
@@ -2296,30 +1515,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 317
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.25",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight"],
+		"weakAgainst": ["Fire", "Flying", "Psychic", "Bug", "Rock"]
 	},
 	{
 		"pokedexNumber": 50,
 		"name": "Diglett",
-		"evolutions": {
-			"051": "https://img.pokemondb.net/sprites/sword-shield/icon/dugtrio.png"
-		},
+		"evos": { "051": "Dugtrio" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/diglett.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png",
 		"types": ["ground"],
@@ -2344,28 +1546,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 372
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Poison", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice"]
 	},
 	{
 		"pokedexNumber": 51,
 		"name": "Dugtrio",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dugtrio.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png",
 		"types": ["ground"],
@@ -2390,30 +1577,13 @@
 			"maxSpDef": 196,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Poison", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice"]
 	},
 	{
 		"pokedexNumber": 52,
 		"name": "Meowth",
-		"evolutions": {
-			"053": "https://img.pokemondb.net/sprites/sword-shield/icon/persian.png"
-		},
+		"evos": { "053": "Persian" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/meowth.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
 		"types": ["normal"],
@@ -2438,28 +1608,13 @@
 			"maxSpDef": 251,
 			"maxSpeed": 361
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 53,
 		"name": "Persian",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/persian.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png",
 		"types": ["normal"],
@@ -2484,30 +1639,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 229
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 54,
 		"name": "Psyduck",
-		"evolutions": {
-			"055": "https://img.pokemondb.net/sprites/sword-shield/icon/golduck.png"
-		},
+		"evos": { "055": "Golduck" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/psyduck.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
 		"types": ["water"],
@@ -2532,28 +1670,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 295
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 55,
 		"name": "Golduck",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/golduck.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png",
 		"types": ["water"],
@@ -2578,30 +1701,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 56,
 		"name": "Mankey",
-		"evolutions": {
-			"057": "https://img.pokemondb.net/sprites/sword-shield/icon/primeape.png"
-		},
+		"evos": { "057": "Primeape" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/mankey.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png",
 		"types": ["fighting"],
@@ -2626,28 +1732,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 317
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Bug", "Rock"],
+		"weakAgainst": ["Flying", "Psychic"]
 	},
 	{
 		"pokedexNumber": 57,
 		"name": "Primeape",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/primeape.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png",
 		"types": ["fighting"],
@@ -2672,30 +1763,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 240
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Bug", "Rock"],
+		"weakAgainst": ["Flying", "Psychic"]
 	},
 	{
 		"pokedexNumber": 58,
 		"name": "Growlithe",
-		"evolutions": {
-			"059": "https://img.pokemondb.net/sprites/sword-shield/icon/arcanine.png"
-		},
+		"evos": { "059": "Arcanine" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/growlithe.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png",
 		"types": ["fire"],
@@ -2720,28 +1794,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 317
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Bug"],
+		"weakAgainst": ["Water", "Ground", "Rock"]
 	},
 	{
 		"pokedexNumber": 59,
 		"name": "Arcanine",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/arcanine.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png",
 		"types": ["fire"],
@@ -2766,31 +1825,13 @@
 			"maxSpDef": 196,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Bug"],
+		"weakAgainst": ["Water", "Ground", "Rock"]
 	},
 	{
 		"pokedexNumber": 60,
 		"name": "Poliwag",
-		"evolutions": {
-			"061": "https://img.pokemondb.net/sprites/sword-shield/icon/poliwhirl.png",
-			"062": "https://img.pokemondb.net/sprites/sword-shield/icon/poliwrath.png"
-		},
+		"evos": { "061": "Poliwhirl", "062": "Poliwrath" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/poliwag.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png",
 		"types": ["water"],
@@ -2815,30 +1856,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 61,
 		"name": "Poliwhirl",
-		"evolutions": {
-			"062": "https://img.pokemondb.net/sprites/sword-shield/icon/poliwrath.png"
-		},
+		"evos": { "062": "Poliwrath" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/poliwhirl.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png",
 		"types": ["water"],
@@ -2863,28 +1887,13 @@
 			"maxSpDef": 306,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 62,
 		"name": "Poliwrath",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/poliwrath.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png",
 		"types": ["water", "fighting"],
@@ -2909,31 +1918,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice", "Bug", "Rock"],
+		"weakAgainst": ["Eletric", "Grass", "Flying", "Psychic"]
 	},
 	{
 		"pokedexNumber": 63,
 		"name": "Abra",
-		"evolutions": {
-			"064": "https://img.pokemondb.net/sprites/sword-shield/icon/kadabra.png",
-			"065": "https://img.pokemondb.net/sprites/sword-shield/icon/alakazam.png"
-		},
+		"evos": { "064": "Kadabra", "065": "Alakazam" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/abra.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
 		"types": ["psychic"],
@@ -2958,30 +1949,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 339
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Bug"]
 	},
 	{
 		"pokedexNumber": 64,
 		"name": "Kadabra",
-		"evolutions": {
-			"065": "https://img.pokemondb.net/sprites/sword-shield/icon/alakazam.png"
-		},
+		"evos": { "065": "Alakazam" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/kadabra.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png",
 		"types": ["psychic"],
@@ -3006,28 +1980,13 @@
 			"maxSpDef": 317,
 			"maxSpeed": 372
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Bug"]
 	},
 	{
 		"pokedexNumber": 65,
 		"name": "Alakazam",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/alakazam.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png",
 		"types": ["psychic"],
@@ -3052,31 +2011,13 @@
 			"maxSpDef": 185,
 			"maxSpeed": 185
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Bug"]
 	},
 	{
 		"pokedexNumber": 66,
 		"name": "Machop",
-		"evolutions": {
-			"067": "https://img.pokemondb.net/sprites/sword-shield/icon/machoke.png",
-			"068": "https://img.pokemondb.net/sprites/sword-shield/icon/machamp.png"
-		},
+		"evos": { "067": "Machoke", "068": "Machamp" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/machop.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
 		"types": ["fighting"],
@@ -3101,30 +2042,13 @@
 			"maxSpDef": 240,
 			"maxSpeed": 207
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Bug", "Rock"],
+		"weakAgainst": ["Flying", "Psychic"]
 	},
 	{
 		"pokedexNumber": 67,
 		"name": "Machoke",
-		"evolutions": {
-			"068": "https://img.pokemondb.net/sprites/sword-shield/icon/machamp.png"
-		},
+		"evos": { "068": "Machamp" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/machoke.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png",
 		"types": ["fighting"],
@@ -3149,28 +2073,13 @@
 			"maxSpDef": 295,
 			"maxSpeed": 229
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Bug", "Rock"],
+		"weakAgainst": ["Flying", "Psychic"]
 	},
 	{
 		"pokedexNumber": 68,
 		"name": "Machamp",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/machamp.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png",
 		"types": ["fighting"],
@@ -3195,31 +2104,13 @@
 			"maxSpDef": 174,
 			"maxSpeed": 196
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Bug", "Rock"],
+		"weakAgainst": ["Flying", "Psychic"]
 	},
 	{
 		"pokedexNumber": 69,
 		"name": "Bellsprout",
-		"evolutions": {
-			"070": "https://img.pokemondb.net/sprites/sword-shield/icon/weepinbell.png",
-			"071": "https://img.pokemondb.net/sprites/sword-shield/icon/victreebel.png"
-		},
+		"evos": { "070": "Weepinbell", "071": "Victreebel" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/bellsprout.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png",
 		"types": ["grass", "poison"],
@@ -3244,30 +2135,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 229
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
+		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 70,
 		"name": "Weepinbell",
-		"evolutions": {
-			"071": "https://img.pokemondb.net/sprites/sword-shield/icon/victreebel.png"
-		},
+		"evos": { "071": "Victreebel" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/weepinbell.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png",
 		"types": ["grass", "poison"],
@@ -3292,28 +2166,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
+		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 71,
 		"name": "Victreebel",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/victreebel.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png",
 		"types": ["grass", "poison"],
@@ -3338,30 +2197,13 @@
 			"maxSpDef": 328,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Fight"],
+		"weakAgainst": ["Fire", "Ice", "Flying", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 72,
 		"name": "Tentacool",
-		"evolutions": {
-			"073": "https://img.pokemondb.net/sprites/sword-shield/icon/tentacruel.png"
-		},
+		"evos": { "073": "Tentacruel" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/tentacool.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png",
 		"types": ["water", "poison"],
@@ -3386,28 +2228,13 @@
 			"maxSpDef": 372,
 			"maxSpeed": 328
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice", "Fight", "Poison"],
+		"weakAgainst": ["Eletric", "Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 73,
 		"name": "Tentacruel",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/tentacruel.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png",
 		"types": ["water", "poison"],
@@ -3432,31 +2259,13 @@
 			"maxSpDef": 174,
 			"maxSpeed": 152
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice", "Fight", "Poison"],
+		"weakAgainst": ["Eletric", "Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 74,
 		"name": "Geodude",
-		"evolutions": {
-			"075": "https://img.pokemondb.net/sprites/sword-shield/icon/graveler.png",
-			"076": "https://img.pokemondb.net/sprites/sword-shield/icon/golem.png"
-		},
+		"evos": { "075": "Graveler", "076": "Golem" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/geodude.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
 		"types": ["rock", "ground"],
@@ -3481,30 +2290,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 185
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "4",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "4",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
 	},
 	{
 		"pokedexNumber": 75,
 		"name": "Graveler",
-		"evolutions": {
-			"076": "https://img.pokemondb.net/sprites/sword-shield/icon/golem.png"
-		},
+		"evos": { "076": "Golem" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/graveler.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png",
 		"types": ["rock", "ground"],
@@ -3529,28 +2321,13 @@
 			"maxSpDef": 251,
 			"maxSpeed": 207
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "4",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "4",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
 	},
 	{
 		"pokedexNumber": 76,
 		"name": "Golem",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/golem.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png",
 		"types": ["rock", "ground"],
@@ -3575,30 +2352,13 @@
 			"maxSpDef": 251,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "4",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "4",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
 	},
 	{
 		"pokedexNumber": 77,
 		"name": "Ponyta",
-		"evolutions": {
-			"078": "https://img.pokemondb.net/sprites/sword-shield/icon/rapidash.png"
-		},
+		"evos": { "078": "Rapidash" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/ponyta.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png",
 		"types": ["fire"],
@@ -3623,28 +2383,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 339
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Bug"],
+		"weakAgainst": ["Water", "Ground", "Rock"]
 	},
 	{
 		"pokedexNumber": 78,
 		"name": "Rapidash",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/rapidash.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png",
 		"types": ["fire"],
@@ -3669,30 +2414,13 @@
 			"maxSpDef": 196,
 			"maxSpeed": 141
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Bug"],
+		"weakAgainst": ["Water", "Ground", "Rock"]
 	},
 	{
 		"pokedexNumber": 79,
 		"name": "Slowpoke",
-		"evolutions": {
-			"080": "https://img.pokemondb.net/sprites/sword-shield/icon/slowbro.png"
-		},
+		"evos": { "080": "Slowbro" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/slowpoke.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png",
 		"types": ["water", "psychic"],
@@ -3717,28 +2445,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 174
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice", "Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Eletric", "Grass", "Bug"]
 	},
 	{
 		"pokedexNumber": 80,
 		"name": "Slowbro",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/slowbro.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png",
 		"types": ["water", "psychic"],
@@ -3763,30 +2476,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 207
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice", "Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Eletric", "Grass", "Bug"]
 	},
 	{
 		"pokedexNumber": 81,
 		"name": "Magnemite",
-		"evolutions": {
-			"082": "https://img.pokemondb.net/sprites/sword-shield/icon/magneton.png"
-		},
+		"evos": { "082": "Magneton" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/magnemite.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
 		"types": ["electric"],
@@ -3811,28 +2507,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Flying"],
+		"weakAgainst": ["Ground"]
 	},
 	{
 		"pokedexNumber": 82,
 		"name": "Magneton",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/magneton.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png",
 		"types": ["electric"],
@@ -3857,28 +2538,13 @@
 			"maxSpDef": 245,
 			"maxSpeed": 240
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Flying"],
+		"weakAgainst": ["Ground"]
 	},
 	{
 		"pokedexNumber": 83,
 		"name": "Farfetchd",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/farfetchd.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png",
 		"types": ["normal", "flying"],
@@ -3903,30 +2569,13 @@
 			"maxSpDef": 185,
 			"maxSpeed": 273
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
+		"weakAgainst": ["Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 84,
 		"name": "Doduo",
-		"evolutions": {
-			"085": "https://img.pokemondb.net/sprites/sword-shield/icon/dodrio.png"
-		},
+		"evos": { "085": "Dodrio" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/doduo.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png",
 		"types": ["normal", "flying"],
@@ -3951,28 +2600,13 @@
 			"maxSpDef": 240,
 			"maxSpeed": 350
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
+		"weakAgainst": ["Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 85,
 		"name": "Dodrio",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dodrio.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png",
 		"types": ["normal", "flying"],
@@ -3997,30 +2631,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 207
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Ground", "Bug", "Ghost"],
+		"weakAgainst": ["Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 86,
 		"name": "Seel",
-		"evolutions": {
-			"087": "https://img.pokemondb.net/sprites/sword-shield/icon/dewgong.png"
-		},
+		"evos": { "087": "Dewgong" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/seel.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png",
 		"types": ["water"],
@@ -4045,28 +2662,13 @@
 			"maxSpDef": 317,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 87,
 		"name": "Dewgong",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dewgong.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png",
 		"types": ["water", "ice"],
@@ -4091,30 +2693,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 163
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.25",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass", "Fight", "Rock"]
 	},
 	{
 		"pokedexNumber": 88,
 		"name": "Grimer",
-		"evolutions": {
-			"089": "https://img.pokemondb.net/sprites/sword-shield/icon/muk.png"
-		},
+		"evos": { "089": "Muk" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/grimer.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png",
 		"types": ["poison"],
@@ -4139,28 +2724,13 @@
 			"maxSpDef": 328,
 			"maxSpeed": 218
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 89,
 		"name": "Muk",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/muk.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
 		"types": ["poison"],
@@ -4185,30 +2755,13 @@
 			"maxSpDef": 163,
 			"maxSpeed": 196
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 90,
 		"name": "Shellder",
-		"evolutions": {
-			"091": "https://img.pokemondb.net/sprites/sword-shield/icon/cloyster.png"
-		},
+		"evos": { "091": "Cloyster" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/shellder.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png",
 		"types": ["water"],
@@ -4233,28 +2786,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 91,
 		"name": "Cloyster",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/cloyster.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png",
 		"types": ["water", "ice"],
@@ -4279,31 +2817,13 @@
 			"maxSpDef": 185,
 			"maxSpeed": 284
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.25",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass", "Fight", "Rock"]
 	},
 	{
 		"pokedexNumber": 92,
 		"name": "Gastly",
-		"evolutions": {
-			"093": "https://img.pokemondb.net/sprites/sword-shield/icon/haunter.png",
-			"094": "https://img.pokemondb.net/sprites/sword-shield/icon/gengar.png"
-		},
+		"evos": { "093": "Haunter", "094": "Gengar" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/gastly.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png",
 		"types": ["ghost", "poison"],
@@ -4328,30 +2848,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 317
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "2",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Ghost"]
 	},
 	{
 		"pokedexNumber": 93,
 		"name": "Haunter",
-		"evolutions": {
-			"094": "https://img.pokemondb.net/sprites/sword-shield/icon/gengar.png"
-		},
+		"evos": { "094": "Gengar" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/haunter.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png",
 		"types": ["ghost", "poison"],
@@ -4376,28 +2879,13 @@
 			"maxSpDef": 273,
 			"maxSpeed": 350
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "2",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Ghost"]
 	},
 	{
 		"pokedexNumber": 94,
 		"name": "Gengar",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/gengar.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
 		"types": ["ghost", "poison"],
@@ -4422,28 +2910,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "2",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Ghost"]
 	},
 	{
 		"pokedexNumber": 95,
 		"name": "Onix",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/onix.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
 		"types": ["rock", "ground"],
@@ -4468,30 +2941,13 @@
 			"maxSpDef": 306,
 			"maxSpeed": 201
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "4",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "4",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
 	},
 	{
 		"pokedexNumber": 96,
 		"name": "Drowzee",
-		"evolutions": {
-			"097": "https://img.pokemondb.net/sprites/sword-shield/icon/hypno.png"
-		},
+		"evos": { "097": "Hypno" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/drowzee.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png",
 		"types": ["psychic"],
@@ -4516,28 +2972,13 @@
 			"maxSpDef": 361,
 			"maxSpeed": 256
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Bug"]
 	},
 	{
 		"pokedexNumber": 97,
 		"name": "Hypno",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/hypno.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png",
 		"types": ["psychic"],
@@ -4562,30 +3003,13 @@
 			"maxSpDef": 163,
 			"maxSpeed": 218
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Bug"]
 	},
 	{
 		"pokedexNumber": 98,
 		"name": "Krabby",
-		"evolutions": {
-			"099": "https://img.pokemondb.net/sprites/sword-shield/icon/kingler.png"
-		},
+		"evos": { "099": "Kingler" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/krabby.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png",
 		"types": ["water"],
@@ -4610,28 +3034,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 273
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 99,
 		"name": "Kingler",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/kingler.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png",
 		"types": ["water"],
@@ -4656,30 +3065,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 328
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 100,
 		"name": "Voltorb",
-		"evolutions": {
-			"101": "https://img.pokemondb.net/sprites/sword-shield/icon/electrode.png"
-		},
+		"evos": { "101": "Electrode" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/voltorb.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png",
 		"types": ["electric"],
@@ -4704,28 +3096,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 438
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Flying"],
+		"weakAgainst": ["Ground"]
 	},
 	{
 		"pokedexNumber": 101,
 		"name": "Electrode",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/electrode.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png",
 		"types": ["electric"],
@@ -4750,30 +3127,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 196
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Flying"],
+		"weakAgainst": ["Ground"]
 	},
 	{
 		"pokedexNumber": 102,
 		"name": "Exeggcute",
-		"evolutions": {
-			"103": "https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor.png"
-		},
+		"evos": { "103": "Exeggutor" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/exeggcute.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png",
 		"types": ["grass", "psychic"],
@@ -4798,30 +3158,21 @@
 			"maxSpDef": 273,
 			"maxSpeed": 229
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "2",
-			"Ground_Dmg": "0.5",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": [
+			"Water",
+			"Eletric",
+			"Grass",
+			"Fight",
+			"Ground",
+			"Psychic",
+			"Ghost"
+		],
+		"weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug"]
 	},
 	{
 		"pokedexNumber": 103,
 		"name": "Exeggutor",
-		"evolutions": {
-			"103": "https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor.png"
-		},
+		"evos": { "103": "Exeggutor" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png",
 		"types": ["grass", "psychic"],
@@ -4846,30 +3197,21 @@
 			"maxSpDef": 218,
 			"maxSpeed": 185
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "2",
-			"Ground_Dmg": "0.5",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "4",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": [
+			"Water",
+			"Eletric",
+			"Grass",
+			"Fight",
+			"Ground",
+			"Psychic",
+			"Ghost"
+		],
+		"weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug"]
 	},
 	{
 		"pokedexNumber": 104,
 		"name": "Cubone",
-		"evolutions": {
-			"105": "https://img.pokemondb.net/sprites/sword-shield/icon/marowak.png"
-		},
+		"evos": { "105": "Marowak" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/cubone.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png",
 		"types": ["ground"],
@@ -4894,30 +3236,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 207
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Poison", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice"]
 	},
 	{
 		"pokedexNumber": 105,
 		"name": "Marowak",
-		"evolutions": {
-			"105": "https://img.pokemondb.net/sprites/sword-shield/icon/marowak.png"
-		},
+		"evos": { "105": "Marowak" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/marowak.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png",
 		"types": ["ground"],
@@ -4942,30 +3267,13 @@
 			"maxSpDef": 350,
 			"maxSpeed": 300
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Poison", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice"]
 	},
 	{
 		"pokedexNumber": 106,
 		"name": "Hitmonlee",
-		"evolutions": {
-			"107": "https://img.pokemondb.net/sprites/sword-shield/icon/hitmonchan.png"
-		},
+		"evos": { "107": "Hitmonchan" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/hitmonlee.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png",
 		"types": ["fighting"],
@@ -4990,28 +3298,13 @@
 			"maxSpDef": 350,
 			"maxSpeed": 276
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Bug", "Rock"],
+		"weakAgainst": ["Flying", "Psychic"]
 	},
 	{
 		"pokedexNumber": 107,
 		"name": "Hitmonchan",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/hitmonchan.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png",
 		"types": ["fighting"],
@@ -5036,28 +3329,13 @@
 			"maxSpDef": 273,
 			"maxSpeed": 174
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Bug", "Rock"],
+		"weakAgainst": ["Flying", "Psychic"]
 	},
 	{
 		"pokedexNumber": 108,
 		"name": "Lickitung",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/lickitung.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png",
 		"types": ["normal"],
@@ -5082,30 +3360,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 185
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 109,
 		"name": "Koffing",
-		"evolutions": {
-			"110": "https://img.pokemondb.net/sprites/sword-shield/icon/weezing.png"
-		},
+		"evos": { "110": "Weezing" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/koffing.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png",
 		"types": ["poison"],
@@ -5130,30 +3391,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 240
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 110,
 		"name": "Weezing",
-		"evolutions": {
-			"110": "https://img.pokemondb.net/sprites/sword-shield/icon/weezing.png"
-		},
+		"evos": { "110": "Weezing" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/weezing.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png",
 		"types": ["poison"],
@@ -5178,30 +3422,13 @@
 			"maxSpDef": 174,
 			"maxSpeed": 163
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "2",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Poison"],
+		"weakAgainst": ["Ground", "Psychic", "Bug"]
 	},
 	{
 		"pokedexNumber": 111,
 		"name": "Rhyhorn",
-		"evolutions": {
-			"112": "https://img.pokemondb.net/sprites/sword-shield/icon/rhydon.png"
-		},
+		"evos": { "112": "Rhydon" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/rhyhorn.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png",
 		"types": ["ground", "rock"],
@@ -5226,28 +3453,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 196
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "4",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "4",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
 	},
 	{
 		"pokedexNumber": 112,
 		"name": "Rhydon",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/rhydon.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png",
 		"types": ["ground", "rock"],
@@ -5272,28 +3484,13 @@
 			"maxSpDef": 339,
 			"maxSpeed": 218
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "4",
-			"Eletric_Dmg": "0",
-			"Grass_Dmg": "4",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "0.25",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "0.5",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Eletric", "Poison", "Flying", "Rock"],
+		"weakAgainst": ["Water", "Grass", "Ice", "Fight", "Ground"]
 	},
 	{
 		"pokedexNumber": 113,
 		"name": "Chansey",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/chansey.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png",
 		"types": ["normal"],
@@ -5318,28 +3515,13 @@
 			"maxSpDef": 196,
 			"maxSpeed": 240
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 114,
 		"name": "Tangela",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/tangela.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png",
 		"types": ["grass"],
@@ -5364,28 +3546,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "2",
-			"Ground_Dmg": "0.5",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Eletric", "Grass", "Ground"],
+		"weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug"]
 	},
 	{
 		"pokedexNumber": 115,
 		"name": "Kangaskhan",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/kangaskhan.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png",
 		"types": ["normal"],
@@ -5410,30 +3577,13 @@
 			"maxSpDef": 163,
 			"maxSpeed": 240
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 116,
 		"name": "Horsea",
-		"evolutions": {
-			"117": "https://img.pokemondb.net/sprites/sword-shield/icon/seadra.png"
-		},
+		"evos": { "117": "Seadra" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/horsea.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png",
 		"types": ["water"],
@@ -5458,28 +3608,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 295
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 117,
 		"name": "Seadra",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/seadra.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png",
 		"types": ["water"],
@@ -5504,30 +3639,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 247
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 118,
 		"name": "Goldeen",
-		"evolutions": {
-			"119": "https://img.pokemondb.net/sprites/sword-shield/icon/seaking.png"
-		},
+		"evos": { "119": "Seaking" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/goldeen.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png",
 		"types": ["water"],
@@ -5552,28 +3670,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 258
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 119,
 		"name": "Seaking",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/seaking.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png",
 		"types": ["water"],
@@ -5598,30 +3701,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 295
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 120,
 		"name": "Staryu",
-		"evolutions": {
-			"121": "https://img.pokemondb.net/sprites/sword-shield/icon/starmie.png"
-		},
+		"evos": { "121": "Starmie" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/staryu.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png",
 		"types": ["water"],
@@ -5646,28 +3732,13 @@
 			"maxSpDef": 295,
 			"maxSpeed": 361
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 121,
 		"name": "Starmie",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/starmie.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png",
 		"types": ["water", "psychic"],
@@ -5692,29 +3763,14 @@
 			"maxSpDef": 372,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice", "Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Eletric", "Grass", "Bug"]
 	},
 	{
 		"pokedexNumber": 122,
 		"name": "MrMime",
-		"evolutions": {},
-		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/mr-mime.png",
+		"evos": {},
+		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/mrmime.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png",
 		"types": ["psychic"],
 		"isLegendary": false,
@@ -5738,28 +3794,13 @@
 			"maxSpDef": 284,
 			"maxSpeed": 339
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Bug"]
 	},
 	{
 		"pokedexNumber": 123,
 		"name": "Scyther",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/scyther.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png",
 		"types": ["bug", "flying"],
@@ -5784,28 +3825,13 @@
 			"maxSpDef": 317,
 			"maxSpeed": 317
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.25",
-			"Poison_Dmg": "2",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "4",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Ground", "Bug"],
+		"weakAgainst": ["Fire", "Eletric", "Ice", "Poison", "Flying", "Rock"]
 	},
 	{
 		"pokedexNumber": 124,
 		"name": "Jynx",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/jynx.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png",
 		"types": ["ice", "psychic"],
@@ -5830,28 +3856,13 @@
 			"maxSpDef": 295,
 			"maxSpeed": 339
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ice", "Psychic", "Ghost"],
+		"weakAgainst": ["Fire", "Bug", "Rock"]
 	},
 	{
 		"pokedexNumber": 125,
 		"name": "Electabuzz",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/electabuzz.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png",
 		"types": ["electric"],
@@ -5876,28 +3887,13 @@
 			"maxSpDef": 295,
 			"maxSpeed": 313
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Flying"],
+		"weakAgainst": ["Ground"]
 	},
 	{
 		"pokedexNumber": 126,
 		"name": "Magmar",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/magmar.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png",
 		"types": ["fire"],
@@ -5922,28 +3918,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 295
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Bug"],
+		"weakAgainst": ["Water", "Ground", "Rock"]
 	},
 	{
 		"pokedexNumber": 127,
 		"name": "Pinsir",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/pinsir.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png",
 		"types": ["bug"],
@@ -5968,28 +3949,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 350
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "2",
-			"Ground_Dmg": "0.5",
-			"Flying_Dmg": "2",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Ground"],
+		"weakAgainst": ["Fire", "Poison", "Flying", "Rock"]
 	},
 	{
 		"pokedexNumber": 128,
 		"name": "Tauros",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/tauros.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png",
 		"types": ["normal"],
@@ -6014,30 +3980,13 @@
 			"maxSpDef": 152,
 			"maxSpeed": 284
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 129,
 		"name": "Magikarp",
-		"evolutions": {
-			"130": "https://img.pokemondb.net/sprites/sword-shield/icon/gyarados.png"
-		},
+		"evos": { "130": "Gyarados" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/magikarp.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png",
 		"types": ["water"],
@@ -6062,28 +4011,13 @@
 			"maxSpDef": 328,
 			"maxSpeed": 287
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 130,
 		"name": "Gyarados",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/gyarados.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png",
 		"types": ["water", "flying"],
@@ -6108,28 +4042,13 @@
 			"maxSpDef": 317,
 			"maxSpeed": 240
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "4",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Fight", "Ground", "Bug"],
+		"weakAgainst": ["Eletric", "Rock"]
 	},
 	{
 		"pokedexNumber": 131,
 		"name": "Lapras",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/lapras.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
 		"types": ["water", "ice"],
@@ -6154,28 +4073,13 @@
 			"maxSpDef": 214,
 			"maxSpeed": 214
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.25",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass", "Fight", "Rock"]
 	},
 	{
 		"pokedexNumber": 132,
 		"name": "Ditto",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/ditto.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png",
 		"types": ["normal"],
@@ -6200,31 +4104,13 @@
 			"maxSpDef": 251,
 			"maxSpeed": 229
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 133,
 		"name": "Eevee",
-		"evolutions": {
-			"134": "https://img.pokemondb.net/sprites/sword-shield/icon/vaporeon.png",
-			"135": "https://img.pokemondb.net/sprites/sword-shield/icon/jolteon.png"
-		},
+		"evos": { "134": "Vaporeon", "135": "Jolteon" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/eevee.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
 		"types": ["normal"],
@@ -6249,30 +4135,13 @@
 			"maxSpDef": 317,
 			"maxSpeed": 251
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 134,
 		"name": "Vaporeon",
-		"evolutions": {
-			"135": "https://img.pokemondb.net/sprites/sword-shield/icon/jolteon.png"
-		},
+		"evos": { "135": "Jolteon" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/vaporeon.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png",
 		"types": ["water"],
@@ -6297,28 +4166,13 @@
 			"maxSpDef": 317,
 			"maxSpeed": 394
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "2",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Water", "Ice"],
+		"weakAgainst": ["Eletric", "Grass"]
 	},
 	{
 		"pokedexNumber": 135,
 		"name": "Jolteon",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/jolteon.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png",
 		"types": ["electric"],
@@ -6343,28 +4197,13 @@
 			"maxSpDef": 350,
 			"maxSpeed": 251
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Eletric", "Flying"],
+		"weakAgainst": ["Ground"]
 	},
 	{
 		"pokedexNumber": 136,
 		"name": "Flareon",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/flareon.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png",
 		"types": ["fire"],
@@ -6389,28 +4228,13 @@
 			"maxSpDef": 273,
 			"maxSpeed": 196
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Bug"],
+		"weakAgainst": ["Water", "Ground", "Rock"]
 	},
 	{
 		"pokedexNumber": 137,
 		"name": "Porygon",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/porygon.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png",
 		"types": ["normal"],
@@ -6435,30 +4259,13 @@
 			"maxSpDef": 229,
 			"maxSpeed": 185
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 138,
 		"name": "Omanyte",
-		"evolutions": {
-			"139": "https://img.pokemondb.net/sprites/sword-shield/icon/omastar.png"
-		},
+		"evos": { "139": "Omastar" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/omanyte.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png",
 		"types": ["rock", "water"],
@@ -6483,28 +4290,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 229
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.25",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "4",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Ice", "Poison", "Flying"],
+		"weakAgainst": ["Eletric", "Grass", "Fight", "Ground"]
 	},
 	{
 		"pokedexNumber": 139,
 		"name": "Omastar",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/omastar.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png",
 		"types": ["rock", "water"],
@@ -6529,30 +4321,13 @@
 			"maxSpDef": 207,
 			"maxSpeed": 229
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.25",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "4",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Ice", "Poison", "Flying"],
+		"weakAgainst": ["Eletric", "Grass", "Fight", "Ground"]
 	},
 	{
 		"pokedexNumber": 140,
 		"name": "Kabuto",
-		"evolutions": {
-			"141": "https://img.pokemondb.net/sprites/sword-shield/icon/kabutops.png"
-		},
+		"evos": { "141": "Kabutops" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/kabuto.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png",
 		"types": ["rock", "water"],
@@ -6577,28 +4352,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 284
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.25",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "4",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Ice", "Poison", "Flying"],
+		"weakAgainst": ["Eletric", "Grass", "Fight", "Ground"]
 	},
 	{
 		"pokedexNumber": 141,
 		"name": "Kabutops",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/kabutops.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png",
 		"types": ["rock", "water"],
@@ -6623,28 +4383,13 @@
 			"maxSpDef": 273,
 			"maxSpeed": 394
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.25",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "4",
-			"Ice_Dmg": "0.5",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "2",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Ice", "Poison", "Flying"],
+		"weakAgainst": ["Eletric", "Grass", "Fight", "Ground"]
 	},
 	{
 		"pokedexNumber": 142,
 		"name": "Aerodactyl",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/aerodactyl.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png",
 		"types": ["rock", "flying"],
@@ -6669,28 +4414,13 @@
 			"maxSpDef": 350,
 			"maxSpeed": 174
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "0.5",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "0.5",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Normal", "Fire", "Poison", "Ground", "Flying", "Bug"],
+		"weakAgainst": ["Water", "Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 143,
 		"name": "Snorlax",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/snorlax.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
 		"types": ["normal"],
@@ -6715,28 +4445,13 @@
 			"maxSpDef": 383,
 			"maxSpeed": 295
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "2",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Ghost"],
+		"weakAgainst": ["Fight"]
 	},
 	{
 		"pokedexNumber": 144,
 		"name": "Articuno",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/articuno.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png",
 		"types": ["ice", "flying"],
@@ -6761,28 +4476,13 @@
 			"maxSpDef": 306,
 			"maxSpeed": 328
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "2",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "4",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Ground", "Bug"],
+		"weakAgainst": ["Fire", "Eletric", "Rock"]
 	},
 	{
 		"pokedexNumber": 145,
 		"name": "Zapdos",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/zapdos.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png",
 		"types": ["electric", "flying"],
@@ -6807,28 +4507,13 @@
 			"maxSpDef": 295,
 			"maxSpeed": 306
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "0.5",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Grass", "Fight", "Ground", "Flying", "Bug"],
+		"weakAgainst": ["Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 146,
 		"name": "Moltres",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/moltres.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png",
 		"types": ["fire", "flying"],
@@ -6853,31 +4538,13 @@
 			"maxSpDef": 218,
 			"maxSpeed": 218
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "2",
-			"Eletric_Dmg": "2",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.25",
-			"Rock_Dmg": "4",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fire", "Grass", "Fight", "Ground", "Bug"],
+		"weakAgainst": ["Water", "Eletric", "Ice", "Rock"]
 	},
 	{
 		"pokedexNumber": 147,
 		"name": "Dratini",
-		"evolutions": {
-			"148": "https://img.pokemondb.net/sprites/sword-shield/icon/dragonair.png",
-			"149": "https://img.pokemondb.net/sprites/sword-shield/icon/dragonite.png"
-		},
+		"evos": { "148": "Dragonair", "149": "Dragonite" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dratini.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png",
 		"types": ["dragon"],
@@ -6902,30 +4569,13 @@
 			"maxSpDef": 262,
 			"maxSpeed": 262
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "2"
-		}
+		"strongAgainst": ["Fire", "Water", "Eletric", "Grass"],
+		"weakAgainst": ["Ice", "Dragon"]
 	},
 	{
 		"pokedexNumber": 148,
 		"name": "Dragonair",
-		"evolutions": {
-			"149": "https://img.pokemondb.net/sprites/sword-shield/icon/dragonite.png"
-		},
+		"evos": { "149": "Dragonite" },
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dragonair.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png",
 		"types": ["dragon"],
@@ -6950,28 +4600,13 @@
 			"maxSpDef": 328,
 			"maxSpeed": 284
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "0.5",
-			"Grass_Dmg": "0.5",
-			"Ice_Dmg": "2",
-			"Fight_Dmg": "1",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "1",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "2"
-		}
+		"strongAgainst": ["Fire", "Water", "Eletric", "Grass"],
+		"weakAgainst": ["Ice", "Dragon"]
 	},
 	{
 		"pokedexNumber": 149,
 		"name": "Dragonite",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/dragonite.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
 		"types": ["dragon", "flying"],
@@ -6996,28 +4631,13 @@
 			"maxSpDef": 306,
 			"maxSpeed": 394
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "0.5",
-			"Water_Dmg": "0.5",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "0.25",
-			"Ice_Dmg": "4",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "0",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "1",
-			"Bug_Dmg": "0.5",
-			"Rock_Dmg": "2",
-			"Ghost_Dmg": "1",
-			"Dragon_Dmg": "2"
-		}
+		"strongAgainst": ["Fire", "Water", "Grass", "Fight", "Ground", "Bug"],
+		"weakAgainst": ["Ice", "Rock", "Dragon"]
 	},
 	{
 		"pokedexNumber": 150,
 		"name": "Mewtwo",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
 		"types": ["psychic"],
@@ -7042,28 +4662,13 @@
 			"maxSpDef": 328,
 			"maxSpeed": 328
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Bug"]
 	},
 	{
 		"pokedexNumber": 151,
 		"name": "Mew",
-		"evolutions": {},
+		"evos": {},
 		"spriteSmallLink": "https://img.pokemondb.net/sprites/sword-shield/icon/mew.png",
 		"spriteBigLink": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
 		"types": ["psychic"],
@@ -7080,22 +4685,7 @@
 			"Special": "100",
 			"Speed": "100"
 		},
-		"typeAgainst": {
-			"Normal_Dmg": "1",
-			"Fire_Dmg": "1",
-			"Water_Dmg": "1",
-			"Eletric_Dmg": "1",
-			"Grass_Dmg": "1",
-			"Ice_Dmg": "1",
-			"Fight_Dmg": "0.5",
-			"Poison_Dmg": "1",
-			"Ground_Dmg": "1",
-			"Flying_Dmg": "1",
-			"Psychic_Dmg": "0.5",
-			"Bug_Dmg": "2",
-			"Rock_Dmg": "1",
-			"Ghost_Dmg": "0",
-			"Dragon_Dmg": "1"
-		}
+		"strongAgainst": ["Fight", "Psychic", "Ghost"],
+		"weakAgainst": ["Bug"]
 	}
 ]
