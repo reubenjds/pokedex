@@ -3,7 +3,10 @@ import mongoose, { model } from "mongoose";
 const pokeSchema = new mongoose.Schema({
 	pokedexNumber: Number,
 	name: String,
-	evolutions: [String],
+	evos: {
+		type: Map,
+		of: String,
+	},
 	spriteSmallLink: String,
 	spriteBigLink: String,
 	types: [String],
@@ -11,6 +14,7 @@ const pokeSchema = new mongoose.Schema({
 	height: Number,
 	weight: Number,
 	malePercent: Number,
+	femalePercent: Number,
 	captureRate: Number,
 	baseTotal: Number,
 	baseStats: {
@@ -21,10 +25,9 @@ const pokeSchema = new mongoose.Schema({
 		type: Map,
 		of: Number,
 	},
-	typeAgainst: {
-		type: Map,
-		of: String,
-	},
+	strongAgainst: [String],
+	weakAgainst: [String],
+	abilities: [String],
 });
 
 export default mongoose.model("Poke", pokeSchema, "generation1");

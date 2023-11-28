@@ -15,8 +15,12 @@ router.get("/", async (req, res) => {
 
 // Get pokemon by dex number
 router.get("/:dexNumber", async (req, res) => {
-	const pokemon = await Poke.findOne({ pokedexNumber: req.params.dexNumber });
-	res.json(pokemon);
+	try {
+		const pokemon = await Poke.findOne({ pokedexNumber: req.params.dexNumber });
+		res.json(pokemon);
+	} catch (error) {
+		res.status(500).json({ error });
+	}
 });
 
 export { router as pokemonRouter };
