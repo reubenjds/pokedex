@@ -96,7 +96,7 @@
 		},
 		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"],
-		"abilities": ["Blaze", "Solar Power"]
+		"abilities": ["Overgrow", "Chlorophyll"]
 	},
 	{
 		"pokedexNumber": 4,
@@ -195,7 +195,7 @@
 		},
 		"strongAgainst": ["grass", "fighting", "ground", "bug"],
 		"weakAgainst": ["water", "electric", "ice", "rock"],
-		"abilities": ["Torrent", "Rain Dish"]
+		"abilities": ["Blaze", "Solar Power"]
 	},
 	{
 		"pokedexNumber": 7,
@@ -294,7 +294,7 @@
 		},
 		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"],
-		"abilities": ["Shield Dust", "Run Away"]
+		"abilities": ["Torrent", "Rain Dish"]
 	},
 	{
 		"pokedexNumber": 10,
@@ -327,7 +327,7 @@
 		},
 		"strongAgainst": ["grass", "fighting", "ground"],
 		"weakAgainst": ["fire", "poison", "flying", "rock"],
-		"abilities": ["Shed Skin"]
+		"abilities": ["Shield Dust", "Run Away"]
 	},
 	{
 		"pokedexNumber": 11,
@@ -360,7 +360,7 @@
 		},
 		"strongAgainst": ["grass", "fighting", "ground"],
 		"weakAgainst": ["fire", "poison", "flying", "rock"],
-		"abilities": ["Compoundeyes", "Tinted Lens"]
+		"abilities": ["Shed Skin"]
 	},
 	{
 		"pokedexNumber": 12,
@@ -393,7 +393,7 @@
 		},
 		"strongAgainst": ["grass", "fighting", "ground"],
 		"weakAgainst": ["fire", "electric", "ice", "poison", "flying", "rock"],
-		"abilities": ["Shield Dust", "Run Away"]
+		"abilities": ["Compoundeyes", "Tinted Lens"]
 	},
 	{
 		"pokedexNumber": 13,
@@ -426,7 +426,7 @@
 		},
 		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["fire", "flying", "psychic", "bug", "rock"],
-		"abilities": ["Shed Skin"]
+		"abilities": ["Shield Dust", "Run Away"]
 	},
 	{
 		"pokedexNumber": 14,
@@ -459,7 +459,7 @@
 		},
 		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["fire", "flying", "psychic", "bug", "rock"],
-		"abilities": ["Swarm", "Sniper"]
+		"abilities": ["Shed Skin"]
 	},
 	{
 		"pokedexNumber": 15,
@@ -492,7 +492,7 @@
 		},
 		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["fire", "flying", "psychic", "bug", "rock"],
-		"abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"]
+		"abilities": ["Swarm", "Sniper"]
 	},
 	{
 		"pokedexNumber": 16,
@@ -591,14 +591,7 @@
 		},
 		"strongAgainst": ["grass", "ground", "bug", "ghost"],
 		"weakAgainst": ["electric", "ice", "rock"],
-		"abilities": [
-			"Run Away",
-			"Guts",
-			"Hustle",
-			"Gluttony",
-			"Hustle",
-			"Thick Fat"
-		]
+		"abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"]
 	},
 	{
 		"pokedexNumber": 19,
@@ -671,7 +664,14 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Keen Eye", "Sniper"]
+		"abilities": [
+			"Run Away",
+			"Guts",
+			"Hustle",
+			"Gluttony",
+			"Hustle",
+			"Thick Fat"
+		]
 	},
 	{
 		"pokedexNumber": 21,
@@ -737,7 +737,7 @@
 		},
 		"strongAgainst": ["grass", "ground", "bug", "ghost"],
 		"weakAgainst": ["electric", "ice", "rock"],
-		"abilities": ["Intimidate", "Shed Skin", "Unnerve"]
+		"abilities": ["Keen Eye", "Sniper"]
 	},
 	{
 		"pokedexNumber": 23,
@@ -803,7 +803,7 @@
 		},
 		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"],
-		"abilities": ["Static", "Lightningrod"]
+		"abilities": ["Intimidate", "Shed Skin", "Unnerve"]
 	},
 	{
 		"pokedexNumber": 25,
@@ -836,7 +836,7 @@
 		},
 		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"],
-		"abilities": ["Static", "Lightningrod", "Surge Surfer"]
+		"abilities": ["Static", "Lightningrod"]
 	},
 	{
 		"pokedexNumber": 26,
@@ -869,7 +869,7 @@
 		},
 		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"],
-		"abilities": ["Sand Veil", "Sand Rush", "Snow Cloak", "Slush Rush"]
+		"abilities": ["Static", "Lightningrod", "Surge Surfer"]
 	},
 	{
 		"pokedexNumber": 27,
@@ -935,7 +935,7 @@
 		},
 		"strongAgainst": ["electric", "poison", "rock"],
 		"weakAgainst": ["water", "grass", "ice"],
-		"abilities": ["Poison Point", "Rivalry", "Hustle"]
+		"abilities": ["Sand Veil", "Sand Rush", "Snow Cloak", "Slush Rush"]
 	},
 	{
 		"pokedexNumber": 29,
@@ -1001,7 +1001,7 @@
 		},
 		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"],
-		"abilities": ["Poison Point", "Rivalry", "Sheer Force"]
+		"abilities": ["Poison Point", "Rivalry", "Hustle"]
 	},
 	{
 		"pokedexNumber": 31,
@@ -1034,7 +1034,7 @@
 		},
 		"strongAgainst": ["electric", "fighting", "rock"],
 		"weakAgainst": ["water", "ice", "ground", "psychic", "bug"],
-		"abilities": ["Poison Point", "Rivalry", "Hustle"]
+		"abilities": ["Poison Point", "Rivalry", "Sheer Force"]
 	},
 	{
 		"pokedexNumber": 32,
@@ -1100,7 +1100,7 @@
 		},
 		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"],
-		"abilities": ["Poison Point", "Rivalry", "Sheer Force"]
+		"abilities": ["Poison Point", "Rivalry", "Hustle"]
 	},
 	{
 		"pokedexNumber": 34,
@@ -1133,7 +1133,7 @@
 		},
 		"strongAgainst": ["electric", "fighting", "rock"],
 		"weakAgainst": ["water", "ice", "ground", "psychic", "bug"],
-		"abilities": ["Cute Charm", "Magic Guard", "Friend Guard"]
+		"abilities": ["Poison Point", "Rivalry", "Sheer Force"]
 	},
 	{
 		"pokedexNumber": 35,
@@ -1166,7 +1166,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Cute Charm", "Magic Guard", "Unaware"]
+		"abilities": ["Cute Charm", "Magic Guard", "Friend Guard"]
 	},
 	{
 		"pokedexNumber": 36,
@@ -1199,7 +1199,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Flash Fire", "Drought", "Snow Cloak", "Snow Warning"]
+		"abilities": ["Cute Charm", "Magic Guard", "Unaware"]
 	},
 	{
 		"pokedexNumber": 37,
@@ -1265,7 +1265,7 @@
 		},
 		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"],
-		"abilities": ["Cute Charm", "Competitive", "Friend Guard"]
+		"abilities": ["Flash Fire", "Drought", "Snow Cloak", "Snow Warning"]
 	},
 	{
 		"pokedexNumber": 39,
@@ -1298,7 +1298,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Cute Charm", "Competitive", "Frisk"]
+		"abilities": ["Cute Charm", "Competitive", "Friend Guard"]
 	},
 	{
 		"pokedexNumber": 40,
@@ -1331,7 +1331,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Inner Focus", "Infiltrator"]
+		"abilities": ["Cute Charm", "Competitive", "Frisk"]
 	},
 	{
 		"pokedexNumber": 41,
@@ -1397,7 +1397,7 @@
 		},
 		"strongAgainst": ["grass", "fighting", "ground"],
 		"weakAgainst": ["electric", "ice", "psychic", "rock"],
-		"abilities": ["Chlorophyll", "Run Away"]
+		"abilities": ["Inner Focus", "Infiltrator"]
 	},
 	{
 		"pokedexNumber": 43,
@@ -1430,7 +1430,7 @@
 		},
 		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"],
-		"abilities": ["Chlorophyll", "Stench"]
+		"abilities": ["Chlorophyll", "Run Away"]
 	},
 	{
 		"pokedexNumber": 44,
@@ -1463,7 +1463,7 @@
 		},
 		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"],
-		"abilities": ["Chlorophyll", "Effect Spore"]
+		"abilities": ["Chlorophyll", "Stench"]
 	},
 	{
 		"pokedexNumber": 45,
@@ -1496,7 +1496,7 @@
 		},
 		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"],
-		"abilities": ["Effect Spore", "Dry Skin", "Damp"]
+		"abilities": ["Chlorophyll", "Effect Spore"]
 	},
 	{
 		"pokedexNumber": 46,
@@ -1562,7 +1562,7 @@
 		},
 		"strongAgainst": ["water", "electric", "fighting", "ground"],
 		"weakAgainst": ["fire", "ice", "poison", "flying", "bug", "rock"],
-		"abilities": ["Compoundeyes", "Tinted Lens", "Run Away"]
+		"abilities": ["Effect Spore", "Dry Skin", "Damp"]
 	},
 	{
 		"pokedexNumber": 48,
@@ -1595,7 +1595,7 @@
 		},
 		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["fire", "flying", "psychic", "bug", "rock"],
-		"abilities": ["Shield Dust", "Tinted Lens", "Wonder Skin "]
+		"abilities": ["Compoundeyes", "Tinted Lens", "Run Away"]
 	},
 	{
 		"pokedexNumber": 49,
@@ -1628,14 +1628,7 @@
 		},
 		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["fire", "flying", "psychic", "bug", "rock"],
-		"abilities": [
-			"Sand Veil",
-			"Arena Trap",
-			"Sand Force",
-			"Sand Veil",
-			"Tangling Hair",
-			"Sand Force"
-		]
+		"abilities": ["Shield Dust", "Tinted Lens", "Wonder Skin "]
 	},
 	{
 		"pokedexNumber": 50,
@@ -1709,12 +1702,12 @@
 		"strongAgainst": ["electric", "poison", "rock"],
 		"weakAgainst": ["water", "grass", "ice"],
 		"abilities": [
-			"Pickup",
-			"Technician",
-			"Unnerve",
-			"Pickup",
-			"Technician",
-			"Rattled"
+			"Sand Veil",
+			"Arena Trap",
+			"Sand Force",
+			"Sand Veil",
+			"Tangling Hair",
+			"Sand Force"
 		]
 	},
 	{
@@ -1749,10 +1742,10 @@
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
 		"abilities": [
-			"Limber",
+			"Pickup",
 			"Technician",
 			"Unnerve",
-			"Fur Coat",
+			"Pickup",
 			"Technician",
 			"Rattled"
 		]
@@ -1788,7 +1781,14 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Damp", "Cloud Nine", "Swift Swim"]
+		"abilities": [
+			"Limber",
+			"Technician",
+			"Unnerve",
+			"Fur Coat",
+			"Technician",
+			"Rattled"
+		]
 	},
 	{
 		"pokedexNumber": 54,
@@ -1854,7 +1854,7 @@
 		},
 		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"],
-		"abilities": ["Vital Spirit", "Anger Point", "Defiant"]
+		"abilities": ["Damp", "Cloud Nine", "Swift Swim"]
 	},
 	{
 		"pokedexNumber": 56,
@@ -1920,7 +1920,7 @@
 		},
 		"strongAgainst": ["bug", "rock"],
 		"weakAgainst": ["flying", "psychic"],
-		"abilities": ["Intimidate", "Flash Fire", "Justified"]
+		"abilities": ["Vital Spirit", "Anger Point", "Defiant"]
 	},
 	{
 		"pokedexNumber": 58,
@@ -1986,7 +1986,7 @@
 		},
 		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"],
-		"abilities": ["Water Absorb", "Damp", "Swift Swim"]
+		"abilities": ["Intimidate", "Flash Fire", "Justified"]
 	},
 	{
 		"pokedexNumber": 60,
@@ -2085,7 +2085,7 @@
 		},
 		"strongAgainst": ["fire", "ice", "bug", "rock"],
 		"weakAgainst": ["electric", "grass", "flying", "psychic"],
-		"abilities": ["Synchronize", "Inner Focus", "Magic Guard"]
+		"abilities": ["Water Absorb", "Damp", "Swift Swim"]
 	},
 	{
 		"pokedexNumber": 63,
@@ -2184,7 +2184,7 @@
 		},
 		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"],
-		"abilities": ["Guts", "No Guard", "Steadfast"]
+		"abilities": ["Synchronize", "Inner Focus", "Magic Guard"]
 	},
 	{
 		"pokedexNumber": 66,
@@ -2283,7 +2283,7 @@
 		},
 		"strongAgainst": ["bug", "rock"],
 		"weakAgainst": ["flying", "psychic"],
-		"abilities": ["Chlorophyll", "Gluttony"]
+		"abilities": ["Guts", "No Guard", "Steadfast"]
 	},
 	{
 		"pokedexNumber": 69,
@@ -2382,7 +2382,7 @@
 		},
 		"strongAgainst": ["water", "electric", "fighting"],
 		"weakAgainst": ["fire", "ice", "flying", "psychic", "bug"],
-		"abilities": ["Clear Body", "Liquid Ooze", "Rain Dish"]
+		"abilities": ["Chlorophyll", "Gluttony"]
 	},
 	{
 		"pokedexNumber": 72,
@@ -2448,14 +2448,7 @@
 		},
 		"strongAgainst": ["fire", "ice", "fighting"],
 		"weakAgainst": ["electric", "ground", "psychic", "bug"],
-		"abilities": [
-			"Rock Head",
-			"Sturdy",
-			"Sand Veil",
-			"Magnet Pull",
-			"Sturdy",
-			"Galvanize"
-		]
+		"abilities": ["Clear Body", "Liquid Ooze", "Rain Dish"]
 	},
 	{
 		"pokedexNumber": 74,
@@ -2568,7 +2561,14 @@
 		},
 		"strongAgainst": ["normal", "fire", "electric", "poison", "flying"],
 		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"],
-		"abilities": ["Run Away", "Flash Fire", "Flame Body"]
+		"abilities": [
+			"Rock Head",
+			"Sturdy",
+			"Sand Veil",
+			"Magnet Pull",
+			"Sturdy",
+			"Galvanize"
+		]
 	},
 	{
 		"pokedexNumber": 77,
@@ -2634,7 +2634,7 @@
 		},
 		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"],
-		"abilities": ["Oblivious", "Own Tempo", "Regenerator"]
+		"abilities": ["Run Away", "Flash Fire", "Flame Body"]
 	},
 	{
 		"pokedexNumber": 79,
@@ -2700,7 +2700,7 @@
 		},
 		"strongAgainst": ["fire", "ice", "fighting", "ghost"],
 		"weakAgainst": ["electric", "grass", "bug"],
-		"abilities": ["Magnet Pull", "Sturdy", "Analytic"]
+		"abilities": ["Oblivious", "Own Tempo", "Regenerator"]
 	},
 	{
 		"pokedexNumber": 81,
@@ -2766,7 +2766,7 @@
 		},
 		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"],
-		"abilities": ["Keen Eye", "Inner Focus", "Defiant"]
+		"abilities": ["Magnet Pull", "Sturdy", "Analytic"]
 	},
 	{
 		"pokedexNumber": 83,
@@ -2799,7 +2799,7 @@
 		},
 		"strongAgainst": ["grass", "ground", "bug", "ghost"],
 		"weakAgainst": ["electric", "ice", "rock"],
-		"abilities": ["Run Away", "Early Bird", "Tangled Feet"]
+		"abilities": ["Keen Eye", "Inner Focus", "Defiant"]
 	},
 	{
 		"pokedexNumber": 84,
@@ -2865,7 +2865,7 @@
 		},
 		"strongAgainst": ["grass", "ground", "bug", "ghost"],
 		"weakAgainst": ["electric", "ice", "rock"],
-		"abilities": ["Thick Fat", "Hydration", "Ice Body"]
+		"abilities": ["Run Away", "Early Bird", "Tangled Feet"]
 	},
 	{
 		"pokedexNumber": 86,
@@ -2931,14 +2931,7 @@
 		},
 		"strongAgainst": [],
 		"weakAgainst": ["electric", "grass", "fighting", "rock"],
-		"abilities": [
-			"Stench",
-			"Sticky Hold",
-			"Poison Touch",
-			"Poison Touch",
-			"Gluttony",
-			"Power of Alchemy"
-		]
+		"abilities": ["Thick Fat", "Hydration", "Ice Body"]
 	},
 	{
 		"pokedexNumber": 88,
@@ -3011,7 +3004,14 @@
 		},
 		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"],
-		"abilities": ["Shell Armor", "Skill Link", "Overcoat"]
+		"abilities": [
+			"Stench",
+			"Sticky Hold",
+			"Poison Touch",
+			"Poison Touch",
+			"Gluttony",
+			"Power of Alchemy"
+		]
 	},
 	{
 		"pokedexNumber": 90,
@@ -3077,7 +3077,7 @@
 		},
 		"strongAgainst": [],
 		"weakAgainst": ["electric", "grass", "fighting", "rock"],
-		"abilities": ["Levitate"]
+		"abilities": ["Shell Armor", "Skill Link", "Overcoat"]
 	},
 	{
 		"pokedexNumber": 92,
@@ -3143,7 +3143,7 @@
 		},
 		"strongAgainst": ["normal", "grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "ghost"],
-		"abilities": ["Cursed Body"]
+		"abilities": ["Levitate"]
 	},
 	{
 		"pokedexNumber": 94,
@@ -3176,7 +3176,7 @@
 		},
 		"strongAgainst": ["normal", "grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "ghost"],
-		"abilities": ["Rock Head", "Sturdy", "Weak Armor"]
+		"abilities": ["Cursed Body"]
 	},
 	{
 		"pokedexNumber": 95,
@@ -3209,7 +3209,7 @@
 		},
 		"strongAgainst": ["normal", "fire", "electric", "poison", "flying"],
 		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"],
-		"abilities": ["Insomnia", "Forewarn", "Inner Focus"]
+		"abilities": ["Rock Head", "Sturdy", "Weak Armor"]
 	},
 	{
 		"pokedexNumber": 96,
@@ -3275,7 +3275,7 @@
 		},
 		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"],
-		"abilities": ["Hyper Cutter", "Shell Armor", "Sheer Force"]
+		"abilities": ["Insomnia", "Forewarn", "Inner Focus"]
 	},
 	{
 		"pokedexNumber": 98,
@@ -3341,7 +3341,7 @@
 		},
 		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"],
-		"abilities": ["Soundproof", "Static", "Aftermath"]
+		"abilities": ["Hyper Cutter", "Shell Armor", "Sheer Force"]
 	},
 	{
 		"pokedexNumber": 100,
@@ -3407,7 +3407,7 @@
 		},
 		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"],
-		"abilities": ["Chlorophyll", "Harvest"]
+		"abilities": ["Soundproof", "Static", "Aftermath"]
 	},
 	{
 		"pokedexNumber": 102,
@@ -3440,7 +3440,7 @@
 		},
 		"strongAgainst": ["water", "electric", "fighting", "ground", "ghost"],
 		"weakAgainst": ["fire", "ice", "poison", "flying", "bug"],
-		"abilities": ["Chlorophyll", "Harvest", "Frisk", "Harvest"]
+		"abilities": ["Chlorophyll", "Harvest"]
 	},
 	{
 		"pokedexNumber": 103,
@@ -3473,7 +3473,7 @@
 		},
 		"strongAgainst": ["water", "electric", "fighting", "ground", "ghost"],
 		"weakAgainst": ["fire", "ice", "poison", "flying", "bug"],
-		"abilities": ["Rock Head", "Lightningrod", "Battle Armor"]
+		"abilities": ["Chlorophyll", "Harvest", "Frisk", "Harvest"]
 	},
 	{
 		"pokedexNumber": 104,
@@ -3506,14 +3506,7 @@
 		},
 		"strongAgainst": ["electric", "poison", "rock"],
 		"weakAgainst": ["water", "grass", "ice"],
-		"abilities": [
-			"Rock Head",
-			"Lightningrod",
-			"Battle Armor",
-			"Cursed Body",
-			"Lightningrod",
-			"Rock Head"
-		]
+		"abilities": ["Rock Head", "Lightningrod", "Battle Armor"]
 	},
 	{
 		"pokedexNumber": 105,
@@ -3546,7 +3539,14 @@
 		},
 		"strongAgainst": ["electric", "poison", "rock"],
 		"weakAgainst": ["water", "grass", "ice"],
-		"abilities": ["Limber", "Reckless", "Unburden"]
+		"abilities": [
+			"Rock Head",
+			"Lightningrod",
+			"Battle Armor",
+			"Cursed Body",
+			"Lightningrod",
+			"Rock Head"
+		]
 	},
 	{
 		"pokedexNumber": 106,
@@ -3579,7 +3579,7 @@
 		},
 		"strongAgainst": ["bug", "rock"],
 		"weakAgainst": ["flying", "psychic"],
-		"abilities": ["Keen Eye", "Iron Fist", "Inner Focus"]
+		"abilities": ["Limber", "Reckless", "Unburden"]
 	},
 	{
 		"pokedexNumber": 107,
@@ -3612,7 +3612,7 @@
 		},
 		"strongAgainst": ["bug", "rock"],
 		"weakAgainst": ["flying", "psychic"],
-		"abilities": ["Own Tempo", "Oblivious", "Cloud Nine"]
+		"abilities": ["Keen Eye", "Iron Fist", "Inner Focus"]
 	},
 	{
 		"pokedexNumber": 108,
@@ -3645,7 +3645,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Levitate"]
+		"abilities": ["Own Tempo", "Oblivious", "Cloud Nine"]
 	},
 	{
 		"pokedexNumber": 109,
@@ -3711,7 +3711,7 @@
 		},
 		"strongAgainst": ["grass", "fighting"],
 		"weakAgainst": ["ground", "psychic", "bug"],
-		"abilities": ["Lightningrod", "Rock Head", "Reckless"]
+		"abilities": ["Levitate"]
 	},
 	{
 		"pokedexNumber": 111,
@@ -3777,7 +3777,7 @@
 		},
 		"strongAgainst": ["normal", "fire", "electric", "poison", "flying"],
 		"weakAgainst": ["water", "grass", "ice", "fighting", "ground"],
-		"abilities": ["Natural Cure", "Serene Grace", "Healer"]
+		"abilities": ["Lightningrod", "Rock Head", "Reckless"]
 	},
 	{
 		"pokedexNumber": 113,
@@ -3810,7 +3810,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Chlorophyll", "Leaf Guard", "Regenerator"]
+		"abilities": ["Natural Cure", "Serene Grace", "Healer"]
 	},
 	{
 		"pokedexNumber": 114,
@@ -3843,7 +3843,7 @@
 		},
 		"strongAgainst": ["water", "electric", "ground"],
 		"weakAgainst": ["fire", "ice", "poison", "flying", "bug"],
-		"abilities": ["Early Bird", "Scrappy", "Inner Focus"]
+		"abilities": ["Chlorophyll", "Leaf Guard", "Regenerator"]
 	},
 	{
 		"pokedexNumber": 115,
@@ -3876,7 +3876,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Swift Swim", "Sniper", "Damp"]
+		"abilities": ["Early Bird", "Scrappy", "Inner Focus"]
 	},
 	{
 		"pokedexNumber": 116,
@@ -3909,7 +3909,7 @@
 		},
 		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"],
-		"abilities": ["Poison Point", "Sniper", "Damp"]
+		"abilities": ["Swift Swim", "Sniper", "Damp"]
 	},
 	{
 		"pokedexNumber": 117,
@@ -3942,7 +3942,7 @@
 		},
 		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"],
-		"abilities": ["Swift Swim", "Water Veil", "Lightningrod"]
+		"abilities": ["Poison Point", "Sniper", "Damp"]
 	},
 	{
 		"pokedexNumber": 118,
@@ -4008,7 +4008,7 @@
 		},
 		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"],
-		"abilities": ["Illuminate", "Natural Cure", "Analytic"]
+		"abilities": ["Swift Swim", "Water Veil", "Lightningrod"]
 	},
 	{
 		"pokedexNumber": 120,
@@ -4074,7 +4074,7 @@
 		},
 		"strongAgainst": ["fire", "ice", "fighting", "ghost"],
 		"weakAgainst": ["electric", "grass", "bug"],
-		"abilities": ["Soundproof", "Filter", "Technician"]
+		"abilities": ["Illuminate", "Natural Cure", "Analytic"]
 	},
 	{
 		"pokedexNumber": 122,
@@ -4107,7 +4107,7 @@
 		},
 		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"],
-		"abilities": ["Swarm", "Technician", "Steadfast"]
+		"abilities": ["Soundproof", "Filter", "Technician"]
 	},
 	{
 		"pokedexNumber": 123,
@@ -4140,7 +4140,7 @@
 		},
 		"strongAgainst": ["grass", "fighting", "ground"],
 		"weakAgainst": ["fire", "electric", "ice", "poison", "flying", "rock"],
-		"abilities": ["Oblivious", "Forewarn", "Dry Skin"]
+		"abilities": ["Swarm", "Technician", "Steadfast"]
 	},
 	{
 		"pokedexNumber": 124,
@@ -4173,7 +4173,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fire", "bug", "rock"],
-		"abilities": ["Static", "Vital Spirit"]
+		"abilities": ["Oblivious", "Forewarn", "Dry Skin"]
 	},
 	{
 		"pokedexNumber": 125,
@@ -4206,7 +4206,7 @@
 		},
 		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"],
-		"abilities": ["Flame Body", "Vital Spirit"]
+		"abilities": ["Static", "Vital Spirit"]
 	},
 	{
 		"pokedexNumber": 126,
@@ -4239,7 +4239,7 @@
 		},
 		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"],
-		"abilities": ["Hyper Cutter", "Mold Breaker", "Moxie"]
+		"abilities": ["Flame Body", "Vital Spirit"]
 	},
 	{
 		"pokedexNumber": 127,
@@ -4272,7 +4272,7 @@
 		},
 		"strongAgainst": ["grass", "fighting", "ground"],
 		"weakAgainst": ["fire", "poison", "flying", "rock"],
-		"abilities": ["Intimidate", "Anger Point", "Sheer Force"]
+		"abilities": ["Hyper Cutter", "Mold Breaker", "Moxie"]
 	},
 	{
 		"pokedexNumber": 128,
@@ -4305,7 +4305,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Swift Swim", "Rattled"]
+		"abilities": ["Intimidate", "Anger Point", "Sheer Force"]
 	},
 	{
 		"pokedexNumber": 129,
@@ -4338,7 +4338,7 @@
 		},
 		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"],
-		"abilities": ["Intimidate", "Moxie"]
+		"abilities": ["Swift Swim", "Rattled"]
 	},
 	{
 		"pokedexNumber": 130,
@@ -4371,7 +4371,7 @@
 		},
 		"strongAgainst": ["fire", "fighting", "ground", "bug"],
 		"weakAgainst": ["electric", "rock"],
-		"abilities": ["Water Absorb", "Shell Armor", "Hydration"]
+		"abilities": ["Intimidate", "Moxie"]
 	},
 	{
 		"pokedexNumber": 131,
@@ -4404,7 +4404,7 @@
 		},
 		"strongAgainst": [],
 		"weakAgainst": ["electric", "grass", "fighting", "rock"],
-		"abilities": ["Limber", "Imposter"]
+		"abilities": ["Water Absorb", "Shell Armor", "Hydration"]
 	},
 	{
 		"pokedexNumber": 132,
@@ -4437,7 +4437,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Run Away", "Adaptability", "Anticipation"]
+		"abilities": ["Limber", "Imposter"]
 	},
 	{
 		"pokedexNumber": 133,
@@ -4470,7 +4470,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Water Absorb", "Hydration"]
+		"abilities": ["Run Away", "Adaptability", "Anticipation"]
 	},
 	{
 		"pokedexNumber": 134,
@@ -4503,7 +4503,7 @@
 		},
 		"strongAgainst": ["fire", "ice"],
 		"weakAgainst": ["electric", "grass"],
-		"abilities": ["Volt Absorb", "Quick Feet"]
+		"abilities": ["Water Absorb", "Hydration"]
 	},
 	{
 		"pokedexNumber": 135,
@@ -4536,7 +4536,7 @@
 		},
 		"strongAgainst": ["flying"],
 		"weakAgainst": ["ground"],
-		"abilities": ["Flash Fire", "Guts"]
+		"abilities": ["Volt Absorb", "Quick Feet"]
 	},
 	{
 		"pokedexNumber": 136,
@@ -4569,7 +4569,7 @@
 		},
 		"strongAgainst": ["grass", "bug"],
 		"weakAgainst": ["water", "ground", "rock"],
-		"abilities": ["Trace", "Download", "Analytic"]
+		"abilities": ["Flash Fire", "Guts"]
 	},
 	{
 		"pokedexNumber": 137,
@@ -4602,7 +4602,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Swift Swim", "Shell Armor", "Weak Armor"]
+		"abilities": ["Trace", "Download", "Analytic"]
 	},
 	{
 		"pokedexNumber": 138,
@@ -4668,7 +4668,7 @@
 		},
 		"strongAgainst": ["normal", "fire", "ice", "poison", "flying"],
 		"weakAgainst": ["electric", "grass", "fighting", "ground"],
-		"abilities": ["Swift Swim", "Battle Armor", "Weak Armor"]
+		"abilities": ["Swift Swim", "Shell Armor", "Weak Armor"]
 	},
 	{
 		"pokedexNumber": 140,
@@ -4734,7 +4734,7 @@
 		},
 		"strongAgainst": ["normal", "fire", "ice", "poison", "flying"],
 		"weakAgainst": ["electric", "grass", "fighting", "ground"],
-		"abilities": ["Rock Head", "Pressure", "Unnerve"]
+		"abilities": ["Swift Swim", "Battle Armor", "Weak Armor"]
 	},
 	{
 		"pokedexNumber": 142,
@@ -4767,7 +4767,7 @@
 		},
 		"strongAgainst": ["normal", "fire", "poison", "ground", "bug"],
 		"weakAgainst": ["water", "electric", "ice", "rock"],
-		"abilities": ["Immunity", "Thick Fat", "Gluttony"]
+		"abilities": ["Rock Head", "Pressure", "Unnerve"]
 	},
 	{
 		"pokedexNumber": 143,
@@ -4800,7 +4800,7 @@
 		},
 		"strongAgainst": ["ghost"],
 		"weakAgainst": ["fighting"],
-		"abilities": ["Pressure", "Snow Cloak"]
+		"abilities": ["Immunity", "Thick Fat", "Gluttony"]
 	},
 	{
 		"pokedexNumber": 144,
@@ -4833,7 +4833,7 @@
 		},
 		"strongAgainst": ["grass", "ground", "bug"],
 		"weakAgainst": ["fire", "electric", "rock"],
-		"abilities": ["Pressure", "Static"]
+		"abilities": ["Pressure", "Snow Cloak"]
 	},
 	{
 		"pokedexNumber": 145,
@@ -4866,7 +4866,7 @@
 		},
 		"strongAgainst": ["grass", "fighting", "ground", "bug"],
 		"weakAgainst": ["ice", "rock"],
-		"abilities": ["Pressure", "Flame Body"]
+		"abilities": ["Pressure", "Static"]
 	},
 	{
 		"pokedexNumber": 146,
@@ -4899,7 +4899,7 @@
 		},
 		"strongAgainst": ["grass", "fighting", "ground", "bug"],
 		"weakAgainst": ["water", "electric", "ice", "rock"],
-		"abilities": ["Shed Skin", "Marvel Scale"]
+		"abilities": ["Pressure", "Flame Body"]
 	},
 	{
 		"pokedexNumber": 147,
@@ -4965,7 +4965,7 @@
 		},
 		"strongAgainst": ["fire", "water", "electric", "grass"],
 		"weakAgainst": ["ice", "dragon"],
-		"abilities": ["Inner Focus", "Multiscale"]
+		"abilities": ["Shed Skin", "Marvel Scale"]
 	},
 	{
 		"pokedexNumber": 149,
@@ -4998,7 +4998,7 @@
 		},
 		"strongAgainst": ["fire", "water", "grass", "fighting", "ground", "bug"],
 		"weakAgainst": ["ice", "rock", "dragon"],
-		"abilities": ["Pressure", "Unnerve"]
+		"abilities": ["Inner Focus", "Multiscale"]
 	},
 	{
 		"pokedexNumber": 150,
@@ -5031,7 +5031,7 @@
 		},
 		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"],
-		"abilities": ["Synchronize"]
+		"abilities": ["Pressure", "Unnerve"]
 	},
 	{
 		"pokedexNumber": 151,
@@ -5056,6 +5056,6 @@
 		},
 		"strongAgainst": ["fighting", "ghost"],
 		"weakAgainst": ["bug"],
-		"abilities": ["Overgrow", "Leaf Guard"]
+		"abilities": ["Synchronize"]
 	}
 ]
