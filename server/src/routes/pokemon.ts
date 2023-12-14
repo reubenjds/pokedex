@@ -6,7 +6,20 @@ const router = express.Router();
 // Get all pokemon
 router.get("/", async (req, res) => {
 	try {
-		const pokemon = await Poke.find();
+		const pokemon = await Poke.find()
+			.limit(10)
+			.skip(10 * (req.query.page as any));
+		res.json(pokemon);
+	} catch (error) {
+		res.status(500).json({ error });
+	}
+});
+
+router.get("/search", async (req, res) => {
+	try {
+		const pokemon = await Poke.find({
+			name: { $regex: req.query.name as string },
+		});
 		res.json(pokemon);
 	} catch (error) {
 		res.status(500).json({ error });
