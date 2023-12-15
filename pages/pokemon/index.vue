@@ -6,9 +6,14 @@ const dex = ref<Pokemon[]>();
 const error = ref("");
 
 const pageNumber = ref(0);
+const name = ref("");
 
 watch(pageNumber, () => {
 	getPokemon();
+})
+
+watch(name, (newName) => {
+	console.log(newName);
 })
 
 async function getPokemon() {
@@ -28,17 +33,23 @@ onMounted(() => getPokemon());
 
 	<div v-else-if="dex" class="place-items-center grid mt-32 gap-16">
 
-		<input type="text" placeholder="Type here" class="input input-bordered w-96 max-w-xs" />
+		<input type="text" placeholder="Search..." class="input input-bordered w-96 max-w-xs" v-model="name" />
 
 		<div class="flex flex-wrap items-center justify-center flex-col w-64 gap-3">
-			<div class="grid grid-flow-col gap-2 justify-center items-center">
-				<div class="flex justify-center items-center btn btn-info" :onClick="() => pageNumber -= 1">⟵</div>
-				<div class="flex justify-center items-center btn btn-info" :onClick="() => pageNumber += 1">⟶</div>
-			</div>
+
 			<PokeBar v-for="p in dex" :key="p.name" :name="p.name" :spriteSmall="p.spriteSmallLink" :types="p.types"
 				:pokedexNumber="p.pokedexNumber">
 			</PokeBar>
-
+			<div class="flex gap-2 items-center justify-center place-items-center">
+				<div :class="pageNumber === 0 ? 'btn btn-info btn-circle btn-disabled' : 'btn btn-info btn-circle'"
+					:onClick="() => pageNumber -= 1">
+					◀
+				</div>
+				<div> {{ pageNumber + 1 }}</div>
+				<div :class="pageNumber === 15 ? 'btn btn-info btn-circle btn-disabled' : 'btn btn-info btn-circle'"
+					:onClick="() => pageNumber += 1">▶
+				</div>
+			</div>
 		</div>
 	</div>
 	<div v-else class="flex items-center justify-center h-screen w-screen">
