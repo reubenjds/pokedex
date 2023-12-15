@@ -24,6 +24,7 @@ onMounted(() => getPokemon());
 <template>
 	<div v-if="error">{{ error }}</div>
 	<div v-else-if="pokemon" class="flex flex-wrap items-center justify-center h-screen relative">
+		<a class="top-5 left-5 absolute text-lg font-bold" href="/pokemon">⟵</a>
 		<div class="flex flex-wrap place-items-center gap-x-20 gap-y-5 items-center justify-center">
 			<div>
 
