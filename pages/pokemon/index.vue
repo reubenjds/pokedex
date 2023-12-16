@@ -13,12 +13,22 @@ watch(pageNumber, () => {
 })
 
 watch(name, (newName) => {
-	console.log(newName);
+	if (newName.trim()) searchPokemon();
+	else getPokemon();
 })
 
 async function getPokemon() {
 	try {
 		const response = await axios.get(`http://localhost:4040/pokemon?page=${pageNumber.value}`);
+		dex.value = response.data;
+	} catch (e) {
+		error.value = (e as any).message;
+	}
+}
+
+async function searchPokemon() {
+	try {
+		const response = await axios.get(`http://localhost:4040/pokemon/search/${name.value}`);
 		dex.value = response.data;
 	} catch (e) {
 		error.value = (e as any).message;
