@@ -15,11 +15,10 @@ router.get("/", async (req, res) => {
 	}
 });
 
-router.get("/search/:name", async (req, res) => {
+router.get("/search", async (req, res) => {
 	try {
 		const pokemon = await Poke.find({
-			// pass in regex to match any string that starts with the name
-			name: { $regex: new RegExp(`^${req.params.name}`, "i") },
+			name: { $regex: new RegExp(`^${req.query.name}`, "i") },
 		});
 		res.json(pokemon);
 	} catch (error) {
