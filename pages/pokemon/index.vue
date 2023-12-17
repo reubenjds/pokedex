@@ -5,22 +5,23 @@ import { onMounted, ref } from "vue";
 const dex = ref<Pokemon[]>();
 const error = ref("");
 
-const pageNumber = ref(0);
+const pageNumber = ref(1);
 const name = ref("");
 
-watch(pageNumber, () => {
-	getPokemon();
+watch(pageNumber, (newPageNumber) => {
+	console.log(newPageNumber);
+	if (newPageNumber) getPokemon();
 })
 
 watch(name, (newName) => {
-	pageNumber.value = 0;
+	pageNumber.value = 1;
 	if (newName.trim()) searchPokemon();
 	else getPokemon();
 })
 
 async function getPokemon() {
 	try {
-		const response = await axios.get(`http://localhost:4040/pokemon?page=${pageNumber.value}`);
+		const response = await axios.get(`http://localhost:4040/pokemon?page=${pageNumber.value - 1}`);
 		dex.value = response.data;
 	} catch (e) {
 		error.value = (e as any).message;
@@ -51,14 +52,17 @@ onMounted(() => getPokemon());
 			<PokeBar v-for="p in dex" :key="p.name" :name="p.name" :spriteSmall="p.spriteSmallLink" :types="p.types"
 				:pokedexNumber="p.pokedexNumber">
 			</PokeBar>
-			<div class="flex gap-2 items-center justify-center place-items-center">
-				<div :class="pageNumber === 0 || name.trim() ? 'btn btn-info btn-circle btn-disabled' : 'btn btn-info btn-circle'"
-					:onClick="() => pageNumber -= 1">
+			<div class="flex gap-2 items-center justify-center place-items-center pb-5">
+				<div :class="pageNumber === 1 || name.trim() ? 'btn btn-info btn-circle btn-disabled' : 'btn btn-info btn-circle'"
+					:onClick="() => pageNumber--">
 					◀
 				</div>
-				<div> {{ pageNumber + 1 }}</div>
-				<div :class="pageNumber === 15 || name.trim() ? 'btn btn-info btn-circle btn-disabled' : 'btn btn-info btn-circle'"
-					:onClick="() => pageNumber += 1">▶
+
+				<input type="number"
+					class="input w-full max-w-xs text-center [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+					v-model="pageNumber" :placeholder="`${pageNumber}`" />
+				<div :class="pageNumber === 16 || name.trim() ? 'btn btn-info btn-circle btn-disabled' : 'btn btn-info btn-circle'"
+					:onClick="() => pageNumber++">▶
 				</div>
 			</div>
 		</div>
