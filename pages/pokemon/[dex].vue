@@ -22,12 +22,11 @@ onMounted(() => getPokemon());
 </script>
 
 <template>
+	<a class="top-5 left-5 absolute text-lg font-bold" href="/pokemon">⟵</a>
 	<div v-if="error">{{ error }}</div>
 	<div v-else-if="pokemon" class="flex flex-wrap items-center justify-center h-screen relative">
-		<a class="top-5 left-5 absolute text-lg font-bold" href="/pokemon">⟵</a>
 		<div class="flex flex-wrap place-items-center gap-x-20 gap-y-5 items-center justify-center">
 			<div>
-
 				<img class="h-390 w-363" :src="pokemon.spriteBigLink" />
 			</div>
 
@@ -180,6 +179,10 @@ onMounted(() => getPokemon());
 				</table>
 			</div>
 		</div>
+	</div>
+	<div v-else-if="pokemon === null" class="flex flex-col items-center justify-center h-screen w-screen">
+		<div class="text-5xl font-bold text-white">404</div>
+		<div class="text-2xl font-bold text-white">Pokemon not found</div>
 	</div>
 	<div v-else class="flex items-center justify-center h-screen w-screen">
 		<div class="loading loading-dots loading-md "></div>
