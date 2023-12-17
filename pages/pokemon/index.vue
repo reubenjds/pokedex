@@ -9,8 +9,10 @@ const pageNumber = ref(1);
 const name = ref("");
 
 watch(pageNumber, (newPageNumber) => {
-	console.log(newPageNumber);
-	if (newPageNumber) getPokemon();
+	if (newPageNumber > 16) pageNumber.value = 16;
+	else if (newPageNumber < 1 && newPageNumber || newPageNumber === 0) pageNumber.value = 1;
+	else if (newPageNumber) getPokemon();
+
 })
 
 watch(name, (newName) => {
@@ -30,7 +32,7 @@ async function getPokemon() {
 
 async function searchPokemon() {
 	try {
-		const response = await axios.get(`http://localhost:4040/pokemon/search?name=${name.value}`);
+		const response = await axios.get(`http://localhost:4040/pokemon/search?name=${name.value.trim()}`);
 		dex.value = response.data;
 	} catch (e) {
 		error.value = (e as any).message;
@@ -60,7 +62,7 @@ onMounted(() => getPokemon());
 
 				<input type="number"
 					class="input w-full max-w-xs text-center [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
-					v-model="pageNumber" :placeholder="`${pageNumber}`" />
+					v-model="pageNumber" :placeholder="`${pageNumber}`" :disabled="name.trim() ? true : false" />
 				<div :class="pageNumber === 16 || name.trim() ? 'btn btn-info btn-circle btn-disabled' : 'btn btn-info btn-circle'"
 					:onClick="() => pageNumber++">▶
 				</div>
