@@ -1,5 +1,5 @@
 <template>
-	<a :href="'/pokemon/' + pokedexNumber" class="bg-base-300 p-4 rounded-2xl flex flex-row w-full">
+	<NuxtLink :href="'/pokemon/' + pokedexNumber" class="bg-base-300 p-4 rounded-2xl flex flex-row w-full">
 		<img :src="spriteSmall" />
 		<div class="w-full">
 			<div class="font-bold text-white text-center">{{ name }}</div>
@@ -9,7 +9,7 @@
 
 			</div>
 		</div>
-	</a>
+	</NuxtLink>
 </template>
 
 <script setup lang="ts">
