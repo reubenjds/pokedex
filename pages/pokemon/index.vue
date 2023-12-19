@@ -17,7 +17,7 @@ watch(pageNumber, (newPageNumber) => {
 
 watch(name, (newName) => {
 	pageNumber.value = 1;
-	if (newName.trim()) searchPokemon();
+	if (newName.trim()) debounceSend();
 	else getPokemon();
 })
 
@@ -28,6 +28,14 @@ async function getPokemon() {
 	} catch (e) {
 		error.value = (e as any).message;
 	}
+}
+
+let last: NodeJS.Timeout | null = null;
+
+function debounceSend() {
+	if (last) clearTimeout(last);
+
+	last = setTimeout(() => searchPokemon(), 500);
 }
 
 async function searchPokemon() {
