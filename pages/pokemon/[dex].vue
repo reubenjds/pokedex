@@ -22,7 +22,9 @@ onMounted(() => getPokemon());
 </script>
 
 <template>
-	<div v-if="error">{{ error }}</div>
+	<div v-if="error" class="flex flex-col items-center justify-center h-screen w-screen">
+		<div class="text-5xl font-bold text-white">{{ error }}</div>
+	</div>
 	<div v-else-if="pokemon" class="flex flex-wrap items-center justify-center h-screen relative">
 		<NuxtLink class="top-5 left-5 absolute text-lg font-bold" href="/pokemon">⟵</NuxtLink>
 		<div class="flex flex-wrap place-items-center gap-x-20 gap-y-5 items-center justify-center">
@@ -148,16 +150,17 @@ onMounted(() => getPokemon());
 							<td>
 								<div v-if="Object.keys(pokemon.evos ?? {}).length === 0">N/A</div>
 								<div v-else class="flex flex-wrap items-center justify-center">
-									<a v-for="(value, key) in pokemon.evos" :key="key" :href="`${key}`"><img
+									<NuxtLink v-for="(value, key) in pokemon.evos" :key="key" :href="`${key}`"><img
 											class="hover:scale-125 transition-all duration-500 ease-in-out"
-											:src="`https://img.pokemondb.net/sprites/sword-shield/icon/${(value as string).toLowerCase()}.png`" /></a>
+											:src="`https://img.pokemondb.net/sprites/sword-shield/icon/${(value as string).toLowerCase()}.png`" />
+									</NuxtLink>
 
 								</div>
 							</td>
 						</tr>
 						<tr>
 							<th>Capture Rate:</th>
-							<td>{{ pokemon.captureRate }}%</td>
+							<td>{{ pokemon.captureRate }} / 255</td>
 						</tr>
 						<tr>
 							<th>Gender Ratio:</th>
