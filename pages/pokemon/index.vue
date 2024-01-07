@@ -35,7 +35,9 @@ let last: NodeJS.Timeout | null = null;
 function debounceSend() {
 	if (last) clearTimeout(last);
 
-	last = setTimeout(() => searchPokemon(), 500);
+	last = setTimeout(() => {
+		if (name.value.trim()) searchPokemon();
+	}, 500);
 }
 
 async function searchPokemon() {
@@ -60,7 +62,7 @@ onMounted(() => getPokemon());
 		<div class="flex flex-wrap items-center justify-center flex-col w-64 gap-3">
 
 			<PokeBar v-for="p in dex" :key="p.name" :name="p.name" :spriteSmall="p.spriteSmallLink" :types="p.types"
-				:pokedexNumber="p.pokedexNumber">
+				:pokedexNumber="p.pokedexNumber" class="hover:scale-125 transition-all duration-500 ease-in-out">
 			</PokeBar>
 			<div class="flex gap-2 items-center justify-center place-items-center pb-5">
 				<div :class="pageNumber === 1 || name.trim() ? 'btn btn-info btn-circle btn-disabled' : 'btn btn-info btn-circle'"
