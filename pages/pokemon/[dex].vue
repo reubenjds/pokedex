@@ -62,14 +62,14 @@ onMounted(() => getPokemon());
 			</div>
 			<div>
 				<h2 class="font-bold text-white">Base Stats</h2>
-				<table class="table">
+				<table class="table w-96 max-w-[100vw]">
 					<tbody>
 						<tr>
 							<th>HP:</th>
 							<td>{{ pokemon.baseStats.HP }}</td>
-							<td>
+							<td class="w-full">
 
-								<progress class="progress progress-success w-56" :value="pokemon.baseStats.HP"
+								<progress class="progress progress-success w-full" :value="pokemon.baseStats.HP"
 									:max="pokemon.maxStats.maxHealth"></progress>
 
 							</td>
@@ -78,9 +78,9 @@ onMounted(() => getPokemon());
 						<tr>
 							<th>Attack:</th>
 							<td>{{ pokemon.baseStats.Attack }}</td>
-							<td>
+							<td class="w-full">
 
-								<progress class="progress progress-error w-56" :value="pokemon.baseStats.Attack"
+								<progress class="progress progress-error w-full" :value="pokemon.baseStats.Attack"
 									:max="pokemon.maxStats.maxAttack"></progress>
 							</td>
 							<td>{{ pokemon.maxStats.maxAttack }}</td>
@@ -88,9 +88,9 @@ onMounted(() => getPokemon());
 						<tr>
 							<th>Defense:</th>
 							<td>{{ pokemon.baseStats.Defense }}</td>
-							<td>
+							<td class="w-full">
 
-								<progress class="progress progress-info w-56" :value="pokemon.baseStats.Defense"
+								<progress class="progress progress-info w-full" :value="pokemon.baseStats.Defense"
 									:max="pokemon.maxStats.maxDefense"></progress>
 
 							</td>
@@ -99,9 +99,9 @@ onMounted(() => getPokemon());
 						<tr>
 							<th>Special:</th>
 							<td>{{ pokemon.baseStats.Special }}</td>
-							<td>
+							<td class="w-full">
 
-								<progress class="progress progress-secondary w-56" :value="pokemon.baseStats.Special"
+								<progress class="progress progress-secondary w-full" :value="pokemon.baseStats.Special"
 									:max="pokemon.maxStats.maxSpAtk"></progress>
 
 							</td>
@@ -110,8 +110,8 @@ onMounted(() => getPokemon());
 						<tr>
 							<th>Speed:</th>
 							<td>{{ pokemon.baseStats.Speed }}</td>
-							<td>
-								<progress class="progress progress-warning w-56" :value="pokemon.baseStats.Speed"
+							<td class="w-full">
+								<progress class="progress progress-warning w-full" :value="pokemon.baseStats.Speed"
 									:max="pokemon.maxStats.maxSpeed"></progress>
 							</td>
 							<td>{{ pokemon.maxStats.maxSpeed }}</td>
