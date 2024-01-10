@@ -125,7 +125,7 @@ onMounted(() => getPokemon());
 					</tbody>
 				</table>
 			</div>
-			<div></div>
+
 			<div class="grid grid-rows-2 flex-wrap px-2 place-items-center">
 				<div class="flex items-center justify-center font-bold text-white">
 					Strong Against
