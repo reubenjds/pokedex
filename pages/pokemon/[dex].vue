@@ -1,33 +1,39 @@
 <script setup lang="ts">
-import { useRoute } from "vue-router";
-import { onMounted, ref } from "vue";
-import { http } from "~/utils/client";
+	import { useRoute } from "vue-router";
+	import { onMounted, ref } from "vue";
+	import { http } from "~/utils/client";
 
-const { dex } = useRoute().params;
+	const { dex } = useRoute().params;
 
-const pokemon = ref<Pokemon>();
-const error = ref("");
+	const pokemon = ref<Pokemon>();
+	const error = ref("");
 
-async function getPokemon() {
-	try {
-		const response = await http.get(`/pokemon/${dex}`);
-		pokemon.value = response.data;
-		console.log(response.data);
-	} catch (e) {
-		error.value = (e as any).message;
+	async function getPokemon() {
+		try {
+			const response = await http.get(`/pokemon/${dex}`);
+			pokemon.value = response.data;
+		} catch (e) {
+			error.value = (e as any).message;
+		}
 	}
-}
 
-onMounted(() => getPokemon());
+	onMounted(() => getPokemon());
 </script>
 
 <template>
-	<div v-if="error" class="flex flex-col items-center justify-center h-screen w-screen">
+	<div
+		v-if="error"
+		class="flex flex-col items-center justify-center h-screen w-screen">
 		<div class="text-5xl font-bold text-white">{{ error }}</div>
 	</div>
-	<div v-else-if="pokemon" class="flex flex-wrap items-center justify-center h-screen relative">
-		<NuxtLink class="top-5 left-5 absolute text-lg font-bold" href="/pokemon">⟵</NuxtLink>
-		<div class="flex flex-wrap place-items-center gap-x-20 gap-y-5 items-center justify-center">
+	<div
+		v-else-if="pokemon"
+		class="flex flex-wrap items-center justify-center h-screen relative">
+		<NuxtLink class="top-5 left-5 absolute text-lg font-bold" href="/pokemon"
+			>⟵</NuxtLink
+		>
+		<div
+			class="flex flex-wrap place-items-center gap-x-20 gap-y-5 items-center justify-center">
 			<div class="h-[390px] w-[363px] bg-transparent">
 				<img class="w-full h-full" :src="pokemon.spriteBigLink" />
 			</div>
@@ -37,7 +43,6 @@ onMounted(() => getPokemon());
 					{{ pokemon.name }}
 				</h1>
 				<table class="table">
-
 					<tbody>
 						<tr>
 							<th>Pokedex Number</th>
@@ -46,7 +51,12 @@ onMounted(() => getPokemon());
 						<tr>
 							<th>Type</th>
 							<td>
-								<span v-for="type in pokemon.types" class="px-2 uppercase" :class="type">{{ type }}</span>
+								<span
+									v-for="type in pokemon.types"
+									class="px-2 uppercase"
+									:class="type"
+									>{{ type }}</span
+								>
 							</td>
 						</tr>
 						<tr>
@@ -68,10 +78,10 @@ onMounted(() => getPokemon());
 							<th>HP:</th>
 							<td>{{ pokemon.baseStats.HP }}</td>
 							<td class="w-full">
-
-								<progress class="progress progress-success w-full" :value="pokemon.baseStats.HP"
+								<progress
+									class="progress progress-success w-full"
+									:value="pokemon.baseStats.HP"
 									:max="pokemon.maxStats.maxHealth"></progress>
-
 							</td>
 							<td>{{ pokemon.maxStats.maxHealth }}</td>
 						</tr>
@@ -79,8 +89,9 @@ onMounted(() => getPokemon());
 							<th>Attack:</th>
 							<td>{{ pokemon.baseStats.Attack }}</td>
 							<td class="w-full">
-
-								<progress class="progress progress-error w-full" :value="pokemon.baseStats.Attack"
+								<progress
+									class="progress progress-error w-full"
+									:value="pokemon.baseStats.Attack"
 									:max="pokemon.maxStats.maxAttack"></progress>
 							</td>
 							<td>{{ pokemon.maxStats.maxAttack }}</td>
@@ -89,10 +100,10 @@ onMounted(() => getPokemon());
 							<th>Defense:</th>
 							<td>{{ pokemon.baseStats.Defense }}</td>
 							<td class="w-full">
-
-								<progress class="progress progress-info w-full" :value="pokemon.baseStats.Defense"
+								<progress
+									class="progress progress-info w-full"
+									:value="pokemon.baseStats.Defense"
 									:max="pokemon.maxStats.maxDefense"></progress>
-
 							</td>
 							<td>{{ pokemon.maxStats.maxDefense }}</td>
 						</tr>
@@ -100,10 +111,10 @@ onMounted(() => getPokemon());
 							<th>Special:</th>
 							<td>{{ pokemon.baseStats.Special }}</td>
 							<td class="w-full">
-
-								<progress class="progress progress-secondary w-full" :value="pokemon.baseStats.Special"
+								<progress
+									class="progress progress-secondary w-full"
+									:value="pokemon.baseStats.Special"
 									:max="pokemon.maxStats.maxSpAtk"></progress>
-
 							</td>
 							<td>{{ pokemon.maxStats.maxSpAtk }}</td>
 						</tr>
@@ -111,7 +122,9 @@ onMounted(() => getPokemon());
 							<th>Speed:</th>
 							<td>{{ pokemon.baseStats.Speed }}</td>
 							<td class="w-full">
-								<progress class="progress progress-warning w-full" :value="pokemon.baseStats.Speed"
+								<progress
+									class="progress progress-warning w-full"
+									:value="pokemon.baseStats.Speed"
 									:max="pokemon.maxStats.maxSpeed"></progress>
 							</td>
 							<td>{{ pokemon.maxStats.maxSpeed }}</td>
@@ -131,13 +144,17 @@ onMounted(() => getPokemon());
 					Strong Against
 				</div>
 				<div class="flex flex-wrap justify-center">
-					<div v-for="type in pokemon.strongAgainst" :class="type"> {{ type }}</div>
+					<div v-for="type in pokemon.strongAgainst" :class="type">
+						{{ type }}
+					</div>
 				</div>
 				<div class="flex items-center justify-center font-bold text-white">
 					Weak Against
 				</div>
 				<div class="flex flex-wrap justify-center">
-					<div v-for="type in pokemon.weakAgainst" :class="type"> {{ type }}</div>
+					<div v-for="type in pokemon.weakAgainst" :class="type">
+						{{ type }}
+					</div>
 				</div>
 			</div>
 
@@ -148,13 +165,18 @@ onMounted(() => getPokemon());
 						<tr>
 							<th>Evolutions:</th>
 							<td>
-								<div v-if="Object.keys(pokemon.evos ?? {}).length === 0">N/A</div>
+								<div v-if="Object.keys(pokemon.evos ?? {}).length === 0">
+									N/A
+								</div>
 								<div v-else class="flex flex-wrap items-center justify-center">
-									<NuxtLink v-for="(value, key) in pokemon.evos" :key="key" :href="`${key}`"><img
+									<NuxtLink
+										v-for="(value, key) in pokemon.evos"
+										:key="key"
+										:href="`${key}`"
+										><img
 											class="hover:scale-125 transition-all duration-500 ease-in-out"
 											:src="`https://img.pokemondb.net/sprites/sword-shield/icon/${(value as string).toLowerCase()}.png`" />
 									</NuxtLink>
-
 								</div>
 							</td>
 						</tr>
@@ -164,8 +186,11 @@ onMounted(() => getPokemon());
 						</tr>
 						<tr>
 							<th>Gender Ratio:</th>
-							<td class="text-lime-400" v-if="pokemon.malePercent === 0 && pokemon.femalePercent === 0">
-								Genderless</td>
+							<td
+								class="text-lime-400"
+								v-if="pokemon.malePercent === 0 && pokemon.femalePercent === 0">
+								Genderless
+							</td>
 							<td v-else>
 								<span class="text-blue-400"> {{ pokemon.malePercent }} </span>
 								<span>-</span>
@@ -183,12 +208,16 @@ onMounted(() => getPokemon());
 			</div>
 		</div>
 	</div>
-	<div v-else-if="pokemon === null" class="flex flex-col items-center justify-center h-screen w-screen">
-		<NuxtLink class="top-5 left-5 absolute text-lg font-bold" href="/pokemon">⟵</NuxtLink>
+	<div
+		v-else-if="pokemon === null"
+		class="flex flex-col items-center justify-center h-screen w-screen">
+		<NuxtLink class="top-5 left-5 absolute text-lg font-bold" href="/pokemon"
+			>⟵</NuxtLink
+		>
 		<div class="text-5xl font-bold text-white">404</div>
 		<div class="text-2xl font-bold text-white">Pokemon not found</div>
 	</div>
 	<div v-else class="flex items-center justify-center h-screen w-screen">
-		<div class="loading loading-dots loading-md "></div>
+		<div class="loading loading-dots loading-md"></div>
 	</div>
 </template>
