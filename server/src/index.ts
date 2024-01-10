@@ -14,7 +14,7 @@ const limiter = rateLimit({
 
 dotenv.config();
 
-mongoose.connect(process.env.DATABASE_URL!);
+mongoose.connect(process.env.DATABASE_URI!);
 const db = mongoose.connection;
 db.on("error", (e) => console.error(e));
 db.once("open", () => console.log("Connected to server"));
