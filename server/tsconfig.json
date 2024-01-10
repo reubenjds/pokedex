@@ -1,5 +1,5 @@
 {
-	"include": ["../types/*.d.ts"],
+	"include": ["../utils/types/*.d.ts", "src"],
 	"compilerOptions": {
 		/* Visit https://aka.ms/tsconfig to read more about this file */
 

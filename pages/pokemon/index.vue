@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import axios from "axios";
 import { onMounted, ref } from "vue";
+import { http } from "~/utils/client";
 
 const dex = ref<Pokemon[]>();
 const error = ref("");
@@ -8,23 +8,28 @@ const error = ref("");
 const pageNumber = ref(1);
 const name = ref("");
 
+let context = 0;
+
 watch(pageNumber, (newPageNumber) => {
 	if (newPageNumber > 16) pageNumber.value = 16;
 	else if (newPageNumber < 1 && newPageNumber || newPageNumber === 0) pageNumber.value = 1;
 	else if (newPageNumber) getPokemon();
-
 })
 
 watch(name, (newName) => {
 	pageNumber.value = 1;
-	if (newName.trim()) debounceSend();
-	else getPokemon();
+	debounceSend();
 })
 
 async function getPokemon() {
 	try {
-		const response = await axios.get(`http://localhost:4040/pokemon?page=${pageNumber.value - 1}`);
-		dex.value = response.data;
+		const localContext = ++context;
+		const response = await http.get("/pokemon", {
+			params: {
+				page: pageNumber.value - 1
+			}
+		});
+		if (localContext === context) dex.value = response.data;
 	} catch (e) {
 		error.value = (e as any).message;
 	}
@@ -37,13 +42,19 @@ function debounceSend() {
 
 	last = setTimeout(() => {
 		if (name.value.trim()) searchPokemon();
+		else getPokemon();
 	}, 500);
 }
 
 async function searchPokemon() {
 	try {
-		const response = await axios.get(`http://localhost:4040/pokemon/search?name=${name.value.trim()}`);
-		dex.value = response.data;
+		const localContext = ++context;
+		const response = await http.get("/pokemon/search", {
+			params: {
+				name: name.value.trim()
+			}
+		});
+		if (localContext === context) dex.value = response.data;
 	} catch (e) {
 		error.value = (e as any).message;
 	}

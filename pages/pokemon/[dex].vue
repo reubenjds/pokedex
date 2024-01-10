@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import axios from "axios";
 import { useRoute } from "vue-router";
 import { onMounted, ref } from "vue";
+import { http } from "~/utils/client";
 
 const { dex } = useRoute().params;
 
@@ -10,7 +10,7 @@ const error = ref("");
 
 async function getPokemon() {
 	try {
-		const response = await axios.get(`http://localhost:4040/pokemon/${dex}`);
+		const response = await http.get(`/pokemon/${dex}`);
 		pokemon.value = response.data;
 		console.log(response.data);
 	} catch (e) {
@@ -28,8 +28,8 @@ onMounted(() => getPokemon());
 	<div v-else-if="pokemon" class="flex flex-wrap items-center justify-center h-screen relative">
 		<NuxtLink class="top-5 left-5 absolute text-lg font-bold" href="/pokemon">⟵</NuxtLink>
 		<div class="flex flex-wrap place-items-center gap-x-20 gap-y-5 items-center justify-center">
-			<div>
-				<img class="h-390 w-363" :src="pokemon.spriteBigLink" />
+			<div class="h-[390px] w-[363px] bg-transparent">
+				<img class="w-full h-full" :src="pokemon.spriteBigLink" />
 			</div>
 
 			<div>
