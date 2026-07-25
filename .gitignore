@@ -9,6 +9,12 @@ dist
 # Node dependencies
 node_modules
 
+# Generator cache
+scripts/.cache
+
+# Generated from data/ by scripts/build-assets.mjs
+public/pokedex
+
 # Logs
 logs
 *.log

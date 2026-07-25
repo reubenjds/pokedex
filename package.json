@@ -1,24 +1,26 @@
 {
-  "name": "nuxt-app",
+  "name": "pokedex",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@10.28.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "build": "node scripts/build-assets.mjs && nuxt build",
+    "build:data": "node scripts/build-pokedex.mjs",
+    "dev": "node scripts/build-assets.mjs && nuxt dev",
+    "generate": "node scripts/build-assets.mjs && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxtjs/tailwindcss": "^6.10.4",
-    "daisyui": "^4.5.0",
-    "nuxt": "^3.9.1",
-    "vue": "^3.4.7",
-    "vue-router": "^4.2.5"
-  },
-  "dependencies": {
-    "axios": "^1.6.5",
-    "vite": "^5.0.12"
+    "@iconify-json/lucide": "^1.2.119",
+    "@nuxt/ui": "^4.10.0",
+    "nuxt": "^4.5.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.1.5",
+    "vue": "^3.5.40",
+    "vue-router": "^5.2.0"
   }
 }

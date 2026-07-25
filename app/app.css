@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+	--font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+	--font-mono: "Geist Mono", ui-monospace, monospace;
+	--font-badge: "Oswald", "Arial Narrow", ui-sans-serif, sans-serif;
+}
+
+/*
+ * Nuxt UI's stock dark ramp bottoms out at zinc-500, which is only 3.1:1 on an
+ * elevated surface. These four steps are the lightest values that still read as
+ * a hierarchy while every one of them clears WCAG AAA (7:1) on both `bg` and
+ * `bg-elevated`. `--ui-primary` is the Pokémon red raised to the same standard.
+ */
+.dark {
+	--ui-text-dimmed: #b4b4bd;
+	--ui-text-muted: var(--ui-color-neutral-300);
+	--ui-text-toned: var(--ui-color-neutral-200);
+	--ui-text: var(--ui-color-neutral-100);
+	--ui-primary: #fe7d6e;
+}
+
+@layer base {
+	button:not(:disabled),
+	[role="button"]:not(:disabled) {
+		cursor: pointer;
+	}
+}

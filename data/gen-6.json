@@ -1,0 +1,9163 @@
+[
+	{
+		"slug": "chespin",
+		"dexNumber": 650,
+		"name": "Chespin",
+		"speciesSlug": "chespin",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png",
+		"height": 0.4,
+		"weight": 9,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 313,
+		"baseStats": {
+			"hp": 56,
+			"attack": 61,
+			"defense": 65,
+			"spAtk": 48,
+			"spDef": 45,
+			"speed": 38
+		},
+		"maxStats": {
+			"hp": 316,
+			"attack": 243,
+			"defense": 251,
+			"spAtk": 214,
+			"spDef": 207,
+			"speed": 192
+		},
+		"strongAgainst": [
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"poison",
+			"bug",
+			"fire",
+			"ice"
+		],
+		"abilities": [
+			{
+				"name": "Overgrow",
+				"isHidden": false
+			},
+			{
+				"name": "Bulletproof",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "chespin",
+				"name": "Chespin",
+				"dexNumber": 650,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+			},
+			{
+				"slug": "quilladin",
+				"name": "Quilladin",
+				"dexNumber": 651,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png"
+			},
+			{
+				"slug": "chesnaught",
+				"name": "Chesnaught",
+				"dexNumber": 652,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "chespin",
+				"name": "Chespin",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "quilladin",
+		"dexNumber": 651,
+		"name": "Quilladin",
+		"speciesSlug": "quilladin",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/651.png",
+		"height": 0.7,
+		"weight": 29,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 405,
+		"baseStats": {
+			"hp": 61,
+			"attack": 78,
+			"defense": 95,
+			"spAtk": 56,
+			"spDef": 58,
+			"speed": 57
+		},
+		"maxStats": {
+			"hp": 326,
+			"attack": 280,
+			"defense": 317,
+			"spAtk": 232,
+			"spDef": 236,
+			"speed": 234
+		},
+		"strongAgainst": [
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"poison",
+			"bug",
+			"fire",
+			"ice"
+		],
+		"abilities": [
+			{
+				"name": "Overgrow",
+				"isHidden": false
+			},
+			{
+				"name": "Bulletproof",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "chespin",
+				"name": "Chespin",
+				"dexNumber": 650,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+			},
+			{
+				"slug": "quilladin",
+				"name": "Quilladin",
+				"dexNumber": 651,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png"
+			},
+			{
+				"slug": "chesnaught",
+				"name": "Chesnaught",
+				"dexNumber": 652,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "quilladin",
+				"name": "Quilladin",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "chesnaught",
+		"dexNumber": 652,
+		"name": "Chesnaught",
+		"speciesSlug": "chesnaught",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"grass",
+			"fighting"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
+		"height": 1.6,
+		"weight": 90,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 530,
+		"baseStats": {
+			"hp": 88,
+			"attack": 107,
+			"defense": 122,
+			"spAtk": 74,
+			"spDef": 75,
+			"speed": 64
+		},
+		"maxStats": {
+			"hp": 380,
+			"attack": 344,
+			"defense": 377,
+			"spAtk": 271,
+			"spDef": 273,
+			"speed": 249
+		},
+		"strongAgainst": [
+			"ground",
+			"rock",
+			"water",
+			"grass",
+			"electric",
+			"dark"
+		],
+		"weakAgainst": [
+			"flying",
+			"poison",
+			"fire",
+			"psychic",
+			"ice",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Overgrow",
+				"isHidden": false
+			},
+			{
+				"name": "Bulletproof",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "chespin",
+				"name": "Chespin",
+				"dexNumber": 650,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+			},
+			{
+				"slug": "quilladin",
+				"name": "Quilladin",
+				"dexNumber": 651,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png"
+			},
+			{
+				"slug": "chesnaught",
+				"name": "Chesnaught",
+				"dexNumber": 652,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "chesnaught",
+				"name": "Chesnaught",
+				"isDefault": true
+			},
+			{
+				"slug": "chesnaught-mega",
+				"name": "Chesnaught (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "chesnaught-mega",
+		"dexNumber": 652,
+		"name": "Chesnaught (Mega)",
+		"speciesSlug": "chesnaught",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"grass",
+			"fighting"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10292.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10292.png",
+		"height": 1.6,
+		"weight": 90,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 630,
+		"baseStats": {
+			"hp": 88,
+			"attack": 137,
+			"defense": 172,
+			"spAtk": 74,
+			"spDef": 115,
+			"speed": 44
+		},
+		"maxStats": {
+			"hp": 380,
+			"attack": 410,
+			"defense": 487,
+			"spAtk": 271,
+			"spDef": 361,
+			"speed": 205
+		},
+		"strongAgainst": [
+			"ground",
+			"rock",
+			"water",
+			"grass",
+			"electric",
+			"dark"
+		],
+		"weakAgainst": [
+			"flying",
+			"poison",
+			"fire",
+			"psychic",
+			"ice",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Bulletproof",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "chespin",
+				"name": "Chespin",
+				"dexNumber": 650,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+			},
+			{
+				"slug": "quilladin",
+				"name": "Quilladin",
+				"dexNumber": 651,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png"
+			},
+			{
+				"slug": "chesnaught",
+				"name": "Chesnaught",
+				"dexNumber": 652,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "chesnaught",
+				"name": "Chesnaught",
+				"isDefault": true
+			},
+			{
+				"slug": "chesnaught-mega",
+				"name": "Chesnaught (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "fennekin",
+		"dexNumber": 653,
+		"name": "Fennekin",
+		"speciesSlug": "fennekin",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fire"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png",
+		"height": 0.4,
+		"weight": 9.4,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 307,
+		"baseStats": {
+			"hp": 40,
+			"attack": 45,
+			"defense": 40,
+			"spAtk": 62,
+			"spDef": 60,
+			"speed": 60
+		},
+		"maxStats": {
+			"hp": 284,
+			"attack": 207,
+			"defense": 196,
+			"spAtk": 245,
+			"spDef": 240,
+			"speed": 240
+		},
+		"strongAgainst": [
+			"bug",
+			"steel",
+			"fire",
+			"grass",
+			"ice",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"rock",
+			"water"
+		],
+		"abilities": [
+			{
+				"name": "Blaze",
+				"isHidden": false
+			},
+			{
+				"name": "Magician",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "fennekin",
+				"name": "Fennekin",
+				"dexNumber": 653,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
+			},
+			{
+				"slug": "braixen",
+				"name": "Braixen",
+				"dexNumber": 654,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png"
+			},
+			{
+				"slug": "delphox",
+				"name": "Delphox",
+				"dexNumber": 655,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "fennekin",
+				"name": "Fennekin",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "braixen",
+		"dexNumber": 654,
+		"name": "Braixen",
+		"speciesSlug": "braixen",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fire"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/654.png",
+		"height": 1,
+		"weight": 14.5,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 409,
+		"baseStats": {
+			"hp": 59,
+			"attack": 59,
+			"defense": 58,
+			"spAtk": 90,
+			"spDef": 70,
+			"speed": 73
+		},
+		"maxStats": {
+			"hp": 322,
+			"attack": 238,
+			"defense": 236,
+			"spAtk": 306,
+			"spDef": 262,
+			"speed": 269
+		},
+		"strongAgainst": [
+			"bug",
+			"steel",
+			"fire",
+			"grass",
+			"ice",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"rock",
+			"water"
+		],
+		"abilities": [
+			{
+				"name": "Blaze",
+				"isHidden": false
+			},
+			{
+				"name": "Magician",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "fennekin",
+				"name": "Fennekin",
+				"dexNumber": 653,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
+			},
+			{
+				"slug": "braixen",
+				"name": "Braixen",
+				"dexNumber": 654,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png"
+			},
+			{
+				"slug": "delphox",
+				"name": "Delphox",
+				"dexNumber": 655,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "braixen",
+				"name": "Braixen",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "delphox",
+		"dexNumber": 655,
+		"name": "Delphox",
+		"speciesSlug": "delphox",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fire",
+			"psychic"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
+		"height": 1.5,
+		"weight": 39,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 534,
+		"baseStats": {
+			"hp": 75,
+			"attack": 69,
+			"defense": 72,
+			"spAtk": 114,
+			"spDef": 100,
+			"speed": 104
+		},
+		"maxStats": {
+			"hp": 354,
+			"attack": 260,
+			"defense": 267,
+			"spAtk": 359,
+			"spDef": 328,
+			"speed": 337
+		},
+		"strongAgainst": [
+			"fighting",
+			"steel",
+			"fire",
+			"grass",
+			"psychic",
+			"ice",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"rock",
+			"ghost",
+			"water",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Blaze",
+				"isHidden": false
+			},
+			{
+				"name": "Magician",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "fennekin",
+				"name": "Fennekin",
+				"dexNumber": 653,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
+			},
+			{
+				"slug": "braixen",
+				"name": "Braixen",
+				"dexNumber": 654,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png"
+			},
+			{
+				"slug": "delphox",
+				"name": "Delphox",
+				"dexNumber": 655,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "delphox",
+				"name": "Delphox",
+				"isDefault": true
+			},
+			{
+				"slug": "delphox-mega",
+				"name": "Delphox (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "delphox-mega",
+		"dexNumber": 655,
+		"name": "Delphox (Mega)",
+		"speciesSlug": "delphox",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fire",
+			"psychic"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10293.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10293.png",
+		"height": 1.5,
+		"weight": 39,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 634,
+		"baseStats": {
+			"hp": 75,
+			"attack": 69,
+			"defense": 72,
+			"spAtk": 159,
+			"spDef": 125,
+			"speed": 134
+		},
+		"maxStats": {
+			"hp": 354,
+			"attack": 260,
+			"defense": 267,
+			"spAtk": 458,
+			"spDef": 383,
+			"speed": 403
+		},
+		"strongAgainst": [
+			"fighting",
+			"steel",
+			"fire",
+			"grass",
+			"psychic",
+			"ice",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"rock",
+			"ghost",
+			"water",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Levitate",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "fennekin",
+				"name": "Fennekin",
+				"dexNumber": 653,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
+			},
+			{
+				"slug": "braixen",
+				"name": "Braixen",
+				"dexNumber": 654,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png"
+			},
+			{
+				"slug": "delphox",
+				"name": "Delphox",
+				"dexNumber": 655,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "delphox",
+				"name": "Delphox",
+				"isDefault": true
+			},
+			{
+				"slug": "delphox-mega",
+				"name": "Delphox (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "froakie",
+		"dexNumber": 656,
+		"name": "Froakie",
+		"speciesSlug": "froakie",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"water"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png",
+		"height": 0.3,
+		"weight": 7,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 314,
+		"baseStats": {
+			"hp": 41,
+			"attack": 56,
+			"defense": 40,
+			"spAtk": 62,
+			"spDef": 44,
+			"speed": 71
+		},
+		"maxStats": {
+			"hp": 286,
+			"attack": 232,
+			"defense": 196,
+			"spAtk": 245,
+			"spDef": 205,
+			"speed": 265
+		},
+		"strongAgainst": [
+			"steel",
+			"fire",
+			"water",
+			"ice"
+		],
+		"weakAgainst": [
+			"grass",
+			"electric"
+		],
+		"abilities": [
+			{
+				"name": "Torrent",
+				"isHidden": false
+			},
+			{
+				"name": "Protean",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "froakie",
+				"name": "Froakie",
+				"dexNumber": 656,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+			},
+			{
+				"slug": "frogadier",
+				"name": "Frogadier",
+				"dexNumber": 657,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
+			},
+			{
+				"slug": "greninja",
+				"name": "Greninja",
+				"dexNumber": 658,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "froakie",
+				"name": "Froakie",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "frogadier",
+		"dexNumber": 657,
+		"name": "Frogadier",
+		"speciesSlug": "frogadier",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"water"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png",
+		"height": 0.6,
+		"weight": 10.9,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 405,
+		"baseStats": {
+			"hp": 54,
+			"attack": 63,
+			"defense": 52,
+			"spAtk": 83,
+			"spDef": 56,
+			"speed": 97
+		},
+		"maxStats": {
+			"hp": 312,
+			"attack": 247,
+			"defense": 223,
+			"spAtk": 291,
+			"spDef": 232,
+			"speed": 322
+		},
+		"strongAgainst": [
+			"steel",
+			"fire",
+			"water",
+			"ice"
+		],
+		"weakAgainst": [
+			"grass",
+			"electric"
+		],
+		"abilities": [
+			{
+				"name": "Torrent",
+				"isHidden": false
+			},
+			{
+				"name": "Protean",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "froakie",
+				"name": "Froakie",
+				"dexNumber": 656,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+			},
+			{
+				"slug": "frogadier",
+				"name": "Frogadier",
+				"dexNumber": 657,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
+			},
+			{
+				"slug": "greninja",
+				"name": "Greninja",
+				"dexNumber": 658,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "frogadier",
+				"name": "Frogadier",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "greninja",
+		"dexNumber": 658,
+		"name": "Greninja",
+		"speciesSlug": "greninja",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"water",
+			"dark"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
+		"height": 1.5,
+		"weight": 40,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 530,
+		"baseStats": {
+			"hp": 72,
+			"attack": 95,
+			"defense": 67,
+			"spAtk": 103,
+			"spDef": 71,
+			"speed": 122
+		},
+		"maxStats": {
+			"hp": 348,
+			"attack": 317,
+			"defense": 256,
+			"spAtk": 335,
+			"spDef": 265,
+			"speed": 377
+		},
+		"strongAgainst": [
+			"ghost",
+			"steel",
+			"fire",
+			"water",
+			"psychic",
+			"ice",
+			"dark"
+		],
+		"weakAgainst": [
+			"fighting",
+			"bug",
+			"grass",
+			"electric",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Torrent",
+				"isHidden": false
+			},
+			{
+				"name": "Protean",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "froakie",
+				"name": "Froakie",
+				"dexNumber": 656,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+			},
+			{
+				"slug": "frogadier",
+				"name": "Frogadier",
+				"dexNumber": 657,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
+			},
+			{
+				"slug": "greninja",
+				"name": "Greninja",
+				"dexNumber": 658,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "greninja",
+				"name": "Greninja",
+				"isDefault": true
+			},
+			{
+				"slug": "greninja-battle-bond",
+				"name": "Greninja (Battle Bond)",
+				"isDefault": false
+			},
+			{
+				"slug": "greninja-ash",
+				"name": "Greninja (Ash)",
+				"isDefault": false
+			},
+			{
+				"slug": "greninja-mega",
+				"name": "Greninja (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "greninja-ash",
+		"dexNumber": 658,
+		"name": "Greninja (Ash)",
+		"speciesSlug": "greninja",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"water",
+			"dark"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10117.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10117.png",
+		"height": 1.5,
+		"weight": 40,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 640,
+		"baseStats": {
+			"hp": 72,
+			"attack": 145,
+			"defense": 67,
+			"spAtk": 153,
+			"spDef": 71,
+			"speed": 132
+		},
+		"maxStats": {
+			"hp": 348,
+			"attack": 427,
+			"defense": 256,
+			"spAtk": 445,
+			"spDef": 265,
+			"speed": 399
+		},
+		"strongAgainst": [
+			"ghost",
+			"steel",
+			"fire",
+			"water",
+			"psychic",
+			"ice",
+			"dark"
+		],
+		"weakAgainst": [
+			"fighting",
+			"bug",
+			"grass",
+			"electric",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Battle Bond",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "froakie",
+				"name": "Froakie",
+				"dexNumber": 656,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+			},
+			{
+				"slug": "frogadier",
+				"name": "Frogadier",
+				"dexNumber": 657,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
+			},
+			{
+				"slug": "greninja",
+				"name": "Greninja",
+				"dexNumber": 658,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "greninja",
+				"name": "Greninja",
+				"isDefault": true
+			},
+			{
+				"slug": "greninja-battle-bond",
+				"name": "Greninja (Battle Bond)",
+				"isDefault": false
+			},
+			{
+				"slug": "greninja-ash",
+				"name": "Greninja (Ash)",
+				"isDefault": false
+			},
+			{
+				"slug": "greninja-mega",
+				"name": "Greninja (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "greninja-battle-bond",
+		"dexNumber": 658,
+		"name": "Greninja (Battle Bond)",
+		"speciesSlug": "greninja",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"water",
+			"dark"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10116.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10116.png",
+		"height": 1.5,
+		"weight": 40,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 530,
+		"baseStats": {
+			"hp": 72,
+			"attack": 95,
+			"defense": 67,
+			"spAtk": 103,
+			"spDef": 71,
+			"speed": 122
+		},
+		"maxStats": {
+			"hp": 348,
+			"attack": 317,
+			"defense": 256,
+			"spAtk": 335,
+			"spDef": 265,
+			"speed": 377
+		},
+		"strongAgainst": [
+			"ghost",
+			"steel",
+			"fire",
+			"water",
+			"psychic",
+			"ice",
+			"dark"
+		],
+		"weakAgainst": [
+			"fighting",
+			"bug",
+			"grass",
+			"electric",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Battle Bond",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "froakie",
+				"name": "Froakie",
+				"dexNumber": 656,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+			},
+			{
+				"slug": "frogadier",
+				"name": "Frogadier",
+				"dexNumber": 657,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
+			},
+			{
+				"slug": "greninja",
+				"name": "Greninja",
+				"dexNumber": 658,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "greninja",
+				"name": "Greninja",
+				"isDefault": true
+			},
+			{
+				"slug": "greninja-battle-bond",
+				"name": "Greninja (Battle Bond)",
+				"isDefault": false
+			},
+			{
+				"slug": "greninja-ash",
+				"name": "Greninja (Ash)",
+				"isDefault": false
+			},
+			{
+				"slug": "greninja-mega",
+				"name": "Greninja (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "greninja-mega",
+		"dexNumber": 658,
+		"name": "Greninja (Mega)",
+		"speciesSlug": "greninja",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"water",
+			"dark"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10294.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10294.png",
+		"height": 1.5,
+		"weight": 40,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 630,
+		"baseStats": {
+			"hp": 72,
+			"attack": 125,
+			"defense": 77,
+			"spAtk": 133,
+			"spDef": 81,
+			"speed": 142
+		},
+		"maxStats": {
+			"hp": 348,
+			"attack": 383,
+			"defense": 278,
+			"spAtk": 401,
+			"spDef": 287,
+			"speed": 421
+		},
+		"strongAgainst": [
+			"ghost",
+			"steel",
+			"fire",
+			"water",
+			"psychic",
+			"ice",
+			"dark"
+		],
+		"weakAgainst": [
+			"fighting",
+			"bug",
+			"grass",
+			"electric",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Protean",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "froakie",
+				"name": "Froakie",
+				"dexNumber": 656,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+			},
+			{
+				"slug": "frogadier",
+				"name": "Frogadier",
+				"dexNumber": 657,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
+			},
+			{
+				"slug": "greninja",
+				"name": "Greninja",
+				"dexNumber": 658,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "greninja",
+				"name": "Greninja",
+				"isDefault": true
+			},
+			{
+				"slug": "greninja-battle-bond",
+				"name": "Greninja (Battle Bond)",
+				"isDefault": false
+			},
+			{
+				"slug": "greninja-ash",
+				"name": "Greninja (Ash)",
+				"isDefault": false
+			},
+			{
+				"slug": "greninja-mega",
+				"name": "Greninja (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "bunnelby",
+		"dexNumber": 659,
+		"name": "Bunnelby",
+		"speciesSlug": "bunnelby",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"normal"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/659.png",
+		"height": 0.4,
+		"weight": 5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 255,
+		"baseTotal": 237,
+		"baseStats": {
+			"hp": 38,
+			"attack": 36,
+			"defense": 38,
+			"spAtk": 32,
+			"spDef": 36,
+			"speed": 57
+		},
+		"maxStats": {
+			"hp": 280,
+			"attack": 188,
+			"defense": 192,
+			"spAtk": 179,
+			"spDef": 188,
+			"speed": 234
+		},
+		"strongAgainst": [
+			"ghost"
+		],
+		"weakAgainst": [
+			"fighting"
+		],
+		"abilities": [
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Cheek Pouch",
+				"isHidden": false
+			},
+			{
+				"name": "Huge Power",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "bunnelby",
+				"name": "Bunnelby",
+				"dexNumber": 659,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png"
+			},
+			{
+				"slug": "diggersby",
+				"name": "Diggersby",
+				"dexNumber": 660,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "bunnelby",
+				"name": "Bunnelby",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "diggersby",
+		"dexNumber": 660,
+		"name": "Diggersby",
+		"speciesSlug": "diggersby",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"normal",
+			"ground"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/660.png",
+		"height": 1,
+		"weight": 42.4,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 127,
+		"baseTotal": 423,
+		"baseStats": {
+			"hp": 85,
+			"attack": 56,
+			"defense": 77,
+			"spAtk": 50,
+			"spDef": 77,
+			"speed": 78
+		},
+		"maxStats": {
+			"hp": 374,
+			"attack": 232,
+			"defense": 278,
+			"spAtk": 218,
+			"spDef": 278,
+			"speed": 280
+		},
+		"strongAgainst": [
+			"poison",
+			"rock",
+			"ghost",
+			"electric"
+		],
+		"weakAgainst": [
+			"fighting",
+			"water",
+			"grass",
+			"ice"
+		],
+		"abilities": [
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Cheek Pouch",
+				"isHidden": false
+			},
+			{
+				"name": "Huge Power",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "bunnelby",
+				"name": "Bunnelby",
+				"dexNumber": 659,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png"
+			},
+			{
+				"slug": "diggersby",
+				"name": "Diggersby",
+				"dexNumber": 660,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "diggersby",
+				"name": "Diggersby",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "fletchling",
+		"dexNumber": 661,
+		"name": "Fletchling",
+		"speciesSlug": "fletchling",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"normal",
+			"flying"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/661.png",
+		"height": 0.3,
+		"weight": 1.7,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 255,
+		"baseTotal": 278,
+		"baseStats": {
+			"hp": 45,
+			"attack": 50,
+			"defense": 43,
+			"spAtk": 40,
+			"spDef": 38,
+			"speed": 62
+		},
+		"maxStats": {
+			"hp": 294,
+			"attack": 218,
+			"defense": 203,
+			"spAtk": 196,
+			"spDef": 192,
+			"speed": 245
+		},
+		"strongAgainst": [
+			"ground",
+			"bug",
+			"ghost",
+			"grass"
+		],
+		"weakAgainst": [
+			"rock",
+			"electric",
+			"ice"
+		],
+		"abilities": [
+			{
+				"name": "Big Pecks",
+				"isHidden": false
+			},
+			{
+				"name": "Gale Wings",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "fletchling",
+				"name": "Fletchling",
+				"dexNumber": 661,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png"
+			},
+			{
+				"slug": "fletchinder",
+				"name": "Fletchinder",
+				"dexNumber": 662,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png"
+			},
+			{
+				"slug": "talonflame",
+				"name": "Talonflame",
+				"dexNumber": 663,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "fletchling",
+				"name": "Fletchling",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "fletchinder",
+		"dexNumber": 662,
+		"name": "Fletchinder",
+		"speciesSlug": "fletchinder",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fire",
+			"flying"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/662.png",
+		"height": 0.7,
+		"weight": 16,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 120,
+		"baseTotal": 382,
+		"baseStats": {
+			"hp": 62,
+			"attack": 73,
+			"defense": 55,
+			"spAtk": 56,
+			"spDef": 52,
+			"speed": 84
+		},
+		"maxStats": {
+			"hp": 328,
+			"attack": 269,
+			"defense": 229,
+			"spAtk": 232,
+			"spDef": 223,
+			"speed": 293
+		},
+		"strongAgainst": [
+			"fighting",
+			"ground",
+			"bug",
+			"steel",
+			"fire",
+			"grass",
+			"fairy"
+		],
+		"weakAgainst": [
+			"rock",
+			"water",
+			"electric"
+		],
+		"abilities": [
+			{
+				"name": "Flame Body",
+				"isHidden": false
+			},
+			{
+				"name": "Gale Wings",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "fletchling",
+				"name": "Fletchling",
+				"dexNumber": 661,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png"
+			},
+			{
+				"slug": "fletchinder",
+				"name": "Fletchinder",
+				"dexNumber": 662,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png"
+			},
+			{
+				"slug": "talonflame",
+				"name": "Talonflame",
+				"dexNumber": 663,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "fletchinder",
+				"name": "Fletchinder",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "talonflame",
+		"dexNumber": 663,
+		"name": "Talonflame",
+		"speciesSlug": "talonflame",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fire",
+			"flying"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/663.png",
+		"height": 1.2,
+		"weight": 24.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 499,
+		"baseStats": {
+			"hp": 78,
+			"attack": 81,
+			"defense": 71,
+			"spAtk": 74,
+			"spDef": 69,
+			"speed": 126
+		},
+		"maxStats": {
+			"hp": 360,
+			"attack": 287,
+			"defense": 265,
+			"spAtk": 271,
+			"spDef": 260,
+			"speed": 386
+		},
+		"strongAgainst": [
+			"fighting",
+			"ground",
+			"bug",
+			"steel",
+			"fire",
+			"grass",
+			"fairy"
+		],
+		"weakAgainst": [
+			"rock",
+			"water",
+			"electric"
+		],
+		"abilities": [
+			{
+				"name": "Flame Body",
+				"isHidden": false
+			},
+			{
+				"name": "Gale Wings",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "fletchling",
+				"name": "Fletchling",
+				"dexNumber": 661,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png"
+			},
+			{
+				"slug": "fletchinder",
+				"name": "Fletchinder",
+				"dexNumber": 662,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png"
+			},
+			{
+				"slug": "talonflame",
+				"name": "Talonflame",
+				"dexNumber": 663,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "talonflame",
+				"name": "Talonflame",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "scatterbug",
+		"dexNumber": 664,
+		"name": "Scatterbug",
+		"speciesSlug": "scatterbug",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"bug"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
+		"height": 0.3,
+		"weight": 2.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 255,
+		"baseTotal": 200,
+		"baseStats": {
+			"hp": 38,
+			"attack": 35,
+			"defense": 40,
+			"spAtk": 27,
+			"spDef": 25,
+			"speed": 35
+		},
+		"maxStats": {
+			"hp": 280,
+			"attack": 185,
+			"defense": 196,
+			"spAtk": 168,
+			"spDef": 163,
+			"speed": 185
+		},
+		"strongAgainst": [
+			"fighting",
+			"ground",
+			"grass"
+		],
+		"weakAgainst": [
+			"flying",
+			"rock",
+			"fire"
+		],
+		"abilities": [
+			{
+				"name": "Shield Dust",
+				"isHidden": false
+			},
+			{
+				"name": "Compound Eyes",
+				"isHidden": false
+			},
+			{
+				"name": "Friend Guard",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "scatterbug",
+				"name": "Scatterbug",
+				"dexNumber": 664,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png"
+			},
+			{
+				"slug": "spewpa",
+				"name": "Spewpa",
+				"dexNumber": 665,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png"
+			},
+			{
+				"slug": "vivillon",
+				"name": "Vivillon",
+				"dexNumber": 666,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "scatterbug",
+				"name": "Scatterbug",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "spewpa",
+		"dexNumber": 665,
+		"name": "Spewpa",
+		"speciesSlug": "spewpa",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"bug"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
+		"height": 0.3,
+		"weight": 8.4,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 120,
+		"baseTotal": 213,
+		"baseStats": {
+			"hp": 45,
+			"attack": 22,
+			"defense": 60,
+			"spAtk": 27,
+			"spDef": 30,
+			"speed": 29
+		},
+		"maxStats": {
+			"hp": 294,
+			"attack": 157,
+			"defense": 240,
+			"spAtk": 168,
+			"spDef": 174,
+			"speed": 172
+		},
+		"strongAgainst": [
+			"fighting",
+			"ground",
+			"grass"
+		],
+		"weakAgainst": [
+			"flying",
+			"rock",
+			"fire"
+		],
+		"abilities": [
+			{
+				"name": "Shed Skin",
+				"isHidden": false
+			},
+			{
+				"name": "Friend Guard",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "scatterbug",
+				"name": "Scatterbug",
+				"dexNumber": 664,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png"
+			},
+			{
+				"slug": "spewpa",
+				"name": "Spewpa",
+				"dexNumber": 665,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png"
+			},
+			{
+				"slug": "vivillon",
+				"name": "Vivillon",
+				"dexNumber": 666,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "spewpa",
+				"name": "Spewpa",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "vivillon",
+		"dexNumber": 666,
+		"name": "Vivillon",
+		"speciesSlug": "vivillon",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"bug",
+			"flying"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
+		"height": 1.2,
+		"weight": 17,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 411,
+		"baseStats": {
+			"hp": 80,
+			"attack": 52,
+			"defense": 50,
+			"spAtk": 90,
+			"spDef": 50,
+			"speed": 89
+		},
+		"maxStats": {
+			"hp": 364,
+			"attack": 223,
+			"defense": 218,
+			"spAtk": 306,
+			"spDef": 218,
+			"speed": 304
+		},
+		"strongAgainst": [
+			"fighting",
+			"ground",
+			"bug",
+			"grass"
+		],
+		"weakAgainst": [
+			"flying",
+			"rock",
+			"fire",
+			"electric",
+			"ice"
+		],
+		"abilities": [
+			{
+				"name": "Shield Dust",
+				"isHidden": false
+			},
+			{
+				"name": "Compound Eyes",
+				"isHidden": false
+			},
+			{
+				"name": "Friend Guard",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "scatterbug",
+				"name": "Scatterbug",
+				"dexNumber": 664,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png"
+			},
+			{
+				"slug": "spewpa",
+				"name": "Spewpa",
+				"dexNumber": 665,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png"
+			},
+			{
+				"slug": "vivillon",
+				"name": "Vivillon",
+				"dexNumber": 666,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "vivillon",
+				"name": "Vivillon",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "litleo",
+		"dexNumber": 667,
+		"name": "Litleo",
+		"speciesSlug": "litleo",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fire",
+			"normal"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/667.png",
+		"height": 0.6,
+		"weight": 13.5,
+		"malePercent": 12.5,
+		"femalePercent": 87.5,
+		"captureRate": 220,
+		"baseTotal": 369,
+		"baseStats": {
+			"hp": 62,
+			"attack": 50,
+			"defense": 58,
+			"spAtk": 73,
+			"spDef": 54,
+			"speed": 72
+		},
+		"maxStats": {
+			"hp": 328,
+			"attack": 218,
+			"defense": 236,
+			"spAtk": 269,
+			"spDef": 227,
+			"speed": 267
+		},
+		"strongAgainst": [
+			"bug",
+			"ghost",
+			"steel",
+			"fire",
+			"grass",
+			"ice",
+			"fairy"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"rock",
+			"water"
+		],
+		"abilities": [
+			{
+				"name": "Rivalry",
+				"isHidden": false
+			},
+			{
+				"name": "Unnerve",
+				"isHidden": false
+			},
+			{
+				"name": "Moxie",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "litleo",
+				"name": "Litleo",
+				"dexNumber": 667,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png"
+			},
+			{
+				"slug": "pyroar-male",
+				"name": "Pyroar",
+				"dexNumber": 668,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "litleo",
+				"name": "Litleo",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "pyroar-male",
+		"dexNumber": 668,
+		"name": "Pyroar",
+		"speciesSlug": "pyroar",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fire",
+			"normal"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
+		"height": 1.5,
+		"weight": 81.5,
+		"malePercent": 12.5,
+		"femalePercent": 87.5,
+		"captureRate": 65,
+		"baseTotal": 507,
+		"baseStats": {
+			"hp": 86,
+			"attack": 68,
+			"defense": 72,
+			"spAtk": 109,
+			"spDef": 66,
+			"speed": 106
+		},
+		"maxStats": {
+			"hp": 376,
+			"attack": 258,
+			"defense": 267,
+			"spAtk": 348,
+			"spDef": 254,
+			"speed": 342
+		},
+		"strongAgainst": [
+			"bug",
+			"ghost",
+			"steel",
+			"fire",
+			"grass",
+			"ice",
+			"fairy"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"rock",
+			"water"
+		],
+		"abilities": [
+			{
+				"name": "Rivalry",
+				"isHidden": false
+			},
+			{
+				"name": "Unnerve",
+				"isHidden": false
+			},
+			{
+				"name": "Moxie",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "litleo",
+				"name": "Litleo",
+				"dexNumber": 667,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png"
+			},
+			{
+				"slug": "pyroar-male",
+				"name": "Pyroar",
+				"dexNumber": 668,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "pyroar-male",
+				"name": "Pyroar",
+				"isDefault": true
+			},
+			{
+				"slug": "pyroar-mega",
+				"name": "Pyroar (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "pyroar-mega",
+		"dexNumber": 668,
+		"name": "Pyroar (Mega)",
+		"speciesSlug": "pyroar",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fire",
+			"normal"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10295.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10295.png",
+		"height": 1.5,
+		"weight": 93.3,
+		"malePercent": 12.5,
+		"femalePercent": 87.5,
+		"captureRate": 65,
+		"baseTotal": 607,
+		"baseStats": {
+			"hp": 86,
+			"attack": 88,
+			"defense": 92,
+			"spAtk": 129,
+			"spDef": 86,
+			"speed": 126
+		},
+		"maxStats": {
+			"hp": 376,
+			"attack": 302,
+			"defense": 311,
+			"spAtk": 392,
+			"spDef": 298,
+			"speed": 386
+		},
+		"strongAgainst": [
+			"bug",
+			"ghost",
+			"steel",
+			"fire",
+			"grass",
+			"ice",
+			"fairy"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"rock",
+			"water"
+		],
+		"abilities": [
+			{
+				"name": "Fire Mane",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "litleo",
+				"name": "Litleo",
+				"dexNumber": 667,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png"
+			},
+			{
+				"slug": "pyroar-male",
+				"name": "Pyroar",
+				"dexNumber": 668,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "pyroar-male",
+				"name": "Pyroar",
+				"isDefault": true
+			},
+			{
+				"slug": "pyroar-mega",
+				"name": "Pyroar (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "flabebe",
+		"dexNumber": 669,
+		"name": "Flabébé",
+		"speciesSlug": "flabebe",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/669.png",
+		"height": 0.1,
+		"weight": 0.1,
+		"malePercent": 0,
+		"femalePercent": 100,
+		"captureRate": 225,
+		"baseTotal": 303,
+		"baseStats": {
+			"hp": 44,
+			"attack": 38,
+			"defense": 39,
+			"spAtk": 61,
+			"spDef": 79,
+			"speed": 42
+		},
+		"maxStats": {
+			"hp": 292,
+			"attack": 192,
+			"defense": 194,
+			"spAtk": 243,
+			"spDef": 282,
+			"speed": 201
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Flower Veil",
+				"isHidden": false
+			},
+			{
+				"name": "Symbiosis",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "flabebe",
+				"name": "Flabébé",
+				"dexNumber": 669,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png"
+			},
+			{
+				"slug": "floette",
+				"name": "Floette",
+				"dexNumber": 670,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png"
+			},
+			{
+				"slug": "florges",
+				"name": "Florges",
+				"dexNumber": 671,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "flabebe",
+				"name": "Flabébé",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "floette",
+		"dexNumber": 670,
+		"name": "Floette",
+		"speciesSlug": "floette",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png",
+		"height": 0.2,
+		"weight": 0.9,
+		"malePercent": 0,
+		"femalePercent": 100,
+		"captureRate": 120,
+		"baseTotal": 371,
+		"baseStats": {
+			"hp": 54,
+			"attack": 45,
+			"defense": 47,
+			"spAtk": 75,
+			"spDef": 98,
+			"speed": 52
+		},
+		"maxStats": {
+			"hp": 312,
+			"attack": 207,
+			"defense": 212,
+			"spAtk": 273,
+			"spDef": 324,
+			"speed": 223
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Flower Veil",
+				"isHidden": false
+			},
+			{
+				"name": "Symbiosis",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "flabebe",
+				"name": "Flabébé",
+				"dexNumber": 669,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png"
+			},
+			{
+				"slug": "floette",
+				"name": "Floette",
+				"dexNumber": 670,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png"
+			},
+			{
+				"slug": "florges",
+				"name": "Florges",
+				"dexNumber": 671,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "floette",
+				"name": "Floette",
+				"isDefault": true
+			},
+			{
+				"slug": "floette-eternal",
+				"name": "Floette (Eternal)",
+				"isDefault": false
+			},
+			{
+				"slug": "floette-mega",
+				"name": "Floette (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "floette-eternal",
+		"dexNumber": 670,
+		"name": "Floette (Eternal)",
+		"speciesSlug": "floette",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10061.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10061.png",
+		"height": 0.2,
+		"weight": 0.9,
+		"malePercent": 0,
+		"femalePercent": 100,
+		"captureRate": 120,
+		"baseTotal": 551,
+		"baseStats": {
+			"hp": 74,
+			"attack": 65,
+			"defense": 67,
+			"spAtk": 125,
+			"spDef": 128,
+			"speed": 92
+		},
+		"maxStats": {
+			"hp": 352,
+			"attack": 251,
+			"defense": 256,
+			"spAtk": 383,
+			"spDef": 390,
+			"speed": 311
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Flower Veil",
+				"isHidden": false
+			},
+			{
+				"name": "Symbiosis",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "flabebe",
+				"name": "Flabébé",
+				"dexNumber": 669,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png"
+			},
+			{
+				"slug": "floette",
+				"name": "Floette",
+				"dexNumber": 670,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png"
+			},
+			{
+				"slug": "florges",
+				"name": "Florges",
+				"dexNumber": 671,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "floette",
+				"name": "Floette",
+				"isDefault": true
+			},
+			{
+				"slug": "floette-eternal",
+				"name": "Floette (Eternal)",
+				"isDefault": false
+			},
+			{
+				"slug": "floette-mega",
+				"name": "Floette (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "floette-mega",
+		"dexNumber": 670,
+		"name": "Floette (Mega)",
+		"speciesSlug": "floette",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10296.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10296.png",
+		"height": 0.2,
+		"weight": 100.8,
+		"malePercent": 0,
+		"femalePercent": 100,
+		"captureRate": 120,
+		"baseTotal": 651,
+		"baseStats": {
+			"hp": 74,
+			"attack": 85,
+			"defense": 87,
+			"spAtk": 155,
+			"spDef": 148,
+			"speed": 102
+		},
+		"maxStats": {
+			"hp": 352,
+			"attack": 295,
+			"defense": 300,
+			"spAtk": 449,
+			"spDef": 434,
+			"speed": 333
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Fairy Aura",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "flabebe",
+				"name": "Flabébé",
+				"dexNumber": 669,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png"
+			},
+			{
+				"slug": "floette",
+				"name": "Floette",
+				"dexNumber": 670,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png"
+			},
+			{
+				"slug": "florges",
+				"name": "Florges",
+				"dexNumber": 671,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "floette",
+				"name": "Floette",
+				"isDefault": true
+			},
+			{
+				"slug": "floette-eternal",
+				"name": "Floette (Eternal)",
+				"isDefault": false
+			},
+			{
+				"slug": "floette-mega",
+				"name": "Floette (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "florges",
+		"dexNumber": 671,
+		"name": "Florges",
+		"speciesSlug": "florges",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png",
+		"height": 1.1,
+		"weight": 10,
+		"malePercent": 0,
+		"femalePercent": 100,
+		"captureRate": 45,
+		"baseTotal": 552,
+		"baseStats": {
+			"hp": 78,
+			"attack": 65,
+			"defense": 68,
+			"spAtk": 112,
+			"spDef": 154,
+			"speed": 75
+		},
+		"maxStats": {
+			"hp": 360,
+			"attack": 251,
+			"defense": 258,
+			"spAtk": 355,
+			"spDef": 447,
+			"speed": 273
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Flower Veil",
+				"isHidden": false
+			},
+			{
+				"name": "Symbiosis",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "flabebe",
+				"name": "Flabébé",
+				"dexNumber": 669,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png"
+			},
+			{
+				"slug": "floette",
+				"name": "Floette",
+				"dexNumber": 670,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png"
+			},
+			{
+				"slug": "florges",
+				"name": "Florges",
+				"dexNumber": 671,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "florges",
+				"name": "Florges",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "skiddo",
+		"dexNumber": 672,
+		"name": "Skiddo",
+		"speciesSlug": "skiddo",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/672.png",
+		"height": 0.9,
+		"weight": 31,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 200,
+		"baseTotal": 350,
+		"baseStats": {
+			"hp": 66,
+			"attack": 65,
+			"defense": 48,
+			"spAtk": 62,
+			"spDef": 57,
+			"speed": 52
+		},
+		"maxStats": {
+			"hp": 336,
+			"attack": 251,
+			"defense": 214,
+			"spAtk": 245,
+			"spDef": 234,
+			"speed": 223
+		},
+		"strongAgainst": [
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"poison",
+			"bug",
+			"fire",
+			"ice"
+		],
+		"abilities": [
+			{
+				"name": "Sap Sipper",
+				"isHidden": false
+			},
+			{
+				"name": "Grass Pelt",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "skiddo",
+				"name": "Skiddo",
+				"dexNumber": 672,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png"
+			},
+			{
+				"slug": "gogoat",
+				"name": "Gogoat",
+				"dexNumber": 673,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "skiddo",
+				"name": "Skiddo",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "gogoat",
+		"dexNumber": 673,
+		"name": "Gogoat",
+		"speciesSlug": "gogoat",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png",
+		"height": 1.7,
+		"weight": 91,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 531,
+		"baseStats": {
+			"hp": 123,
+			"attack": 100,
+			"defense": 62,
+			"spAtk": 97,
+			"spDef": 81,
+			"speed": 68
+		},
+		"maxStats": {
+			"hp": 450,
+			"attack": 328,
+			"defense": 245,
+			"spAtk": 322,
+			"spDef": 287,
+			"speed": 258
+		},
+		"strongAgainst": [
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"poison",
+			"bug",
+			"fire",
+			"ice"
+		],
+		"abilities": [
+			{
+				"name": "Sap Sipper",
+				"isHidden": false
+			},
+			{
+				"name": "Grass Pelt",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "skiddo",
+				"name": "Skiddo",
+				"dexNumber": 672,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png"
+			},
+			{
+				"slug": "gogoat",
+				"name": "Gogoat",
+				"dexNumber": 673,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "gogoat",
+				"name": "Gogoat",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "pancham",
+		"dexNumber": 674,
+		"name": "Pancham",
+		"speciesSlug": "pancham",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fighting"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/674.png",
+		"height": 0.6,
+		"weight": 8,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 220,
+		"baseTotal": 348,
+		"baseStats": {
+			"hp": 67,
+			"attack": 82,
+			"defense": 62,
+			"spAtk": 46,
+			"spDef": 48,
+			"speed": 43
+		},
+		"maxStats": {
+			"hp": 338,
+			"attack": 289,
+			"defense": 245,
+			"spAtk": 210,
+			"spDef": 214,
+			"speed": 203
+		},
+		"strongAgainst": [
+			"rock",
+			"bug",
+			"dark"
+		],
+		"weakAgainst": [
+			"flying",
+			"psychic",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Iron Fist",
+				"isHidden": false
+			},
+			{
+				"name": "Mold Breaker",
+				"isHidden": false
+			},
+			{
+				"name": "Scrappy",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "pancham",
+				"name": "Pancham",
+				"dexNumber": 674,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png"
+			},
+			{
+				"slug": "pangoro",
+				"name": "Pangoro",
+				"dexNumber": 675,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "pancham",
+				"name": "Pancham",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "pangoro",
+		"dexNumber": 675,
+		"name": "Pangoro",
+		"speciesSlug": "pangoro",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fighting",
+			"dark"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/675.png",
+		"height": 2.1,
+		"weight": 136,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 65,
+		"baseTotal": 495,
+		"baseStats": {
+			"hp": 95,
+			"attack": 124,
+			"defense": 78,
+			"spAtk": 69,
+			"spDef": 71,
+			"speed": 58
+		},
+		"maxStats": {
+			"hp": 394,
+			"attack": 381,
+			"defense": 280,
+			"spAtk": 260,
+			"spDef": 265,
+			"speed": 236
+		},
+		"strongAgainst": [
+			"rock",
+			"ghost",
+			"psychic",
+			"dark"
+		],
+		"weakAgainst": [
+			"fighting",
+			"flying",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Iron Fist",
+				"isHidden": false
+			},
+			{
+				"name": "Mold Breaker",
+				"isHidden": false
+			},
+			{
+				"name": "Scrappy",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "pancham",
+				"name": "Pancham",
+				"dexNumber": 674,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png"
+			},
+			{
+				"slug": "pangoro",
+				"name": "Pangoro",
+				"dexNumber": 675,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "pangoro",
+				"name": "Pangoro",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "furfrou",
+		"dexNumber": 676,
+		"name": "Furfrou",
+		"speciesSlug": "furfrou",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"normal"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
+		"height": 1.2,
+		"weight": 28,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 160,
+		"baseTotal": 472,
+		"baseStats": {
+			"hp": 75,
+			"attack": 80,
+			"defense": 60,
+			"spAtk": 65,
+			"spDef": 90,
+			"speed": 102
+		},
+		"maxStats": {
+			"hp": 354,
+			"attack": 284,
+			"defense": 240,
+			"spAtk": 251,
+			"spDef": 306,
+			"speed": 333
+		},
+		"strongAgainst": [
+			"ghost"
+		],
+		"weakAgainst": [
+			"fighting"
+		],
+		"abilities": [
+			{
+				"name": "Fur Coat",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "furfrou",
+				"name": "Furfrou",
+				"dexNumber": 676,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "furfrou",
+				"name": "Furfrou",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "espurr",
+		"dexNumber": 677,
+		"name": "Espurr",
+		"speciesSlug": "espurr",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"psychic"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/677.png",
+		"height": 0.3,
+		"weight": 3.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 190,
+		"baseTotal": 355,
+		"baseStats": {
+			"hp": 62,
+			"attack": 48,
+			"defense": 54,
+			"spAtk": 63,
+			"spDef": 60,
+			"speed": 68
+		},
+		"maxStats": {
+			"hp": 328,
+			"attack": 214,
+			"defense": 227,
+			"spAtk": 247,
+			"spDef": 240,
+			"speed": 258
+		},
+		"strongAgainst": [
+			"fighting",
+			"psychic"
+		],
+		"weakAgainst": [
+			"bug",
+			"ghost",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Keen Eye",
+				"isHidden": false
+			},
+			{
+				"name": "Infiltrator",
+				"isHidden": false
+			},
+			{
+				"name": "Own Tempo",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "espurr",
+				"name": "Espurr",
+				"dexNumber": 677,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png"
+			},
+			{
+				"slug": "meowstic-male",
+				"name": "Meowstic",
+				"dexNumber": 678,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "espurr",
+				"name": "Espurr",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "meowstic-female",
+		"dexNumber": 678,
+		"name": "Meowstic (Female)",
+		"speciesSlug": "meowstic",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"psychic"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10025.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10025.png",
+		"height": 0.6,
+		"weight": 8.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 75,
+		"baseTotal": 466,
+		"baseStats": {
+			"hp": 74,
+			"attack": 48,
+			"defense": 76,
+			"spAtk": 83,
+			"spDef": 81,
+			"speed": 104
+		},
+		"maxStats": {
+			"hp": 352,
+			"attack": 214,
+			"defense": 276,
+			"spAtk": 291,
+			"spDef": 287,
+			"speed": 337
+		},
+		"strongAgainst": [
+			"fighting",
+			"psychic"
+		],
+		"weakAgainst": [
+			"bug",
+			"ghost",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Keen Eye",
+				"isHidden": false
+			},
+			{
+				"name": "Infiltrator",
+				"isHidden": false
+			},
+			{
+				"name": "Competitive",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "espurr",
+				"name": "Espurr",
+				"dexNumber": 677,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png"
+			},
+			{
+				"slug": "meowstic-male",
+				"name": "Meowstic",
+				"dexNumber": 678,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "meowstic-male",
+				"name": "Meowstic",
+				"isDefault": true
+			},
+			{
+				"slug": "meowstic-female",
+				"name": "Meowstic (Female)",
+				"isDefault": false
+			},
+			{
+				"slug": "meowstic-male-mega",
+				"name": "Meowstic (Male Mega)",
+				"isDefault": false
+			},
+			{
+				"slug": "meowstic-female-mega",
+				"name": "Meowstic (Female Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "meowstic-female-mega",
+		"dexNumber": 678,
+		"name": "Meowstic (Female Mega)",
+		"speciesSlug": "meowstic",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"psychic"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10326.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10326.png",
+		"height": 0.8,
+		"weight": 10.1,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 75,
+		"baseTotal": 566,
+		"baseStats": {
+			"hp": 74,
+			"attack": 48,
+			"defense": 76,
+			"spAtk": 143,
+			"spDef": 101,
+			"speed": 124
+		},
+		"maxStats": {
+			"hp": 352,
+			"attack": 214,
+			"defense": 276,
+			"spAtk": 423,
+			"spDef": 331,
+			"speed": 381
+		},
+		"strongAgainst": [
+			"fighting",
+			"psychic"
+		],
+		"weakAgainst": [
+			"bug",
+			"ghost",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Trace",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "espurr",
+				"name": "Espurr",
+				"dexNumber": 677,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png"
+			},
+			{
+				"slug": "meowstic-male",
+				"name": "Meowstic",
+				"dexNumber": 678,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "meowstic-male",
+				"name": "Meowstic",
+				"isDefault": true
+			},
+			{
+				"slug": "meowstic-female",
+				"name": "Meowstic (Female)",
+				"isDefault": false
+			},
+			{
+				"slug": "meowstic-male-mega",
+				"name": "Meowstic (Male Mega)",
+				"isDefault": false
+			},
+			{
+				"slug": "meowstic-female-mega",
+				"name": "Meowstic (Female Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "meowstic-male",
+		"dexNumber": 678,
+		"name": "Meowstic",
+		"speciesSlug": "meowstic",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"psychic"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/678.png",
+		"height": 0.6,
+		"weight": 8.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 75,
+		"baseTotal": 466,
+		"baseStats": {
+			"hp": 74,
+			"attack": 48,
+			"defense": 76,
+			"spAtk": 83,
+			"spDef": 81,
+			"speed": 104
+		},
+		"maxStats": {
+			"hp": 352,
+			"attack": 214,
+			"defense": 276,
+			"spAtk": 291,
+			"spDef": 287,
+			"speed": 337
+		},
+		"strongAgainst": [
+			"fighting",
+			"psychic"
+		],
+		"weakAgainst": [
+			"bug",
+			"ghost",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Keen Eye",
+				"isHidden": false
+			},
+			{
+				"name": "Infiltrator",
+				"isHidden": false
+			},
+			{
+				"name": "Prankster",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "espurr",
+				"name": "Espurr",
+				"dexNumber": 677,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png"
+			},
+			{
+				"slug": "meowstic-male",
+				"name": "Meowstic",
+				"dexNumber": 678,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "meowstic-male",
+				"name": "Meowstic",
+				"isDefault": true
+			},
+			{
+				"slug": "meowstic-female",
+				"name": "Meowstic (Female)",
+				"isDefault": false
+			},
+			{
+				"slug": "meowstic-male-mega",
+				"name": "Meowstic (Male Mega)",
+				"isDefault": false
+			},
+			{
+				"slug": "meowstic-female-mega",
+				"name": "Meowstic (Female Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "meowstic-male-mega",
+		"dexNumber": 678,
+		"name": "Meowstic (Male Mega)",
+		"speciesSlug": "meowstic",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"psychic"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10314.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10314.png",
+		"height": 0.8,
+		"weight": 10.1,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 75,
+		"baseTotal": 566,
+		"baseStats": {
+			"hp": 74,
+			"attack": 48,
+			"defense": 76,
+			"spAtk": 143,
+			"spDef": 101,
+			"speed": 124
+		},
+		"maxStats": {
+			"hp": 352,
+			"attack": 214,
+			"defense": 276,
+			"spAtk": 423,
+			"spDef": 331,
+			"speed": 381
+		},
+		"strongAgainst": [
+			"fighting",
+			"psychic"
+		],
+		"weakAgainst": [
+			"bug",
+			"ghost",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Trace",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "espurr",
+				"name": "Espurr",
+				"dexNumber": 677,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png"
+			},
+			{
+				"slug": "meowstic-male",
+				"name": "Meowstic",
+				"dexNumber": 678,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "meowstic-male",
+				"name": "Meowstic",
+				"isDefault": true
+			},
+			{
+				"slug": "meowstic-female",
+				"name": "Meowstic (Female)",
+				"isDefault": false
+			},
+			{
+				"slug": "meowstic-male-mega",
+				"name": "Meowstic (Male Mega)",
+				"isDefault": false
+			},
+			{
+				"slug": "meowstic-female-mega",
+				"name": "Meowstic (Female Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "honedge",
+		"dexNumber": 679,
+		"name": "Honedge",
+		"speciesSlug": "honedge",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"steel",
+			"ghost"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/679.png",
+		"height": 0.8,
+		"weight": 2,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 180,
+		"baseTotal": 325,
+		"baseStats": {
+			"hp": 45,
+			"attack": 80,
+			"defense": 100,
+			"spAtk": 35,
+			"spDef": 37,
+			"speed": 28
+		},
+		"maxStats": {
+			"hp": 294,
+			"attack": 284,
+			"defense": 328,
+			"spAtk": 185,
+			"spDef": 190,
+			"speed": 170
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"flying",
+			"poison",
+			"rock",
+			"bug",
+			"steel",
+			"grass",
+			"psychic",
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"ghost",
+			"fire",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "No Guard",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "honedge",
+				"name": "Honedge",
+				"dexNumber": 679,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png"
+			},
+			{
+				"slug": "doublade",
+				"name": "Doublade",
+				"dexNumber": 680,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
+			},
+			{
+				"slug": "aegislash-shield",
+				"name": "Aegislash",
+				"dexNumber": 681,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "honedge",
+				"name": "Honedge",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "doublade",
+		"dexNumber": 680,
+		"name": "Doublade",
+		"speciesSlug": "doublade",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"steel",
+			"ghost"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/680.png",
+		"height": 0.8,
+		"weight": 4.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 90,
+		"baseTotal": 448,
+		"baseStats": {
+			"hp": 59,
+			"attack": 110,
+			"defense": 150,
+			"spAtk": 45,
+			"spDef": 49,
+			"speed": 35
+		},
+		"maxStats": {
+			"hp": 322,
+			"attack": 350,
+			"defense": 438,
+			"spAtk": 207,
+			"spDef": 216,
+			"speed": 185
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"flying",
+			"poison",
+			"rock",
+			"bug",
+			"steel",
+			"grass",
+			"psychic",
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"ghost",
+			"fire",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "No Guard",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "honedge",
+				"name": "Honedge",
+				"dexNumber": 679,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png"
+			},
+			{
+				"slug": "doublade",
+				"name": "Doublade",
+				"dexNumber": 680,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
+			},
+			{
+				"slug": "aegislash-shield",
+				"name": "Aegislash",
+				"dexNumber": 681,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "doublade",
+				"name": "Doublade",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "aegislash-blade",
+		"dexNumber": 681,
+		"name": "Aegislash (Blade)",
+		"speciesSlug": "aegislash",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"steel",
+			"ghost"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10026.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10026.png",
+		"height": 1.7,
+		"weight": 53,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 500,
+		"baseStats": {
+			"hp": 60,
+			"attack": 140,
+			"defense": 50,
+			"spAtk": 140,
+			"spDef": 50,
+			"speed": 60
+		},
+		"maxStats": {
+			"hp": 324,
+			"attack": 416,
+			"defense": 218,
+			"spAtk": 416,
+			"spDef": 218,
+			"speed": 240
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"flying",
+			"poison",
+			"rock",
+			"bug",
+			"steel",
+			"grass",
+			"psychic",
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"ghost",
+			"fire",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Stance Change",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "honedge",
+				"name": "Honedge",
+				"dexNumber": 679,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png"
+			},
+			{
+				"slug": "doublade",
+				"name": "Doublade",
+				"dexNumber": 680,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
+			},
+			{
+				"slug": "aegislash-shield",
+				"name": "Aegislash",
+				"dexNumber": 681,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "aegislash-shield",
+				"name": "Aegislash",
+				"isDefault": true
+			},
+			{
+				"slug": "aegislash-blade",
+				"name": "Aegislash (Blade)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "aegislash-shield",
+		"dexNumber": 681,
+		"name": "Aegislash",
+		"speciesSlug": "aegislash",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"steel",
+			"ghost"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png",
+		"height": 1.7,
+		"weight": 53,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 500,
+		"baseStats": {
+			"hp": 60,
+			"attack": 50,
+			"defense": 140,
+			"spAtk": 50,
+			"spDef": 140,
+			"speed": 60
+		},
+		"maxStats": {
+			"hp": 324,
+			"attack": 218,
+			"defense": 416,
+			"spAtk": 218,
+			"spDef": 416,
+			"speed": 240
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"flying",
+			"poison",
+			"rock",
+			"bug",
+			"steel",
+			"grass",
+			"psychic",
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"ghost",
+			"fire",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Stance Change",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "honedge",
+				"name": "Honedge",
+				"dexNumber": 679,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png"
+			},
+			{
+				"slug": "doublade",
+				"name": "Doublade",
+				"dexNumber": 680,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
+			},
+			{
+				"slug": "aegislash-shield",
+				"name": "Aegislash",
+				"dexNumber": 681,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "aegislash-shield",
+				"name": "Aegislash",
+				"isDefault": true
+			},
+			{
+				"slug": "aegislash-blade",
+				"name": "Aegislash (Blade)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "spritzee",
+		"dexNumber": 682,
+		"name": "Spritzee",
+		"speciesSlug": "spritzee",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/682.png",
+		"height": 0.2,
+		"weight": 0.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 200,
+		"baseTotal": 341,
+		"baseStats": {
+			"hp": 78,
+			"attack": 52,
+			"defense": 60,
+			"spAtk": 63,
+			"spDef": 65,
+			"speed": 23
+		},
+		"maxStats": {
+			"hp": 360,
+			"attack": 223,
+			"defense": 240,
+			"spAtk": 247,
+			"spDef": 251,
+			"speed": 159
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Healer",
+				"isHidden": false
+			},
+			{
+				"name": "Aroma Veil",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "spritzee",
+				"name": "Spritzee",
+				"dexNumber": 682,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png"
+			},
+			{
+				"slug": "aromatisse",
+				"name": "Aromatisse",
+				"dexNumber": 683,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "spritzee",
+				"name": "Spritzee",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "aromatisse",
+		"dexNumber": 683,
+		"name": "Aromatisse",
+		"speciesSlug": "aromatisse",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png",
+		"height": 0.8,
+		"weight": 15.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 140,
+		"baseTotal": 462,
+		"baseStats": {
+			"hp": 101,
+			"attack": 72,
+			"defense": 72,
+			"spAtk": 99,
+			"spDef": 89,
+			"speed": 29
+		},
+		"maxStats": {
+			"hp": 406,
+			"attack": 267,
+			"defense": 267,
+			"spAtk": 326,
+			"spDef": 304,
+			"speed": 172
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Healer",
+				"isHidden": false
+			},
+			{
+				"name": "Aroma Veil",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "spritzee",
+				"name": "Spritzee",
+				"dexNumber": 682,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png"
+			},
+			{
+				"slug": "aromatisse",
+				"name": "Aromatisse",
+				"dexNumber": 683,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "aromatisse",
+				"name": "Aromatisse",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "swirlix",
+		"dexNumber": 684,
+		"name": "Swirlix",
+		"speciesSlug": "swirlix",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/684.png",
+		"height": 0.4,
+		"weight": 3.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 200,
+		"baseTotal": 341,
+		"baseStats": {
+			"hp": 62,
+			"attack": 48,
+			"defense": 66,
+			"spAtk": 59,
+			"spDef": 57,
+			"speed": 49
+		},
+		"maxStats": {
+			"hp": 328,
+			"attack": 214,
+			"defense": 254,
+			"spAtk": 238,
+			"spDef": 234,
+			"speed": 216
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Sweet Veil",
+				"isHidden": false
+			},
+			{
+				"name": "Unburden",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "swirlix",
+				"name": "Swirlix",
+				"dexNumber": 684,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png"
+			},
+			{
+				"slug": "slurpuff",
+				"name": "Slurpuff",
+				"dexNumber": 685,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "swirlix",
+				"name": "Swirlix",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "slurpuff",
+		"dexNumber": 685,
+		"name": "Slurpuff",
+		"speciesSlug": "slurpuff",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/685.png",
+		"height": 0.8,
+		"weight": 5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 140,
+		"baseTotal": 480,
+		"baseStats": {
+			"hp": 82,
+			"attack": 80,
+			"defense": 86,
+			"spAtk": 85,
+			"spDef": 75,
+			"speed": 72
+		},
+		"maxStats": {
+			"hp": 368,
+			"attack": 284,
+			"defense": 298,
+			"spAtk": 295,
+			"spDef": 273,
+			"speed": 267
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Sweet Veil",
+				"isHidden": false
+			},
+			{
+				"name": "Unburden",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "swirlix",
+				"name": "Swirlix",
+				"dexNumber": 684,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png"
+			},
+			{
+				"slug": "slurpuff",
+				"name": "Slurpuff",
+				"dexNumber": 685,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "slurpuff",
+				"name": "Slurpuff",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "inkay",
+		"dexNumber": 686,
+		"name": "Inkay",
+		"speciesSlug": "inkay",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"dark",
+			"psychic"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png",
+		"height": 0.4,
+		"weight": 3.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 190,
+		"baseTotal": 288,
+		"baseStats": {
+			"hp": 53,
+			"attack": 54,
+			"defense": 53,
+			"spAtk": 37,
+			"spDef": 46,
+			"speed": 45
+		},
+		"maxStats": {
+			"hp": 310,
+			"attack": 227,
+			"defense": 225,
+			"spAtk": 190,
+			"spDef": 210,
+			"speed": 207
+		},
+		"strongAgainst": [
+			"psychic"
+		],
+		"weakAgainst": [
+			"bug",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Contrary",
+				"isHidden": false
+			},
+			{
+				"name": "Suction Cups",
+				"isHidden": false
+			},
+			{
+				"name": "Infiltrator",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "inkay",
+				"name": "Inkay",
+				"dexNumber": 686,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png"
+			},
+			{
+				"slug": "malamar",
+				"name": "Malamar",
+				"dexNumber": 687,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "inkay",
+				"name": "Inkay",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "malamar",
+		"dexNumber": 687,
+		"name": "Malamar",
+		"speciesSlug": "malamar",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"dark",
+			"psychic"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png",
+		"height": 1.5,
+		"weight": 47,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 80,
+		"baseTotal": 482,
+		"baseStats": {
+			"hp": 86,
+			"attack": 92,
+			"defense": 88,
+			"spAtk": 68,
+			"spDef": 75,
+			"speed": 73
+		},
+		"maxStats": {
+			"hp": 376,
+			"attack": 311,
+			"defense": 302,
+			"spAtk": 258,
+			"spDef": 273,
+			"speed": 269
+		},
+		"strongAgainst": [
+			"psychic"
+		],
+		"weakAgainst": [
+			"bug",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Contrary",
+				"isHidden": false
+			},
+			{
+				"name": "Suction Cups",
+				"isHidden": false
+			},
+			{
+				"name": "Infiltrator",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "inkay",
+				"name": "Inkay",
+				"dexNumber": 686,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png"
+			},
+			{
+				"slug": "malamar",
+				"name": "Malamar",
+				"dexNumber": 687,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "malamar",
+				"name": "Malamar",
+				"isDefault": true
+			},
+			{
+				"slug": "malamar-mega",
+				"name": "Malamar (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "malamar-mega",
+		"dexNumber": 687,
+		"name": "Malamar (Mega)",
+		"speciesSlug": "malamar",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"dark",
+			"psychic"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10297.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10297.png",
+		"height": 2.9,
+		"weight": 69.8,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 80,
+		"baseTotal": 582,
+		"baseStats": {
+			"hp": 86,
+			"attack": 102,
+			"defense": 88,
+			"spAtk": 98,
+			"spDef": 120,
+			"speed": 88
+		},
+		"maxStats": {
+			"hp": 376,
+			"attack": 333,
+			"defense": 302,
+			"spAtk": 324,
+			"spDef": 372,
+			"speed": 302
+		},
+		"strongAgainst": [
+			"psychic"
+		],
+		"weakAgainst": [
+			"bug",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Contrary",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "inkay",
+				"name": "Inkay",
+				"dexNumber": 686,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png"
+			},
+			{
+				"slug": "malamar",
+				"name": "Malamar",
+				"dexNumber": 687,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "malamar",
+				"name": "Malamar",
+				"isDefault": true
+			},
+			{
+				"slug": "malamar-mega",
+				"name": "Malamar (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "binacle",
+		"dexNumber": 688,
+		"name": "Binacle",
+		"speciesSlug": "binacle",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"rock",
+			"water"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/688.png",
+		"height": 0.5,
+		"weight": 31,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 120,
+		"baseTotal": 306,
+		"baseStats": {
+			"hp": 42,
+			"attack": 52,
+			"defense": 67,
+			"spAtk": 39,
+			"spDef": 56,
+			"speed": 50
+		},
+		"maxStats": {
+			"hp": 288,
+			"attack": 223,
+			"defense": 256,
+			"spAtk": 194,
+			"spDef": 232,
+			"speed": 218
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"poison",
+			"fire",
+			"ice"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"grass",
+			"electric"
+		],
+		"abilities": [
+			{
+				"name": "Tough Claws",
+				"isHidden": false
+			},
+			{
+				"name": "Sniper",
+				"isHidden": false
+			},
+			{
+				"name": "Pickpocket",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "binacle",
+				"name": "Binacle",
+				"dexNumber": 688,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png"
+			},
+			{
+				"slug": "barbaracle",
+				"name": "Barbaracle",
+				"dexNumber": 689,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "binacle",
+				"name": "Binacle",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "barbaracle",
+		"dexNumber": 689,
+		"name": "Barbaracle",
+		"speciesSlug": "barbaracle",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"rock",
+			"water"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png",
+		"height": 1.3,
+		"weight": 96,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 500,
+		"baseStats": {
+			"hp": 72,
+			"attack": 105,
+			"defense": 115,
+			"spAtk": 54,
+			"spDef": 86,
+			"speed": 68
+		},
+		"maxStats": {
+			"hp": 348,
+			"attack": 339,
+			"defense": 361,
+			"spAtk": 227,
+			"spDef": 298,
+			"speed": 258
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"poison",
+			"fire",
+			"ice"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"grass",
+			"electric"
+		],
+		"abilities": [
+			{
+				"name": "Tough Claws",
+				"isHidden": false
+			},
+			{
+				"name": "Sniper",
+				"isHidden": false
+			},
+			{
+				"name": "Pickpocket",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "binacle",
+				"name": "Binacle",
+				"dexNumber": 688,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png"
+			},
+			{
+				"slug": "barbaracle",
+				"name": "Barbaracle",
+				"dexNumber": 689,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "barbaracle",
+				"name": "Barbaracle",
+				"isDefault": true
+			},
+			{
+				"slug": "barbaracle-mega",
+				"name": "Barbaracle (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "barbaracle-mega",
+		"dexNumber": 689,
+		"name": "Barbaracle (Mega)",
+		"speciesSlug": "barbaracle",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"rock",
+			"fighting"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10298.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10298.png",
+		"height": 2.2,
+		"weight": 100,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 600,
+		"baseStats": {
+			"hp": 72,
+			"attack": 140,
+			"defense": 130,
+			"spAtk": 64,
+			"spDef": 106,
+			"speed": 88
+		},
+		"maxStats": {
+			"hp": 348,
+			"attack": 416,
+			"defense": 394,
+			"spAtk": 249,
+			"spDef": 342,
+			"speed": 302
+		},
+		"strongAgainst": [
+			"normal",
+			"poison",
+			"rock",
+			"bug",
+			"fire",
+			"dark"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"steel",
+			"water",
+			"grass",
+			"psychic",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Tough Claws",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "binacle",
+				"name": "Binacle",
+				"dexNumber": 688,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png"
+			},
+			{
+				"slug": "barbaracle",
+				"name": "Barbaracle",
+				"dexNumber": 689,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "barbaracle",
+				"name": "Barbaracle",
+				"isDefault": true
+			},
+			{
+				"slug": "barbaracle-mega",
+				"name": "Barbaracle (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "skrelp",
+		"dexNumber": 690,
+		"name": "Skrelp",
+		"speciesSlug": "skrelp",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"poison",
+			"water"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/690.png",
+		"height": 0.5,
+		"weight": 7.3,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 225,
+		"baseTotal": 320,
+		"baseStats": {
+			"hp": 50,
+			"attack": 60,
+			"defense": 60,
+			"spAtk": 60,
+			"spDef": 60,
+			"speed": 30
+		},
+		"maxStats": {
+			"hp": 304,
+			"attack": 240,
+			"defense": 240,
+			"spAtk": 240,
+			"spDef": 240,
+			"speed": 174
+		},
+		"strongAgainst": [
+			"fighting",
+			"poison",
+			"bug",
+			"steel",
+			"fire",
+			"water",
+			"ice",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"electric",
+			"psychic"
+		],
+		"abilities": [
+			{
+				"name": "Poison Point",
+				"isHidden": false
+			},
+			{
+				"name": "Poison Touch",
+				"isHidden": false
+			},
+			{
+				"name": "Adaptability",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "skrelp",
+				"name": "Skrelp",
+				"dexNumber": 690,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png"
+			},
+			{
+				"slug": "dragalge",
+				"name": "Dragalge",
+				"dexNumber": 691,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "skrelp",
+				"name": "Skrelp",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "dragalge",
+		"dexNumber": 691,
+		"name": "Dragalge",
+		"speciesSlug": "dragalge",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"poison",
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
+		"height": 1.8,
+		"weight": 81.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 55,
+		"baseTotal": 494,
+		"baseStats": {
+			"hp": 65,
+			"attack": 75,
+			"defense": 90,
+			"spAtk": 97,
+			"spDef": 123,
+			"speed": 44
+		},
+		"maxStats": {
+			"hp": 334,
+			"attack": 273,
+			"defense": 306,
+			"spAtk": 322,
+			"spDef": 379,
+			"speed": 205
+		},
+		"strongAgainst": [
+			"fighting",
+			"poison",
+			"bug",
+			"fire",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"ground",
+			"psychic",
+			"ice",
+			"dragon"
+		],
+		"abilities": [
+			{
+				"name": "Poison Point",
+				"isHidden": false
+			},
+			{
+				"name": "Poison Touch",
+				"isHidden": false
+			},
+			{
+				"name": "Adaptability",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "skrelp",
+				"name": "Skrelp",
+				"dexNumber": 690,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png"
+			},
+			{
+				"slug": "dragalge",
+				"name": "Dragalge",
+				"dexNumber": 691,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "dragalge",
+				"name": "Dragalge",
+				"isDefault": true
+			},
+			{
+				"slug": "dragalge-mega",
+				"name": "Dragalge (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "dragalge-mega",
+		"dexNumber": 691,
+		"name": "Dragalge (Mega)",
+		"speciesSlug": "dragalge",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"poison",
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10299.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10299.png",
+		"height": 2.1,
+		"weight": 100.3,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 55,
+		"baseTotal": 594,
+		"baseStats": {
+			"hp": 65,
+			"attack": 85,
+			"defense": 105,
+			"spAtk": 132,
+			"spDef": 163,
+			"speed": 44
+		},
+		"maxStats": {
+			"hp": 334,
+			"attack": 295,
+			"defense": 339,
+			"spAtk": 399,
+			"spDef": 467,
+			"speed": 205
+		},
+		"strongAgainst": [
+			"fighting",
+			"poison",
+			"bug",
+			"fire",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"ground",
+			"psychic",
+			"ice",
+			"dragon"
+		],
+		"abilities": [
+			{
+				"name": "Regenerator",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "skrelp",
+				"name": "Skrelp",
+				"dexNumber": 690,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png"
+			},
+			{
+				"slug": "dragalge",
+				"name": "Dragalge",
+				"dexNumber": 691,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "dragalge",
+				"name": "Dragalge",
+				"isDefault": true
+			},
+			{
+				"slug": "dragalge-mega",
+				"name": "Dragalge (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "clauncher",
+		"dexNumber": 692,
+		"name": "Clauncher",
+		"speciesSlug": "clauncher",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"water"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/692.png",
+		"height": 0.5,
+		"weight": 8.3,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 225,
+		"baseTotal": 330,
+		"baseStats": {
+			"hp": 50,
+			"attack": 53,
+			"defense": 62,
+			"spAtk": 58,
+			"spDef": 63,
+			"speed": 44
+		},
+		"maxStats": {
+			"hp": 304,
+			"attack": 225,
+			"defense": 245,
+			"spAtk": 236,
+			"spDef": 247,
+			"speed": 205
+		},
+		"strongAgainst": [
+			"steel",
+			"fire",
+			"water",
+			"ice"
+		],
+		"weakAgainst": [
+			"grass",
+			"electric"
+		],
+		"abilities": [
+			{
+				"name": "Mega Launcher",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "clauncher",
+				"name": "Clauncher",
+				"dexNumber": 692,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png"
+			},
+			{
+				"slug": "clawitzer",
+				"name": "Clawitzer",
+				"dexNumber": 693,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "clauncher",
+				"name": "Clauncher",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "clawitzer",
+		"dexNumber": 693,
+		"name": "Clawitzer",
+		"speciesSlug": "clawitzer",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"water"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png",
+		"height": 1.3,
+		"weight": 35.3,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 55,
+		"baseTotal": 500,
+		"baseStats": {
+			"hp": 71,
+			"attack": 73,
+			"defense": 88,
+			"spAtk": 120,
+			"spDef": 89,
+			"speed": 59
+		},
+		"maxStats": {
+			"hp": 346,
+			"attack": 269,
+			"defense": 302,
+			"spAtk": 372,
+			"spDef": 304,
+			"speed": 238
+		},
+		"strongAgainst": [
+			"steel",
+			"fire",
+			"water",
+			"ice"
+		],
+		"weakAgainst": [
+			"grass",
+			"electric"
+		],
+		"abilities": [
+			{
+				"name": "Mega Launcher",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "clauncher",
+				"name": "Clauncher",
+				"dexNumber": 692,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png"
+			},
+			{
+				"slug": "clawitzer",
+				"name": "Clawitzer",
+				"dexNumber": 693,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "clawitzer",
+				"name": "Clawitzer",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "helioptile",
+		"dexNumber": 694,
+		"name": "Helioptile",
+		"speciesSlug": "helioptile",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"electric",
+			"normal"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/694.png",
+		"height": 0.5,
+		"weight": 6,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 190,
+		"baseTotal": 289,
+		"baseStats": {
+			"hp": 44,
+			"attack": 38,
+			"defense": 33,
+			"spAtk": 61,
+			"spDef": 43,
+			"speed": 70
+		},
+		"maxStats": {
+			"hp": 292,
+			"attack": 192,
+			"defense": 181,
+			"spAtk": 243,
+			"spDef": 203,
+			"speed": 262
+		},
+		"strongAgainst": [
+			"flying",
+			"ghost",
+			"steel",
+			"electric"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground"
+		],
+		"abilities": [
+			{
+				"name": "Dry Skin",
+				"isHidden": false
+			},
+			{
+				"name": "Sand Veil",
+				"isHidden": false
+			},
+			{
+				"name": "Solar Power",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "helioptile",
+				"name": "Helioptile",
+				"dexNumber": 694,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png"
+			},
+			{
+				"slug": "heliolisk",
+				"name": "Heliolisk",
+				"dexNumber": 695,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "helioptile",
+				"name": "Helioptile",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "heliolisk",
+		"dexNumber": 695,
+		"name": "Heliolisk",
+		"speciesSlug": "heliolisk",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"electric",
+			"normal"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/695.png",
+		"height": 1,
+		"weight": 21,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 75,
+		"baseTotal": 481,
+		"baseStats": {
+			"hp": 62,
+			"attack": 55,
+			"defense": 52,
+			"spAtk": 109,
+			"spDef": 94,
+			"speed": 109
+		},
+		"maxStats": {
+			"hp": 328,
+			"attack": 229,
+			"defense": 223,
+			"spAtk": 348,
+			"spDef": 315,
+			"speed": 348
+		},
+		"strongAgainst": [
+			"flying",
+			"ghost",
+			"steel",
+			"electric"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground"
+		],
+		"abilities": [
+			{
+				"name": "Dry Skin",
+				"isHidden": false
+			},
+			{
+				"name": "Sand Veil",
+				"isHidden": false
+			},
+			{
+				"name": "Solar Power",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "helioptile",
+				"name": "Helioptile",
+				"dexNumber": 694,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png"
+			},
+			{
+				"slug": "heliolisk",
+				"name": "Heliolisk",
+				"dexNumber": 695,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "heliolisk",
+				"name": "Heliolisk",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "tyrunt",
+		"dexNumber": 696,
+		"name": "Tyrunt",
+		"speciesSlug": "tyrunt",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"rock",
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/696.png",
+		"height": 0.8,
+		"weight": 26,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 362,
+		"baseStats": {
+			"hp": 58,
+			"attack": 89,
+			"defense": 77,
+			"spAtk": 45,
+			"spDef": 45,
+			"speed": 48
+		},
+		"maxStats": {
+			"hp": 320,
+			"attack": 304,
+			"defense": 278,
+			"spAtk": 207,
+			"spDef": 207,
+			"speed": 214
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"poison",
+			"fire",
+			"electric"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"steel",
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Strong Jaw",
+				"isHidden": false
+			},
+			{
+				"name": "Sturdy",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "tyrunt",
+				"name": "Tyrunt",
+				"dexNumber": 696,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png"
+			},
+			{
+				"slug": "tyrantrum",
+				"name": "Tyrantrum",
+				"dexNumber": 697,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "tyrunt",
+				"name": "Tyrunt",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "tyrantrum",
+		"dexNumber": 697,
+		"name": "Tyrantrum",
+		"speciesSlug": "tyrantrum",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"rock",
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/697.png",
+		"height": 2.5,
+		"weight": 270,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 521,
+		"baseStats": {
+			"hp": 82,
+			"attack": 121,
+			"defense": 119,
+			"spAtk": 69,
+			"spDef": 59,
+			"speed": 71
+		},
+		"maxStats": {
+			"hp": 368,
+			"attack": 375,
+			"defense": 370,
+			"spAtk": 260,
+			"spDef": 238,
+			"speed": 265
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"poison",
+			"fire",
+			"electric"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"steel",
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Strong Jaw",
+				"isHidden": false
+			},
+			{
+				"name": "Rock Head",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "tyrunt",
+				"name": "Tyrunt",
+				"dexNumber": 696,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png"
+			},
+			{
+				"slug": "tyrantrum",
+				"name": "Tyrantrum",
+				"dexNumber": 697,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "tyrantrum",
+				"name": "Tyrantrum",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "amaura",
+		"dexNumber": 698,
+		"name": "Amaura",
+		"speciesSlug": "amaura",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"rock",
+			"ice"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/698.png",
+		"height": 1.3,
+		"weight": 25.2,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 362,
+		"baseStats": {
+			"hp": 77,
+			"attack": 59,
+			"defense": 50,
+			"spAtk": 67,
+			"spDef": 63,
+			"speed": 46
+		},
+		"maxStats": {
+			"hp": 358,
+			"attack": 238,
+			"defense": 218,
+			"spAtk": 256,
+			"spDef": 247,
+			"speed": 210
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"poison",
+			"ice"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"rock",
+			"steel",
+			"water",
+			"grass"
+		],
+		"abilities": [
+			{
+				"name": "Refrigerate",
+				"isHidden": false
+			},
+			{
+				"name": "Snow Warning",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "amaura",
+				"name": "Amaura",
+				"dexNumber": 698,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png"
+			},
+			{
+				"slug": "aurorus",
+				"name": "Aurorus",
+				"dexNumber": 699,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "amaura",
+				"name": "Amaura",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "aurorus",
+		"dexNumber": 699,
+		"name": "Aurorus",
+		"speciesSlug": "aurorus",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"rock",
+			"ice"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/699.png",
+		"height": 2.7,
+		"weight": 225,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 521,
+		"baseStats": {
+			"hp": 123,
+			"attack": 77,
+			"defense": 72,
+			"spAtk": 99,
+			"spDef": 92,
+			"speed": 58
+		},
+		"maxStats": {
+			"hp": 450,
+			"attack": 278,
+			"defense": 267,
+			"spAtk": 326,
+			"spDef": 311,
+			"speed": 236
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"poison",
+			"ice"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"rock",
+			"steel",
+			"water",
+			"grass"
+		],
+		"abilities": [
+			{
+				"name": "Refrigerate",
+				"isHidden": false
+			},
+			{
+				"name": "Snow Warning",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "amaura",
+				"name": "Amaura",
+				"dexNumber": 698,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png"
+			},
+			{
+				"slug": "aurorus",
+				"name": "Aurorus",
+				"dexNumber": 699,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "aurorus",
+				"name": "Aurorus",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "sylveon",
+		"dexNumber": 700,
+		"name": "Sylveon",
+		"speciesSlug": "sylveon",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
+		"height": 1,
+		"weight": 23.5,
+		"malePercent": 87.5,
+		"femalePercent": 12.5,
+		"captureRate": 45,
+		"baseTotal": 525,
+		"baseStats": {
+			"hp": 95,
+			"attack": 65,
+			"defense": 65,
+			"spAtk": 110,
+			"spDef": 130,
+			"speed": 60
+		},
+		"maxStats": {
+			"hp": 394,
+			"attack": 251,
+			"defense": 251,
+			"spAtk": 350,
+			"spDef": 394,
+			"speed": 240
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Cute Charm",
+				"isHidden": false
+			},
+			{
+				"name": "Pixilate",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "eevee",
+				"name": "Eevee",
+				"dexNumber": 133,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+			},
+			{
+				"slug": "vaporeon",
+				"name": "Vaporeon",
+				"dexNumber": 134,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+			},
+			{
+				"slug": "jolteon",
+				"name": "Jolteon",
+				"dexNumber": 135,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
+			},
+			{
+				"slug": "flareon",
+				"name": "Flareon",
+				"dexNumber": 136,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+			},
+			{
+				"slug": "espeon",
+				"name": "Espeon",
+				"dexNumber": 196,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png"
+			},
+			{
+				"slug": "umbreon",
+				"name": "Umbreon",
+				"dexNumber": 197,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
+			},
+			{
+				"slug": "leafeon",
+				"name": "Leafeon",
+				"dexNumber": 470,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png"
+			},
+			{
+				"slug": "glaceon",
+				"name": "Glaceon",
+				"dexNumber": 471,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png"
+			},
+			{
+				"slug": "sylveon",
+				"name": "Sylveon",
+				"dexNumber": 700,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "sylveon",
+				"name": "Sylveon",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "hawlucha",
+		"dexNumber": 701,
+		"name": "Hawlucha",
+		"speciesSlug": "hawlucha",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fighting",
+			"flying"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png",
+		"height": 0.8,
+		"weight": 21.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 100,
+		"baseTotal": 500,
+		"baseStats": {
+			"hp": 78,
+			"attack": 92,
+			"defense": 75,
+			"spAtk": 74,
+			"spDef": 63,
+			"speed": 118
+		},
+		"maxStats": {
+			"hp": 360,
+			"attack": 311,
+			"defense": 273,
+			"spAtk": 271,
+			"spDef": 247,
+			"speed": 368
+		},
+		"strongAgainst": [
+			"fighting",
+			"ground",
+			"bug",
+			"grass",
+			"dark"
+		],
+		"weakAgainst": [
+			"flying",
+			"electric",
+			"psychic",
+			"ice",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Limber",
+				"isHidden": false
+			},
+			{
+				"name": "Unburden",
+				"isHidden": false
+			},
+			{
+				"name": "Mold Breaker",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "hawlucha",
+				"name": "Hawlucha",
+				"dexNumber": 701,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "hawlucha",
+				"name": "Hawlucha",
+				"isDefault": true
+			},
+			{
+				"slug": "hawlucha-mega",
+				"name": "Hawlucha (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "hawlucha-mega",
+		"dexNumber": 701,
+		"name": "Hawlucha (Mega)",
+		"speciesSlug": "hawlucha",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"fighting",
+			"flying"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10300.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10300.png",
+		"height": 1,
+		"weight": 25,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 100,
+		"baseTotal": 600,
+		"baseStats": {
+			"hp": 78,
+			"attack": 137,
+			"defense": 100,
+			"spAtk": 74,
+			"spDef": 93,
+			"speed": 118
+		},
+		"maxStats": {
+			"hp": 360,
+			"attack": 410,
+			"defense": 328,
+			"spAtk": 271,
+			"spDef": 313,
+			"speed": 368
+		},
+		"strongAgainst": [
+			"fighting",
+			"ground",
+			"bug",
+			"grass",
+			"dark"
+		],
+		"weakAgainst": [
+			"flying",
+			"electric",
+			"psychic",
+			"ice",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "No Guard",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "hawlucha",
+				"name": "Hawlucha",
+				"dexNumber": 701,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "hawlucha",
+				"name": "Hawlucha",
+				"isDefault": true
+			},
+			{
+				"slug": "hawlucha-mega",
+				"name": "Hawlucha (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "dedenne",
+		"dexNumber": 702,
+		"name": "Dedenne",
+		"speciesSlug": "dedenne",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"electric",
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/702.png",
+		"height": 0.2,
+		"weight": 2.2,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 180,
+		"baseTotal": 431,
+		"baseStats": {
+			"hp": 67,
+			"attack": 58,
+			"defense": 57,
+			"spAtk": 81,
+			"spDef": 67,
+			"speed": 101
+		},
+		"maxStats": {
+			"hp": 338,
+			"attack": 236,
+			"defense": 234,
+			"spAtk": 287,
+			"spDef": 256,
+			"speed": 331
+		},
+		"strongAgainst": [
+			"fighting",
+			"flying",
+			"bug",
+			"electric",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"ground"
+		],
+		"abilities": [
+			{
+				"name": "Cheek Pouch",
+				"isHidden": false
+			},
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Plus",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "dedenne",
+				"name": "Dedenne",
+				"dexNumber": 702,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "dedenne",
+				"name": "Dedenne",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "carbink",
+		"dexNumber": 703,
+		"name": "Carbink",
+		"speciesSlug": "carbink",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"rock",
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/703.png",
+		"height": 0.3,
+		"weight": 5.7,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 60,
+		"baseTotal": 500,
+		"baseStats": {
+			"hp": 50,
+			"attack": 50,
+			"defense": 150,
+			"spAtk": 50,
+			"spDef": 150,
+			"speed": 50
+		},
+		"maxStats": {
+			"hp": 304,
+			"attack": 218,
+			"defense": 438,
+			"spAtk": 218,
+			"spDef": 438,
+			"speed": 218
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"bug",
+			"fire",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"ground",
+			"steel",
+			"water",
+			"grass"
+		],
+		"abilities": [
+			{
+				"name": "Clear Body",
+				"isHidden": false
+			},
+			{
+				"name": "Sturdy",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "carbink",
+				"name": "Carbink",
+				"dexNumber": 703,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "carbink",
+				"name": "Carbink",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "goomy",
+		"dexNumber": 704,
+		"name": "Goomy",
+		"speciesSlug": "goomy",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/704.png",
+		"height": 0.3,
+		"weight": 2.8,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 300,
+		"baseStats": {
+			"hp": 45,
+			"attack": 50,
+			"defense": 35,
+			"spAtk": 55,
+			"spDef": 75,
+			"speed": 40
+		},
+		"maxStats": {
+			"hp": 294,
+			"attack": 218,
+			"defense": 185,
+			"spAtk": 229,
+			"spDef": 273,
+			"speed": 196
+		},
+		"strongAgainst": [
+			"fire",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Sap Sipper",
+				"isHidden": false
+			},
+			{
+				"name": "Hydration",
+				"isHidden": false
+			},
+			{
+				"name": "Gooey",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "goomy",
+				"name": "Goomy",
+				"dexNumber": 704,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"
+			},
+			{
+				"slug": "sliggoo",
+				"name": "Sliggoo",
+				"dexNumber": 705,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"
+			},
+			{
+				"slug": "goodra",
+				"name": "Goodra",
+				"dexNumber": 706,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "goomy",
+				"name": "Goomy",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "sliggoo",
+		"dexNumber": 705,
+		"name": "Sliggoo",
+		"speciesSlug": "sliggoo",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/705.png",
+		"height": 0.8,
+		"weight": 17.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 452,
+		"baseStats": {
+			"hp": 68,
+			"attack": 75,
+			"defense": 53,
+			"spAtk": 83,
+			"spDef": 113,
+			"speed": 60
+		},
+		"maxStats": {
+			"hp": 340,
+			"attack": 273,
+			"defense": 225,
+			"spAtk": 291,
+			"spDef": 357,
+			"speed": 240
+		},
+		"strongAgainst": [
+			"fire",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Sap Sipper",
+				"isHidden": false
+			},
+			{
+				"name": "Hydration",
+				"isHidden": false
+			},
+			{
+				"name": "Gooey",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "goomy",
+				"name": "Goomy",
+				"dexNumber": 704,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"
+			},
+			{
+				"slug": "sliggoo",
+				"name": "Sliggoo",
+				"dexNumber": 705,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"
+			},
+			{
+				"slug": "goodra",
+				"name": "Goodra",
+				"dexNumber": 706,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "sliggoo",
+				"name": "Sliggoo",
+				"isDefault": true
+			},
+			{
+				"slug": "sliggoo-hisui",
+				"name": "Sliggoo (Hisui)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "sliggoo-hisui",
+		"dexNumber": 705,
+		"name": "Sliggoo (Hisui)",
+		"speciesSlug": "sliggoo",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"steel",
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10241.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10241.png",
+		"height": 0.7,
+		"weight": 68.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 452,
+		"baseStats": {
+			"hp": 58,
+			"attack": 75,
+			"defense": 83,
+			"spAtk": 83,
+			"spDef": 113,
+			"speed": 40
+		},
+		"maxStats": {
+			"hp": 320,
+			"attack": 273,
+			"defense": 291,
+			"spAtk": 291,
+			"spDef": 357,
+			"speed": 196
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"poison",
+			"rock",
+			"bug",
+			"steel",
+			"water",
+			"grass",
+			"electric",
+			"psychic"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground"
+		],
+		"abilities": [
+			{
+				"name": "Sap Sipper",
+				"isHidden": false
+			},
+			{
+				"name": "Shell Armor",
+				"isHidden": false
+			},
+			{
+				"name": "Gooey",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "goomy",
+				"name": "Goomy",
+				"dexNumber": 704,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"
+			},
+			{
+				"slug": "sliggoo",
+				"name": "Sliggoo",
+				"dexNumber": 705,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"
+			},
+			{
+				"slug": "goodra",
+				"name": "Goodra",
+				"dexNumber": 706,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "sliggoo",
+				"name": "Sliggoo",
+				"isDefault": true
+			},
+			{
+				"slug": "sliggoo-hisui",
+				"name": "Sliggoo (Hisui)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "goodra",
+		"dexNumber": 706,
+		"name": "Goodra",
+		"speciesSlug": "goodra",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/706.png",
+		"height": 2,
+		"weight": 150.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 600,
+		"baseStats": {
+			"hp": 90,
+			"attack": 100,
+			"defense": 70,
+			"spAtk": 110,
+			"spDef": 150,
+			"speed": 80
+		},
+		"maxStats": {
+			"hp": 384,
+			"attack": 328,
+			"defense": 262,
+			"spAtk": 350,
+			"spDef": 438,
+			"speed": 284
+		},
+		"strongAgainst": [
+			"fire",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Sap Sipper",
+				"isHidden": false
+			},
+			{
+				"name": "Hydration",
+				"isHidden": false
+			},
+			{
+				"name": "Gooey",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "goomy",
+				"name": "Goomy",
+				"dexNumber": 704,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"
+			},
+			{
+				"slug": "sliggoo",
+				"name": "Sliggoo",
+				"dexNumber": 705,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"
+			},
+			{
+				"slug": "goodra",
+				"name": "Goodra",
+				"dexNumber": 706,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "goodra",
+				"name": "Goodra",
+				"isDefault": true
+			},
+			{
+				"slug": "goodra-hisui",
+				"name": "Goodra (Hisui)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "goodra-hisui",
+		"dexNumber": 706,
+		"name": "Goodra (Hisui)",
+		"speciesSlug": "goodra",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"steel",
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10242.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10242.png",
+		"height": 1.7,
+		"weight": 334.1,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 600,
+		"baseStats": {
+			"hp": 80,
+			"attack": 100,
+			"defense": 100,
+			"spAtk": 110,
+			"spDef": 150,
+			"speed": 60
+		},
+		"maxStats": {
+			"hp": 364,
+			"attack": 328,
+			"defense": 328,
+			"spAtk": 350,
+			"spDef": 438,
+			"speed": 240
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"poison",
+			"rock",
+			"bug",
+			"steel",
+			"water",
+			"grass",
+			"electric",
+			"psychic"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground"
+		],
+		"abilities": [
+			{
+				"name": "Sap Sipper",
+				"isHidden": false
+			},
+			{
+				"name": "Shell Armor",
+				"isHidden": false
+			},
+			{
+				"name": "Gooey",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "goomy",
+				"name": "Goomy",
+				"dexNumber": 704,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"
+			},
+			{
+				"slug": "sliggoo",
+				"name": "Sliggoo",
+				"dexNumber": 705,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"
+			},
+			{
+				"slug": "goodra",
+				"name": "Goodra",
+				"dexNumber": 706,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "goodra",
+				"name": "Goodra",
+				"isDefault": true
+			},
+			{
+				"slug": "goodra-hisui",
+				"name": "Goodra (Hisui)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "klefki",
+		"dexNumber": 707,
+		"name": "Klefki",
+		"speciesSlug": "klefki",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"steel",
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/707.png",
+		"height": 0.2,
+		"weight": 3,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 75,
+		"baseTotal": 470,
+		"baseStats": {
+			"hp": 57,
+			"attack": 80,
+			"defense": 91,
+			"spAtk": 80,
+			"spDef": 87,
+			"speed": 75
+		},
+		"maxStats": {
+			"hp": 318,
+			"attack": 284,
+			"defense": 309,
+			"spAtk": 284,
+			"spDef": 300,
+			"speed": 273
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"poison",
+			"rock",
+			"bug",
+			"grass",
+			"psychic",
+			"ice",
+			"dragon",
+			"dark",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"fire"
+		],
+		"abilities": [
+			{
+				"name": "Prankster",
+				"isHidden": false
+			},
+			{
+				"name": "Magician",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "klefki",
+				"name": "Klefki",
+				"dexNumber": 707,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "klefki",
+				"name": "Klefki",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "phantump",
+		"dexNumber": 708,
+		"name": "Phantump",
+		"speciesSlug": "phantump",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ghost",
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/708.png",
+		"height": 0.4,
+		"weight": 7,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 120,
+		"baseTotal": 309,
+		"baseStats": {
+			"hp": 43,
+			"attack": 70,
+			"defense": 48,
+			"spAtk": 50,
+			"spDef": 60,
+			"speed": 38
+		},
+		"maxStats": {
+			"hp": 290,
+			"attack": 262,
+			"defense": 214,
+			"spAtk": 218,
+			"spDef": 240,
+			"speed": 192
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"ghost",
+			"fire",
+			"ice",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Natural Cure",
+				"isHidden": false
+			},
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Harvest",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "phantump",
+				"name": "Phantump",
+				"dexNumber": 708,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png"
+			},
+			{
+				"slug": "trevenant",
+				"name": "Trevenant",
+				"dexNumber": 709,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "phantump",
+				"name": "Phantump",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "trevenant",
+		"dexNumber": 709,
+		"name": "Trevenant",
+		"speciesSlug": "trevenant",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ghost",
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png",
+		"height": 1.5,
+		"weight": 71,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 60,
+		"baseTotal": 474,
+		"baseStats": {
+			"hp": 85,
+			"attack": 110,
+			"defense": 76,
+			"spAtk": 65,
+			"spDef": 82,
+			"speed": 56
+		},
+		"maxStats": {
+			"hp": 374,
+			"attack": 350,
+			"defense": 276,
+			"spAtk": 251,
+			"spDef": 289,
+			"speed": 232
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"ghost",
+			"fire",
+			"ice",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Natural Cure",
+				"isHidden": false
+			},
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Harvest",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "phantump",
+				"name": "Phantump",
+				"dexNumber": 708,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png"
+			},
+			{
+				"slug": "trevenant",
+				"name": "Trevenant",
+				"dexNumber": 709,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "trevenant",
+				"name": "Trevenant",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "pumpkaboo-average",
+		"dexNumber": 710,
+		"name": "Pumpkaboo",
+		"speciesSlug": "pumpkaboo",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ghost",
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/710.png",
+		"height": 0.4,
+		"weight": 5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 120,
+		"baseTotal": 335,
+		"baseStats": {
+			"hp": 49,
+			"attack": 66,
+			"defense": 70,
+			"spAtk": 44,
+			"spDef": 55,
+			"speed": 51
+		},
+		"maxStats": {
+			"hp": 302,
+			"attack": 254,
+			"defense": 262,
+			"spAtk": 205,
+			"spDef": 229,
+			"speed": 221
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"ghost",
+			"fire",
+			"ice",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Insomnia",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"dexNumber": 710,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"
+			},
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"dexNumber": 711,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"isDefault": true
+			},
+			{
+				"slug": "pumpkaboo-small",
+				"name": "Pumpkaboo (Small)",
+				"isDefault": false
+			},
+			{
+				"slug": "pumpkaboo-large",
+				"name": "Pumpkaboo (Large)",
+				"isDefault": false
+			},
+			{
+				"slug": "pumpkaboo-super",
+				"name": "Pumpkaboo (Super)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "pumpkaboo-large",
+		"dexNumber": 710,
+		"name": "Pumpkaboo (Large)",
+		"speciesSlug": "pumpkaboo",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ghost",
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10028.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10028.png",
+		"height": 0.5,
+		"weight": 7.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 120,
+		"baseTotal": 335,
+		"baseStats": {
+			"hp": 54,
+			"attack": 66,
+			"defense": 70,
+			"spAtk": 44,
+			"spDef": 55,
+			"speed": 46
+		},
+		"maxStats": {
+			"hp": 312,
+			"attack": 254,
+			"defense": 262,
+			"spAtk": 205,
+			"spDef": 229,
+			"speed": 210
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"ghost",
+			"fire",
+			"ice",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Insomnia",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"dexNumber": 710,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"
+			},
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"dexNumber": 711,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"isDefault": true
+			},
+			{
+				"slug": "pumpkaboo-small",
+				"name": "Pumpkaboo (Small)",
+				"isDefault": false
+			},
+			{
+				"slug": "pumpkaboo-large",
+				"name": "Pumpkaboo (Large)",
+				"isDefault": false
+			},
+			{
+				"slug": "pumpkaboo-super",
+				"name": "Pumpkaboo (Super)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "pumpkaboo-small",
+		"dexNumber": 710,
+		"name": "Pumpkaboo (Small)",
+		"speciesSlug": "pumpkaboo",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ghost",
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10027.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10027.png",
+		"height": 0.3,
+		"weight": 3.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 120,
+		"baseTotal": 335,
+		"baseStats": {
+			"hp": 44,
+			"attack": 66,
+			"defense": 70,
+			"spAtk": 44,
+			"spDef": 55,
+			"speed": 56
+		},
+		"maxStats": {
+			"hp": 292,
+			"attack": 254,
+			"defense": 262,
+			"spAtk": 205,
+			"spDef": 229,
+			"speed": 232
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"ghost",
+			"fire",
+			"ice",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Insomnia",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"dexNumber": 710,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"
+			},
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"dexNumber": 711,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"isDefault": true
+			},
+			{
+				"slug": "pumpkaboo-small",
+				"name": "Pumpkaboo (Small)",
+				"isDefault": false
+			},
+			{
+				"slug": "pumpkaboo-large",
+				"name": "Pumpkaboo (Large)",
+				"isDefault": false
+			},
+			{
+				"slug": "pumpkaboo-super",
+				"name": "Pumpkaboo (Super)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "pumpkaboo-super",
+		"dexNumber": 710,
+		"name": "Pumpkaboo (Super)",
+		"speciesSlug": "pumpkaboo",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ghost",
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10029.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10029.png",
+		"height": 0.8,
+		"weight": 15,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 120,
+		"baseTotal": 335,
+		"baseStats": {
+			"hp": 59,
+			"attack": 66,
+			"defense": 70,
+			"spAtk": 44,
+			"spDef": 55,
+			"speed": 41
+		},
+		"maxStats": {
+			"hp": 322,
+			"attack": 254,
+			"defense": 262,
+			"spAtk": 205,
+			"spDef": 229,
+			"speed": 199
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"ghost",
+			"fire",
+			"ice",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Insomnia",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"dexNumber": 710,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"
+			},
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"dexNumber": 711,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"isDefault": true
+			},
+			{
+				"slug": "pumpkaboo-small",
+				"name": "Pumpkaboo (Small)",
+				"isDefault": false
+			},
+			{
+				"slug": "pumpkaboo-large",
+				"name": "Pumpkaboo (Large)",
+				"isDefault": false
+			},
+			{
+				"slug": "pumpkaboo-super",
+				"name": "Pumpkaboo (Super)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "gourgeist-average",
+		"dexNumber": 711,
+		"name": "Gourgeist",
+		"speciesSlug": "gourgeist",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ghost",
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
+		"height": 0.9,
+		"weight": 12.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 60,
+		"baseTotal": 494,
+		"baseStats": {
+			"hp": 65,
+			"attack": 90,
+			"defense": 122,
+			"spAtk": 58,
+			"spDef": 75,
+			"speed": 84
+		},
+		"maxStats": {
+			"hp": 334,
+			"attack": 306,
+			"defense": 377,
+			"spAtk": 236,
+			"spDef": 273,
+			"speed": 293
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"ghost",
+			"fire",
+			"ice",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Insomnia",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"dexNumber": 710,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"
+			},
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"dexNumber": 711,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"isDefault": true
+			},
+			{
+				"slug": "gourgeist-small",
+				"name": "Gourgeist (Small)",
+				"isDefault": false
+			},
+			{
+				"slug": "gourgeist-large",
+				"name": "Gourgeist (Large)",
+				"isDefault": false
+			},
+			{
+				"slug": "gourgeist-super",
+				"name": "Gourgeist (Super)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "gourgeist-large",
+		"dexNumber": 711,
+		"name": "Gourgeist (Large)",
+		"speciesSlug": "gourgeist",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ghost",
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10031.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10031.png",
+		"height": 1.1,
+		"weight": 14,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 60,
+		"baseTotal": 494,
+		"baseStats": {
+			"hp": 75,
+			"attack": 95,
+			"defense": 122,
+			"spAtk": 58,
+			"spDef": 75,
+			"speed": 69
+		},
+		"maxStats": {
+			"hp": 354,
+			"attack": 317,
+			"defense": 377,
+			"spAtk": 236,
+			"spDef": 273,
+			"speed": 260
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"ghost",
+			"fire",
+			"ice",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Insomnia",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"dexNumber": 710,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"
+			},
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"dexNumber": 711,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"isDefault": true
+			},
+			{
+				"slug": "gourgeist-small",
+				"name": "Gourgeist (Small)",
+				"isDefault": false
+			},
+			{
+				"slug": "gourgeist-large",
+				"name": "Gourgeist (Large)",
+				"isDefault": false
+			},
+			{
+				"slug": "gourgeist-super",
+				"name": "Gourgeist (Super)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "gourgeist-small",
+		"dexNumber": 711,
+		"name": "Gourgeist (Small)",
+		"speciesSlug": "gourgeist",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ghost",
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10030.png",
+		"height": 0.7,
+		"weight": 9.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 60,
+		"baseTotal": 494,
+		"baseStats": {
+			"hp": 55,
+			"attack": 85,
+			"defense": 122,
+			"spAtk": 58,
+			"spDef": 75,
+			"speed": 99
+		},
+		"maxStats": {
+			"hp": 314,
+			"attack": 295,
+			"defense": 377,
+			"spAtk": 236,
+			"spDef": 273,
+			"speed": 326
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"ghost",
+			"fire",
+			"ice",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Insomnia",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"dexNumber": 710,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"
+			},
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"dexNumber": 711,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"isDefault": true
+			},
+			{
+				"slug": "gourgeist-small",
+				"name": "Gourgeist (Small)",
+				"isDefault": false
+			},
+			{
+				"slug": "gourgeist-large",
+				"name": "Gourgeist (Large)",
+				"isDefault": false
+			},
+			{
+				"slug": "gourgeist-super",
+				"name": "Gourgeist (Super)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "gourgeist-super",
+		"dexNumber": 711,
+		"name": "Gourgeist (Super)",
+		"speciesSlug": "gourgeist",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ghost",
+			"grass"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10032.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10032.png",
+		"height": 1.7,
+		"weight": 39,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 60,
+		"baseTotal": 494,
+		"baseStats": {
+			"hp": 85,
+			"attack": 100,
+			"defense": 122,
+			"spAtk": 58,
+			"spDef": 75,
+			"speed": 54
+		},
+		"maxStats": {
+			"hp": 374,
+			"attack": 328,
+			"defense": 377,
+			"spAtk": 236,
+			"spDef": 273,
+			"speed": 227
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"ground",
+			"water",
+			"grass",
+			"electric"
+		],
+		"weakAgainst": [
+			"flying",
+			"ghost",
+			"fire",
+			"ice",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Pickup",
+				"isHidden": false
+			},
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Insomnia",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "pumpkaboo-average",
+				"name": "Pumpkaboo",
+				"dexNumber": 710,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"
+			},
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"dexNumber": 711,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "gourgeist-average",
+				"name": "Gourgeist",
+				"isDefault": true
+			},
+			{
+				"slug": "gourgeist-small",
+				"name": "Gourgeist (Small)",
+				"isDefault": false
+			},
+			{
+				"slug": "gourgeist-large",
+				"name": "Gourgeist (Large)",
+				"isDefault": false
+			},
+			{
+				"slug": "gourgeist-super",
+				"name": "Gourgeist (Super)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "bergmite",
+		"dexNumber": 712,
+		"name": "Bergmite",
+		"speciesSlug": "bergmite",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ice"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/712.png",
+		"height": 1,
+		"weight": 99.5,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 190,
+		"baseTotal": 304,
+		"baseStats": {
+			"hp": 55,
+			"attack": 69,
+			"defense": 85,
+			"spAtk": 32,
+			"spDef": 35,
+			"speed": 28
+		},
+		"maxStats": {
+			"hp": 314,
+			"attack": 260,
+			"defense": 295,
+			"spAtk": 179,
+			"spDef": 185,
+			"speed": 170
+		},
+		"strongAgainst": [
+			"ice"
+		],
+		"weakAgainst": [
+			"fighting",
+			"rock",
+			"steel",
+			"fire"
+		],
+		"abilities": [
+			{
+				"name": "Own Tempo",
+				"isHidden": false
+			},
+			{
+				"name": "Ice Body",
+				"isHidden": false
+			},
+			{
+				"name": "Sturdy",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "bergmite",
+				"name": "Bergmite",
+				"dexNumber": 712,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png"
+			},
+			{
+				"slug": "avalugg",
+				"name": "Avalugg",
+				"dexNumber": 713,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "bergmite",
+				"name": "Bergmite",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "avalugg",
+		"dexNumber": 713,
+		"name": "Avalugg",
+		"speciesSlug": "avalugg",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ice"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png",
+		"height": 2,
+		"weight": 505,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 55,
+		"baseTotal": 514,
+		"baseStats": {
+			"hp": 95,
+			"attack": 117,
+			"defense": 184,
+			"spAtk": 44,
+			"spDef": 46,
+			"speed": 28
+		},
+		"maxStats": {
+			"hp": 394,
+			"attack": 366,
+			"defense": 513,
+			"spAtk": 205,
+			"spDef": 210,
+			"speed": 170
+		},
+		"strongAgainst": [
+			"ice"
+		],
+		"weakAgainst": [
+			"fighting",
+			"rock",
+			"steel",
+			"fire"
+		],
+		"abilities": [
+			{
+				"name": "Own Tempo",
+				"isHidden": false
+			},
+			{
+				"name": "Ice Body",
+				"isHidden": false
+			},
+			{
+				"name": "Sturdy",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "bergmite",
+				"name": "Bergmite",
+				"dexNumber": 712,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png"
+			},
+			{
+				"slug": "avalugg",
+				"name": "Avalugg",
+				"dexNumber": 713,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "avalugg",
+				"name": "Avalugg",
+				"isDefault": true
+			},
+			{
+				"slug": "avalugg-hisui",
+				"name": "Avalugg (Hisui)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "avalugg-hisui",
+		"dexNumber": 713,
+		"name": "Avalugg (Hisui)",
+		"speciesSlug": "avalugg",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"ice",
+			"rock"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10243.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10243.png",
+		"height": 1.4,
+		"weight": 262.4,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 55,
+		"baseTotal": 514,
+		"baseStats": {
+			"hp": 95,
+			"attack": 127,
+			"defense": 184,
+			"spAtk": 34,
+			"spDef": 36,
+			"speed": 38
+		},
+		"maxStats": {
+			"hp": 394,
+			"attack": 388,
+			"defense": 513,
+			"spAtk": 183,
+			"spDef": 188,
+			"speed": 192
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"poison",
+			"ice"
+		],
+		"weakAgainst": [
+			"fighting",
+			"ground",
+			"rock",
+			"steel",
+			"water",
+			"grass"
+		],
+		"abilities": [
+			{
+				"name": "Strong Jaw",
+				"isHidden": false
+			},
+			{
+				"name": "Ice Body",
+				"isHidden": false
+			},
+			{
+				"name": "Sturdy",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "bergmite",
+				"name": "Bergmite",
+				"dexNumber": 712,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png"
+			},
+			{
+				"slug": "avalugg",
+				"name": "Avalugg",
+				"dexNumber": 713,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "avalugg",
+				"name": "Avalugg",
+				"isDefault": true
+			},
+			{
+				"slug": "avalugg-hisui",
+				"name": "Avalugg (Hisui)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "noibat",
+		"dexNumber": 714,
+		"name": "Noibat",
+		"speciesSlug": "noibat",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"flying",
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png",
+		"height": 0.5,
+		"weight": 8,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 190,
+		"baseTotal": 245,
+		"baseStats": {
+			"hp": 40,
+			"attack": 30,
+			"defense": 35,
+			"spAtk": 45,
+			"spDef": 40,
+			"speed": 55
+		},
+		"maxStats": {
+			"hp": 284,
+			"attack": 174,
+			"defense": 185,
+			"spAtk": 207,
+			"spDef": 196,
+			"speed": 229
+		},
+		"strongAgainst": [
+			"fighting",
+			"ground",
+			"bug",
+			"fire",
+			"water",
+			"grass"
+		],
+		"weakAgainst": [
+			"rock",
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Infiltrator",
+				"isHidden": false
+			},
+			{
+				"name": "Telepathy",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "noibat",
+				"name": "Noibat",
+				"dexNumber": 714,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png"
+			},
+			{
+				"slug": "noivern",
+				"name": "Noivern",
+				"dexNumber": 715,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "noibat",
+				"name": "Noibat",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "noivern",
+		"dexNumber": 715,
+		"name": "Noivern",
+		"speciesSlug": "noivern",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": false,
+		"types": [
+			"flying",
+			"dragon"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
+		"height": 1.5,
+		"weight": 85,
+		"malePercent": 50,
+		"femalePercent": 50,
+		"captureRate": 45,
+		"baseTotal": 535,
+		"baseStats": {
+			"hp": 85,
+			"attack": 70,
+			"defense": 80,
+			"spAtk": 97,
+			"spDef": 80,
+			"speed": 123
+		},
+		"maxStats": {
+			"hp": 374,
+			"attack": 262,
+			"defense": 284,
+			"spAtk": 322,
+			"spDef": 284,
+			"speed": 379
+		},
+		"strongAgainst": [
+			"fighting",
+			"ground",
+			"bug",
+			"fire",
+			"water",
+			"grass"
+		],
+		"weakAgainst": [
+			"rock",
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Frisk",
+				"isHidden": false
+			},
+			{
+				"name": "Infiltrator",
+				"isHidden": false
+			},
+			{
+				"name": "Telepathy",
+				"isHidden": true
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "noibat",
+				"name": "Noibat",
+				"dexNumber": 714,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png"
+			},
+			{
+				"slug": "noivern",
+				"name": "Noivern",
+				"dexNumber": 715,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "noivern",
+				"name": "Noivern",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "xerneas",
+		"dexNumber": 716,
+		"name": "Xerneas",
+		"speciesSlug": "xerneas",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": true,
+		"isMythical": false,
+		"types": [
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/716.png",
+		"height": 3,
+		"weight": 215,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 45,
+		"baseTotal": 680,
+		"baseStats": {
+			"hp": 126,
+			"attack": 131,
+			"defense": 95,
+			"spAtk": 131,
+			"spDef": 98,
+			"speed": 99
+		},
+		"maxStats": {
+			"hp": 456,
+			"attack": 397,
+			"defense": 317,
+			"spAtk": 397,
+			"spDef": 324,
+			"speed": 326
+		},
+		"strongAgainst": [
+			"fighting",
+			"bug",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"poison",
+			"steel"
+		],
+		"abilities": [
+			{
+				"name": "Fairy Aura",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "xerneas",
+				"name": "Xerneas",
+				"dexNumber": 716,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "xerneas",
+				"name": "Xerneas",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "yveltal",
+		"dexNumber": 717,
+		"name": "Yveltal",
+		"speciesSlug": "yveltal",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": true,
+		"isMythical": false,
+		"types": [
+			"dark",
+			"flying"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/717.png",
+		"height": 5.8,
+		"weight": 203,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 45,
+		"baseTotal": 680,
+		"baseStats": {
+			"hp": 126,
+			"attack": 131,
+			"defense": 95,
+			"spAtk": 131,
+			"spDef": 98,
+			"speed": 99
+		},
+		"maxStats": {
+			"hp": 456,
+			"attack": 397,
+			"defense": 317,
+			"spAtk": 397,
+			"spDef": 324,
+			"speed": 326
+		},
+		"strongAgainst": [
+			"ground",
+			"ghost",
+			"grass",
+			"psychic",
+			"dark"
+		],
+		"weakAgainst": [
+			"rock",
+			"electric",
+			"ice",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Dark Aura",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "yveltal",
+				"name": "Yveltal",
+				"dexNumber": 717,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "yveltal",
+				"name": "Yveltal",
+				"isDefault": true
+			}
+		]
+	},
+	{
+		"slug": "zygarde-10",
+		"dexNumber": 718,
+		"name": "Zygarde (10)",
+		"speciesSlug": "zygarde",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": true,
+		"isMythical": false,
+		"types": [
+			"dragon",
+			"ground"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10181.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10181.png",
+		"height": 1.2,
+		"weight": 33.5,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 486,
+		"baseStats": {
+			"hp": 54,
+			"attack": 100,
+			"defense": 71,
+			"spAtk": 61,
+			"spDef": 85,
+			"speed": 115
+		},
+		"maxStats": {
+			"hp": 312,
+			"attack": 328,
+			"defense": 265,
+			"spAtk": 243,
+			"spDef": 295,
+			"speed": 361
+		},
+		"strongAgainst": [
+			"poison",
+			"rock",
+			"fire",
+			"electric"
+		],
+		"weakAgainst": [
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Aura Break",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"dexNumber": 718,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"isDefault": true
+			},
+			{
+				"slug": "zygarde-10-power-construct",
+				"name": "Zygarde (10 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-50-power-construct",
+				"name": "Zygarde (50 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-complete",
+				"name": "Zygarde (Complete)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-10",
+				"name": "Zygarde (10)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-mega",
+				"name": "Zygarde (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "zygarde-10-power-construct",
+		"dexNumber": 718,
+		"name": "Zygarde (10 Power Construct)",
+		"speciesSlug": "zygarde",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": true,
+		"isMythical": false,
+		"types": [
+			"dragon",
+			"ground"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10118.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10118.png",
+		"height": 1.2,
+		"weight": 33.5,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 486,
+		"baseStats": {
+			"hp": 54,
+			"attack": 100,
+			"defense": 71,
+			"spAtk": 61,
+			"spDef": 85,
+			"speed": 115
+		},
+		"maxStats": {
+			"hp": 312,
+			"attack": 328,
+			"defense": 265,
+			"spAtk": 243,
+			"spDef": 295,
+			"speed": 361
+		},
+		"strongAgainst": [
+			"poison",
+			"rock",
+			"fire",
+			"electric"
+		],
+		"weakAgainst": [
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Power Construct",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"dexNumber": 718,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"isDefault": true
+			},
+			{
+				"slug": "zygarde-10-power-construct",
+				"name": "Zygarde (10 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-50-power-construct",
+				"name": "Zygarde (50 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-complete",
+				"name": "Zygarde (Complete)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-10",
+				"name": "Zygarde (10)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-mega",
+				"name": "Zygarde (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "zygarde-50",
+		"dexNumber": 718,
+		"name": "Zygarde",
+		"speciesSlug": "zygarde",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": true,
+		"isMythical": false,
+		"types": [
+			"dragon",
+			"ground"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png",
+		"height": 5,
+		"weight": 305,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 600,
+		"baseStats": {
+			"hp": 108,
+			"attack": 100,
+			"defense": 121,
+			"spAtk": 81,
+			"spDef": 95,
+			"speed": 95
+		},
+		"maxStats": {
+			"hp": 420,
+			"attack": 328,
+			"defense": 375,
+			"spAtk": 287,
+			"spDef": 317,
+			"speed": 317
+		},
+		"strongAgainst": [
+			"poison",
+			"rock",
+			"fire",
+			"electric"
+		],
+		"weakAgainst": [
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Aura Break",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"dexNumber": 718,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"isDefault": true
+			},
+			{
+				"slug": "zygarde-10-power-construct",
+				"name": "Zygarde (10 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-50-power-construct",
+				"name": "Zygarde (50 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-complete",
+				"name": "Zygarde (Complete)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-10",
+				"name": "Zygarde (10)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-mega",
+				"name": "Zygarde (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "zygarde-50-power-construct",
+		"dexNumber": 718,
+		"name": "Zygarde (50 Power Construct)",
+		"speciesSlug": "zygarde",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": true,
+		"isMythical": false,
+		"types": [
+			"dragon",
+			"ground"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10119.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10119.png",
+		"height": 5,
+		"weight": 305,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 600,
+		"baseStats": {
+			"hp": 108,
+			"attack": 100,
+			"defense": 121,
+			"spAtk": 81,
+			"spDef": 95,
+			"speed": 95
+		},
+		"maxStats": {
+			"hp": 420,
+			"attack": 328,
+			"defense": 375,
+			"spAtk": 287,
+			"spDef": 317,
+			"speed": 317
+		},
+		"strongAgainst": [
+			"poison",
+			"rock",
+			"fire",
+			"electric"
+		],
+		"weakAgainst": [
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Power Construct",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"dexNumber": 718,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"isDefault": true
+			},
+			{
+				"slug": "zygarde-10-power-construct",
+				"name": "Zygarde (10 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-50-power-construct",
+				"name": "Zygarde (50 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-complete",
+				"name": "Zygarde (Complete)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-10",
+				"name": "Zygarde (10)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-mega",
+				"name": "Zygarde (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "zygarde-complete",
+		"dexNumber": 718,
+		"name": "Zygarde (Complete)",
+		"speciesSlug": "zygarde",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": true,
+		"isMythical": false,
+		"types": [
+			"dragon",
+			"ground"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10120.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10120.png",
+		"height": 4.5,
+		"weight": 610,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 708,
+		"baseStats": {
+			"hp": 216,
+			"attack": 100,
+			"defense": 121,
+			"spAtk": 91,
+			"spDef": 95,
+			"speed": 85
+		},
+		"maxStats": {
+			"hp": 636,
+			"attack": 328,
+			"defense": 375,
+			"spAtk": 309,
+			"spDef": 317,
+			"speed": 295
+		},
+		"strongAgainst": [
+			"poison",
+			"rock",
+			"fire",
+			"electric"
+		],
+		"weakAgainst": [
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Power Construct",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"dexNumber": 718,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"isDefault": true
+			},
+			{
+				"slug": "zygarde-10-power-construct",
+				"name": "Zygarde (10 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-50-power-construct",
+				"name": "Zygarde (50 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-complete",
+				"name": "Zygarde (Complete)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-10",
+				"name": "Zygarde (10)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-mega",
+				"name": "Zygarde (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "zygarde-mega",
+		"dexNumber": 718,
+		"name": "Zygarde (Mega)",
+		"speciesSlug": "zygarde",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": true,
+		"isMythical": false,
+		"types": [
+			"dragon",
+			"ground"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10301.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10301.png",
+		"height": 7.7,
+		"weight": 610,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 778,
+		"baseStats": {
+			"hp": 216,
+			"attack": 70,
+			"defense": 91,
+			"spAtk": 216,
+			"spDef": 85,
+			"speed": 100
+		},
+		"maxStats": {
+			"hp": 636,
+			"attack": 262,
+			"defense": 309,
+			"spAtk": 584,
+			"spDef": 295,
+			"speed": 328
+		},
+		"strongAgainst": [
+			"poison",
+			"rock",
+			"fire",
+			"electric"
+		],
+		"weakAgainst": [
+			"ice",
+			"dragon",
+			"fairy"
+		],
+		"abilities": [],
+		"evolutions": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"dexNumber": 718,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "zygarde-50",
+				"name": "Zygarde",
+				"isDefault": true
+			},
+			{
+				"slug": "zygarde-10-power-construct",
+				"name": "Zygarde (10 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-50-power-construct",
+				"name": "Zygarde (50 Power Construct)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-complete",
+				"name": "Zygarde (Complete)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-10",
+				"name": "Zygarde (10)",
+				"isDefault": false
+			},
+			{
+				"slug": "zygarde-mega",
+				"name": "Zygarde (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "diancie",
+		"dexNumber": 719,
+		"name": "Diancie",
+		"speciesSlug": "diancie",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": true,
+		"types": [
+			"rock",
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png",
+		"height": 0.7,
+		"weight": 8.8,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 600,
+		"baseStats": {
+			"hp": 50,
+			"attack": 100,
+			"defense": 150,
+			"spAtk": 100,
+			"spDef": 150,
+			"speed": 50
+		},
+		"maxStats": {
+			"hp": 304,
+			"attack": 328,
+			"defense": 438,
+			"spAtk": 328,
+			"spDef": 438,
+			"speed": 218
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"bug",
+			"fire",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"ground",
+			"steel",
+			"water",
+			"grass"
+		],
+		"abilities": [
+			{
+				"name": "Clear Body",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "diancie",
+				"name": "Diancie",
+				"dexNumber": 719,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "diancie",
+				"name": "Diancie",
+				"isDefault": true
+			},
+			{
+				"slug": "diancie-mega",
+				"name": "Diancie (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "diancie-mega",
+		"dexNumber": 719,
+		"name": "Diancie (Mega)",
+		"speciesSlug": "diancie",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": true,
+		"types": [
+			"rock",
+			"fairy"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10075.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10075.png",
+		"height": 1.1,
+		"weight": 27.8,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 700,
+		"baseStats": {
+			"hp": 50,
+			"attack": 160,
+			"defense": 110,
+			"spAtk": 160,
+			"spDef": 110,
+			"speed": 110
+		},
+		"maxStats": {
+			"hp": 304,
+			"attack": 460,
+			"defense": 350,
+			"spAtk": 460,
+			"spDef": 350,
+			"speed": 350
+		},
+		"strongAgainst": [
+			"normal",
+			"flying",
+			"bug",
+			"fire",
+			"dragon",
+			"dark"
+		],
+		"weakAgainst": [
+			"ground",
+			"steel",
+			"water",
+			"grass"
+		],
+		"abilities": [
+			{
+				"name": "Magic Bounce",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "diancie",
+				"name": "Diancie",
+				"dexNumber": 719,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "diancie",
+				"name": "Diancie",
+				"isDefault": true
+			},
+			{
+				"slug": "diancie-mega",
+				"name": "Diancie (Mega)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "hoopa",
+		"dexNumber": 720,
+		"name": "Hoopa",
+		"speciesSlug": "hoopa",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": true,
+		"types": [
+			"psychic",
+			"ghost"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/720.png",
+		"height": 0.5,
+		"weight": 9,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 600,
+		"baseStats": {
+			"hp": 80,
+			"attack": 110,
+			"defense": 60,
+			"spAtk": 150,
+			"spDef": 130,
+			"speed": 70
+		},
+		"maxStats": {
+			"hp": 364,
+			"attack": 350,
+			"defense": 240,
+			"spAtk": 438,
+			"spDef": 394,
+			"speed": 262
+		},
+		"strongAgainst": [
+			"normal",
+			"fighting",
+			"poison",
+			"psychic"
+		],
+		"weakAgainst": [
+			"ghost",
+			"dark"
+		],
+		"abilities": [
+			{
+				"name": "Magician",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "hoopa",
+				"name": "Hoopa",
+				"dexNumber": 720,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "hoopa",
+				"name": "Hoopa",
+				"isDefault": true
+			},
+			{
+				"slug": "hoopa-unbound",
+				"name": "Hoopa (Unbound)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "hoopa-unbound",
+		"dexNumber": 720,
+		"name": "Hoopa (Unbound)",
+		"speciesSlug": "hoopa",
+		"generation": 6,
+		"isDefault": false,
+		"isLegendary": false,
+		"isMythical": true,
+		"types": [
+			"psychic",
+			"dark"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10086.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10086.png",
+		"height": 6.5,
+		"weight": 490,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 680,
+		"baseStats": {
+			"hp": 80,
+			"attack": 160,
+			"defense": 60,
+			"spAtk": 170,
+			"spDef": 130,
+			"speed": 80
+		},
+		"maxStats": {
+			"hp": 364,
+			"attack": 460,
+			"defense": 240,
+			"spAtk": 482,
+			"spDef": 394,
+			"speed": 284
+		},
+		"strongAgainst": [
+			"psychic"
+		],
+		"weakAgainst": [
+			"bug",
+			"fairy"
+		],
+		"abilities": [
+			{
+				"name": "Magician",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "hoopa",
+				"name": "Hoopa",
+				"dexNumber": 720,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "hoopa",
+				"name": "Hoopa",
+				"isDefault": true
+			},
+			{
+				"slug": "hoopa-unbound",
+				"name": "Hoopa (Unbound)",
+				"isDefault": false
+			}
+		]
+	},
+	{
+		"slug": "volcanion",
+		"dexNumber": 721,
+		"name": "Volcanion",
+		"speciesSlug": "volcanion",
+		"generation": 6,
+		"isDefault": true,
+		"isLegendary": false,
+		"isMythical": true,
+		"types": [
+			"fire",
+			"water"
+		],
+		"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png",
+		"spriteBig": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/721.png",
+		"height": 1.7,
+		"weight": 195,
+		"malePercent": 0,
+		"femalePercent": 0,
+		"captureRate": 3,
+		"baseTotal": 600,
+		"baseStats": {
+			"hp": 80,
+			"attack": 110,
+			"defense": 120,
+			"spAtk": 130,
+			"spDef": 90,
+			"speed": 70
+		},
+		"maxStats": {
+			"hp": 364,
+			"attack": 350,
+			"defense": 372,
+			"spAtk": 394,
+			"spDef": 306,
+			"speed": 262
+		},
+		"strongAgainst": [
+			"bug",
+			"steel",
+			"fire",
+			"ice",
+			"fairy"
+		],
+		"weakAgainst": [
+			"ground",
+			"rock",
+			"electric"
+		],
+		"abilities": [
+			{
+				"name": "Water Absorb",
+				"isHidden": false
+			}
+		],
+		"evolutions": [
+			{
+				"slug": "volcanion",
+				"name": "Volcanion",
+				"dexNumber": 721,
+				"spriteSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png"
+			}
+		],
+		"forms": [
+			{
+				"slug": "volcanion",
+				"name": "Volcanion",
+				"isDefault": true
+			}
+		]
+	}
+]
