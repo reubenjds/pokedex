@@ -14,7 +14,7 @@ const color = computed(() => TYPE_COLORS[props.type]);
 
 <template>
 	<span
-		class="pkmn-badge inline-flex shrink-0 items-center justify-center rounded-full font-bold uppercase"
+		class="pkmn-badge inline-flex shrink-0 items-center justify-center rounded-full font-semibold uppercase"
 		:class="[
 			size === 'sm'
 				? 'h-[19px] px-2 text-[10px] tracking-[0.06em]'

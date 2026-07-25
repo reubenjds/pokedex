@@ -46,9 +46,10 @@ useHead({ title: () => (pokemon.value ? `${pokemon.value.name} — Pokédex` : "
 	<div class="mx-auto max-w-4xl px-6 pb-32">
 		<header class="pt-16 pb-10">
 			<NuxtLink
-				to="/pokemon"
-				class="text-muted hover:text-highlighted text-sm underline-offset-4 transition-colors hover:underline">
-				Index
+				to="/"
+				class="text-muted hover:text-highlighted inline-flex items-center gap-1.5 text-sm underline-offset-4 transition-colors hover:underline">
+				<UIcon name="i-lucide-arrow-left" class="size-4 shrink-0" />
+				Back
 			</NuxtLink>
 		</header>
 
@@ -233,12 +234,17 @@ useHead({ title: () => (pokemon.value ? `${pokemon.value.name} — Pokédex` : "
 			<section v-if="otherForms.length" class="mt-16">
 				<h2 class="text-dimmed text-xs font-medium">Other forms</h2>
 
-				<ul class="divide-default mt-4 divide-y">
+				<ul class="mt-4 grid grid-cols-3 gap-1 sm:grid-cols-4">
 					<li v-for="form in otherForms" :key="form.slug">
 						<NuxtLink
 							:to="`/pokemon/${form.slug}`"
-							class="text-toned hover:bg-elevated -mx-3 flex items-center rounded-md px-3 py-3 text-sm transition-colors">
-							{{ form.name }}
+							class="hover:bg-elevated flex flex-col items-center gap-1 rounded-lg px-2 py-3 transition-colors active:scale-[0.98]">
+							<img
+								class="size-14 object-contain"
+								loading="lazy"
+								:alt="form.name"
+								:src="form.spriteSmall ?? SPRITE_FALLBACK" />
+							<span class="text-muted truncate text-xs">{{ form.name }}</span>
 						</NuxtLink>
 					</li>
 				</ul>

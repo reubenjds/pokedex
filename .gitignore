@@ -14,6 +14,7 @@ scripts/.cache
 
 # Generated from data/ by scripts/build-assets.mjs
 public/pokedex
+public/sprites
 
 # Logs
 logs

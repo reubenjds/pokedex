@@ -1,152 +1,366 @@
 <script setup lang="ts">
 const router = useRouter();
-const { entries, load } = usePokedex();
+const { $takeInitialQuery } = useNuxtApp();
+const { entries, error, pending, load } = usePokedex();
+
+const asList = (value: string | null) =>
+	String(value ?? "")
+		.split(",")
+		.map((part) => part.trim())
+		.filter(Boolean);
 
 const search = ref("");
+const selectedTypes = ref<PokemonType[]>([]);
+const selectedGenerations = ref<number[]>([]);
+const legendaryOnly = ref(false);
+const mythicalOnly = ref(false);
+const includeForms = ref(false);
+const sort = ref<SortKey>("dex");
+const page = ref(1);
 
-const total = computed(() => entries.value?.length ?? 0);
+// The URL is only trustworthy once the initial query has been restored.
+const hydrated = ref(false);
 
-/** Real counts, so the index reads as a table of contents rather than decoration. */
-const byGeneration = computed(() =>
-	GENERATIONS.map((generation) => ({
-		...generation,
-		count:
-			entries.value?.filter(
-				(entry) => entry.generation === generation.value && entry.isDefault
-			).length ?? 0,
-	}))
-);
+function readQuery() {
+	// Consume the captured query unconditionally, otherwise it can leak into a
+	// later client-side navigation that legitimately has no query string.
+	const initial = $takeInitialQuery();
+	const query = new URLSearchParams(window.location.search || initial);
+	const sortParam = query.get("sort");
 
-const matches = computed(() => {
-	const query = search.value.trim().toLowerCase();
-
-	if (!query || !entries.value) return [];
-
-	return entries.value
-		.filter((entry) => entry.name.toLowerCase().includes(query))
-		.sort((a, b) => {
-			const byPrefix =
-				Number(!a.name.toLowerCase().startsWith(query)) -
-				Number(!b.name.toLowerCase().startsWith(query));
-
-			return byPrefix || a.dexNumber - b.dexNumber;
-		})
-		.slice(0, 5);
-});
-
-function submit() {
-	const query = search.value.trim();
-
-	router.push(query ? { path: "/pokemon", query: { q: query } } : "/pokemon");
+	search.value = query.get("q") ?? "";
+	selectedTypes.value = asList(query.get("types")).filter((type): type is PokemonType =>
+		POKEMON_TYPES.includes(type as PokemonType)
+	);
+	selectedGenerations.value = asList(query.get("gens"))
+		.map(Number)
+		.filter((value) => value >= 1 && value <= 9);
+	legendaryOnly.value = query.get("legendary") === "1";
+	mythicalOnly.value = query.get("mythical") === "1";
+	includeForms.value = query.get("forms") === "1";
+	sort.value = isSortKey(sortParam) ? sortParam : "dex";
+	page.value = Math.max(1, Number(query.get("page") ?? 1) || 1);
 }
 
-// Warming the index here means the dex is already in memory on arrival.
-onMounted(() => load());
+/** Whether the visitor has narrowed the dex in any way. */
+const hasActiveFilters = computed(
+	() =>
+		Boolean(search.value.trim()) ||
+		selectedTypes.value.length > 0 ||
+		selectedGenerations.value.length > 0 ||
+		legendaryOnly.value ||
+		mythicalOnly.value ||
+		includeForms.value ||
+		sort.value !== "dex"
+);
 
-useHead({ title: "Pokédex" });
+/** 0 = name starts with the query, 1 = name merely contains it. */
+function rank(entry: PokedexEntry, query: string) {
+	const name = entry.name.toLowerCase();
+
+	if (name.startsWith(query)) return 0;
+	return name.includes(query) || entry.slug.includes(query) ? 1 : -1;
+}
+
+const comparators: Record<SortKey, (a: PokedexEntry, b: PokedexEntry) => number> = {
+	dex: (a, b) => a.dexNumber - b.dexNumber || a.slug.localeCompare(b.slug),
+	name: (a, b) => a.name.localeCompare(b.name),
+	total: (a, b) => b.baseTotal - a.baseTotal || a.dexNumber - b.dexNumber,
+};
+
+const results = computed(() => {
+	if (!entries.value) return [];
+
+	const query = search.value.trim().toLowerCase();
+	const ranks = new Map<string, number>();
+
+	const filtered = entries.value.filter((entry) => {
+		if (!includeForms.value && !entry.isDefault) return false;
+		if (legendaryOnly.value && !entry.isLegendary) return false;
+		if (mythicalOnly.value && !entry.isMythical) return false;
+
+		if (
+			selectedGenerations.value.length > 0 &&
+			!selectedGenerations.value.includes(entry.generation)
+		) {
+			return false;
+		}
+
+		if (
+			selectedTypes.value.length > 0 &&
+			!selectedTypes.value.every((type) => entry.types.includes(type))
+		) {
+			return false;
+		}
+
+		if (query) {
+			const relevance = rank(entry, query);
+
+			if (relevance < 0) return false;
+			ranks.set(entry.slug, relevance);
+		}
+
+		return true;
+	});
+
+	return filtered.sort((a, b) => {
+		if (query) {
+			const difference = ranks.get(a.slug)! - ranks.get(b.slug)!;
+
+			if (difference !== 0) return difference;
+		}
+
+		return comparators[sort.value](a, b);
+	});
+});
+
+const pageCount = computed(() => Math.max(1, Math.ceil(results.value.length / PAGE_SIZE)));
+
+const visible = computed(() =>
+	results.value.slice((page.value - 1) * PAGE_SIZE, page.value * PAGE_SIZE)
+);
+
+function toggleType(type: PokemonType) {
+	selectedTypes.value = selectedTypes.value.includes(type)
+		? selectedTypes.value.filter((value) => value !== type)
+		: [...selectedTypes.value, type];
+}
+
+function toggleGeneration(generation: number) {
+	selectedGenerations.value = selectedGenerations.value.includes(generation)
+		? selectedGenerations.value.filter((value) => value !== generation)
+		: [...selectedGenerations.value, generation];
+}
+
+function reset() {
+	search.value = "";
+	selectedTypes.value = [];
+	selectedGenerations.value = [];
+	legendaryOnly.value = false;
+	mythicalOnly.value = false;
+	includeForms.value = false;
+	sort.value = "dex";
+}
+
+// Any change to the filters invalidates the current page.
+watch(
+	[search, selectedTypes, selectedGenerations, legendaryOnly, mythicalOnly, includeForms, sort],
+	() => {
+		if (hydrated.value) page.value = 1;
+	}
+);
+
+// Only clamp once there is data, or an empty result set would force page 1
+// before the dex has even loaded and discard a `?page=N` deep link.
+watch([page, pageCount], () => {
+	if (!entries.value) return;
+
+	if (page.value > pageCount.value) page.value = pageCount.value;
+	else if (page.value < 1 || Number.isNaN(page.value)) page.value = 1;
+});
+
+watch(
+	[
+		search,
+		selectedTypes,
+		selectedGenerations,
+		legendaryOnly,
+		mythicalOnly,
+		includeForms,
+		sort,
+		page,
+	],
+	() => {
+		if (!hydrated.value) return;
+
+		router.replace({
+			query: {
+				...(search.value.trim() ? { q: search.value.trim() } : {}),
+				...(selectedTypes.value.length ? { types: selectedTypes.value.join(",") } : {}),
+				...(selectedGenerations.value.length
+					? { gens: selectedGenerations.value.join(",") }
+					: {}),
+				...(legendaryOnly.value ? { legendary: "1" } : {}),
+				...(mythicalOnly.value ? { mythical: "1" } : {}),
+				...(includeForms.value ? { forms: "1" } : {}),
+				...(sort.value !== "dex" ? { sort: sort.value } : {}),
+				...(page.value > 1 ? { page: String(page.value) } : {}),
+			},
+		});
+	}
+);
+
+onMounted(async () => {
+	readQuery();
+	load();
+
+	// Let the restored state settle before the watchers are allowed to react,
+	// otherwise they reset `page` back to 1 on the very first flush.
+	await nextTick();
+	hydrated.value = true;
+});
+
+useHead({ title: "Pokédex — browse all 1,351 Pokémon" });
 </script>
 
 <template>
 	<div class="mx-auto max-w-4xl px-6 pb-32">
-		<header class="pt-24 pb-16 sm:pt-32">
-			<h1
-				class="text-highlighted max-w-xl text-4xl leading-[1.05] font-medium tracking-tight text-balance sm:text-5xl">
-				Every Pokémon from all nine generations.
-			</h1>
+		<header class="pt-16 pb-10">
+			<h1 class="text-highlighted text-2xl font-medium tracking-tight">Pokédex</h1>
+		</header>
 
-			<p class="text-muted mt-5 max-w-[52ch] leading-relaxed">
-				Base stats, type matchups, abilities and evolution families for
-				<span class="text-toned font-mono tabular-nums">
-					{{ total ? total.toLocaleString() : "—" }}
-				</span>
-				entries, including megas, regional variants and Gigantamax forms.
-			</p>
+		<UAlert
+			v-if="error"
+			icon="i-lucide-triangle-alert"
+			color="error"
+			variant="subtle"
+			title="Could not load the Pokédex"
+			:description="error" />
 
-			<form class="mt-10 max-w-md" @submit.prevent="submit()">
+		<template v-else>
+			<!-- The search is the primary way into the dex, so it reads large. -->
+			<div class="max-w-2xl">
 				<UInput
 					v-model="search"
 					class="w-full"
-					size="lg"
+					size="xl"
 					variant="subtle"
 					icon="i-lucide-search"
 					placeholder="Search by name"
-					aria-label="Search Pokémon by name" />
-
-				<ul v-if="matches.length" class="divide-default mt-2 divide-y">
-					<li v-for="entry in matches" :key="entry.slug">
-						<NuxtLink
-							:to="`/pokemon/${entry.slug}`"
-							class="hover:bg-elevated -mx-2 flex items-center gap-3 rounded-md px-2 py-2 transition-colors">
-							<img
-								class="size-7 shrink-0 object-contain"
-								:alt="entry.name"
-								:src="entry.spriteSmall ?? SPRITE_FALLBACK" />
-							<span class="text-toned flex-1 truncate text-sm">{{ entry.name }}</span>
-							<span class="text-dimmed font-mono text-xs tabular-nums">
-								{{ String(entry.dexNumber).padStart(4, "0") }}
-							</span>
-						</NuxtLink>
-					</li>
-				</ul>
-			</form>
-		</header>
-
-		<section class="border-default border-t pt-8">
-			<div class="flex items-baseline justify-between">
-				<h2 class="text-muted text-sm font-medium">Types</h2>
-				<span class="text-dimmed font-mono text-xs tabular-nums">18</span>
+					aria-label="Search Pokémon by name"
+					:ui="{ base: 'text-base', trailing: 'pe-1' }">
+					<template v-if="search" #trailing>
+						<UButton
+							icon="i-lucide-x"
+							color="neutral"
+							variant="ghost"
+							size="sm"
+							aria-label="Clear search"
+							@click="search = ''" />
+					</template>
+				</UInput>
 			</div>
 
-			<div class="mt-5 flex flex-wrap gap-1.5">
-				<NuxtLink
-					v-for="type in POKEMON_TYPES"
-					:key="type"
-					:to="`/pokemon?types=${type}`"
-					class="rounded-md transition-opacity hover:opacity-80 active:scale-[0.97]">
-					<TypeBadge :type="type" size="md" />
-				</NuxtLink>
-			</div>
-		</section>
+			<!-- Filters live in the open, directly beneath the search. -->
+			<div class="border-default mt-5 border-t pt-5">
+				<div class="space-y-5">
+					<!-- Not a <fieldset>: a <legend> cannot share a row with the reset control. -->
+					<div role="group" aria-labelledby="type-filter-label">
+						<div class="flex items-center justify-between gap-4">
+							<p id="type-filter-label" class="text-muted text-sm font-medium">Type</p>
 
-		<section class="border-default mt-16 border-t pt-8">
-			<div class="flex items-baseline justify-between">
-				<h2 class="text-muted text-sm font-medium">Generations</h2>
-				<span class="text-dimmed font-mono text-xs tabular-nums">9</span>
+							<button
+								type="button"
+								class="text-dimmed hover:text-highlighted text-xs underline-offset-4 transition-colors hover:underline"
+								:class="!hasActiveFilters && 'invisible'"
+								:tabindex="hasActiveFilters ? undefined : -1"
+								:aria-hidden="!hasActiveFilters"
+								@click="reset()">
+								Clear all
+							</button>
+						</div>
+
+						<div class="mt-3 flex flex-wrap gap-1.5">
+							<button
+								v-for="type in POKEMON_TYPES"
+								:key="type"
+								type="button"
+								class="rounded-md transition-opacity hover:opacity-80 active:scale-[0.97]"
+								:aria-pressed="selectedTypes.includes(type)"
+								@click="toggleType(type)">
+								<TypeBadge :type="type" size="md" :muted="!selectedTypes.includes(type)" />
+							</button>
+						</div>
+
+						<p v-if="selectedTypes.length > 1" class="text-dimmed mt-3 text-xs">
+							Matching Pokémon that are all {{ selectedTypes.length }} selected types.
+						</p>
+					</div>
+
+					<fieldset>
+						<legend class="text-muted text-sm font-medium">Generation</legend>
+
+						<div class="mt-3 flex flex-wrap gap-1.5">
+							<button
+								v-for="generation in GENERATIONS"
+								:key="generation.value"
+								type="button"
+								class="h-7 rounded-md px-3 font-mono text-xs transition-colors active:scale-[0.97]"
+								:class="
+									selectedGenerations.includes(generation.value)
+										? 'bg-inverted text-inverted'
+										: 'bg-elevated text-muted hover:text-highlighted'
+								"
+								:aria-pressed="selectedGenerations.includes(generation.value)"
+								@click="toggleGeneration(generation.value)">
+								{{ generation.label }}
+							</button>
+						</div>
+					</fieldset>
+
+					<div class="flex flex-wrap items-end justify-between gap-6">
+						<div class="space-y-3">
+							<USwitch v-model="legendaryOnly" label="Legendary only" size="sm" />
+							<USwitch v-model="mythicalOnly" label="Mythical only" size="sm" />
+							<USwitch v-model="includeForms" label="Include alternate forms" size="sm" />
+						</div>
+
+						<USelect
+							v-model="sort"
+							class="w-48"
+							size="sm"
+							variant="subtle"
+							aria-label="Sort order"
+							:items="[...SORT_OPTIONS]" />
+					</div>
+				</div>
 			</div>
 
-			<ul class="divide-default mt-3 divide-y">
-				<li v-for="generation in byGeneration" :key="generation.value">
-					<NuxtLink
-						:to="`/pokemon?gens=${generation.value}`"
-						class="hover:bg-elevated group -mx-3 flex items-center gap-4 rounded-md px-3 py-3.5 transition-colors">
-						<span class="text-dimmed w-8 font-mono text-xs">{{ generation.label }}</span>
-						<span class="text-toned flex-1 text-sm">{{ generation.region }}</span>
-						<span class="text-dimmed font-mono text-xs tabular-nums">
-							{{ generation.count || "—" }}
-						</span>
-						<UIcon
-							name="i-lucide-arrow-right"
-							class="text-dimmed size-3.5 opacity-0 transition-opacity group-hover:opacity-100" />
-					</NuxtLink>
-				</li>
-			</ul>
-		</section>
-
-		<section class="border-default mt-16 border-t pt-8">
-			<div class="flex flex-wrap gap-x-10 gap-y-4">
-				<NuxtLink
-					v-for="shortcut in [
-						{ label: 'Browse everything', to: '/pokemon' },
-						{ label: 'Legendaries', to: '/pokemon?legendary=1' },
-						{ label: 'Mythicals', to: '/pokemon?mythical=1' },
-						{ label: 'Alternate forms', to: '/pokemon?forms=1' },
-					]"
-					:key="shortcut.to"
-					:to="shortcut.to"
-					class="text-muted hover:text-highlighted text-sm underline-offset-4 transition-colors hover:underline">
-					{{ shortcut.label }}
-				</NuxtLink>
+			<div v-if="pending || !entries" class="mt-10 grid gap-1 sm:grid-cols-2">
+				<USkeleton v-for="index in 12" :key="index" class="h-16 rounded-lg" />
 			</div>
-		</section>
+
+			<template v-else>
+				<div class="border-default mt-10 flex items-baseline justify-between border-t pt-4">
+					<p class="text-muted text-sm">
+						<span class="tabular-nums">{{ results.length.toLocaleString() }}</span> results
+					</p>
+
+					<p v-if="pageCount > 1" class="text-dimmed font-mono text-xs tabular-nums">
+						{{ page }} / {{ pageCount }}
+					</p>
+				</div>
+
+				<div v-if="results.length" class="mt-2 grid gap-1 sm:grid-cols-2">
+					<PokemonCard v-for="entry in visible" :key="entry.slug" :entry="entry" />
+				</div>
+
+				<div v-else class="py-24">
+					<p class="text-highlighted text-sm font-medium">Nothing matches those filters</p>
+					<p class="text-muted mt-1.5 max-w-[42ch] text-sm leading-relaxed">
+						Narrowing by more than one type only keeps Pokémon that have all of them. Try
+						removing one, or widening the search.
+					</p>
+					<button
+						type="button"
+						class="text-muted hover:text-highlighted mt-4 text-sm underline underline-offset-4 transition-colors"
+						@click="reset()">
+						Clear all filters
+					</button>
+				</div>
+
+				<div v-if="pageCount > 1" class="mt-10 flex justify-center">
+					<UPagination
+						v-model:page="page"
+						color="neutral"
+						variant="ghost"
+						active-color="neutral"
+						active-variant="subtle"
+						:total="results.length"
+						:items-per-page="PAGE_SIZE"
+						:sibling-count="1" />
+				</div>
+			</template>
+		</template>
 	</div>
 </template>

@@ -89,8 +89,7 @@ export const STAT_COLORS: Record<StatKey, string> = {
 export const MAX_BASE_STAT = 255;
 
 /** Placeholder for the handful of forms PokéAPI has no sprite for. */
-export const SPRITE_FALLBACK =
-	"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png";
+export const SPRITE_FALLBACK = "/sprites/0.png";
 
 export const SORT_OPTIONS = [
 	{ value: "dex", label: "Dex number" },
