@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const pageMotion = usePageMotion();
 const route = useRoute();
 const { load } = usePokemon();
 
@@ -43,7 +44,12 @@ useHead({ title: () => (pokemon.value ? `${pokemon.value.name} — Pokédex` : "
 </script>
 
 <template>
-	<div class="mx-auto max-w-4xl px-6 pb-32">
+	<div
+		v-motion
+		class="mx-auto max-w-4xl px-6 pb-32"
+		:initial="pageMotion.initial.value"
+		:animate="pageMotion.animate"
+		:transition="pageMotion.transition">
 		<header class="pt-16 pb-10">
 			<NuxtLink
 				to="/"

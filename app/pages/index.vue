@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { motion } from "motion-v";
+
 const router = useRouter();
 const { $takeInitialQuery } = useNuxtApp();
 const { entries, error, pending, load } = usePokedex();
@@ -120,6 +122,31 @@ const visible = computed(() =>
 	results.value.slice((page.value - 1) * PAGE_SIZE, page.value * PAGE_SIZE)
 );
 
+const reduceMotion = useReducedMotion();
+const pageMotion = usePageMotion();
+
+/**
+ * Re-keys the grid so the stagger replays whenever a different set of results
+ * appears. Keying on the slugs rather than a filter signature means paging or
+ * re-sorting animates, but typing that does not change the visible page does
+ * not restart the animation under the user's cursor.
+ */
+const resultsKey = computed(() => visible.value.map((entry) => entry.slug).join());
+
+const listVariants = {
+	hidden: {},
+	shown: { transition: { staggerChildren: 0.018 } },
+};
+
+const rowVariants = {
+	hidden: { opacity: 0, y: 6 },
+	shown: {
+		opacity: 1,
+		y: 0,
+		transition: { duration: 0.24, ease: [0.16, 1, 0.3, 1] },
+	},
+};
+
 function toggleType(type: PokemonType) {
 	selectedTypes.value = selectedTypes.value.includes(type)
 		? selectedTypes.value.filter((value) => value !== type)
@@ -204,7 +231,12 @@ useHead({ title: "Pokédex — browse all 1,351 Pokémon" });
 </script>
 
 <template>
-	<div class="mx-auto max-w-4xl px-6 pb-32">
+	<div
+		v-motion
+		class="mx-auto max-w-4xl px-6 pb-32"
+		:initial="pageMotion.initial.value"
+		:animate="pageMotion.animate"
+		:transition="pageMotion.transition">
 		<header class="pt-16 pb-10">
 			<h1 class="text-highlighted text-2xl font-medium tracking-tight">Pokédex</h1>
 		</header>
@@ -219,22 +251,25 @@ useHead({ title: "Pokédex — browse all 1,351 Pokémon" });
 
 		<template v-else>
 			<!-- The search is the primary way into the dex, so it reads large. -->
-			<div class="max-w-2xl">
+			<div class="max-w-xl">
 				<UInput
 					v-model="search"
 					class="w-full"
 					size="xl"
 					variant="subtle"
-					icon="i-lucide-search"
 					placeholder="Search by name"
 					aria-label="Search Pokémon by name"
-					:ui="{ base: 'text-base', trailing: 'pe-1' }">
+					:ui="{
+						base: 'h-13 rounded-full ps-5 pe-2 text-base',
+						trailing: 'pe-2',
+					}">
 					<template v-if="search" #trailing>
 						<UButton
 							icon="i-lucide-x"
 							color="neutral"
 							variant="ghost"
 							size="sm"
+							class="rounded-full"
 							aria-label="Clear search"
 							@click="search = ''" />
 					</template>
@@ -331,9 +366,24 @@ useHead({ title: "Pokédex — browse all 1,351 Pokémon" });
 					</p>
 				</div>
 
-				<div v-if="results.length" class="mt-2 grid gap-1 sm:grid-cols-2">
-					<PokemonCard v-for="entry in visible" :key="entry.slug" :entry="entry" />
-				</div>
+				<!--
+					The component form is required here: variant propagation to
+					children (and so the stagger) only works through Motion's
+					component tree, not the directive. It is safe on this branch
+					because results only exist once the dex has loaded client-side,
+					so this never renders during prerendering.
+				-->
+				<motion.div
+					v-if="results.length"
+					:key="resultsKey"
+					class="mt-2 grid gap-1 sm:grid-cols-2"
+					:initial="reduceMotion ? false : 'hidden'"
+					animate="shown"
+					:variants="listVariants">
+					<motion.div v-for="entry in visible" :key="entry.slug" :variants="rowVariants">
+						<PokemonCard :entry="entry" />
+					</motion.div>
+				</motion.div>
 
 				<div v-else class="py-24">
 					<p class="text-highlighted text-sm font-medium">Nothing matches those filters</p>
