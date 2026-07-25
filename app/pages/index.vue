@@ -125,6 +125,32 @@ const visible = computed(() =>
 const reduceMotion = useReducedMotion();
 const pageMotion = usePageMotion();
 
+const typeLabel = computed(() => {
+	if (selectedTypes.value.length === 0) return "Type";
+	if (selectedTypes.value.length === 1) return titleCase(selectedTypes.value[0]!);
+
+	return `Type · ${selectedTypes.value.length}`;
+});
+
+const generationLabel = computed(() => {
+	if (selectedGenerations.value.length === 0) return "Generation";
+
+	if (selectedGenerations.value.length === 1) {
+		const only = GENERATIONS.find(
+			(generation) => generation.value === selectedGenerations.value[0]
+		);
+
+		return only ? only.region : "Generation";
+	}
+
+	return `Generation · ${selectedGenerations.value.length}`;
+});
+
+const toggleCount = computed(
+	() =>
+		Number(legendaryOnly.value) + Number(mythicalOnly.value) + Number(includeForms.value)
+);
+
 /**
  * Re-keys the grid so the stagger replays whenever a different set of results
  * appears. Keying on the slugs rather than a filter signature means paging or
@@ -133,8 +159,7 @@ const pageMotion = usePageMotion();
  */
 const resultsKey = computed(() => visible.value.map((entry) => entry.slug).join());
 
-const listVariants = {
-	hidden: {},
+const listVariants = {	hidden: {},
 	shown: { transition: { staggerChildren: 0.018 } },
 };
 
@@ -276,87 +301,131 @@ useHead({ title: "Pokédex — browse all 1,351 Pokémon" });
 				</UInput>
 			</div>
 
-			<!-- Filters live in the open, directly beneath the search. -->
-			<div class="border-default mt-5 border-t pt-5">
-				<div class="space-y-5">
-					<!-- Not a <fieldset>: a <legend> cannot share a row with the reset control. -->
-					<div role="group" aria-labelledby="type-filter-label">
-						<div class="flex items-center justify-between gap-4">
-							<p id="type-filter-label" class="text-muted text-sm font-medium">Type</p>
+			<!--
+				Filters sit on one row so the results stay close to the search.
+				Each control states its own selection, which replaces the old
+				always-open panel of chips.
+			-->
+			<div class="mt-4 flex flex-wrap items-center gap-2">
+				<UPopover :content="{ align: 'start' }">
+					<UButton
+						color="neutral"
+						:variant="selectedTypes.length ? 'solid' : 'subtle'"
+						trailing-icon="i-lucide-chevron-down">
+						{{ typeLabel }}
+					</UButton>
 
-							<button
-								type="button"
-								class="text-dimmed hover:text-highlighted text-xs underline-offset-4 transition-colors hover:underline"
-								:class="!hasActiveFilters && 'invisible'"
-								:tabindex="hasActiveFilters ? undefined : -1"
-								:aria-hidden="!hasActiveFilters"
-								@click="reset()">
-								Clear all
-							</button>
+					<template #content>
+						<div class="w-72 p-3">
+							<div class="flex flex-wrap gap-1.5">
+								<button
+									v-for="type in POKEMON_TYPES"
+									:key="type"
+									type="button"
+									class="rounded-full transition-opacity hover:opacity-80"
+									:aria-pressed="selectedTypes.includes(type)"
+									@click="toggleType(type)">
+									<TypeBadge :type="type" size="md" :muted="!selectedTypes.includes(type)" />
+								</button>
+							</div>
+
+							<p v-if="selectedTypes.length > 1" class="text-dimmed mt-3 text-xs">
+								Only Pokémon with all {{ selectedTypes.length }} types.
+							</p>
 						</div>
+					</template>
+				</UPopover>
 
-						<div class="mt-3 flex flex-wrap gap-1.5">
-							<button
-								v-for="type in POKEMON_TYPES"
-								:key="type"
-								type="button"
-								class="rounded-md transition-opacity hover:opacity-80 active:scale-[0.97]"
-								:aria-pressed="selectedTypes.includes(type)"
-								@click="toggleType(type)">
-								<TypeBadge :type="type" size="md" :muted="!selectedTypes.includes(type)" />
-							</button>
-						</div>
+				<UPopover :content="{ align: 'start' }">
+					<UButton
+						color="neutral"
+						:variant="selectedGenerations.length ? 'solid' : 'subtle'"
+						trailing-icon="i-lucide-chevron-down">
+						{{ generationLabel }}
+					</UButton>
 
-						<p v-if="selectedTypes.length > 1" class="text-dimmed mt-3 text-xs">
-							Matching Pokémon that are all {{ selectedTypes.length }} selected types.
-						</p>
-					</div>
-
-					<fieldset>
-						<legend class="text-muted text-sm font-medium">Generation</legend>
-
-						<div class="mt-3 flex flex-wrap gap-1.5">
+					<template #content>
+						<div class="grid w-64 grid-cols-3 gap-1 p-2">
 							<button
 								v-for="generation in GENERATIONS"
 								:key="generation.value"
 								type="button"
-								class="h-7 rounded-md px-3 font-mono text-xs transition-colors active:scale-[0.97]"
+								class="rounded-md px-2 py-1.5 text-left text-xs transition-colors"
 								:class="
 									selectedGenerations.includes(generation.value)
 										? 'bg-inverted text-inverted'
-										: 'bg-elevated text-muted hover:text-highlighted'
+										: 'text-muted hover:bg-elevated hover:text-highlighted'
 								"
 								:aria-pressed="selectedGenerations.includes(generation.value)"
 								@click="toggleGeneration(generation.value)">
-								{{ generation.label }}
+								<span class="font-mono">{{ generation.label }}</span>
+								<span class="block truncate">{{ generation.region }}</span>
 							</button>
 						</div>
-					</fieldset>
+					</template>
+				</UPopover>
 
-					<div class="flex flex-wrap items-end justify-between gap-6">
-						<div class="space-y-3">
+				<UPopover :content="{ align: 'start' }">
+					<UButton
+						color="neutral"
+						:variant="toggleCount ? 'solid' : 'subtle'"
+						trailing-icon="i-lucide-chevron-down">
+						{{ toggleCount ? `Options · ${toggleCount}` : "Options" }}
+					</UButton>
+
+					<template #content>
+						<div class="w-64 space-y-3 p-3">
 							<USwitch v-model="legendaryOnly" label="Legendary only" size="sm" />
 							<USwitch v-model="mythicalOnly" label="Mythical only" size="sm" />
 							<USwitch v-model="includeForms" label="Include alternate forms" size="sm" />
 						</div>
+					</template>
+				</UPopover>
 
-						<USelect
-							v-model="sort"
-							class="w-48"
-							size="sm"
-							variant="subtle"
-							aria-label="Sort order"
-							:items="[...SORT_OPTIONS]" />
+				<USelect
+					v-model="sort"
+					class="w-40"
+					color="neutral"
+					variant="subtle"
+					aria-label="Sort order"
+					:items="[...SORT_OPTIONS]" />
+
+				<button
+					type="button"
+					class="text-dimmed hover:text-highlighted ms-auto text-xs underline-offset-4 transition-colors hover:underline"
+					:class="!hasActiveFilters && 'invisible'"
+					:tabindex="hasActiveFilters ? undefined : -1"
+					:aria-hidden="!hasActiveFilters"
+					@click="reset()">
+					Clear all
+				</button>
+			</div>
+
+			<!-- Mirrors the loaded layout exactly so nothing shifts on arrival. -->
+			<div v-if="pending || !entries">
+				<div class="border-default mt-8 flex items-baseline justify-between border-t pt-4">
+					<USkeleton class="h-5 w-24" />
+				</div>
+
+				<div class="mt-2 grid gap-1 sm:grid-cols-2">
+					<div
+						v-for="index in PAGE_SIZE"
+						:key="index"
+						class="flex items-center gap-3 px-3 py-2.5">
+						<USkeleton class="size-10 shrink-0 rounded-md" />
+
+						<div class="min-w-0 flex-1">
+							<USkeleton class="h-5 w-28" />
+							<USkeleton class="mt-1 h-[19px] w-16 rounded-full" />
+						</div>
+
+						<USkeleton class="h-3 w-8 shrink-0" />
 					</div>
 				</div>
 			</div>
 
-			<div v-if="pending || !entries" class="mt-10 grid gap-1 sm:grid-cols-2">
-				<USkeleton v-for="index in 12" :key="index" class="h-16 rounded-lg" />
-			</div>
-
 			<template v-else>
-				<div class="border-default mt-10 flex items-baseline justify-between border-t pt-4">
+				<div class="border-default mt-8 flex items-baseline justify-between border-t pt-4">
 					<p class="text-muted text-sm">
 						<span class="tabular-nums">{{ results.length.toLocaleString() }}</span> results
 					</p>

@@ -82,16 +82,43 @@ useHead({ title: () => (pokemon.value ? `${pokemon.value.name} — Pokédex` : "
 			</NuxtLink>
 		</div>
 
-		<div v-else-if="pokemon === undefined" class="space-y-10">
-			<div class="flex items-center gap-8">
-				<USkeleton class="size-40 shrink-0 rounded-lg" />
-				<div class="flex-1 space-y-3">
-					<USkeleton class="h-4 w-24" />
-					<USkeleton class="h-9 w-56" />
-					<USkeleton class="h-5 w-32" />
+		<!-- Mirrors the loaded layout so the page does not jump on arrival. -->
+		<div v-else-if="pokemon === undefined">
+			<div class="flex flex-col gap-8 sm:flex-row sm:items-center">
+				<USkeleton class="size-40 shrink-0 rounded-lg sm:size-48" />
+
+				<div class="min-w-0">
+					<USkeleton class="h-4 w-28" />
+					<USkeleton class="mt-3 h-9 w-56 sm:h-10" />
+
+					<div class="mt-4 flex gap-1.5">
+						<USkeleton class="h-[23px] w-16 rounded-full" />
+						<USkeleton class="h-[23px] w-16 rounded-full" />
+					</div>
 				</div>
 			</div>
-			<USkeleton class="h-52 w-full rounded-lg" />
+
+			<div class="divide-default border-default mt-12 grid grid-cols-2 divide-x border-y sm:grid-cols-4">
+				<div v-for="index in 4" :key="index" class="px-4 py-4 first:ps-0 last:pe-0">
+					<USkeleton class="h-3 w-16" />
+					<USkeleton class="mt-1.5 h-4 w-12" />
+				</div>
+			</div>
+
+			<div class="mt-16">
+				<USkeleton class="h-3 w-20" />
+
+				<div class="mt-4 space-y-2.5">
+					<div
+						v-for="index in 6"
+						:key="index"
+						class="grid grid-cols-[72px_1fr_92px] items-center gap-4">
+						<USkeleton class="h-3 w-12" />
+						<USkeleton class="h-1.5 rounded-full" />
+						<USkeleton class="h-3 w-16 justify-self-end" />
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<article v-else>
